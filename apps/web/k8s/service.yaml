@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: tanstack-observatory
+  namespace: tanstack-observatory
+  labels:
+    app.kubernetes.io/name: tanstack-observatory
+spec:
+  type: ClusterIP
+  selector:
+    app.kubernetes.io/name: tanstack-observatory
+  ports:
+    - name: http
+      port: 80
+      targetPort: 3000
+      protocol: TCP

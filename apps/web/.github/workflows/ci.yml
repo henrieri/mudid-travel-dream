@@ -1,0 +1,437 @@
+# =============================================================================
+# CI/CD Pipeline for tanstack-observatory
+# =============================================================================
+# This workflow demonstrates optimal CI/CD patterns for TanStack Start apps:
+# - Uses ARC (Actions Runner Controller) ephemeral runners on Kubernetes
+# - Kaniko for Docker builds without Docker daemon (no privileged containers)
+# - PR preview environments with automatic cleanup
+# - Job summaries for visibility
+#
+# Key design decisions:
+# - kubernetes mode: Each step runs in isolated container (better security)
+# - Kaniko over Docker: Works without Docker daemon, native K8s support
+# - envsubst templating: Simple, no Helm needed for basic deployments
+# - Concurrency control: Cancels outdated runs to save resources
+# =============================================================================
+
+name: CI/CD
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pull-requests: write
+  deployments: write
+
+env:
+  REGISTRY: 192.168.1.158:5000
+  IMAGE_NAME: tanstack-observatory
+  SLACK_CHANNEL: cicd-notifications
+  X_API_URL: http://x.mudid.svc.cluster.local
+  X_API_HOST: x.mudid
+
+jobs:
+  # ===========================================================================
+  # NOTIFY PR OPENED - Slack notification when PR is opened
+  # ===========================================================================
+  notify-pr-opened:
+    if: github.event_name == 'pull_request' && github.event.action == 'opened'
+    runs-on: arc-tanstack-observatory
+    container:
+      image: curlimages/curl:latest
+    steps:
+      - name: Notify Slack
+        run: |
+          curl -s -X POST "${{ env.X_API_URL }}" \
+            -H "Content-Type: application/json" \
+            -H "Host: ${{ env.X_API_HOST }}" \
+            -d '{
+              "operationName": "slack.send-message",
+              "input": {
+                "channel": "${{ env.SLACK_CHANNEL }}",
+                "text": "🔔 *PR Opened* | <https://github.com/${{ github.repository }}/pull/${{ github.event.number }}|#${{ github.event.number }}> ${{ github.event.pull_request.title }}\n📦 `${{ github.repository }}`\n👤 ${{ github.actor }}"
+              }
+            }'
+
+  # ===========================================================================
+  # CHECKS JOB - Build
+  # ===========================================================================
+  checks:
+    if: github.event.action != 'closed'
+    runs-on: arc-tanstack-observatory
+    container:
+      image: 192.168.1.158:5000/mudid-ci-node:24
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm build
+
+      - name: Check Summary
+        run: |
+          echo "## Build & Checks" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ Build completed" >> $GITHUB_STEP_SUMMARY
+
+  # ===========================================================================
+  # BUILD JOB - Docker Image with Kaniko
+  # ===========================================================================
+  build:
+    if: github.event.action != 'closed'
+    needs: checks
+    runs-on: arc-tanstack-observatory
+    container:
+      image: gcr.io/kaniko-project/executor:debug
+    outputs:
+      image_tag: ${{ steps.build.outputs.tag }}
+    steps:
+      - name: Build and push with Kaniko
+        id: build
+        shell: sh
+        env:
+          TAG_SUFFIX: ${{ github.event_name == 'pull_request' && format('pr-{0}-', github.event.number) || '' }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="${TAG_SUFFIX}${{ github.sha }}"
+          TAG="${TAG:0:40}"
+          echo "tag=${TAG}" >> $GITHUB_OUTPUT
+
+          mkdir -p /src
+          wget -q --header="Authorization: Bearer ${GITHUB_TOKEN}" \
+            "https://api.github.com/repos/${{ github.repository }}/tarball/${{ github.sha }}" \
+            -O /src/source.tar.gz
+          cd /src && tar -xzf source.tar.gz --strip-components=1 && rm source.tar.gz
+
+          DESTINATIONS="--destination=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${TAG}"
+          if [ "${{ github.ref }}" = "refs/heads/main" ]; then
+            DESTINATIONS="${DESTINATIONS} --destination=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest"
+          fi
+
+          /kaniko/executor \
+            --context="/src" \
+            --dockerfile=".docker/Dockerfile" \
+            ${DESTINATIONS} \
+            --build-arg="DEPLOY_TIME=$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            --build-arg="COMMIT_SHA=${{ github.sha }}" \
+            --insecure-registry=${{ env.REGISTRY }} \
+            --skip-tls-verify \
+            --cache=true \
+            --cache-ttl=168h \
+            --ignore-path=/src
+
+  # ===========================================================================
+  # DEPLOY PREVIEW JOB - PR Preview Environment
+  # ===========================================================================
+  deploy-preview:
+    if: github.event_name == 'pull_request' && github.event.action != 'closed'
+    needs: build
+    runs-on: arc-tanstack-observatory
+    container:
+      image: bitnami/kubectl:latest
+    environment:
+      name: preview-pr-${{ github.event.number }}
+      url: http://pr-${{ github.event.number }}.dev.tanstack-observatory.mudid
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy to K8s
+        env:
+          NAMESPACE: pr-${{ github.event.number }}
+          PR_NUMBER: ${{ github.event.number }}
+          IMAGE_TAG: ${{ needs.build.outputs.image_tag }}
+          PREVIEW_HOST: pr-${{ github.event.number }}.dev.tanstack-observatory.mudid
+          REGISTRY: ${{ env.REGISTRY }}
+          IMAGE_NAME: ${{ env.IMAGE_NAME }}
+        run: |
+          envsubst < k8s/preview/namespace.yaml | kubectl apply -f -
+          envsubst < k8s/preview/rbac.yaml | kubectl apply -f -
+          envsubst < k8s/preview/deployment.yaml | kubectl apply -f -
+          envsubst < k8s/preview/service.yaml | kubectl apply -f -
+          envsubst < k8s/preview/ingress.yaml | kubectl apply -f -
+
+          kubectl rollout status deployment/tanstack-observatory -n pr-${{ github.event.number }} --timeout=120s
+
+      - name: Deployment Summary
+        run: |
+          echo "## Preview Deployment" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "🚀 **URL:** http://pr-${{ github.event.number }}.dev.tanstack-observatory.mudid" >> $GITHUB_STEP_SUMMARY
+          echo "📦 **Image:** ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ needs.build.outputs.image_tag }}" >> $GITHUB_STEP_SUMMARY
+          echo "🏷️ **Namespace:** pr-${{ github.event.number }}" >> $GITHUB_STEP_SUMMARY
+
+      - name: Notify Slack - Preview Ready
+        run: |
+          curl -s -X POST "${{ env.X_API_URL }}" \
+            -H "Content-Type: application/json" \
+            -H "Host: ${{ env.X_API_HOST }}" \
+            -d '{
+              "operationName": "slack.send-message",
+              "input": {
+                "channel": "${{ env.SLACK_CHANNEL }}",
+                "text": "🚀 *Preview Ready* | <https://github.com/${{ github.repository }}/pull/${{ github.event.number }}|PR #${{ github.event.number }}>\n🌐 http://pr-${{ github.event.number }}.dev.tanstack-observatory.mudid\n📦 `${{ github.repository }}`"
+              }
+            }'
+
+  # ===========================================================================
+  # CLEANUP PREVIEW JOB - Delete PR Environment
+  # ===========================================================================
+  cleanup-preview:
+    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    runs-on: arc-tanstack-observatory
+    container:
+      image: bitnami/kubectl:latest
+    steps:
+      - name: Delete preview resources
+        run: |
+          # Delete cluster-scoped RBAC first
+          kubectl delete clusterrolebinding tanstack-observatory-read-pr-${{ github.event.number }} --ignore-not-found
+          # Delete namespace (and all resources in it)
+          kubectl delete namespace pr-${{ github.event.number }} --ignore-not-found
+          echo "## Cleanup Complete" >> $GITHUB_STEP_SUMMARY
+          echo "Deleted namespace: pr-${{ github.event.number }}" >> $GITHUB_STEP_SUMMARY
+
+      - name: Notify Slack - PR Merged
+        if: github.event.pull_request.merged == true
+        run: |
+          curl -s -X POST "${{ env.X_API_URL }}" \
+            -H "Content-Type: application/json" \
+            -H "Host: ${{ env.X_API_HOST }}" \
+            -d '{
+              "operationName": "slack.send-message",
+              "input": {
+                "channel": "${{ env.SLACK_CHANNEL }}",
+                "text": "✅ *PR Merged* | <https://github.com/${{ github.repository }}/pull/${{ github.event.number }}|#${{ github.event.number }}> ${{ github.event.pull_request.title }}\n📦 `${{ github.repository }}`\n👤 ${{ github.actor }}"
+              }
+            }'
+
+  # ===========================================================================
+  # DEPLOY PRODUCTION JOB - Main Branch Deployment
+  # ===========================================================================
+  deploy-prod:
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    needs: build
+    runs-on: arc-tanstack-observatory
+    container:
+      image: bitnami/kubectl:latest
+    environment:
+      name: production
+      url: http://tanstack-observatory.mudid
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy to K8s
+        env:
+          IMAGE_TAG: ${{ needs.build.outputs.image_tag }}
+        run: |
+          kubectl apply -k k8s/
+          kubectl -n tanstack-observatory rollout restart deployment/tanstack-observatory
+          kubectl -n tanstack-observatory rollout status deployment/tanstack-observatory --timeout=120s
+
+      - name: Deployment Summary
+        run: |
+          echo "## Production Deployment" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "🚀 **URL:** http://tanstack-observatory.mudid" >> $GITHUB_STEP_SUMMARY
+          echo "📦 **Image:** ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ needs.build.outputs.image_tag }}" >> $GITHUB_STEP_SUMMARY
+          echo "🏷️ **Commit:** ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
+
+      - name: Notify Slack - Production Deployed
+        run: |
+          curl -s -X POST "${{ env.X_API_URL }}" \
+            -H "Content-Type: application/json" \
+            -H "Host: ${{ env.X_API_HOST }}" \
+            -d '{
+              "operationName": "slack.send-message",
+              "input": {
+                "channel": "${{ env.SLACK_CHANNEL }}",
+                "text": "🎉 *Deployed to Production* | `${{ github.repository }}`\n🌐 http://tanstack-observatory.mudid\n🔗 <https://github.com/${{ github.repository }}/commit/${{ github.sha }}|${{ github.sha }}>"
+              }
+            }'
+
+  # ===========================================================================
+  # DEMO RECORDING JOB - Record Changed Demo Tests
+  # ===========================================================================
+  # Records video demos for any .demo.spec.ts files changed in this PR.
+  # Uploads recordings to MinIO and posts links as PR comment.
+  #
+  # Only runs if:
+  # 1. It's a PR (not main push)
+  # 2. There are changed .demo.spec.ts files
+  # 3. Preview environment is deployed
+  demo-recording:
+    if: github.event_name == 'pull_request' && github.event.action != 'closed'
+    needs: deploy-preview
+    runs-on: arc-tanstack-observatory
+    container:
+      image: 192.168.1.158:5000/mudid-ci-playwright:1.57.1
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for diff
+
+      # Mark git directory as safe (required for ARC kubernetes mode)
+      - name: Configure git
+        run: git config --global --add safe.directory $GITHUB_WORKSPACE
+
+      # Find demo files changed in this PR
+      - name: Find changed demos
+        id: demos
+        run: |
+          DEMOS=$(git diff --name-only origin/main...HEAD -- 'e2e/demos/*.demo.spec.ts' | tr '\n' ' ' || true)
+          if [ -n "$DEMOS" ]; then
+            echo "files=$DEMOS" >> $GITHUB_OUTPUT
+            echo "has_demos=true" >> $GITHUB_OUTPUT
+            echo "Found changed demos: $DEMOS"
+          else
+            echo "has_demos=false" >> $GITHUB_OUTPUT
+            echo "No demo files changed"
+          fi
+
+      # Install dependencies only if we have demos to run
+      - name: Install dependencies
+        if: steps.demos.outputs.has_demos == 'true'
+        run: pnpm install --frozen-lockfile
+
+      # Run demo recordings against preview environment
+      # Use internal k8s service URL (container can't resolve .mudid domains)
+      - name: Record demos
+        if: steps.demos.outputs.has_demos == 'true'
+        env:
+          BASE_URL: http://tanstack-observatory.pr-${{ github.event.number }}.svc.cluster.local
+        run: |
+          # Create screenshots directory for demo screenshots
+          mkdir -p demo-results/screenshots
+          pnpm exec playwright test \
+            --config=playwright.demo.config.ts \
+            ${{ steps.demos.outputs.files }}
+
+      # Upload recordings to MinIO (mc is pre-installed in mudid-ci-playwright image)
+      # Use internal k8s URL for upload (container can't resolve .mudid domains)
+      - name: Upload to MinIO
+        if: steps.demos.outputs.has_demos == 'true'
+        env:
+          MINIO_ENDPOINT: http://minio.minio.svc.cluster.local:9000
+          MINIO_ACCESS_KEY: ${{ secrets.MINIO_ACCESS_KEY }}
+          MINIO_SECRET_KEY: ${{ secrets.MINIO_SECRET_KEY }}
+          PR_NUMBER: ${{ github.event.number }}
+          REPO_NAME: ${{ github.event.repository.name }}
+        run: |
+          # Configure MinIO alias (mc is pre-installed in base image)
+          mc alias set artifacts $MINIO_ENDPOINT $MINIO_ACCESS_KEY $MINIO_SECRET_KEY
+
+          # Upload recordings with repo namespace: demos/{repo}/pr-{number}/
+          # Note: bucket creation and policy are handled by MinIO admin, not CI
+          ARTIFACT_PATH="demos/${REPO_NAME}/pr-${PR_NUMBER}"
+          mc cp --recursive demo-results/ artifacts/${ARTIFACT_PATH}/
+
+          echo "Upload complete to ${ARTIFACT_PATH}"
+
+      # Post PR comment with screenshot and video links
+      - name: Post PR comment
+        if: steps.demos.outputs.has_demos == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.number }}
+          REPO_NAME: ${{ github.event.repository.name }}
+          REPO: ${{ github.repository }}
+        run: |
+          ARTIFACTS_URL="http://artifacts.mudid/demos/${REPO_NAME}/pr-${PR_NUMBER}"
+
+          # Find video files with their relative paths
+          VIDEOS=$(find demo-results -name "*.webm" 2>/dev/null || true)
+
+          # Find screenshot files
+          SCREENSHOTS=$(find demo-results/screenshots -name "*.png" 2>/dev/null | sort || true)
+
+          # Build comment body
+          COMMENT="## 🎬 Demo Recordings\n\n"
+          COMMENT+="Recordings from changed \`.demo.spec.ts\` files in this PR:\n\n"
+
+          # Screenshots table
+          if [ -n "$SCREENSHOTS" ]; then
+            COMMENT+="### Screenshots\n\n"
+            COMMENT+="| # | Screenshot | Link |\n"
+            COMMENT+="|---|------------|------|\n"
+            COUNT=1
+            for SCREENSHOT in $SCREENSHOTS; do
+              FILENAME=$(basename "$SCREENSHOT" .png)
+              ORIG_NAME=$(basename "$SCREENSHOT")
+              LABEL=$(echo "$FILENAME" | sed 's/^[0-9]*-//' | sed 's/-/ /g')
+              SCREENSHOT_URL="${ARTIFACTS_URL}/screenshots/${ORIG_NAME}"
+              COMMENT+="| ${COUNT} | ${LABEL} | [View](${SCREENSHOT_URL}) |\n"
+              COUNT=$((COUNT + 1))
+            done
+            COMMENT+="\n"
+          fi
+
+          # Videos table
+          COMMENT+="### Videos\n\n"
+          COMMENT+="| Demo | Link |\n"
+          COMMENT+="|------|------|\n"
+
+          for VIDEO in $VIDEOS; do
+            REL_PATH="${VIDEO#demo-results/}"
+            TEST_NAME=$(dirname "$REL_PATH" | sed 's/observatory.demo-//' | sed 's/-demo-chromium//')
+            VIDEO_URL="${ARTIFACTS_URL}/${REL_PATH}"
+            COMMENT+="| ${TEST_NAME} | [Watch](${VIDEO_URL}) |\n"
+          done
+
+          COMMENT+="\n---\n_Auto-generated by demo recording workflow_"
+
+          # Post comment using GitHub API
+          BODY=$(echo -e "$COMMENT" | python3 -c 'import json,sys; print(json.dumps(sys.stdin.read()))')
+          curl -s -X POST \
+            -H "Authorization: token ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${REPO}/issues/${PR_NUMBER}/comments" \
+            -d "{\"body\": ${BODY}}"
+
+      - name: Demo Summary
+        if: steps.demos.outputs.has_demos == 'true'
+        env:
+          REPO_NAME: ${{ github.event.repository.name }}
+          ARTIFACTS_URL: http://artifacts.mudid/demos/${{ github.event.repository.name }}/pr-${{ github.event.number }}
+        run: |
+          echo "## 🎬 Demo Recordings" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Videos uploaded to: ${ARTIFACTS_URL}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Changed demos:" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo "${{ steps.demos.outputs.files }}" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      - name: Notify Slack - Demo Assets Ready
+        if: steps.demos.outputs.has_demos == 'true'
+        env:
+          ARTIFACTS_URL: http://artifacts.mudid/demos/${{ github.event.repository.name }}/pr-${{ github.event.number }}
+        run: |
+          curl -s -X POST "${{ env.X_API_URL }}" \
+            -H "Content-Type: application/json" \
+            -H "Host: ${{ env.X_API_HOST }}" \
+            -d '{
+              "operationName": "slack.send-message",
+              "input": {
+                "channel": "${{ env.SLACK_CHANNEL }}",
+                "text": "🎬 *Demo Assets Ready* | <https://github.com/${{ github.repository }}/pull/${{ github.event.number }}|PR #${{ github.event.number }}>\n📸 Screenshots & videos: ${{ env.ARTIFACTS_URL }}\n📦 `${{ github.repository }}`"
+              }
+            }'
+
+      - name: No demos changed
+        if: steps.demos.outputs.has_demos != 'true'
+        run: |
+          echo "## Demo Recordings" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "No \`.demo.spec.ts\` files were changed in this PR." >> $GITHUB_STEP_SUMMARY

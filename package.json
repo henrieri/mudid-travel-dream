@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "pnpm --filter @mudid/travel-web dev",
     "build": "pnpm --filter @mudid/travel-web build",
-    "typecheck": "pnpm -r typecheck"
+    "typecheck": "pnpm -r --filter @mudid/travel-web typecheck",
+    "start": "pnpm --filter @mudid/travel-web start"
   },
   "devDependencies": {
     "typescript": "^5.7.2"
