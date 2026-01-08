@@ -15,13 +15,6 @@ FROM node:22-alpine AS runtime
 ENV NODE_ENV=production
 ENV HOST=0.0.0.0
 ENV PORT=3000
-
-# Install kubectl for k8s API access
-RUN apk add --no-cache curl && \
-    curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl" && \
-    chmod +x kubectl && \
-    mv kubectl /usr/local/bin/
-
 WORKDIR /app
 COPY --from=build /app/.output ./.output
 EXPOSE 3000

@@ -1,12 +1,12 @@
-# Tanstack Observatory - Quick Deploy Commands
+# Travel Dream - Quick Deploy Commands
 # Usage: make deploy
 
 REGISTRY := 192.168.1.158:5000
-IMAGE := tanstack-observatory
+IMAGE := travel-dream
 TAG := latest
 KUBECONFIG := /home/henri/.kube/mudid-k3s.yaml
-NAMESPACE := tanstack-observatory
-HOST := tanstack-observatory.mudid
+NAMESPACE := travel-dream
+HOST := travel.mudid
 
 .PHONY: build push apply restart rollout health deploy quick
 
@@ -36,11 +36,11 @@ health:
 
 # Full deploy: build, push, apply, restart, rollout, health
 deploy: build push apply restart rollout health
-	@echo "✅ Deployed successfully to http://$(HOST)"
+	@echo "Deployed successfully to http://$(HOST)"
 
 # Quick deploy: build, push, restart (skip apply if no k8s changes)
 quick: build push restart rollout health
-	@echo "✅ Quick deployed to http://$(HOST)"
+	@echo "Quick deployed to http://$(HOST)"
 
 # Dev server
 dev:

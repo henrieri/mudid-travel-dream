@@ -1,19 +1,19 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: tanstack-observatory
-  namespace: tanstack-observatory
+  name: travel-dream
+  namespace: travel-dream
   annotations:
     traefik.ingress.kubernetes.io/router.entrypoints: web
 spec:
   rules:
-    - host: tanstack-observatory.mudid
+    - host: travel.mudid
       http:
         paths:
           - path: /
             pathType: Prefix
             backend:
               service:
-                name: tanstack-observatory
+                name: travel-dream
                 port:
                   number: 80

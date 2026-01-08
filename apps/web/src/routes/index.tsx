@@ -1,239 +1,273 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { getSnapshot } from '../lib/snapshots'
-import { parseCsv } from '../lib/csv'
-import { formatAge, formatNumber } from '../lib/format'
+import {
+  Sun,
+  Thermometer,
+  Plane,
+  DollarSign,
+  TrendingUp,
+  Palmtree,
+  Star,
+  Waves,
+} from 'lucide-react'
 
-type OpenPr = {
-  id: string
-  title: string
-  repo: string
-  url: string
-  createdAt: string
-}
+// Sample destinations data (will come from DB later)
+const destinations = [
+  {
+    code: 'HKT',
+    name: 'Phuket',
+    country: 'Thailand',
+    region: 'Southeast Asia',
+    avgTemp: 31,
+    sunshine: 9,
+    beachQuality: 9,
+    flightPrice: 560,
+    groundCost: 1400,
+    experientialValue: 2900,
+    finalValue: 940,
+    imageUrl: 'https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?w=400',
+  },
+  {
+    code: 'BKK',
+    name: 'Bangkok',
+    country: 'Thailand',
+    region: 'Southeast Asia',
+    avgTemp: 32,
+    sunshine: 9,
+    beachQuality: 7,
+    flightPrice: 520,
+    groundCost: 1200,
+    experientialValue: 2600,
+    finalValue: 880,
+    imageUrl: 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=400',
+  },
+  {
+    code: 'CMB',
+    name: 'Colombo',
+    country: 'Sri Lanka',
+    region: 'South Asia',
+    avgTemp: 28,
+    sunshine: 8,
+    beachQuality: 8,
+    flightPrice: 680,
+    groundCost: 1400,
+    experientialValue: 2850,
+    finalValue: 770,
+    imageUrl: 'https://images.unsplash.com/photo-1588598198321-53a9b8e3b2f6?w=400',
+  },
+  {
+    code: 'ZNZ',
+    name: 'Zanzibar',
+    country: 'Tanzania',
+    region: 'East Africa',
+    avgTemp: 30,
+    sunshine: 8,
+    beachQuality: 9,
+    flightPrice: 750,
+    groundCost: 1600,
+    experientialValue: 3100,
+    finalValue: 750,
+    imageUrl: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=400',
+  },
+  {
+    code: 'DPS',
+    name: 'Bali',
+    country: 'Indonesia',
+    region: 'Southeast Asia',
+    avgTemp: 27,
+    sunshine: 7,
+    beachQuality: 8,
+    flightPrice: 780,
+    groundCost: 1800,
+    experientialValue: 3200,
+    finalValue: 620,
+    imageUrl: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=400',
+  },
+  {
+    code: 'MLE',
+    name: 'Maldives',
+    country: 'Maldives',
+    region: 'South Asia',
+    avgTemp: 29,
+    sunshine: 9,
+    beachQuality: 10,
+    flightPrice: 620,
+    groundCost: 3500,
+    experientialValue: 3800,
+    finalValue: -320,
+    imageUrl: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=400',
+  },
+]
 
 export const Route = createFileRoute('/')({
-  loader: async () => {
-    const [ingressesCsv, servicesCsv, openPrsCsv] = await Promise.all([
-      getSnapshot({ data: { path: 'data/k8s_ingresses.csv' } }),
-      getSnapshot({ data: { path: 'data/k8s_services.csv' } }),
-      getSnapshot({ data: { path: 'filtered_data/github_prs_open.csv' } }),
-    ])
-
-    const ingresses = parseCsv(ingressesCsv)
-    const services = parseCsv(servicesCsv)
-
-    const hostIndex = ingresses.headers.findIndex((header) =>
-      ['hosts', 'host', 'domain'].includes(header),
-    )
-    const ingressDomains = new Set<string>()
-    ingresses.rows.forEach((row) => {
-      const hostCell = row[hostIndex] ?? ''
-      hostCell
-        .split(/\s*;\s*|\s*,\s*/g)
-        .map((value) => value.trim())
-        .filter(Boolean)
-        .forEach((value) => ingressDomains.add(value))
-    })
-
-    const openPrsTable = parseCsv(openPrsCsv)
-    const idx = new Map(
-      openPrsTable.headers.map((name, index) => [name, index]),
-    )
-    const openPrs = openPrsTable.rows
-      .map((row) => ({
-        id: row[idx.get('id') ?? 0] ?? '',
-        title: row[idx.get('title') ?? 1] ?? '',
-        repo: row[idx.get('repo') ?? 3] ?? '',
-        url: row[idx.get('url') ?? 4] ?? '',
-        createdAt: row[idx.get('created_at') ?? 5] ?? '',
-      }))
-      .filter((row) => row.id && row.url)
-      .sort((a, b) => (b.createdAt || '').localeCompare(a.createdAt || ''))
-      .slice(0, 10)
-
-    return {
-      ingressDomains: Array.from(ingressDomains).sort(),
-      ingressCount: ingresses.rows.length,
-      servicesCount: services.rows.length,
-      openPrs: openPrs as OpenPr[],
-      openPrCount: openPrsTable.rows.length,
-    }
-  },
-  pendingComponent: OverviewSkeleton,
-  pendingMs: 200,
-  pendingMinMs: 400,
-  component: OverviewPage,
+  component: DestinationsPage,
 })
 
-function OverviewPage() {
-  const data = Route.useLoaderData()
+function DestinationsPage() {
+  const sortedDestinations = [...destinations].sort(
+    (a, b) => b.finalValue - a.finalValue
+  )
 
   return (
     <div className="space-y-6">
-      <section className="rounded-3xl border border-white/10 bg-gradient-to-br from-slate-950/90 via-slate-900/70 to-slate-900/40 p-6 shadow-[0_0_0_1px_rgba(255,255,255,0.03)]">
-        <div className="flex flex-wrap items-center justify-between gap-4">
-          <div>
-            <p className="text-xs uppercase tracking-[0.3em] text-slate-500">
-              Snapshot overview
-            </p>
-            <h2 className="text-2xl font-semibold text-white">
-              Mudid environment pulse
-            </h2>
-          </div>
-          <div className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-300">
-            Live snapshots • 30 min cadence
-          </div>
-        </div>
-        <div className="mt-6 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
-          <StatCard label="Ingress domains" value={data.ingressDomains.length} />
-          <StatCard label="Ingress entries" value={data.ingressCount} />
-          <StatCard label="Services tracked" value={data.servicesCount} />
-          <StatCard label="Open PRs" value={data.openPrCount} />
-        </div>
-      </section>
-
-      <section className="grid gap-4 xl:grid-cols-[1.1fr_1fr]">
-        <div className="rounded-2xl border border-white/10 bg-slate-950/60 p-5">
-          <div className="flex items-center justify-between">
-            <h3 className="text-sm font-semibold text-white">Ingress domains</h3>
-            <span className="text-xs text-slate-500">
-              {formatNumber(data.ingressDomains.length)} total
-            </span>
-          </div>
-          <div className="mt-4 space-y-2">
-            {data.ingressDomains.length === 0 ? (
-              <p className="text-sm text-slate-400">
-                No ingress domains detected yet.
-              </p>
-            ) : (
-              data.ingressDomains.map((domain) => (
-                <a
-                  key={domain}
-                  href={`http://${domain}`}
-                  className="block rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200 transition hover:border-cyan-400/40 hover:text-cyan-200"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {domain}
-                </a>
-              ))
-            )}
-          </div>
-        </div>
-
-        <div className="rounded-2xl border border-white/10 bg-slate-950/60 p-5">
-          <div className="flex items-center justify-between">
-            <h3 className="text-sm font-semibold text-white">Open PRs</h3>
-            <span className="text-xs text-slate-500">
-              {formatNumber(data.openPrs.length)} showing
-            </span>
-          </div>
-          <div className="mt-4 space-y-2">
-            {data.openPrs.length === 0 ? (
-              <p className="text-sm text-slate-400">
-                No open PRs detected yet.
-              </p>
-            ) : (
-              data.openPrs.map((pr) => (
-                <a
-                  key={`${pr.repo}-${pr.id}`}
-                  href={pr.url}
-                  className="block rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200 transition hover:border-cyan-400/40 hover:text-cyan-200"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="flex items-center justify-between gap-3">
-                    <span className="truncate">{pr.title}</span>
-                    <span className="text-xs text-slate-500">
-                      {pr.repo}#{pr.id}
-                    </span>
-                  </div>
-                  {pr.createdAt ? (
-                    <div className="mt-1 text-xs text-slate-500">
-                      Opened {formatAge(pr.createdAt)}
-                    </div>
-                  ) : null}
-                </a>
-              ))
-            )}
-          </div>
-        </div>
-      </section>
-
-      <section className="rounded-2xl border border-white/10 bg-slate-950/60 p-5">
-        <h3 className="text-sm font-semibold text-white">Server performance</h3>
-        <p className="mt-2 text-sm text-slate-400">
-          Metrics API wiring is optional for this experiment. This panel mirrors
-          the Observatory layout and can be upgraded to live K8s metrics later.
+      {/* Header */}
+      <header className="space-y-3">
+        <p className="text-xs uppercase tracking-[0.3em] text-slate-500">
+          February 2026 Escape
         </p>
-      </section>
-    </div>
-  )
-}
-
-function StatCard({ label, value }: { label: string; value: number }) {
-  return (
-    <div className="rounded-xl border border-white/10 bg-white/5 p-3">
-      <p className="text-xs uppercase tracking-[0.3em] text-slate-500">
-        {label}
-      </p>
-      <p className="mt-2 text-2xl font-semibold text-white">
-        {formatNumber(value)}
-      </p>
-    </div>
-  )
-}
-
-function OverviewSkeleton() {
-  return (
-    <div className="space-y-6 animate-pulse">
-      <section className="rounded-3xl border border-white/10 bg-white/5 p-6">
-        <div className="flex flex-wrap items-center justify-between gap-4">
-          <div className="space-y-2">
-            <div className="h-3 w-32 rounded-full bg-white/10" />
-            <div className="h-6 w-64 rounded-full bg-white/10" />
-          </div>
-          <div className="h-6 w-40 rounded-full bg-white/10" />
+        <div className="flex items-center gap-3">
+          <Palmtree className="h-6 w-6 text-amber-400" />
+          <h1 className="text-2xl font-semibold text-white">
+            Destination Rankings
+          </h1>
         </div>
-        <div className="mt-6 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
-          {Array.from({ length: 4 }).map((_, idx) => (
-            <div
-              key={`stat-${idx}`}
-              className="rounded-xl border border-white/10 bg-white/5 p-3"
-            >
-              <div className="h-3 w-28 rounded-full bg-white/10" />
-              <div className="mt-3 h-6 w-16 rounded-full bg-white/10" />
-            </div>
-          ))}
-        </div>
-      </section>
+        <p className="text-sm text-slate-400">
+          Optimal winter escapes scored by experiential value per euro
+        </p>
+      </header>
 
-      <section className="grid gap-4 xl:grid-cols-[1.1fr_1fr]">
-        {Array.from({ length: 2 }).map((_, idx) => (
-          <div
-            key={`panel-${idx}`}
-            className="rounded-2xl border border-white/10 bg-white/5 p-5"
-          >
-            <div className="flex items-center justify-between">
-              <div className="h-4 w-32 rounded-full bg-white/10" />
-              <div className="h-3 w-16 rounded-full bg-white/10" />
-            </div>
-            <div className="mt-4 space-y-2">
-              {Array.from({ length: 4 }).map((__, rowIdx) => (
-                <div
-                  key={`row-${idx}-${rowIdx}`}
-                  className="h-8 rounded-lg bg-white/10"
-                />
-              ))}
-            </div>
-          </div>
+      {/* Summary Cards */}
+      <div className="grid gap-4 sm:grid-cols-3">
+        <SummaryCard
+          label="Best Value"
+          value={sortedDestinations[0]?.name ?? '-'}
+          subvalue={`+€${sortedDestinations[0]?.finalValue ?? 0} net value`}
+          icon={<Star className="h-5 w-5 text-amber-400" />}
+          gradient="from-amber-500/20 to-orange-500/10"
+        />
+        <SummaryCard
+          label="Cheapest Flights"
+          value={
+            [...destinations].sort((a, b) => a.flightPrice - b.flightPrice)[0]
+              ?.name ?? '-'
+          }
+          subvalue={`€${Math.min(...destinations.map((d) => d.flightPrice))} per person`}
+          icon={<Plane className="h-5 w-5 text-cyan-400" />}
+          gradient="from-cyan-500/20 to-blue-500/10"
+        />
+        <SummaryCard
+          label="Best Beach"
+          value={
+            [...destinations].sort((a, b) => b.beachQuality - a.beachQuality)[0]?.name ?? '-'
+          }
+          subvalue={`${Math.max(...destinations.map((d) => d.beachQuality))}/10 quality`}
+          icon={<Waves className="h-5 w-5 text-blue-400" />}
+          gradient="from-blue-500/20 to-indigo-500/10"
+        />
+      </div>
+
+      {/* Destinations Grid */}
+      <div className="grid gap-4 lg:grid-cols-2">
+        {sortedDestinations.map((dest, index) => (
+          <DestinationCard key={dest.code} destination={dest} rank={index + 1} />
         ))}
-      </section>
+      </div>
+    </div>
+  )
+}
 
-      <section className="rounded-2xl border border-white/10 bg-white/5 p-5">
-        <div className="h-4 w-40 rounded-full bg-white/10" />
-        <div className="mt-3 h-3 w-3/4 rounded-full bg-white/10" />
-      </section>
+function SummaryCard({
+  label,
+  value,
+  subvalue,
+  icon,
+  gradient,
+}: {
+  label: string
+  value: string
+  subvalue: string
+  icon: React.ReactNode
+  gradient: string
+}) {
+  return (
+    <div
+      className={`rounded-2xl border border-white/10 bg-gradient-to-br ${gradient} p-5`}
+    >
+      <div className="flex items-start justify-between">
+        <div>
+          <p className="text-xs text-slate-400">{label}</p>
+          <p className="mt-1 text-lg font-semibold text-white">{value}</p>
+          <p className="text-xs text-slate-500">{subvalue}</p>
+        </div>
+        {icon}
+      </div>
+    </div>
+  )
+}
+
+function DestinationCard({
+  destination,
+  rank,
+}: {
+  destination: (typeof destinations)[0]
+  rank: number
+}) {
+  const isPositiveValue = destination.finalValue > 0
+
+  return (
+    <div className="group relative overflow-hidden rounded-2xl border border-white/10 bg-slate-950/60 transition hover:border-amber-500/30">
+      <div className="flex">
+        {/* Image */}
+        <div className="relative h-40 w-40 shrink-0 overflow-hidden">
+          <img
+            src={destination.imageUrl}
+            alt={destination.name}
+            className="h-full w-full object-cover transition group-hover:scale-105"
+          />
+          <div className="absolute left-2 top-2 flex h-7 w-7 items-center justify-center rounded-full bg-slate-900/90 text-xs font-bold text-amber-400">
+            #{rank}
+          </div>
+        </div>
+
+        {/* Content */}
+        <div className="flex flex-1 flex-col p-4">
+          <div className="flex items-start justify-between">
+            <div>
+              <h3 className="font-semibold text-white">{destination.name}</h3>
+              <p className="text-xs text-slate-500">{destination.country} · {destination.region}</p>
+            </div>
+            <span className="rounded-full bg-slate-800 px-2 py-0.5 text-xs text-slate-400">
+              {destination.code}
+            </span>
+          </div>
+
+          {/* Stats */}
+          <div className="mt-3 grid grid-cols-2 gap-2 text-xs">
+            <div className="flex items-center gap-1.5 text-slate-400">
+              <Thermometer className="h-3.5 w-3.5 text-orange-400" />
+              {destination.avgTemp}°C
+            </div>
+            <div className="flex items-center gap-1.5 text-slate-400">
+              <Sun className="h-3.5 w-3.5 text-yellow-400" />
+              {destination.sunshine}h sun
+            </div>
+            <div className="flex items-center gap-1.5 text-slate-400">
+              <Plane className="h-3.5 w-3.5 text-cyan-400" />€
+              {destination.flightPrice}
+            </div>
+            <div className="flex items-center gap-1.5 text-slate-400">
+              <DollarSign className="h-3.5 w-3.5 text-emerald-400" />€
+              {destination.groundCost}/14d
+            </div>
+          </div>
+
+          {/* Value Score */}
+          <div className="mt-auto flex items-center justify-between pt-3">
+            <div className="flex items-center gap-1.5">
+              <TrendingUp
+                className={`h-4 w-4 ${isPositiveValue ? 'text-emerald-400' : 'text-rose-400'}`}
+              />
+              <span
+                className={`text-sm font-semibold ${isPositiveValue ? 'text-emerald-400' : 'text-rose-400'}`}
+              >
+                {isPositiveValue ? '+' : ''}€{destination.finalValue}
+              </span>
+            </div>
+            <span className="text-xs text-slate-500">
+              net value
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

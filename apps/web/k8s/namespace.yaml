@@ -1,4 +1,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: tanstack-observatory
+  name: travel-dream
+  labels:
+    app.kubernetes.io/name: travel-dream
+    app.kubernetes.io/part-of: mudid
