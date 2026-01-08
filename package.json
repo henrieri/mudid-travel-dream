@@ -1,0 +1,12 @@
+{
+  "name": "mudid-travel-dream",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter @mudid/travel-web dev",
+    "build": "pnpm --filter @mudid/travel-web build",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
