@@ -14,6 +14,9 @@ importers:
 
   apps/web:
     dependencies:
+      '@mudid/scoring':
+        specifier: workspace:*
+        version: link:../../packages/scoring
       '@tailwindcss/vite':
         specifier: ^4.0.6
         version: 4.1.18(vite@7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.21.0))
@@ -109,6 +112,12 @@ importers:
       drizzle-kit:
         specifier: ^0.30.1
         version: 0.30.6
+      typescript:
+        specifier: ^5.7.2
+        version: 5.9.3
+
+  packages/scoring:
+    devDependencies:
       typescript:
         specifier: ^5.7.2
         version: 5.9.3

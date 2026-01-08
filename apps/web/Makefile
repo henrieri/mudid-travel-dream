@@ -10,9 +10,9 @@ HOST := travel.mudid
 
 .PHONY: build push apply restart rollout health deploy quick
 
-# Build Docker image
+# Build Docker image (from monorepo root for workspace deps)
 build:
-	docker build -f .docker/Dockerfile -t $(REGISTRY)/$(IMAGE):$(TAG) .
+	cd ../.. && docker build -f apps/web/.docker/Dockerfile -t $(REGISTRY)/$(IMAGE):$(TAG) .
 
 # Push to registry
 push:
