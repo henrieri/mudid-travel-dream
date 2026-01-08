@@ -52,7 +52,7 @@ const destinations = [
     groundCost: 1400,
     experientialValue: 2850,
     finalValue: 770,
-    imageUrl: 'https://images.unsplash.com/photo-1588598198321-53a9b8e3b2f6?w=400',
+    imageUrl: 'https://images.unsplash.com/photo-1743592322118-3d38461f7187?w=400',
   },
   {
     code: 'ZNZ',
