@@ -2,17 +2,36 @@ name: mudid-travel-dream
 description: Travel destination finder and optimizer for Henri & Evelina. Helps find the perfect February escape based on weather, activities, budget, and travel preferences.
 status: active
 visibility: private
-type: application
-stack:
-  - TypeScript
-  - pnpm monorepo
-  - React
-highlights:
-  - Destination scoring algorithm
-  - Weather data integration
-  - Budget optimization
-  - Activity matching
+type: app
+
+tech_stack:
+  languages:
+    - typescript
+  frameworks:
+    - react
+  package_manager: pnpm
+
+repo:
+  url: https://github.com/henrieri/mudid-travel-dream
+  default_branch: main
+
+jira:
+  project_key: MTD
+  board_url: https://mudid.atlassian.net/jira/software/projects/MTD/boards/20
+
+slack:
+  channel: travel-dream
+
+urls:
+  app: http://travel.mudid
+
 owners:
-  - Henri
-  - Evelina
+  - henri
+  - evelina
+
 thumbnail: http://artifacts.mudid/projects/thumbnails/mudid-travel-dream.jpg
+
+ai_context:
+  summary: |
+    Travel destination finder and optimizer. Helps find the perfect
+    February escape based on weather, activities, budget, and preferences.
