@@ -1,0 +1,106 @@
+{
+  "id": "option-009",
+  "type": "hotel-2-rooms",
+  "name": "Sunrise Remal Resort - 2 Separate Rooms",
+  "provider": "booking.com",
+  "url": "https://www.booking.com/hotel/eg/tiran-island-sharm-el-sheikh.html",
+  "dates": {
+    "checkin": "2026-02-15",
+    "checkout": "2026-02-22",
+    "nights": 7
+  },
+  "pricing": {
+    "total": 1325,
+    "currency": "EUR",
+    "perNight": 189.29,
+    "perRoom": 662.50,
+    "rooms": 2,
+    "allInclusive": true,
+    "estimatedExtras": {
+      "food": 0,
+      "transport": 0,
+      "beachAccess": 0
+    },
+    "realCostEstimate": 1325
+  },
+  "rating": {
+    "score": 9.4,
+    "label": "Wonderful",
+    "reviewCount": 1710
+  },
+  "scores": {
+    "location": 4,
+    "value": 4,
+    "quality": 5,
+    "reliability": 5,
+    "separateSleeping": 5,
+    "quietness": 4,
+    "foodConvenience": 5,
+    "amenities": 5,
+    "overall": 4.6
+  },
+  "pros": [
+    "9.4 rating - Wonderful",
+    "2 SEPARATE ROOMS - perfect for snoring",
+    "All-inclusive - all food & drinks included",
+    "1,710 reviews - reliable",
+    "800m to Ras Nasrani Beach",
+    "Multiple pools",
+    "Spa available",
+    "Very close to airport (2.5 km)",
+    "Good mid-range price"
+  ],
+  "cons": [
+    "Not adults-only",
+    "Mid-range price (€1,325)",
+    "Entertainment area - request quiet room"
+  ],
+  "dealbreakers": [],
+  "property": {
+    "type": "Resort - 2 separate rooms",
+    "roomType": "Standard Room",
+    "roomSize": "Unknown"
+  },
+  "adultsOnly": false,
+  "location": {
+    "address": "Ras Nasrani area",
+    "area": "Ras Nasrani",
+    "city": "Sharm El Sheikh",
+    "country": "Egypt",
+    "beachDistance": "800m to Ras Nasrani Beach",
+    "airportDistance": "2.5 km from airport",
+    "coordinates": {
+      "lat": 27.9850,
+      "lng": 34.3890
+    }
+  },
+  "concerns": {
+    "noise": "Resort with entertainment - request quiet room",
+    "smoking": "Non-smoking rooms available",
+    "bedBugs": "No reports in 2025-2026 reviews"
+  },
+  "amenities": [
+    "All-Inclusive",
+    "Multiple Pools",
+    "Spa",
+    "Beach Access (800m)",
+    "Restaurant (multiple)",
+    "Bars",
+    "Entertainment",
+    "WiFi",
+    "Gym"
+  ],
+  "images": {
+    "thumbnail": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/318839001.jpg?k=c3897813206dfd718e33a5dea7f204f8b0a4086a4ab61a4b22c5246a5812eca9&o=",
+    "gallery": [
+      "https://cf.bstatic.com/xdata/images/hotel/max500/318841662.jpg?k=a53e9a714b225275cc13000023bbd065a33b3e59f7a9d0d44267d75d0f1a1f7d&o=",
+      "https://cf.bstatic.com/xdata/images/hotel/max500/347651003.jpg?k=3fe9d4001c358a9f4efd526deba203d13a5be32d37eb015bc73ff4759d1d67d3&o=",
+      "https://cf.bstatic.com/xdata/images/hotel/max300/318840400.jpg?k=db641632c62f9e1f0b5c59ddefb2d6598b672ec7951a78fda5987553d7fc6505&o=",
+      "https://cf.bstatic.com/xdata/images/hotel/max300/318839213.jpg?k=7fb9265e6e9488175fcf554d4dd7cc7e8a0f01063858485e1e0a6c17a2e5ee18&o=",
+      "https://cf.bstatic.com/xdata/images/hotel/max300/318841692.jpg?k=e20326d99fca87128534fe48fca27f73cdca01682e9813da1899bc203c01eeac&o=",
+      "https://cf.bstatic.com/xdata/images/hotel/max300/318839149.jpg?k=59ab14154c4834ab9d9acaf8d6aea6081e5d9a7ba7582695d8c61936bc57a280&o="
+    ]
+  },
+  "verdict": "EXCELLENT VALUE - High rating (9.4), all amenities, competitive price. Strong alternative to Pickalbatros.",
+  "scraped": "2026-01-17"
+}

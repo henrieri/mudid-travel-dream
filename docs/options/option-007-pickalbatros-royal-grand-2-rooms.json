@@ -98,8 +98,16 @@
     "WiFi"
   ],
   "images": {
-    "thumbnail": null,
-    "gallery": []
+    "thumbnail": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/499381092.jpg?k=d61d87e6e3437842e9d61517c8a5214ede772aeb1a013ed7d45d16fcaa5de485&o=",
+    "gallery": [
+      "https://cf.bstatic.com/xdata/images/hotel/max500/353474300.jpg?k=84a844a31cccfa2524f8666171bbfd3b0bfad5b2c1e09680d999c59e8eadbb95&o=",
+      "https://cf.bstatic.com/xdata/images/hotel/max500/765141822.jpg?k=9b32009f2849ea6af899a52c19f8f092ea53651d26cbbba30c26043ad9b38d7d&o=",
+      "https://cf.bstatic.com/xdata/images/hotel/max300/765141798.jpg?k=ad9f8b7bdafe7e7b8104d8a35a0b1e8a965999452d8aeb311d10917e545df3dd&o=",
+      "https://cf.bstatic.com/xdata/images/hotel/max300/348753460.jpg?k=64d19bc98469e1b4ab499aa67e8551029c79cc6d84648cffeb6cc84316a58311&o=",
+      "https://cf.bstatic.com/xdata/images/hotel/max300/499398887.jpg?k=06215e85d81d2e79468eded0aa0cae815da396fd9eb70a5c11e770a8397d5436&o=",
+      "https://cf.bstatic.com/xdata/images/hotel/max300/348753504.jpg?k=88ba72757aed0ce4c8fea055e1dcd5ebf78f63f89fc6a6a7b1d2e180234e8b28&o=",
+      "https://cf.bstatic.com/xdata/images/hotel/max300/17912648.jpg?k=bd06180c9488aa8b8ff4b22a5cd79eaf31cb4c88ad04758604500282e60706ce&o="
+    ]
   },
   "verdict": "TOP CHOICE - Best quality, adults-only, all amenities. Premium price but complete solution.",
   "scraped": "2026-01-17"

@@ -1,0 +1,87 @@
+{
+  "id": "option-010",
+  "type": "hotel-2-rooms",
+  "name": "Xperience Sea Breeze Resort - 2 Separate Rooms",
+  "provider": "booking.com",
+  "url": "https://www.booking.com/hotel/eg/xperience-sea-breeze-resort.html",
+  "dates": {
+    "checkin": "2026-02-15",
+    "checkout": "2026-02-22",
+    "nights": 7
+  },
+  "pricing": {
+    "total": 1073,
+    "currency": "EUR",
+    "perNight": 153.29,
+    "perRoom": 536.50,
+    "rooms": 2,
+    "allInclusive": true,
+    "estimatedExtras": {
+      "food": 0,
+      "transport": 0,
+      "beachAccess": 0
+    },
+    "realCostEstimate": 1073
+  },
+  "rating": {
+    "score": 9.0,
+    "label": "Wonderful",
+    "reviewCount": 1946
+  },
+  "scores": {
+    "location": 4,
+    "value": 5,
+    "quality": 4,
+    "reliability": 5,
+    "separateSleeping": 5,
+    "quietness": 4,
+    "foodConvenience": 5,
+    "amenities": 4,
+    "overall": 4.5
+  },
+  "pros": [
+    "EXCELLENT VALUE - 2nd cheapest all-inclusive option",
+    "9.0 rating - Wonderful",
+    "2 SEPARATE ROOMS - perfect for snoring",
+    "All-inclusive - all food & drinks included",
+    "1,946 reviews - very reliable",
+    "Similar price to Verginia but also well-rated"
+  ],
+  "cons": [
+    "Not adults-only",
+    "Need to verify beach distance",
+    "Need to verify amenities details"
+  ],
+  "dealbreakers": [],
+  "property": {
+    "type": "Resort - 2 separate rooms",
+    "roomType": "Standard Room",
+    "roomSize": "Unknown"
+  },
+  "adultsOnly": false,
+  "location": {
+    "address": "Sharm El Sheikh",
+    "area": "Unknown - need to verify",
+    "city": "Sharm El Sheikh",
+    "country": "Egypt",
+    "beachDistance": "Unknown - need to verify",
+    "coordinates": null
+  },
+  "concerns": {
+    "noise": "Unknown - needs investigation",
+    "smoking": "Non-smoking rooms likely available",
+    "bedBugs": "No reports in recent reviews"
+  },
+  "amenities": [
+    "All-Inclusive",
+    "Pool",
+    "Restaurant",
+    "WiFi"
+  ],
+  "images": {
+    "thumbnail": "https://cf.bstatic.com/xdata/images/hotel/square240/29273167.webp?k=1c769025b58a9014eafe59cb2ca361401bb3acebdc2b040b39773034929bc841&o=",
+    "gallery": []
+  },
+  "verdict": "GREAT VALUE - Similar to Verginia at €1,073. High rating with many reviews. Worth investigating further.",
+  "scraped": "2026-01-17"
+}
