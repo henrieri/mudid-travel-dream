@@ -1,0 +1,99 @@
+{
+  "id": "option-005",
+  "type": "resort-suite",
+  "name": "Pickalbatros Golf Beach Resort - All Inclusive (Private Suite)",
+  "provider": "booking.com",
+  "url": "https://www.booking.com/hotel/eg/maritim-jolie-ville-golf-resort.html",
+  "dates": {
+    "checkin": "2026-02-15",
+    "checkout": "2026-02-22",
+    "nights": 7
+  },
+  "pricing": {
+    "total": 1234,
+    "currency": "EUR",
+    "perNight": 176.29,
+    "originalPrice": 1524,
+    "discount": "19%",
+    "allInclusive": true,
+    "estimatedExtras": {
+      "food": 0,
+      "transport": 0,
+      "beachAccess": 0
+    },
+    "realCostEstimate": 1234
+  },
+  "rating": {
+    "score": 9.0,
+    "label": "Wonderful",
+    "reviewCount": 2045
+  },
+  "scores": {
+    "location": 4,
+    "value": 4,
+    "quality": 4,
+    "reliability": 5,
+    "separateSleeping": 3,
+    "quietness": 4,
+    "foodConvenience": 5,
+    "amenities": 5,
+    "overall": 4.3
+  },
+  "pros": [
+    "9.0 rating - Wonderful",
+    "All-inclusive - all food & drinks included",
+    "2,045 reviews - very reliable",
+    "Golf course access included",
+    "Beach access included",
+    "19% discount currently",
+    "Multiple pools",
+    "Spa available"
+  ],
+  "cons": [
+    "Suite layout unknown - may not have separate bedroom",
+    "Mid-range price (€1,234)",
+    "Not adults-only",
+    "Need to verify separate sleeping arrangements"
+  ],
+  "dealbreakers": [
+    "UNCERTAIN: Need to verify suite has separate living area for snoring solution"
+  ],
+  "property": {
+    "type": "Resort - Private suite",
+    "roomType": "Private Suite",
+    "roomSize": "Unknown"
+  },
+  "adultsOnly": false,
+  "location": {
+    "address": "Golf Resort area",
+    "area": "Naama Bay area",
+    "city": "Sharm El Sheikh",
+    "country": "Egypt",
+    "beachDistance": "Beach access included",
+    "coordinates": {
+      "lat": 27.9133,
+      "lng": 34.3297
+    }
+  },
+  "concerns": {
+    "noise": "Large resort - request quiet room",
+    "smoking": "Non-smoking rooms available",
+    "bedBugs": "No reports in recent reviews"
+  },
+  "amenities": [
+    "All-Inclusive",
+    "Golf Course",
+    "Private Beach",
+    "Multiple Pools",
+    "Spa",
+    "Restaurant (multiple)",
+    "Bars",
+    "WiFi"
+  ],
+  "images": {
+    "thumbnail": null,
+    "gallery": []
+  },
+  "verdict": "MAYBE - Great resort but need to verify suite has separate sleeping area. Good mid-range option if confirmed.",
+  "scraped": "2026-01-17"
+}

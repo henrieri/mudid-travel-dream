@@ -1,0 +1,89 @@
+{
+  "id": "option-001",
+  "type": "apartment",
+  "name": "2 Bedroom apartment on luxury delta Sharm resort",
+  "provider": "booking.com",
+  "url": "https://www.booking.com/hotel/eg/2-bedroom-apartment-on-luxury-delta-sharm-resort.html",
+  "dates": {
+    "checkin": "2026-02-15",
+    "checkout": "2026-02-22",
+    "nights": 7
+  },
+  "pricing": {
+    "total": 561,
+    "currency": "EUR",
+    "perNight": 80.14,
+    "allInclusive": false,
+    "estimatedExtras": {
+      "food": 490,
+      "transport": 50,
+      "beachAccess": 70
+    },
+    "realCostEstimate": 1171
+  },
+  "rating": {
+    "score": 8.0,
+    "label": "Very Good",
+    "reviewCount": 5
+  },
+  "scores": {
+    "location": 3,
+    "value": 3,
+    "quality": 3,
+    "reliability": 1,
+    "separateSleeping": 5,
+    "quietness": 4,
+    "foodConvenience": 1,
+    "amenities": 2,
+    "overall": 2.8
+  },
+  "pros": [
+    "2 separate bedrooms - perfect for snoring",
+    "Full kitchen for self-catering",
+    "135 m² - very spacious",
+    "Living room for extra space",
+    "Cheap upfront price"
+  ],
+  "cons": [
+    "Only 5 reviews - unproven",
+    "No meals included - must cook or eat out",
+    "No resort amenities (pool, gym, spa)",
+    "Beach access not included",
+    "No daily housekeeping",
+    "Private owner - less reliable"
+  ],
+  "dealbreakers": [
+    "Very few reviews (5) - risky",
+    "No pool/beach/resort experience"
+  ],
+  "property": {
+    "type": "Entire apartment",
+    "bedrooms": 2,
+    "livingRooms": 1,
+    "bathrooms": 1,
+    "kitchens": 1,
+    "size": "135 m²"
+  },
+  "location": {
+    "area": "Delta Sharm Resort",
+    "city": "Sharm El Sheikh",
+    "country": "Egypt",
+    "beachDistance": "Unknown"
+  },
+  "concerns": {
+    "noise": "Unknown - private apartment",
+    "smoking": "Unknown",
+    "bedBugs": "No data - too few reviews"
+  },
+  "amenities": [
+    "Kitchen",
+    "Living room",
+    "WiFi"
+  ],
+  "images": {
+    "thumbnail": null,
+    "gallery": []
+  },
+  "verdict": "SKIP - Too risky with only 5 reviews. Real cost similar to all-inclusive resorts.",
+  "scraped": "2026-01-17"
+}

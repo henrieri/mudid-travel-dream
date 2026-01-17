@@ -1,0 +1,87 @@
+{
+  "id": "option-003",
+  "type": "villa",
+  "name": "Villa D60",
+  "provider": "booking.com",
+  "url": "https://www.booking.com/hotel/eg/villa-d60.html",
+  "dates": {
+    "checkin": "2026-02-15",
+    "checkout": "2026-02-22",
+    "nights": 7
+  },
+  "pricing": {
+    "total": 351,
+    "currency": "EUR",
+    "perNight": 50.14,
+    "originalPrice": 389,
+    "discount": "10%",
+    "allInclusive": false,
+    "estimatedExtras": {
+      "food": 490,
+      "transport": 70,
+      "beachAccess": 100
+    },
+    "realCostEstimate": 1011
+  },
+  "rating": {
+    "score": 9.7,
+    "label": "Exceptional",
+    "reviewCount": 61
+  },
+  "scores": {
+    "location": 2,
+    "value": 4,
+    "quality": 5,
+    "reliability": 2,
+    "separateSleeping": 3,
+    "quietness": 5,
+    "foodConvenience": 1,
+    "amenities": 1,
+    "overall": 2.9
+  },
+  "pros": [
+    "EXCEPTIONAL 9.7 rating!",
+    "Very cheap base price",
+    "High comfort score (9.6)",
+    "Likely very quiet (private villa)",
+    "Great guest experiences"
+  ],
+  "cons": [
+    "Only 61 reviews - limited data",
+    "No meals - must eat out",
+    "No pool/beach/resort amenities",
+    "Location unknown - may be far from beach",
+    "Room layout unknown for separate sleeping",
+    "No gym/spa"
+  ],
+  "dealbreakers": [
+    "Unknown if has separate bedrooms",
+    "No resort experience"
+  ],
+  "property": {
+    "type": "Villa",
+    "bedrooms": null,
+    "livingRooms": null,
+    "bathrooms": null,
+    "kitchens": null,
+    "size": null
+  },
+  "location": {
+    "area": "Unknown",
+    "city": "Sharm El Sheikh",
+    "country": "Egypt",
+    "beachDistance": "Unknown"
+  },
+  "concerns": {
+    "noise": "Private villa - likely quiet",
+    "smoking": "Unknown",
+    "bedBugs": "No reports"
+  },
+  "amenities": [],
+  "images": {
+    "thumbnail": null,
+    "gallery": []
+  },
+  "verdict": "INVESTIGATE - Amazing rating but need to verify layout and location before booking.",
+  "scraped": "2026-01-17"
+}

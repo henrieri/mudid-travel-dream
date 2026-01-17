@@ -1,0 +1,198 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Accommodation Option",
+  "description": "Standard schema for travel accommodation options",
+  "type": "object",
+  "required": ["id", "type", "name", "provider", "url", "dates", "pricing", "scores", "pros", "cons"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier (e.g., option-001)"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["hotel", "hotel-2-rooms", "apartment", "villa", "suite", "resort", "resort-suite", "airbnb"],
+      "description": "Type of accommodation"
+    },
+    "name": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "string",
+      "enum": ["booking.com", "airbnb", "expedia", "direct"]
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "dates": {
+      "type": "object",
+      "properties": {
+        "checkin": { "type": "string", "format": "date" },
+        "checkout": { "type": "string", "format": "date" },
+        "nights": { "type": "integer" }
+      }
+    },
+    "pricing": {
+      "type": "object",
+      "properties": {
+        "total": { "type": ["number", "null"] },
+        "currency": { "type": "string" },
+        "perNight": { "type": ["number", "null"] },
+        "perRoom": { "type": ["number", "null"] },
+        "rooms": { "type": ["integer", "null"] },
+        "originalPrice": { "type": ["number", "null"] },
+        "discount": { "type": ["string", "null"] },
+        "allInclusive": { "type": "boolean" },
+        "estimatedExtras": {
+          "type": "object",
+          "properties": {
+            "food": { "type": ["number", "null"], "description": "Estimated food cost if not included" },
+            "transport": { "type": ["number", "null"] },
+            "beachAccess": { "type": ["number", "null"] }
+          }
+        },
+        "realCostEstimate": { "type": ["number", "null"], "description": "Total + estimated extras" }
+      }
+    },
+    "rating": {
+      "type": "object",
+      "properties": {
+        "score": { "type": ["number", "null"] },
+        "label": { "type": ["string", "null"] },
+        "reviewCount": { "type": ["integer", "null"] }
+      }
+    },
+    "scores": {
+      "type": "object",
+      "description": "Standardized 1-5 ratings for comparison",
+      "properties": {
+        "location": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "description": "1=inland/far, 5=beachfront/prime location"
+        },
+        "value": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "description": "1=overpriced, 5=excellent value for money"
+        },
+        "quality": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "description": "1=basic, 5=luxury quality"
+        },
+        "reliability": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "description": "1=unknown/risky, 5=established brand with many reviews"
+        },
+        "separateSleeping": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "description": "1=same bed, 3=same room twin beds, 5=separate rooms"
+        },
+        "quietness": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "description": "1=noisy area/nightclub, 5=very quiet"
+        },
+        "foodConvenience": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "description": "1=must cook/eat out, 5=all-inclusive"
+        },
+        "amenities": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "description": "1=basic, 5=pool/spa/beach/gym/entertainment"
+        },
+        "overall": {
+          "type": "number",
+          "description": "Weighted average of all scores"
+        }
+      }
+    },
+    "pros": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of advantages"
+    },
+    "cons": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of disadvantages"
+    },
+    "dealbreakers": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Potential dealbreakers for Henri & Evelina"
+    },
+    "property": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string" },
+        "bedrooms": { "type": ["integer", "null"] },
+        "livingRooms": { "type": ["integer", "null"] },
+        "bathrooms": { "type": ["integer", "null"] },
+        "kitchens": { "type": ["integer", "null"] },
+        "size": { "type": ["string", "null"] }
+      }
+    },
+    "adultsOnly": { "type": "boolean" },
+    "adultsOnlyAge": { "type": "integer" },
+    "location": {
+      "type": "object",
+      "properties": {
+        "address": { "type": "string" },
+        "area": { "type": "string" },
+        "city": { "type": "string" },
+        "country": { "type": "string" },
+        "beachDistance": { "type": "string" },
+        "coordinates": {
+          "type": "object",
+          "properties": {
+            "lat": { "type": "number" },
+            "lng": { "type": "number" }
+          }
+        }
+      }
+    },
+    "concerns": {
+      "type": "object",
+      "properties": {
+        "noise": { "type": "string" },
+        "smoking": { "type": "string" },
+        "bedBugs": { "type": "string" }
+      }
+    },
+    "amenities": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "images": {
+      "type": "object",
+      "properties": {
+        "thumbnail": { "type": ["string", "null"] },
+        "gallery": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "verdict": {
+      "type": "string",
+      "description": "One-line recommendation verdict"
+    },
+    "notes": { "type": "string" },
+    "scraped": { "type": "string", "format": "date" }
+  }
+}

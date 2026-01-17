@@ -1,0 +1,88 @@
+{
+  "id": "option-004",
+  "type": "suite",
+  "name": "Sanafir Hotel - El Pacha Suites Sharm - Adults Only",
+  "provider": "booking.com",
+  "url": "https://www.booking.com/hotel/eg/sanafir-adults-only.html",
+  "dates": {
+    "checkin": "2026-02-15",
+    "checkout": "2026-02-22",
+    "nights": 7
+  },
+  "pricing": {
+    "total": 602,
+    "currency": "EUR",
+    "perNight": 86.0,
+    "allInclusive": false,
+    "estimatedExtras": {
+      "food": 420,
+      "transport": 30,
+      "beachAccess": 50
+    },
+    "realCostEstimate": 1102
+  },
+  "rating": {
+    "score": 8.1,
+    "label": "Very Good",
+    "reviewCount": 1376
+  },
+  "scores": {
+    "location": 4,
+    "value": 3,
+    "quality": 3,
+    "reliability": 4,
+    "separateSleeping": 4,
+    "quietness": 4,
+    "foodConvenience": 2,
+    "amenities": 3,
+    "overall": 3.4
+  },
+  "pros": [
+    "Adults only - no kids noise",
+    "Suite with separate living room (Henri sleeps there)",
+    "1,376 reviews - well proven",
+    "70 m² - decent size",
+    "El Pacha area (good location)"
+  ],
+  "cons": [
+    "Not all-inclusive - meals extra",
+    "Only 8.1 rating (lower than top resorts)",
+    "Real cost ~€1,100 with food",
+    "Limited resort amenities",
+    "Living room sleeping = less comfortable than bedroom"
+  ],
+  "dealbreakers": [
+    "Henri sleeping on sofa in living room not ideal"
+  ],
+  "property": {
+    "type": "Private suite",
+    "bedrooms": 1,
+    "livingRooms": 1,
+    "bathrooms": 1,
+    "kitchens": null,
+    "size": "70 m²"
+  },
+  "adultsOnly": true,
+  "location": {
+    "area": "El Pacha",
+    "city": "Sharm El Sheikh",
+    "country": "Egypt",
+    "beachDistance": "Near beach"
+  },
+  "concerns": {
+    "noise": "Adults only - should be quieter",
+    "smoking": "Unknown",
+    "bedBugs": "No reports in reviews"
+  },
+  "amenities": [
+    "Adults Only",
+    "Suite with living room",
+    "WiFi"
+  ],
+  "images": {
+    "thumbnail": null,
+    "gallery": []
+  },
+  "verdict": "MAYBE - Good for adults-only quiet, but living room sleeping not ideal. Consider 2-room hotel instead.",
+  "scraped": "2026-01-17"
+}

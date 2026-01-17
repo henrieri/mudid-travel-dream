@@ -1,0 +1,114 @@
+{
+  "id": "option-008",
+  "type": "hotel-2-rooms",
+  "name": "Verginia Sharm Resort & Aqua Park - 2 Separate Rooms",
+  "provider": "booking.com",
+  "url": "https://www.booking.com/hotel/eg/verginia-sharm-resort.html",
+  "dates": {
+    "checkin": "2026-02-15",
+    "checkout": "2026-02-22",
+    "nights": 7
+  },
+  "pricing": {
+    "total": 1130,
+    "currency": "EUR",
+    "perNight": 161.43,
+    "perRoom": 565,
+    "rooms": 2,
+    "originalPrice": 1256,
+    "discount": "10%",
+    "allInclusive": true,
+    "estimatedExtras": {
+      "food": 0,
+      "transport": 0,
+      "beachAccess": 0
+    },
+    "realCostEstimate": 1130
+  },
+  "rating": {
+    "score": 9.1,
+    "label": "Wonderful",
+    "reviewCount": 1477
+  },
+  "scores": {
+    "location": 4,
+    "value": 5,
+    "quality": 4,
+    "reliability": 4,
+    "separateSleeping": 5,
+    "quietness": 4,
+    "foodConvenience": 5,
+    "amenities": 4,
+    "overall": 4.4
+  },
+  "pros": [
+    "BEST VALUE - excellent rating at best price",
+    "9.1 rating - Wonderful",
+    "2 SEPARATE ROOMS - perfect for snoring",
+    "All-inclusive - all food & drinks included",
+    "Located in 'quiet part' of Sharm",
+    "Aqua Park included",
+    "Adults-only Quiet Pool available",
+    "Early check-in available",
+    "1,477 reviews - reliable",
+    "Beach shuttle (5 min)"
+  ],
+  "cons": [
+    "Has live music bar - request room away",
+    "Beach is 5 min shuttle (not beachfront)",
+    "Some reviews mention dated facilities",
+    "Not adults-only (but has quiet adult pool)"
+  ],
+  "dealbreakers": [],
+  "property": {
+    "type": "Resort - 2 separate rooms",
+    "roomType": "Verginia Double Room",
+    "roomSize": "36 m² each"
+  },
+  "adultsOnly": false,
+  "location": {
+    "address": "El Motelat St., El Hadaba",
+    "area": "Hadaba (quiet part of town)",
+    "city": "Sharm El Sheikh",
+    "country": "Egypt",
+    "beachDistance": "5 min shuttle to beach",
+    "coordinates": {
+      "lat": 27.8545,
+      "lng": 34.2916
+    }
+  },
+  "concerns": {
+    "noise": "Quiet area, but has live music bar - request room away",
+    "smoking": "Non-smoking rooms available",
+    "bedBugs": "No reports in 2025-2026 reviews"
+  },
+  "amenities": [
+    "All-Inclusive",
+    "Aqua Park",
+    "Adults-only Quiet Pool",
+    "Regular Pool",
+    "Beach Shuttle",
+    "Gym",
+    "Spa",
+    "Non-smoking rooms",
+    "Restaurant",
+    "Bar",
+    "Entertainment",
+    "WiFi",
+    "Early check-in"
+  ],
+  "images": {
+    "thumbnail": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/411594207.jpg?k=cac7bd93233ef7783d88dd78dfbbddedd884368c7fdadb0152868a4a865f0548&o=",
+    "gallery": [
+      "https://cf.bstatic.com/xdata/images/hotel/max500/411594486.jpg?k=adc32f145d0477b1d6f590f970356808e729abf5a7f362712ebb6c5c6abf9bea&o=",
+      "https://cf.bstatic.com/xdata/images/hotel/max500/131889840.jpg?k=5a44352eb5d35364fe89d94e7c9072d3f9a655c692323cf934939afac12f8c80&o=",
+      "https://cf.bstatic.com/xdata/images/hotel/max300/116260697.jpg?k=08867f773f782394bd79991f9430f191fca92908bc5ac8ba4c11349ed80d7b00&o=",
+      "https://cf.bstatic.com/xdata/images/hotel/max300/116259539.jpg?k=8d68729985d7e12e6d70c356518cd9ce5a093f3417472c8473f0aa69942ef09e&o=",
+      "https://cf.bstatic.com/xdata/images/hotel/max300/116183155.jpg?k=6de85dc37a50bab8112b1dd73e7be79a4b5e3a52bb8a2f0cfe2612e6d5818a9b&o=",
+      "https://cf.bstatic.com/xdata/images/hotel/max300/457267975.jpg?k=58709cb1b7092e28da4a3af8a545d4589bc153cf1c7d1fce5c40d3ec9ba62f7f&o=",
+      "https://cf.bstatic.com/xdata/images/hotel/max300/413954554.jpg?k=05f5ba0e743a14690f60de65a3fadb080c18390b5c201787ac1fd614965dab23&o="
+    ]
+  },
+  "verdict": "BEST VALUE - Great rating, all amenities, half the price of Pickalbatros. Top recommendation!",
+  "scraped": "2026-01-17"
+}

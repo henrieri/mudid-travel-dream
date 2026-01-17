@@ -1,0 +1,91 @@
+{
+  "id": "option-002",
+  "type": "villa",
+  "name": "Private Luxury Villas at Sharm Dreams Vacation Club",
+  "provider": "booking.com",
+  "url": "https://www.booking.com/hotel/eg/villa-private-nama-bay.html",
+  "dates": {
+    "checkin": "2026-02-15",
+    "checkout": "2026-02-22",
+    "nights": 7
+  },
+  "pricing": {
+    "total": 1187,
+    "currency": "EUR",
+    "perNight": 169.57,
+    "originalPrice": 1319,
+    "discount": "10%",
+    "allInclusive": false,
+    "estimatedExtras": {
+      "food": 490,
+      "transport": 30,
+      "beachAccess": 0
+    },
+    "realCostEstimate": 1707
+  },
+  "rating": {
+    "score": 7.9,
+    "label": "Good",
+    "reviewCount": 137
+  },
+  "scores": {
+    "location": 4,
+    "value": 2,
+    "quality": 4,
+    "reliability": 3,
+    "separateSleeping": 5,
+    "quietness": 4,
+    "foodConvenience": 1,
+    "amenities": 3,
+    "overall": 3.3
+  },
+  "pros": [
+    "2 bedrooms - perfect for snoring",
+    "Very spacious 200 m²",
+    "3 bathrooms - luxury",
+    "Naama Bay location (prime area)",
+    "Private villa experience",
+    "Full kitchen"
+  ],
+  "cons": [
+    "No meals included",
+    "Rating only 7.9 (lower than hotels)",
+    "Expensive for what you get",
+    "Real cost ~€1,700 with food",
+    "No all-inclusive convenience"
+  ],
+  "dealbreakers": [
+    "Real cost higher than top all-inclusive resorts"
+  ],
+  "property": {
+    "type": "Entire villa",
+    "bedrooms": 2,
+    "livingRooms": 1,
+    "bathrooms": 3,
+    "kitchens": 1,
+    "size": "200 m²"
+  },
+  "location": {
+    "area": "Naama Bay",
+    "city": "Sharm El Sheikh",
+    "country": "Egypt",
+    "beachDistance": "Near Naama Bay beach"
+  },
+  "concerns": {
+    "noise": "Private villa - should be quiet",
+    "smoking": "Unknown",
+    "bedBugs": "No reports found"
+  },
+  "amenities": [
+    "Private villa",
+    "Kitchen",
+    "3 bathrooms",
+    "Living room"
+  ],
+  "images": {
+    "thumbnail": null,
+    "gallery": []
+  },
+  "verdict": "MAYBE - Good for privacy but expensive. Better to get all-inclusive resort for similar price.",
+  "scraped": "2026-01-17"
+}

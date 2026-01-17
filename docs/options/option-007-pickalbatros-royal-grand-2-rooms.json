@@ -1,0 +1,106 @@
+{
+  "id": "option-007",
+  "type": "hotel-2-rooms",
+  "name": "Pickalbatros Royal Grand Sharm - 2 Separate Rooms",
+  "provider": "booking.com",
+  "url": "https://www.booking.com/hotel/eg/royal-grand-sharm.html",
+  "dates": {
+    "checkin": "2026-02-15",
+    "checkout": "2026-02-22",
+    "nights": 7
+  },
+  "pricing": {
+    "total": 2046,
+    "currency": "EUR",
+    "perNight": 292.29,
+    "perRoom": 1023,
+    "rooms": 2,
+    "originalPrice": 2274,
+    "discount": "10%",
+    "allInclusive": true,
+    "estimatedExtras": {
+      "food": 0,
+      "transport": 0,
+      "beachAccess": 0
+    },
+    "realCostEstimate": 2046
+  },
+  "rating": {
+    "score": 9.4,
+    "label": "Wonderful",
+    "reviewCount": 7638
+  },
+  "scores": {
+    "location": 5,
+    "value": 3,
+    "quality": 5,
+    "reliability": 5,
+    "separateSleeping": 5,
+    "quietness": 3,
+    "foodConvenience": 5,
+    "amenities": 5,
+    "overall": 4.5
+  },
+  "pros": [
+    "TOP RATED 9.4 - Wonderful",
+    "7,638 reviews - extremely reliable",
+    "Adults only 16+ - no screaming kids",
+    "All-inclusive - all food & drinks included",
+    "2 SEPARATE ROOMS - perfect for snoring",
+    "Private beach access",
+    "Multiple pools",
+    "Gym & spa available",
+    "Free airport transfer",
+    "45 m² rooms with balcony",
+    "Non-smoking rooms available"
+  ],
+  "cons": [
+    "Most expensive option (€2,046)",
+    "Has nightly entertainment - request room away",
+    "Large resort - can feel crowded"
+  ],
+  "dealbreakers": [],
+  "property": {
+    "type": "Resort - 2 separate rooms",
+    "roomType": "Superior Double or Twin Room",
+    "roomSize": "45 m² each"
+  },
+  "adultsOnly": true,
+  "adultsOnlyAge": 16,
+  "location": {
+    "address": "Om El Sid Hill, Hadaba",
+    "area": "Hadaba",
+    "city": "Sharm El Sheikh",
+    "country": "Egypt",
+    "beachDistance": "Beachfront - private beach",
+    "coordinates": {
+      "lat": 27.8478,
+      "lng": 34.2897
+    }
+  },
+  "concerns": {
+    "noise": "Has nightclub - request room away from entertainment area",
+    "smoking": "Non-smoking rooms available",
+    "bedBugs": "No reports in 2025-2026 reviews"
+  },
+  "amenities": [
+    "All-Inclusive",
+    "Adults Only 16+",
+    "Private Beach",
+    "Multiple Pools",
+    "Gym",
+    "Spa",
+    "Free Airport Transfer",
+    "Non-smoking rooms",
+    "Restaurant (multiple)",
+    "Bars",
+    "Entertainment",
+    "WiFi"
+  ],
+  "images": {
+    "thumbnail": null,
+    "gallery": []
+  },
+  "verdict": "TOP CHOICE - Best quality, adults-only, all amenities. Premium price but complete solution.",
+  "scraped": "2026-01-17"
+}

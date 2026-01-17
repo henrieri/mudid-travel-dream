@@ -1,0 +1,79 @@
+{
+  "id": "option-006",
+  "type": "resort",
+  "name": "Luxury Sharm Hills Resort",
+  "provider": "booking.com",
+  "url": "https://www.booking.com/hotel/eg/sharm-hills-resort-sharm-elsheikh1.html",
+  "dates": {
+    "checkin": "2026-02-15",
+    "checkout": "2026-02-22",
+    "nights": 7
+  },
+  "pricing": {
+    "total": null,
+    "currency": "EUR",
+    "perNight": null,
+    "allInclusive": false,
+    "estimatedExtras": {
+      "food": 490,
+      "transport": 70,
+      "beachAccess": 100
+    },
+    "realCostEstimate": null
+  },
+  "rating": {
+    "score": null,
+    "label": null,
+    "reviewCount": null
+  },
+  "scores": {
+    "location": 2,
+    "value": 2,
+    "quality": 3,
+    "reliability": 1,
+    "separateSleeping": 2,
+    "quietness": 3,
+    "foodConvenience": 2,
+    "amenities": 2,
+    "overall": 2.1
+  },
+  "pros": [
+    "Luxury resort branding"
+  ],
+  "cons": [
+    "No pricing data available",
+    "No rating data available",
+    "No review data available",
+    "Unknown amenities",
+    "Unknown meal plan"
+  ],
+  "dealbreakers": [
+    "SKIP - Insufficient data to evaluate"
+  ],
+  "property": {
+    "type": "Resort",
+    "roomType": "Unknown",
+    "roomSize": "Unknown"
+  },
+  "adultsOnly": false,
+  "location": {
+    "address": "Sharm Hills",
+    "area": "Sharm Hills",
+    "city": "Sharm El Sheikh",
+    "country": "Egypt",
+    "beachDistance": "Unknown",
+    "coordinates": null
+  },
+  "concerns": {
+    "noise": "Unknown",
+    "smoking": "Unknown",
+    "bedBugs": "No data"
+  },
+  "amenities": [],
+  "images": {
+    "thumbnail": null,
+    "gallery": []
+  },
+  "verdict": "SKIP - Insufficient data. Need to investigate before considering.",
+  "scraped": "2026-01-17"
+}
