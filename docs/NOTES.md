@@ -39,42 +39,168 @@ When evaluating hotels:
 
 ## Playwright MCP Tips for Booking.com
 
+### MCP Configuration (Jan 2026)
+
+Config file: `~/.claude/plugins/cache/claude-plugins-official/playwright/<version>/.mcp.json`
+
+```json
+{
+  "playwright": {
+    "command": "npx",
+    "args": [
+      "@playwright/mcp@latest",
+      "--save-trace",
+      "--save-session",
+      "--console-level", "debug",
+      "--output-dir", "/absolute/path/to/playwright-logs"
+    ]
+  }
+}
+```
+
+**Available flags** (from `npx @playwright/mcp --help`):
+- `--browser <browser>` - chrome, firefox, webkit, msedge
+- `--save-trace` - Save Playwright trace to output-dir
+- `--save-session` - Save session snapshots
+- `--console-level <level>` - error, warning, info, debug
+- `--output-dir <path>` - Where to save logs (use absolute path!)
+- `--headless` - Run without visible browser
+- `--isolated` - Fresh context each time (no persistent cookies)
+- `--storage-state <path>` - Load saved login state
+
 ### Session Management
 - Playwright uses persistent Chrome profile at `~/.cache/ms-playwright/mcp-chrome-*`
-- Session cookies persist between uses (stays logged in)
+- Session cookies persist between uses (stays logged in as Henri Erilaid)
 - If Claude session crashes, Playwright browser may still be open
+- Kill orphaned browsers: `pkill -f "mcp-chrome"` or `pkill -f chrome`
 - To reuse: just call browser_snapshot to reconnect
 
-### Booking.com Scraping Tips
-1. **Use browser_snapshot first** - Get accessibility tree, not screenshots
-2. **Wait for dynamic content** - Use `browser_wait_for` for loading
-3. **Use refs from snapshot** - Click using element refs, not coordinates
-4. **Watch for popups** - Cookie consent, login prompts, etc.
+### Best Data Extraction Method: DOM Evaluation
+
+**DON'T parse snapshots** - they're huge and truncated. **DO use `browser_run_code`**:
+
+```javascript
+async (page) => {
+  const data = await page.evaluate(() => {
+    const results = [];
+    document.querySelectorAll('[data-testid="property-card"]').forEach(card => {
+      results.push({
+        name: card.querySelector('[data-testid="title"]')?.textContent?.trim(),
+        price: card.querySelector('[data-testid="price-and-discounted-price"]')?.textContent?.trim(),
+        rating: card.querySelector('[data-testid="review-score"]')?.textContent?.trim()
+      });
+    });
+    return results;
+  });
+  return JSON.stringify(data, null, 2);
+}
+```
+
+### Key Booking.com Selectors
+
+| Data | Selector |
+|------|----------|
+| Property card | `[data-testid="property-card"]` |
+| Hotel name | `[data-testid="title"]` |
+| Price | `[data-testid="price-and-discounted-price"]` |
+| Rating | `[data-testid="review-score"]` |
+| Room table | `[data-testid="property-rooms-table"]` |
+| Room name | `[data-testid="room-name"]` |
+| Bed type | `[data-testid="bed-type"]` |
+| Price per stay | `[data-testid="price-for-x-nights"]` |
+
+### Network Trace Analysis
+
+Traces saved to `playwright-logs/traces/`:
+- `trace-*.trace` - View at https://trace.playwright.dev
+- `trace-*.network` - JSON Lines with all XHR (GraphQL at `/dml/graphql`)
+- `trace-*.stacks` - Stack traces
+
+Use extraction script:
+```bash
+npx tsx scripts/extract-network-logs.ts --summary --graphql --api
+```
 
 ### Common Workflow
 ```
 1. browser_navigate → go to URL
-2. browser_snapshot → see page state
+2. browser_run_code → extract data with page.evaluate()
 3. browser_click → interact with elements (using ref from snapshot)
 4. browser_wait_for → wait for content to load
-5. browser_snapshot → see results
+5. Repeat extraction
 ```
 
-### Handling Login
-- Booking.com keeps you logged in via cookies
-- Check for user name in snapshot to confirm logged in
-- If logged out, may need to re-authenticate
+### Common Issues & Fixes
+- **"Opening in existing browser session"** → `pkill -f chrome` then retry
+- **Empty snapshot / timeout** → Page still loading, use `browser_wait_for`
+- **Snapshot too large** → Use `browser_run_code` with `page.evaluate()` instead
+- **net::ERR_NETWORK_CHANGED** → Browser was killed, just retry navigate
+- **Popup blocking** → Close cookie/newsletter popups first
 
-### Extracting Hotel Data
-- Price is in "price" or "data-testid" attributes
-- Rating shown as score (e.g., "9.1 Wonderful")
-- Review count usually near rating
-- Use evaluate() for complex data extraction
+### Token-Efficient Property Data Extraction
 
-### Common Issues
-- **Empty snapshot**: Page still loading - use wait_for
-- **Popup blocking**: Close cookie/newsletter popups first
-- **Session expired**: Need to log in again
+**Problem**: Full page snapshots are 150K-300K chars, get truncated, waste tokens.
+
+**Solution**: Single `browser_run_code` call extracts ALL needed data:
+
+```javascript
+async (page) => {
+  const name = await page.$eval('h2', el => el.textContent?.trim()).catch(() => 'Unknown');
+  const rating = await page.$eval('[data-testid="review-score-component"]', el => el.textContent?.trim()).catch(() => 'N/A');
+
+  // Room types with twin bed detection
+  const roomTypes = await page.$$eval('.hprt-table tr', els =>
+    els.slice(0, 10).map(el => el.textContent?.replace(/\s+/g, ' ').trim().slice(0, 250))
+  ).catch(() => []);
+
+  const hasTwinBeds = roomTypes.some(r => r && (r.toLowerCase().includes('twin') || r.toLowerCase().includes('2 single')));
+  const hasSeparateRooms = roomTypes.some(r => r && (r.toLowerCase().includes('interconnect') || r.toLowerCase().includes('2 bedroom') || r.toLowerCase().includes('separate bedroom')));
+
+  // Adults-only detection
+  const pageText = await page.evaluate(() => document.body.innerText.slice(0, 15000));
+  const isAdultsOnly = pageText.toLowerCase().includes('adults only') || pageText.includes('16+') || pageText.includes('18+');
+
+  // Distance extraction
+  const distances = await page.evaluate(() => {
+    const text = document.body.innerText;
+    const beachMatch = text.match(/(?:Beaches|Beach)[^\n]*?(\d+\.?\d*\s*(?:km|m))/i);
+    const airportMatch = text.match(/Airport[^\n]*?(\d+\.?\d*\s*(?:km|m))/i);
+    return { beach: beachMatch?.[1], airport: airportMatch?.[1] };
+  });
+
+  // Highlights/amenities
+  const highlights = await page.$$eval('[data-testid="property-most-popular-facilities-wrapper"] li', els =>
+    els.slice(0, 12).map(el => el.textContent?.trim())
+  ).catch(() => []);
+
+  // Review scores
+  const reviewScores = await page.$$eval('[data-testid="review-subscore"]', els =>
+    els.map(el => el.textContent?.replace(/\s+/g, ' ').trim())
+  ).catch(() => []);
+
+  return { name, rating, hasTwinBeds, hasSeparateRooms, isAdultsOnly, distances, highlights, reviewScores };
+}
+```
+
+**Benefits**:
+- ~2-3KB response vs 150KB+ snapshot
+- All critical fields in ONE call
+- No truncation issues
+- Can process 20+ properties per session easily
+
+### Booking.com GraphQL API (Advanced)
+
+Network traces show Booking.com uses GraphQL at `/dml/graphql`. Key queries:
+- `SearchResultsQuery` - Search results with filters
+- `PropertyQuery` - Full property details
+- `RoomAvailabilityQuery` - Room types and prices
+
+To capture: Enable `--save-trace` in MCP config, then analyze with:
+```bash
+npx tsx scripts/extract-network-logs.ts --graphql
+```
+
+Raw responses can be stored in `property_raw_data` table for later analysis.
 
 ---
 
@@ -96,29 +222,33 @@ Key scores (1-5 scale):
 
 ## Current Trip Status
 
-**Sharm el Sheikh Feb 15-22, 2026**
+**Sharm el Sheikh Feb 15-22, 2026** (7 nights, 2 adults, 2 rooms with twin beds)
 
 ### Booked
 - [ ] Flights: €1,515 (Heston Airlines) - NOT YET BOOKED
 
-### Top Hotel Candidates
-1. **Pickalbatros Royal Grand** (€1,023) - Adults 16+, 9.4 rating
-   - Pros: Adults only, top rated
-   - Cons: Has nightclub
-   - Ask for: Room away from entertainment
+### Top Hotel Options (Jan 17, 2026 prices for 2 rooms)
 
-2. **Verginia Sharm Resort** (€565) - 9.1 rating
-   - Pros: "Quiet part" of town, adults-only pool, best value
-   - Cons: Older facilities
-   - Ask for: Room near quiet pool
+| Rank | Hotel | Price | Rating | Adults Only | Twin Beds | All-Incl |
+|------|-------|-------|--------|-------------|-----------|----------|
+| 🥇 | **Xperience Golden Sandy** | €516 | 8.6 | Yes | ✅ | ✅ |
+| 🥈 | Xperience Sea Breeze | €1,073 | 9.0 | No | ✅ | ✅ |
+| 🥉 | Verginia Sharm | €1,130 | 9.1 | No | ✅ | ✅ |
+| 4 | Sunrise Remal | €1,325 | 9.4 | No | ✅ | ✅ |
+| 5 | Pickalbatros Royal Grand | €1,740 | 9.4 | 16+ | ✅ | ✅ |
+| 6 | Baron Palms | €2,162 | 9.4 | 16+ | ✅ | ✅ |
 
-3. **Naama Bay Promenade** (€436) - Budget option
-   - Pros: Prime location, Accor managed
-   - Cons: Lower rating (7.7)
+**⚠️ Skip: Meraki Resort** (€2,228) - 9.5 rating but ONLY king beds, no twin option!
+
+### Best Value Analysis
+- **Budget winner**: Xperience Golden Sandy (€516) - all requirements met!
+- **Mid-range**: Sunrise Remal (€1,325) - highest rated at reasonable price
+- **Premium**: Pickalbatros Royal Grand (€1,740) - adults-only + top quality
 
 ### Decision Pending
-- [ ] Choose between Pickalbatros (premium) vs Verginia (value)
-- [ ] Decide: 1 room with twin beds OR 2 separate rooms
+- [ ] Choose tier: Budget (€516) / Mid (€1,073-1,325) / Premium (€1,740+)
+- [ ] Verify Xperience Golden Sandy reviews for quietness & cleanliness
+- [ ] Check if any hotels have quiet room guarantee
 
 ---
 

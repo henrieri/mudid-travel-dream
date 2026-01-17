@@ -10,7 +10,12 @@
   "devDependencies": {
     "@types/node": "^22.19.3",
     "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
     "typescript": "^5.7.2",
     "zod": "^4.3.5"
+  },
+  "dependencies": {
+    "@types/pg": "^8.16.0",
+    "pg": "^8.16.3"
   }
 }

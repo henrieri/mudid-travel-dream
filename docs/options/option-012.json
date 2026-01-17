@@ -1,0 +1,85 @@
+{
+  "id": "option-012",
+  "type": "hotel-2-rooms",
+  "name": "Baron Palms Adults Only 16+ Boutique - 2 Superior Classic Rooms",
+  "provider": "booking.com",
+  "url": "https://www.booking.com/hotel/eg/baron-palms-resort-sharm-el-sheikh.html",
+  "dates": {
+    "checkin": "2026-02-15",
+    "checkout": "2026-02-22",
+    "nights": 7
+  },
+  "pricing": {
+    "total": 2162,
+    "currency": "EUR",
+    "perNight": 309,
+    "perRoom": 1081,
+    "rooms": 2,
+    "originalPrice": 2402,
+    "discount": "10% Genius discount",
+    "allInclusive": true,
+    "estimatedExtras": {
+      "food": 0,
+      "transport": 0,
+      "beachAccess": 0
+    },
+    "realCostEstimate": 2162
+  },
+  "rating": {
+    "score": 9.4,
+    "label": "Wonderful",
+    "reviewCount": 4557
+  },
+  "scores": {
+    "location": 4,
+    "value": 3,
+    "quality": 5,
+    "reliability": 5,
+    "separateSleeping": 5,
+    "quietness": 4,
+    "foodConvenience": 5,
+    "amenities": 5,
+    "overall": 4.5
+  },
+  "pros": [
+    "9.4 Wonderful rating - same as Pickalbatros",
+    "Adults only 16+ - no kids",
+    "Boutique hotel style - more intimate than mega resorts",
+    "2 twin beds available - perfect for snoring",
+    "Free airport shuttle included"
+  ],
+  "cons": [
+    "More expensive than Pickalbatros (€2,162 vs €2,046)",
+    "Smaller property - fewer amenities than big resorts",
+    "Not beachfront (500m to Ras Nasrani Beach)"
+  ],
+  "dealbreakers": [],
+  "property": {
+    "type": "Boutique Resort",
+    "size": "33 m² per room"
+  },
+  "adultsOnly": true,
+  "adultsOnlyAge": 16,
+  "location": {
+    "area": "Ras Nasrani",
+    "city": "Sharm El Sheikh",
+    "country": "Egypt",
+    "beachDistance": "500m to Ras Nasrani Beach",
+    "coordinates": null
+  },
+  "amenities": [
+    "Outdoor swimming pool",
+    "Airport shuttle (free)",
+    "Spa",
+    "Fitness center",
+    "Non-smoking rooms",
+    "Restaurant",
+    "Room service",
+    "Bar",
+    "Private beach area",
+    "Wonderful Breakfast"
+  ],
+  "verdict": "PREMIUM BOUTIQUE OPTION - Same rating as Pickalbatros but more intimate. Good for those who prefer smaller hotels over mega resorts.",
+  "notes": "Superior Classic Room has option for 2 twin beds or 1 queen. Book twin beds configuration.",
+  "scraped": "2026-01-17"
+}

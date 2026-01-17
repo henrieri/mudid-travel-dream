@@ -1,0 +1,82 @@
+{
+  "id": "option-011",
+  "type": "hotel-2-rooms",
+  "name": "Xperience Golden Sandy Beach - 2 Rooms with Twin Beds",
+  "provider": "booking.com",
+  "url": "https://www.booking.com/hotel/eg/xperience-golden-sandy-beach.html",
+  "dates": {
+    "checkin": "2026-02-15",
+    "checkout": "2026-02-22",
+    "nights": 7
+  },
+  "pricing": {
+    "total": 516,
+    "currency": "EUR",
+    "perNight": 74,
+    "perRoom": 258,
+    "rooms": 2,
+    "allInclusive": true,
+    "estimatedExtras": {
+      "food": 0,
+      "transport": 50,
+      "beachAccess": 0
+    },
+    "realCostEstimate": 566
+  },
+  "rating": {
+    "score": 8.6,
+    "label": "Excellent",
+    "reviewCount": 1340
+  },
+  "scores": {
+    "location": 4,
+    "value": 5,
+    "quality": 4,
+    "reliability": 4,
+    "separateSleeping": 5,
+    "quietness": 4,
+    "foodConvenience": 5,
+    "amenities": 4,
+    "overall": 4.4
+  },
+  "pros": [
+    "BEST BUDGET ALL-INCLUSIVE - Only €516 for 2 rooms!",
+    "2 TWIN BEDS available - perfect for snoring solution",
+    "Adults only - no screaming kids",
+    "Beachfront with private beach area",
+    "8.6 rating with 1,340 reviews - reliable"
+  ],
+  "cons": [
+    "Lower rating than Pickalbatros (8.6 vs 9.4)",
+    "Need to verify quietness at night",
+    "Bungalow style - verify layout"
+  ],
+  "dealbreakers": [],
+  "property": {
+    "type": "Resort Bungalow",
+    "bedrooms": 1,
+    "bathrooms": 1
+  },
+  "adultsOnly": true,
+  "location": {
+    "area": "Sharm El Sheikh",
+    "city": "Sharm El Sheikh",
+    "country": "Egypt",
+    "beachDistance": "Beachfront"
+  },
+  "amenities": [
+    "Airport shuttle",
+    "Non-smoking rooms",
+    "Free parking",
+    "Free Wifi",
+    "Beachfront",
+    "24-hour front desk",
+    "Bar",
+    "Garden",
+    "Private beach area",
+    "Very Good Breakfast"
+  ],
+  "verdict": "EXCELLENT BUDGET CHOICE - All requirements met at lowest price. Twin beds, adults-only, all-inclusive, beachfront. Half the price of Pickalbatros!",
+  "notes": "Bungalow House Sea View room type has 2 twin beds. Verify room away from any entertainment areas.",
+  "scraped": "2026-01-17"
+}

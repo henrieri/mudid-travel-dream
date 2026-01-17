@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: egypt-web
+  namespace: travel-dream
+  labels:
+    app.kubernetes.io/name: egypt-web
+spec:
+  type: ClusterIP
+  selector:
+    app.kubernetes.io/name: egypt-web
+  ports:
+    - name: http
+      port: 80
+      targetPort: 3000
+      protocol: TCP

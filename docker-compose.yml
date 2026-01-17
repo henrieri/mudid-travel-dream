@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:18-alpine
+    container_name: travel-dream-db
+    ports:
+      - "5623:5432"
+    environment:
+      POSTGRES_USER: travel
+      POSTGRES_PASSWORD: dream2026
+      POSTGRES_DB: travel_dream
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./db/init:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U travel -d travel_dream"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:

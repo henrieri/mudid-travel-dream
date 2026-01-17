@@ -11,8 +11,10 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as XExplorerRouteImport } from './routes/x-explorer'
 import { Route as SystemHealthRouteImport } from './routes/system-health'
+import { Route as ShortlistRouteImport } from './routes/shortlist'
 import { Route as ReportsRouteImport } from './routes/reports'
 import { Route as PrsRouteImport } from './routes/prs'
+import { Route as PropertiesRouteImport } from './routes/properties'
 import { Route as NodesRouteImport } from './routes/nodes'
 import { Route as HealthRouteImport } from './routes/health'
 import { Route as AgentProductivityRouteImport } from './routes/agent-productivity'
@@ -35,6 +37,11 @@ const SystemHealthRoute = SystemHealthRouteImport.update({
   path: '/system-health',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ShortlistRoute = ShortlistRouteImport.update({
+  id: '/shortlist',
+  path: '/shortlist',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ReportsRoute = ReportsRouteImport.update({
   id: '/reports',
   path: '/reports',
@@ -43,6 +50,11 @@ const ReportsRoute = ReportsRouteImport.update({
 const PrsRoute = PrsRouteImport.update({
   id: '/prs',
   path: '/prs',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PropertiesRoute = PropertiesRouteImport.update({
+  id: '/properties',
+  path: '/properties',
   getParentRoute: () => rootRouteImport,
 } as any)
 const NodesRoute = NodesRouteImport.update({
@@ -107,8 +119,10 @@ export interface FileRoutesByFullPath {
   '/agent-productivity': typeof AgentProductivityRoute
   '/health': typeof HealthRoute
   '/nodes': typeof NodesRoute
+  '/properties': typeof PropertiesRoute
   '/prs': typeof PrsRoute
   '/reports': typeof ReportsRoute
+  '/shortlist': typeof ShortlistRoute
   '/system-health': typeof SystemHealthRoute
   '/x-explorer': typeof XExplorerRoute
   '/jira/boards': typeof JiraBoardsRoute
@@ -124,8 +138,10 @@ export interface FileRoutesByTo {
   '/agent-productivity': typeof AgentProductivityRoute
   '/health': typeof HealthRoute
   '/nodes': typeof NodesRoute
+  '/properties': typeof PropertiesRoute
   '/prs': typeof PrsRoute
   '/reports': typeof ReportsRoute
+  '/shortlist': typeof ShortlistRoute
   '/system-health': typeof SystemHealthRoute
   '/x-explorer': typeof XExplorerRoute
   '/jira/boards': typeof JiraBoardsRoute
@@ -142,8 +158,10 @@ export interface FileRoutesById {
   '/agent-productivity': typeof AgentProductivityRoute
   '/health': typeof HealthRoute
   '/nodes': typeof NodesRoute
+  '/properties': typeof PropertiesRoute
   '/prs': typeof PrsRoute
   '/reports': typeof ReportsRoute
+  '/shortlist': typeof ShortlistRoute
   '/system-health': typeof SystemHealthRoute
   '/x-explorer': typeof XExplorerRoute
   '/jira/boards': typeof JiraBoardsRoute
@@ -161,8 +179,10 @@ export interface FileRouteTypes {
     | '/agent-productivity'
     | '/health'
     | '/nodes'
+    | '/properties'
     | '/prs'
     | '/reports'
+    | '/shortlist'
     | '/system-health'
     | '/x-explorer'
     | '/jira/boards'
@@ -178,8 +198,10 @@ export interface FileRouteTypes {
     | '/agent-productivity'
     | '/health'
     | '/nodes'
+    | '/properties'
     | '/prs'
     | '/reports'
+    | '/shortlist'
     | '/system-health'
     | '/x-explorer'
     | '/jira/boards'
@@ -195,8 +217,10 @@ export interface FileRouteTypes {
     | '/agent-productivity'
     | '/health'
     | '/nodes'
+    | '/properties'
     | '/prs'
     | '/reports'
+    | '/shortlist'
     | '/system-health'
     | '/x-explorer'
     | '/jira/boards'
@@ -213,8 +237,10 @@ export interface RootRouteChildren {
   AgentProductivityRoute: typeof AgentProductivityRoute
   HealthRoute: typeof HealthRoute
   NodesRoute: typeof NodesRoute
+  PropertiesRoute: typeof PropertiesRoute
   PrsRoute: typeof PrsRoute
   ReportsRoute: typeof ReportsRoute
+  ShortlistRoute: typeof ShortlistRoute
   SystemHealthRoute: typeof SystemHealthRoute
   XExplorerRoute: typeof XExplorerRoute
   JiraBoardsRoute: typeof JiraBoardsRoute
@@ -241,6 +267,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SystemHealthRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/shortlist': {
+      id: '/shortlist'
+      path: '/shortlist'
+      fullPath: '/shortlist'
+      preLoaderRoute: typeof ShortlistRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/reports': {
       id: '/reports'
       path: '/reports'
@@ -253,6 +286,13 @@ declare module '@tanstack/react-router' {
       path: '/prs'
       fullPath: '/prs'
       preLoaderRoute: typeof PrsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/properties': {
+      id: '/properties'
+      path: '/properties'
+      fullPath: '/properties'
+      preLoaderRoute: typeof PropertiesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/nodes': {
@@ -341,8 +381,10 @@ const rootRouteChildren: RootRouteChildren = {
   AgentProductivityRoute: AgentProductivityRoute,
   HealthRoute: HealthRoute,
   NodesRoute: NodesRoute,
+  PropertiesRoute: PropertiesRoute,
   PrsRoute: PrsRoute,
   ReportsRoute: ReportsRoute,
+  ShortlistRoute: ShortlistRoute,
   SystemHealthRoute: SystemHealthRoute,
   XExplorerRoute: XExplorerRoute,
   JiraBoardsRoute: JiraBoardsRoute,

@@ -1,0 +1,51 @@
+id,name,rating,review_count,price_eur,status,is_adults_only,is_all_inclusive,has_twin_beds,has_separate_rooms,value_score,has_2bedroom_apt,has_2bedroom_suite,has_villa,has_interconnecting,is_beachfront,has_private_pool,beach_distance,airport_distance
+89,Sharm Hills,9.8,77,741,promising,,,,,25.02,t,f,f,f,t,f,"",""
+205,Villa D60,9.7,61,351,reviewed,,f,,,49.53,f,f,f,f,f,f,"",""
+4,Sunrise Remal Beach Resort,9.6,808,3021,reviewed,,,,,9.24,f,f,f,f,t,f,"",3km
+11,Sunrise Diamond Beach Resort -Grand Select,9.5,6065,2358,promising,t,,,,15.24,f,f,f,t,f,f,beachfront,19km
+187,Meraki Resort Sharm El Sheikh Adults only,9.5,5951,2228,promising,,,,,16.09,f,f,f,f,f,f,4.1km,19km
+32,Charmillion Club Resort,9.5,4075,1729,promising,,,,,19.84,f,f,f,f,f,f,beachfront,1.8km
+188,Steigenberger Alcazar,9.5,3997,2134,reviewed,,,,,16.03,f,f,f,f,f,f,550m,10km
+59,Charmillion Sea Life Resort,9.5,2401,1269,reviewed,,,,,25.31,f,f,f,f,t,f,"",1.9km
+191,Rixos Sharm El Sheikh - Adults Only 18 Plus - Free Lara Fabian Concert Access February 14,9.5,1687,2325,promising,,,,,13.19,f,f,f,f,f,f,beachfront,8km
+13,Pickalbatros Golf Luxury Suites - All Inclusive,9.5,674,1698,promising,,,,,15.83,f,f,f,f,f,f,3km,3.8km
+39,Pickalbatros Laguna Vista Aqua Park - 24 HRS All Inclusive,9.4,9439,2080,promising,t,,,,17.96,f,f,f,f,t,f,"",7km
+2,Pickalbatros Royal Grand Sharm - Adults Friendly 16 Years Plus,9.4,7638,1740,promising,t,t,,,20.98,f,f,f,f,f,f,1.4km (Reef Beach),22km
+5,Sunrise Arabian Beach Resort,9.4,5045,1921,promising,,,,,18.12,f,f,f,f,t,f,"",5km
+1,Baron Palms Adults Friendly Only 16 years plus Boutique Hotel Style,9.4,4557,2162,reviewed,t,t,,,15.91,f,f,f,f,f,f,"",""
+58,Pickalbatros Laguna Club Resort Sharm El Sheikh,9.4,3698,1600,reviewed,,,,,20.96,f,f,f,f,f,f,750m,6km
+7,Sunrise Remal Resort,9.4,1710,1325,reviewed,f,t,,,22.94,f,f,f,f,f,f,"",""
+40,Naama Bay Suites & SPA,9.4,511,1825,reviewed,,,,,13.95,f,f,f,f,t,f,"",8km
+67,Elisir SPA & Hotel at Sheikh coast,9.4,112,1959,reviewed,,,,,9.85,f,f,f,f,t,f,"",6.8km
+22,"Pickalbatros Palace Sharm ""Aqua Park""- All inclusive",9.3,7468,2171,promising,,,,,16.59,f,f,f,f,t,f,"",""
+54,Pickalbatros Aqua Blu Sharm El Sheikh,9.3,7166,2149,reviewed,,,,,16.68,f,f,f,f,t,f,"",21km
+190,JAZ Belvedere,9.3,3876,1255,reviewed,,,,,26.59,f,f,f,f,t,f,"",12km
+66,Sentido Reef Oasis Aqua Park Resort,9.3,2931,2924,reviewed,,,,,11.03,f,f,f,f,f,f,"",""
+42,Maritim Jolie Ville Resort & Casino,9.3,1754,1840,promising,,,,,16.40,f,f,f,t,f,f,"",""
+189,Iberotel Palace - Adults Friendly 16 Years Plus,9.3,1530,1869,promising,t,,,,15.85,f,f,f,f,f,f,100m,16km
+14,Royal Savoy Sharm El Sheikh,9.3,1042,2305,promising,,,,,12.18,f,t,f,f,t,f,"",1.8km
+38,"Coral Sea Imperial ""Coral Sea Sensatori""",9.3,627,2768,reviewed,,,,,9.40,f,f,f,f,t,f,"",2.8km
+202,Club Reef Resort & Spa,9.3,498,1197,reviewed,,,,,20.96,f,f,f,f,t,f,"",""
+204,Swissôtel Sharm El Sheikh - Ultra All Inclusive Collection,9.3,459,1987,promising,,,,,12.46,f,f,f,f,t,f,"",7km
+48,"Pickalbatros Royal Moderna Sharm ""Aqua Park""- All inclusive",9.2,6883,1829,promising,,,,,19.30,f,f,f,f,t,f,"",9km
+50,Sierra Sharm El Sheikh,9.2,1994,2360,reviewed,,,,,12.86,f,f,f,f,f,f,"",""
+34,Cleopatra Luxury Resort Sharm - Adults Only 16 years plus,9.2,1415,2114,reviewed,t,,,,13.71,f,f,f,f,f,f,550m,4.4km
+194,Four Seasons Resort Sharm El Sheikh,9.2,1233,4059,reviewed,,,,,7.01,f,f,f,f,f,f,700m,2.6km
+208,Sharm Grand Plaza Resort - Families and Couples Only,9.2,743,840,reviewed,,,,,31.45,f,f,f,f,t,f,"",5km
+193,JAZ Fanara Resort,9.1,5315,1424,reviewed,,,,,23.81,f,f,f,f,t,f,"",23km
+16,Hotel Novotel Sharm El-Sheikh,9.1,3827,1380,reviewed,,,,,23.63,f,f,f,f,t,f,"",""
+10,Sunrise Montemare Resort -Grand Select,9.1,3165,1805,promising,,,,,17.65,f,f,f,f,t,f,"",23km
+35,Park Regency Sharm El Sheikh Resort,9.1,1574,2235,reviewed,,,,,13.02,f,f,f,f,f,f,"",""
+18,Verginia Sharm Resort & Aqua Park,9.1,1477,1005,reviewed,f,t,,,28.70,f,f,f,f,f,f,"",""
+192,TUI MAGIC LIFE Redsina Sharm El Sheikh,9.1,1397,1182,promising,,,,,24.22,f,f,f,f,t,f,"",5km
+99,Albatros Sharm Resort - By Pickalbatros,9.1,1136,1783,reviewed,,,,,15.60,f,f,f,f,f,f,"",""
+23,Pickalbatros Golf Beach Resort - All Inclusive,9.0,2045,1564,reviewed,f,t,,,19.05,f,f,f,f,f,f,"",""
+6,Xperience Sea Breeze Resort,9.0,1946,1073,reviewed,f,t,,,27.59,f,f,f,f,f,f,"",""
+200,Pickalbatros Aqua Park Sharm El Sheikh- All inclusive,8.9,4373,1219,promising,,,,,26.58,f,t,f,f,f,f,"",""
+15,Movenpick Resort Sharm El Sheikh,8.9,1050,1413,promising,,,,,19.03,f,f,f,f,f,t,"",""
+17,DoubleTree by Hilton Sharks Bay Resort,8.8,2266,1271,reviewed,,,,,23.23,f,f,f,f,f,f,"",""
+25,Xperience Kiroseiz Parkland,8.8,1792,931,reviewed,,,,,30.75,f,f,f,f,f,f,"",""
+65,Xperience Golden Sandy Beach,8.6,1340,516,promising,t,t,,,52.12,f,f,f,f,f,f,0m (beachfront),21km
+141,2 Bedroom apartment on luxury delta Sharm resort,8.0,5,561,reviewed,,f,,,11.10,f,f,f,f,f,f,"",""
+24,Private Luxury Villas at Sharm Dreams Vacation Club,7.9,137,1187,reviewed,,f,,,14.24,f,f,f,f,f,f,"",""
+197,Luxury Sharm Hills Resort,7.7,43,567,reviewed,f,f,,,22.32,f,f,f,f,f,f,"",""
