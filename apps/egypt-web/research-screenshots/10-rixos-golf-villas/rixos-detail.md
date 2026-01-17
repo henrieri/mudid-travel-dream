@@ -1,0 +1,2822 @@
+### Page state
+- Page URL: https://www.booking.com/hotel/eg/rixos-golf-villas-and-suites-sharm-el-sheikh.html?checkin=2026-02-15&checkout=2026-02-22&group_adults=2&no_rooms=2
+- Page Title: Pickalbatros Golf Luxury Suites - All Inclusive, Sharm El Sheikh (updated prices 2026)
+- Page Snapshot:
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e3] [cursor=pointer]:
+    - /url: "#basiclayout"
+    - generic [ref=e5]: Skip to main content
+  - banner [ref=e9]:
+    - generic [ref=e10]:
+      - navigation [ref=e11]:
+        - link "Booking.com" [ref=e15] [cursor=pointer]:
+          - /url: https://www.booking.com/index.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+          - img [ref=e16]
+        - generic [ref=e18]:
+          - button "Prices in Euro" [ref=e20] [cursor=pointer]:
+            - generic [ref=e21]: EUR
+          - 'button "Language: English (US)" [ref=e23] [cursor=pointer]'
+          - link "Customer support" [ref=e28] [cursor=pointer]:
+            - /url: https://secure.booking.com/help.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306&source=header&src=profile_contact_cs
+            - img [ref=e31]
+          - link "List your property" [ref=e33] [cursor=pointer]:
+            - /url: https://join.booking.com/?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&lang=en-us&sid=62602bd6875882c94a550124b54b5306&utm_medium=frontend&utm_source=topbar
+            - generic [ref=e34]: List your property
+          - button "Your account menu Henri Erilaid Genius Level 2" [ref=e37] [cursor=pointer]:
+            - generic "Your account menu Henri Erilaid Genius Level 2" [ref=e39]:
+              - generic [ref=e42]:
+                - generic [ref=e43]: Henri Erilaid
+                - generic [ref=e46]: Genius Level 2
+      - navigation "What are you looking for?" [ref=e47]:
+        - menubar [ref=e49]:
+          - menuitem "Stays" [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]:
+              - img [ref=e53]
+              - generic [ref=e55]: Stays
+          - menuitem "Flights" [ref=e56] [cursor=pointer]:
+            - generic [ref=e57]:
+              - img [ref=e59]
+              - generic [ref=e61]: Flights
+          - menuitem "Flight + Hotel" [ref=e62] [cursor=pointer]:
+            - generic [ref=e63]:
+              - img [ref=e65]
+              - generic [ref=e67]: Flight + Hotel
+          - menuitem "Car rental" [ref=e68] [cursor=pointer]:
+            - generic [ref=e69]:
+              - img [ref=e71]
+              - generic [ref=e73]: Car rental
+          - menuitem "Attractions" [ref=e74] [cursor=pointer]:
+            - generic [ref=e75]:
+              - img [ref=e77]
+              - generic [ref=e79]: Attractions
+          - menuitem "Airport taxis" [ref=e80] [cursor=pointer]:
+            - generic [ref=e81]:
+              - img [ref=e83]
+              - generic [ref=e85]: Airport taxis
+  - region "Search properties" [ref=e91]:
+    - generic [ref=e92]:
+      - generic [ref=e98]:
+        - img [ref=e101]
+        - combobox "Where are you going?" [ref=e103]: Sharm El Sheikh
+        - button "Clear" [ref=e106] [cursor=pointer]:
+          - img "Clear" [ref=e107]:
+            - img [ref=e108]
+      - button "Sun, Feb 15 — Sun, Feb 22" [ref=e112] [cursor=pointer]:
+        - generic [ref=e113]:
+          - img [ref=e115]
+          - generic [ref=e117]: Sun, Feb 15
+          - generic [ref=e118]: —
+          - generic [ref=e119]: Sun, Feb 22
+      - 'button "Number of travelers and rooms. Currently selected: 2 adults · 0 children · 2 rooms" [ref=e122] [cursor=pointer]':
+        - generic [ref=e123]:
+          - img [ref=e125]
+          - text: 2 adults · 0 children · 2 rooms
+        - img [ref=e128]
+      - button "Search" [ref=e131] [cursor=pointer]:
+        - generic [ref=e132]: Search
+    - group
+  - generic [ref=e134]:
+    - navigation "Breadcrumbs" [ref=e138]:
+      - list [ref=e139]:
+        - listitem [ref=e140]:
+          - link "Home" [ref=e141] [cursor=pointer]:
+            - /url: https://www.booking.com/index.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB
+            - generic [ref=e142]: Home
+          - img [ref=e144]
+        - listitem [ref=e146]:
+          - link "Hotels" [ref=e147] [cursor=pointer]:
+            - /url: https://www.booking.com/hotel/index.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB
+            - generic [ref=e148]: Hotels
+          - img [ref=e150]
+        - listitem [ref=e152]:
+          - link "Egypt" [ref=e153] [cursor=pointer]:
+            - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&dest_id=63&dest_type=country
+            - generic [ref=e154]: Egypt
+          - img [ref=e156]
+        - listitem [ref=e158]:
+          - link "South Sinai" [ref=e159] [cursor=pointer]:
+            - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&dest_id=3151&dest_type=region
+            - generic [ref=e160]: South Sinai
+          - img [ref=e162]
+        - listitem [ref=e164]:
+          - link "Sharm El Sheikh" [ref=e165] [cursor=pointer]:
+            - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&dest_id=-302053&dest_type=city
+            - generic [ref=e166]: Sharm El Sheikh
+          - img [ref=e168]
+        - listitem [ref=e170]:
+          - heading "Pickalbatros Golf Luxury Suites - All Inclusive (Hotel) (Egypt) Deals" [level=1] [ref=e172]:
+            - generic [ref=e173]: Pickalbatros Golf Luxury Suites - All Inclusive (Hotel) (Egypt) Deals
+    - generic [ref=e174]:
+      - main [ref=e175]:
+        - generic [ref=e176]:
+          - generic [ref=e177]:
+            - generic [ref=e178]:
+              - navigation "Internal page link" [ref=e182]:
+                - list [ref=e184]:
+                  - listitem [ref=e185]:
+                    - link "Overview" [ref=e186] [cursor=pointer]:
+                      - /url: "#hotelTmpl"
+                      - generic [ref=e188]: Overview
+                  - listitem [ref=e189]:
+                    - link "Info & prices" [ref=e190] [cursor=pointer]:
+                      - /url: "#availability"
+                      - generic [ref=e192]: Info & prices
+                  - listitem [ref=e193]:
+                    - link "Facilities" [ref=e194] [cursor=pointer]:
+                      - /url: "#hp_facilities_box"
+                      - generic [ref=e196]: Facilities
+                  - listitem [ref=e197]:
+                    - link "House rules" [ref=e198] [cursor=pointer]:
+                      - /url: "#policies"
+                      - generic [ref=e200]: House rules
+                  - listitem [ref=e201]:
+                    - link "Important and legal info" [ref=e202] [cursor=pointer]:
+                      - /url: "#important_info"
+                      - generic [ref=e204]: Important and legal info
+                  - listitem [ref=e205]:
+                    - link "Guest reviews (676)" [ref=e206] [cursor=pointer]:
+                      - /url: "#blockdisplay4"
+                      - generic [ref=e208]: Guest reviews (676)
+              - generic [ref=e210]:
+                - generic [ref=e211]:
+                  - button "Save this item to a trip list" [ref=e219] [cursor=pointer]:
+                    - img [ref=e3690]
+                  - button "Share this property" [ref=e229] [cursor=pointer]:
+                    - img [ref=e232]
+                  - button "Reserve" [ref=e234] [cursor=pointer]:
+                    - generic [ref=e235]: Reserve
+                  - button "We Price Match" [ref=e239] [cursor=pointer]:
+                    - img [ref=e242]
+                    - generic [ref=e244]: We Price Match
+                - generic [ref=e246]:
+                  - generic [ref=e247]:
+                    - img [ref=e250]
+                    - generic [ref=e261]:
+                      - button "5 out of 5 stars" [ref=e263] [cursor=pointer]:
+                        - img "5 out of 5 stars" [ref=e264]:
+                          - generic [ref=e265]:
+                            - img [ref=e267]
+                            - img [ref=e270]
+                          - generic [ref=e272]:
+                            - img [ref=e274]
+                            - img [ref=e277]
+                          - generic [ref=e279]:
+                            - img [ref=e281]
+                            - img [ref=e284]
+                          - generic [ref=e286]:
+                            - img [ref=e288]
+                            - img [ref=e291]
+                          - generic [ref=e293]:
+                            - img [ref=e295]
+                            - img [ref=e298]
+                      - button "Private Beach" [ref=e301] [cursor=pointer]:
+                        - generic [ref=e304]:
+                          - img [ref=e306]
+                          - generic [ref=e308]: Private Beach
+                      - generic [ref=e310]:
+                        - img [ref=e313]
+                        - button "Free taxi available" [ref=e317] [cursor=pointer]:
+                          - generic [ref=e318]: Free taxi available
+                  - heading "Pickalbatros Golf Luxury Suites - All Inclusive" [level=2] [ref=e320]
+                - generic [ref=e325]:
+                  - link "Pickalbatros Golf Luxury Suites - All Inclusive, Sharm El Sheikh - Check location" [ref=e326] [cursor=pointer]:
+                    - /url: "#map_opened-map_trigger_header_pin"
+                    - img [ref=e329]
+                  - generic [ref=e331]:
+                    - button "El Salam Road, PO Box 232 Egypt, 46619 Sharm El Sheikh, Egypt" [ref=e333] [cursor=pointer]:
+                      - generic [ref=e334]:
+                        - text: El Salam Road, PO Box 232 Egypt, 46619 Sharm El Sheikh, Egypt
+                        - generic [ref=e335]:
+                          - generic [ref=e336]:
+                            - text: Excellent location – rated 9.5/10!
+                            - generic [ref=e337]: (score from 671 reviews)
+                          - generic [ref=e338]: Real guests • Real stays • Real opinions
+                    - text: –
+                    - link "Excellent location – show map" [ref=e339] [cursor=pointer]:
+                      - /url: "#map_opened-map_trigger_header"
+                      - generic [ref=e340]: Excellent location – show map
+              - generic "Photo Gallery of Pickalbatros Golf Luxury Suites - All Inclusive" [ref=e344]:
+                - region "Photo gallery for Pickalbatros Golf Luxury Suites - All Inclusive" [ref=e346]:
+                  - generic [ref=e349]:
+                    - generic [ref=e350]:
+                      - button "an aerial view of a resort with a pool at Pickalbatros Golf Luxury Suites - All Inclusive in Sharm El Sheikh" [ref=e352] [cursor=pointer]:
+                        - img "an aerial view of a resort with a pool at Pickalbatros Golf Luxury Suites - All Inclusive in Sharm El Sheikh" [ref=e354]
+                      - generic [ref=e355]:
+                        - button "a lobby with couches and flowers in a building at Pickalbatros Golf Luxury Suites - All Inclusive in Sharm El Sheikh" [ref=e357] [cursor=pointer]:
+                          - img "a lobby with couches and flowers in a building at Pickalbatros Golf Luxury Suites - All Inclusive in Sharm El Sheikh" [ref=e359]
+                        - button "a building with a sign on the front of it at Pickalbatros Golf Luxury Suites - All Inclusive in Sharm El Sheikh" [ref=e361] [cursor=pointer]:
+                          - img "a building with a sign on the front of it at Pickalbatros Golf Luxury Suites - All Inclusive in Sharm El Sheikh" [ref=e363]
+                    - generic [ref=e364]:
+                      - button "a group of straw umbrellas and chairs on a beach at Pickalbatros Golf Luxury Suites - All Inclusive in Sharm El Sheikh" [ref=e366] [cursor=pointer]:
+                        - img "a group of straw umbrellas and chairs on a beach at Pickalbatros Golf Luxury Suites - All Inclusive in Sharm El Sheikh" [ref=e368]
+                      - button "an aerial view of a golf course with palm trees and a pond at Pickalbatros Golf Luxury Suites - All Inclusive in Sharm El Sheikh" [ref=e370] [cursor=pointer]:
+                        - img "an aerial view of a golf course with palm trees and a pond at Pickalbatros Golf Luxury Suites - All Inclusive in Sharm El Sheikh" [ref=e372]
+                      - button "a pool of blue water with palm trees and buildings at Pickalbatros Golf Luxury Suites - All Inclusive in Sharm El Sheikh" [ref=e374] [cursor=pointer]:
+                        - img "a pool of blue water with palm trees and buildings at Pickalbatros Golf Luxury Suites - All Inclusive in Sharm El Sheikh" [ref=e376]
+                      - button "a living room with a flat screen tv and a table at Pickalbatros Golf Luxury Suites - All Inclusive in Sharm El Sheikh" [ref=e378] [cursor=pointer]:
+                        - img "a living room with a flat screen tv and a table at Pickalbatros Golf Luxury Suites - All Inclusive in Sharm El Sheikh" [ref=e380]
+                      - generic [ref=e381]:
+                        - button "a view of a golf course with a pond at Pickalbatros Golf Luxury Suites - All Inclusive in Sharm El Sheikh +252 photos" [ref=e382] [cursor=pointer]:
+                          - img "a view of a golf course with a pond at Pickalbatros Golf Luxury Suites - All Inclusive in Sharm El Sheikh +252 photos" [ref=e384]
+                        - generic: +252 photos
+              - generic [ref=e386]:
+                - generic [ref=e389]:
+                  - link "Scored 9.5 Rated exceptional" [ref=e391] [cursor=pointer]:
+                    - /url: "#blockdisplay4"
+                    - generic [ref=e394]:
+                      - generic [ref=e395]: Scored 9.5
+                      - generic [ref=e396]: "9.5"
+                      - generic [ref=e397]: Rated exceptional
+                      - generic [ref=e398]:
+                        - generic [ref=e399]: Exceptional
+                        - generic [ref=e400]: 676 reviews
+                  - separator [ref=e401]
+                  - generic [ref=e403]:
+                    - heading "Guests who stayed here loved" [level=3] [ref=e404]
+                    - generic [ref=e405]:
+                      - region "Guests who stayed here loved" [ref=e406]:
+                        - group [ref=e407]:
+                          - generic [ref=e409]:
+                            - generic [ref=e412]: “Beautiful property great location, just by the airport”
+                            - generic [ref=e418]:
+                              - text: Ayaz
+                              - img "United States" [ref=e419]
+                              - generic [ref=e420]: United States
+                        - group [ref=e421]:
+                          - generic [ref=e423]:
+                            - generic [ref=e426]: “location was great, food at the resort was outstanding, and the room was excellent.”
+                            - generic [ref=e428]:
+                              - generic [ref=e430]: M
+                              - generic [ref=e432]:
+                                - text: Marc
+                                - img "United States" [ref=e433]
+                                - generic [ref=e434]: United States
+                        - group [ref=e435]:
+                          - generic [ref=e437]:
+                            - generic [ref=e440]: “FRIENDLY STUFF SPECIALLY MR MOHAMED HASSAN IN RECEPTION THE ALL STUFF IN BAR AND RESTAURANT ARE FULLY PROFESSIONAL . HIGH MODERN LUXURY HOTEL I...”
+                            - generic [ref=e446]:
+                              - text: Nader
+                              - img "Egypt" [ref=e447]
+                              - generic [ref=e448]: Egypt
+                        - group [ref=e449]:
+                          - generic [ref=e451]:
+                            - generic [ref=e454]: “From the very first step into Pickalbatros Luxury Suites, we knew this was going to be something special! The vibes, the elegance, and the...”
+                            - generic [ref=e460]:
+                              - text: Heba
+                              - img "Israel" [ref=e461]
+                              - generic [ref=e462]: Israel
+                        - group [ref=e463]:
+                          - generic [ref=e465]:
+                            - generic [ref=e468]: “The royal villa was excellent with 6 bedrooms and 6 bathrooms. The staff is very helpfull. Thank to Mr. Moamen moustafa about his help. the...”
+                            - generic [ref=e470]:
+                              - generic [ref=e472]: A
+                              - generic [ref=e474]:
+                                - text: Ahmad
+                                - img "Israel" [ref=e475]
+                                - generic [ref=e476]: Israel
+                        - group [ref=e477]:
+                          - generic [ref=e479]:
+                            - generic [ref=e482]: “Every thing in the hotel was perfect ( food , facilities, pool, cleanliness.. ) we really enjoyed everything there thank you for your service”
+                            - generic [ref=e488]:
+                              - text: Bouzid
+                              - img "Algeria" [ref=e489]
+                              - generic [ref=e490]: Algeria
+                        - group [ref=e491]:
+                          - generic [ref=e493]:
+                            - generic [ref=e496]: “My stay at Pickalbatros Golf Luxury Suites was truly exceptional. From the moment I arrived, I felt warmly welcomed by the staff, who were always...”
+                            - generic [ref=e498]:
+                              - generic [ref=e500]: "Y"
+                              - generic [ref=e502]:
+                                - text: Yazid
+                                - img "Israel" [ref=e503]
+                                - generic [ref=e504]: Israel
+                        - group [ref=e505]:
+                          - generic [ref=e507]:
+                            - generic [ref=e510]: “My stay at Pickalbatros Golf Luxury Suites was truly exceptional. From the moment I arrived, I felt warmly welcomed by the staff, who were always...”
+                            - generic [ref=e512]:
+                              - generic [ref=e514]: "Y"
+                              - generic [ref=e516]:
+                                - text: Yazid
+                                - img "Israel" [ref=e517]
+                                - generic [ref=e518]: Israel
+                        - group [ref=e519]:
+                          - generic [ref=e521]:
+                            - generic [ref=e524]: “My stay at Pickalbatros Golf Luxury Suites was truly exceptional. From the moment I arrived, I felt warmly welcomed by the staff, who were always...”
+                            - generic [ref=e526]:
+                              - generic [ref=e528]: "Y"
+                              - generic [ref=e530]:
+                                - text: Yazid
+                                - img "Israel" [ref=e531]
+                                - generic [ref=e532]: Israel
+                        - group [ref=e533]:
+                          - generic [ref=e535]:
+                            - generic [ref=e538]: “The hotel staff was one of the best I have ever seen. From the start, they were very helpful. Specifically, Mohammed, Ashraf, and Salah from the...”
+                            - generic [ref=e540]:
+                              - generic [ref=e542]: E
+                              - generic [ref=e544]:
+                                - text: Enes
+                                - img "United States" [ref=e545]
+                                - generic [ref=e546]: United States
+                      - button [ref=e547] [cursor=pointer]:
+                        - img [ref=e550]
+                  - separator [ref=e552]
+                  - generic [ref=e555]:
+                    - generic [ref=e556]: "8.7"
+                    - generic [ref=e557]: "8.7"
+                    - generic [ref=e558]: Top-rated beach nearby
+                    - generic [ref=e560]: Top-rated beach nearby
+                - generic [ref=e3694] [cursor=pointer]:
+                  - generic [ref=e3695]:
+                    - generic:
+                      - generic:
+                        - img
+                      - img [ref=e3696]
+                  - button "Show on map" [ref=e3698]:
+                    - generic [ref=e3699]: Show on map
+            - list [ref=e576]:
+              - listitem [ref=e577]:
+                - img [ref=e581]
+                - generic [ref=e584]: Exceptional Breakfast
+              - listitem [ref=e585]:
+                - img [ref=e589]
+                - generic [ref=e592]: Spa
+              - listitem [ref=e593]:
+                - img [ref=e597]
+                - generic [ref=e600]: 5 restaurants
+              - listitem [ref=e601]:
+                - img [ref=e605]
+                - generic [ref=e608]: Room service
+              - listitem [ref=e609]:
+                - img [ref=e613]
+                - generic [ref=e616]: Free Wifi
+              - listitem [ref=e617]:
+                - img [ref=e621]
+                - generic [ref=e624]: Balcony
+              - listitem [ref=e625]:
+                - img [ref=e629]
+                - generic [ref=e632]: Free on-site parking
+              - listitem [ref=e633]:
+                - img [ref=e637]
+                - generic [ref=e640]: View
+              - listitem [ref=e641]:
+                - img [ref=e645]
+                - generic [ref=e648]: 3 swimming pools
+              - listitem [ref=e649]:
+                - img [ref=e653]
+                - generic [ref=e656]: Family rooms
+          - generic [ref=e658]:
+            - heading "Recommended for 2 adults" [level=3] [ref=e659]
+            - table [ref=e660]:
+              - rowgroup [ref=e661]:
+                - 'row "2 × Deluxe Room Price for: Max. people: 1 , Max. people: 1 Each unit has: Bed: 1 king bed Free cancellation before February 12, 2026 More details on meals, cancellation, and prepayment policies No prepayment needed – pay at the property All-inclusive 1 week, 2 adults Includes taxes and fees Genius rewards Reserve your selections You won''t be charged yet" [ref=e662]':
+                  - 'cell "2 × Deluxe Room Price for: Max. people: 1 , Max. people: 1 Each unit has: Bed: 1 king bed Free cancellation before February 12, 2026 More details on meals, cancellation, and prepayment policies No prepayment needed – pay at the property All-inclusive" [ref=e663]':
+                    - generic [ref=e664]:
+                      - table [ref=e665]:
+                        - rowgroup [ref=e666]:
+                          - row "2 × Deluxe Room" [ref=e667]:
+                            - cell "2 × Deluxe Room" [ref=e668]:
+                              - generic [ref=e669]:
+                                - text: 2 ×
+                                - link "Deluxe Room" [ref=e670] [cursor=pointer]:
+                                  - /url: "#RD1092863101"
+                      - generic [ref=e672]:
+                        - text: "Price for:"
+                        - generic [ref=e673]:
+                          - generic [ref=e675]: "1"
+                          - generic [ref=e676]: "Max. people: 1"
+                        - text: ","
+                        - generic [ref=e677]:
+                          - generic [ref=e679]: "1"
+                          - generic [ref=e680]: "Max. people: 1"
+                      - text: "Each unit has:"
+                      - generic [ref=e681]:
+                        - text: "Bed:"
+                        - generic [ref=e683]:
+                          - text: 1 king bed
+                          - img [ref=e685]
+                      - generic [ref=e687]:
+                        - generic [ref=e689]:
+                          - img [ref=e691]
+                          - generic [ref=e696]:
+                            - strong [ref=e697]: Free cancellation
+                            - text: before February 12, 2026
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e700] [cursor=pointer]:
+                            - img [ref=e702]
+                        - generic [ref=e705]:
+                          - img [ref=e707]
+                          - generic [ref=e712]:
+                            - strong [ref=e713]: No prepayment needed
+                            - text: – pay at the property
+                        - generic [ref=e717]: All-inclusive
+                  - cell "1 week, 2 adults Includes taxes and fees Genius rewards Reserve your selections You won't be charged yet" [ref=e718]:
+                    - table [ref=e719]:
+                      - rowgroup [ref=e720]:
+                        - row "1 week, 2 adults Includes taxes and fees Genius rewards" [ref=e721]:
+                          - cell "1 week, 2 adults Includes taxes and fees Genius rewards" [ref=e722]:
+                            - generic [ref=e723]:
+                              - generic [ref=e724]: 1 week, 2 adults
+                              - generic [ref=e725]:
+                                - generic [ref=e726]: € 1,886
+                                - generic [ref=e727]:
+                                  - text: € 1,698
+                                  - img [ref=e729]
+                                - generic [ref=e732]: Original price € 1,886 Current price € 1,698
+                              - generic [ref=e733]: Includes taxes and fees
+                            - generic "Genius rewards" [ref=e737]:
+                              - img [ref=e738]
+                        - row "Reserve your selections You won't be charged yet" [ref=e748]:
+                          - cell "Reserve your selections You won't be charged yet" [ref=e749]:
+                            - link "Reserve your selections" [ref=e750] [cursor=pointer]:
+                              - /url: https://secure.booking.com/book.html?aid=304142&amp;label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&amp;sid=61912eeb05fe7e44d4f8c11049b02a8b&amp;aid=304142&amp;checkin=2026-02-15&amp;hostname=https%3A%2F%2Fsecure.booking.com&amp;hotel_id=10928631&amp;interval=7&amp;is_alt_group_recommendation=0&amp;is_group_recommendation=1&amp;lang=en-us&amp;room1=A&amp;room2=A&amp;selected_currency=EUR&amp;stage=1&amp;;nr_rooms_1092863101_410102573_1_85_0=2;grp_srls_1092863101_410102573_1_85_0=A,A&amp;bedPreference_1092863101=-1
+                              - generic [ref=e751]: Reserve your selections
+                            - generic [ref=e752]: You won't be charged yet
+          - generic [ref=e754]:
+            - generic [ref=e755]:
+              - generic [ref=e758]:
+                - generic [ref=e759]:
+                  - heading "Get the celebrity treatment with world-class service at Pickalbatros Golf Luxury Suites - All Inclusive" [level=3] [ref=e760]
+                  - paragraph [ref=e761]: Located in Sharm El Sheikh, 3.6 mi from SOHO Square Sharm El Sheikh, Pickalbatros Golf Luxury Suites - All Inclusive provides accommodations with an outdoor swimming pool, free private parking, a fitness center and a garden. Providing a restaurant, the property also has a bar, as well as a sauna and a hammam. The property features a spa center, evening entertainment and room service. The hotel will provide guests with air-conditioned rooms with a wardrobe, a coffee machine, a mini-bar, a safety deposit box, a TV, a terrace and a private bathroom with a shower. Rooms are equipped with a kettle, while some rooms are equipped with a kitchen with an oven, a microwave and a toaster. At Pickalbatros Golf Luxury Suites - All Inclusive each room is equipped with bed linen and towels. Breakfast is available daily, and includes buffet, continental and Full English/Irish options. Speaking Arabic, English, Russian and Turkish at the 24-hour front desk, staff are always on hand to help. Tonino Lamborghini International Convention Center Sharm El Sheikh is 1148 feet from the accommodations, while Ras Mohammed National Park is 28 mi away. The nearest airport is Sharm el-Sheikh International Airport, 5 mi from Pickalbatros Golf Luxury Suites - All Inclusive.
+                  - paragraph [ref=e762]: Groups in particular like the location – they rated it 9.7 for stays with multiple people.
+                  - paragraph [ref=e763]: Distance in property description is calculated using © OpenStreetMap
+                - button "Show me more" [ref=e764] [cursor=pointer]:
+                  - generic [ref=e765]: Show me more
+              - generic [ref=e769]:
+                - heading "Most popular facilities" [level=3] [ref=e770]:
+                  - generic [ref=e771]: Most popular facilities
+                - list [ref=e772]:
+                  - listitem [ref=e773]:
+                    - generic [ref=e774]:
+                      - img [ref=e776]
+                      - generic [ref=e781]: 3 swimming pools
+                  - listitem [ref=e782]:
+                    - generic [ref=e783]:
+                      - img [ref=e785]
+                      - generic [ref=e790]: Spa
+                  - listitem [ref=e791]:
+                    - generic [ref=e792]:
+                      - img [ref=e794]
+                      - generic [ref=e799]: Fitness center
+                  - listitem [ref=e800]:
+                    - generic [ref=e801]:
+                      - img [ref=e803]
+                      - generic [ref=e808]: Non-smoking rooms
+                  - listitem [ref=e809]:
+                    - generic [ref=e810]:
+                      - img [ref=e812]
+                      - generic [ref=e817]: 5 restaurants
+                  - listitem [ref=e818]:
+                    - generic [ref=e819]:
+                      - img [ref=e821]
+                      - generic [ref=e826]: Room service
+                  - listitem [ref=e827]:
+                    - generic [ref=e828]:
+                      - img [ref=e830]
+                      - generic [ref=e835]: Tea/Coffee Maker in All Rooms
+                  - listitem [ref=e836]:
+                    - generic [ref=e837]:
+                      - img [ref=e839]
+                      - generic [ref=e844]: Bar
+                  - listitem [ref=e845]:
+                    - generic [ref=e846]:
+                      - img [ref=e848]
+                      - generic [ref=e853]: Private beach area
+                  - listitem [ref=e854]:
+                    - generic [ref=e855]:
+                      - img [ref=e857]
+                      - button "Exceptional Breakfast" [ref=e862] [cursor=pointer]:
+                        - generic [ref=e864]: Exceptional Breakfast
+            - generic [ref=e866]:
+              - generic [ref=e870]:
+                - generic [ref=e872]:
+                  - generic [ref=e873]: Pickalbatros
+                  - generic [ref=e874]: Hotel chain/brand
+                - img "Pickalbatros" [ref=e877]
+              - generic [ref=e880]:
+                - generic [ref=e882]:
+                  - generic [ref=e883]: Your Genius Level 2 rewards
+                  - generic [ref=e884]: "Available on select options:"
+                - list [ref=e886]:
+                  - listitem [ref=e887]:
+                    - img [ref=e888]
+                    - generic [ref=e891]:
+                      - generic [ref=e892]: 10% discount
+                      - generic [ref=e893]: Applied to the price before taxes and fees
+                - separator [ref=e895]
+                - generic [ref=e897]:
+                  - generic [ref=e898]: Booking.com's loyalty program
+                  - img [ref=e899]
+          - separator [ref=e908]
+          - generic [ref=e918]:
+            - generic [ref=e920]:
+              - heading "Book a stay and get a free private taxi from the airport" [level=3] [ref=e921]
+              - generic [ref=e923]:
+                - text: Spend over ‎€ 58‏ at this property and enjoy a free transfer provided by Booking.com.
+                - button "Learn more" [ref=e925] [cursor=pointer]
+            - img "Book a stay and get a free private taxi from the airport" [ref=e929]
+          - generic [ref=e931]:
+            - generic [ref=e932]:
+              - heading "Availability" [level=2] [ref=e933]
+              - button "We Price Match" [ref=e937] [cursor=pointer]:
+                - img [ref=e940]
+                - generic [ref=e942]: We Price Match
+            - generic [ref=e945]:
+              - generic [ref=e946]: Prices converted to EUR
+              - button [ref=e948] [cursor=pointer]:
+                - img [ref=e951]
+            - region "Search properties" [ref=e955]:
+              - generic [ref=e956]:
+                - generic [ref=e958]:
+                  - img [ref=e960] [cursor=pointer]
+                  - button "Sun, Feb 15" [ref=e962] [cursor=pointer]:
+                    - generic [ref=e963]: Sun, Feb 15
+                  - generic [ref=e964] [cursor=pointer]: —
+                  - button "Sun, Feb 22" [ref=e965] [cursor=pointer]:
+                    - generic [ref=e966]: Sun, Feb 22
+                - 'button "Number of travelers and rooms. Currently selected: 2 adults · 0 children · 2 rooms" [ref=e969] [cursor=pointer]':
+                  - generic [ref=e970]:
+                    - img [ref=e972]
+                    - text: 2 adults · 0 children · 2 rooms
+                  - img [ref=e975]
+                - button "Change search" [ref=e978] [cursor=pointer]:
+                  - generic [ref=e979]: Change search
+              - group
+            - generic [ref=e984]:
+              - group "Filter by:" [ref=e985]:
+                - generic [ref=e986]: "Filter by:"
+                - generic [ref=e989]:
+                  - generic [ref=e991]:
+                    - checkbox "Rooms"
+                    - generic [ref=e992] [cursor=pointer]: Rooms
+                  - generic [ref=e994]:
+                    - checkbox "Suites"
+                    - generic [ref=e995] [cursor=pointer]: Suites
+                  - generic [ref=e997]:
+                    - checkbox "Villas"
+                    - generic [ref=e998] [cursor=pointer]: Villas
+              - generic [ref=e1000]:
+                - table "Select an accommodation type and how many you want to reserve." [ref=e1002]:
+                  - caption [ref=e1003]: Select an accommodation type and how many you want to reserve.
+                  - rowgroup [ref=e1004]:
+                    - row "Accommodation Type Number of guests Price for 1 week Your choices Select amount" [ref=e1005]:
+                      - columnheader "Accommodation Type" [ref=e1006]
+                      - columnheader "Number of guests" [ref=e1007]
+                      - columnheader "Price for 1 week" [ref=e1008]: Price for 1 week
+                      - columnheader "Your choices" [ref=e1011]
+                      - columnheader "Select amount" [ref=e1012]
+                  - rowgroup [ref=e1013]:
+                    - 'row "Deluxe Room 1 king bed The spacious triple room provides air conditioning, soundproof walls, a terrace with garden views as well as a private bathroom featuring a bath. The unit offers 1 bed. 1 room 60 m² Garden view Air conditioning Attached bathroom Soundproof Terrace Coffee machine Minibar Free Wifi Included facilities Max. people: 2 Includes taxes and fees 10% off. You’re getting a reduced rate because this property is offering a discount.. Genius rewards All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1014]':
+                      - rowheader "Deluxe Room 1 king bed The spacious triple room provides air conditioning, soundproof walls, a terrace with garden views as well as a private bathroom featuring a bath. The unit offers 1 bed. 1 room 60 m² Garden view Air conditioning Attached bathroom Soundproof Terrace Coffee machine Minibar Free Wifi Included facilities" [ref=e1015]:
+                        - generic [ref=e1016]:
+                          - link "Deluxe Room" [ref=e1018] [cursor=pointer]:
+                            - /url: "#RD1092863101"
+                          - list [ref=e1021]:
+                            - listitem [ref=e1022]:
+                              - generic [ref=e1023]:
+                                - text: 1 king bed
+                                - generic [ref=e1024]: 녌
+                          - paragraph [ref=e1025]: The spacious triple room provides air conditioning, soundproof walls, a terrace with garden views as well as a private bathroom featuring a bath. The unit offers 1 bed.
+                          - generic [ref=e1027]:
+                            - list [ref=e1028]:
+                              - listitem [ref=e1029]:
+                                - generic [ref=e1030]:
+                                  - img [ref=e1031]
+                                  - text: 1 room
+                              - listitem [ref=e1033]:
+                                - generic [ref=e1034]:
+                                  - img [ref=e1035]
+                                  - text: 60 m²
+                              - listitem [ref=e1037]:
+                                - generic [ref=e1038]:
+                                  - img [ref=e1039]
+                                  - text: Garden view
+                              - listitem [ref=e1041]:
+                                - generic [ref=e1042]:
+                                  - img [ref=e1043]
+                                  - text: Air conditioning
+                              - listitem [ref=e1045]:
+                                - generic [ref=e1046]:
+                                  - img [ref=e1047]
+                                  - text: Attached bathroom
+                              - listitem [ref=e1049]:
+                                - generic [ref=e1050]:
+                                  - img [ref=e1051]
+                                  - text: Soundproof
+                              - listitem [ref=e1053]:
+                                - generic [ref=e1054]:
+                                  - img [ref=e1055]
+                                  - text: Terrace
+                              - listitem [ref=e1057]:
+                                - generic [ref=e1058]:
+                                  - img [ref=e1059]
+                                  - text: Coffee machine
+                              - listitem [ref=e1061]:
+                                - generic [ref=e1062]:
+                                  - img [ref=e1063]
+                                  - text: Minibar
+                              - listitem [ref=e1065]:
+                                - generic [ref=e1066]:
+                                  - img [ref=e1067]
+                                  - text: Free Wifi
+                            - separator [ref=e1069]
+                            - list "Included facilities" [ref=e1070]:
+                              - listitem [ref=e1071]:
+                                - generic [ref=e1073]:
+                                  - img [ref=e1074]
+                                  - text: Free toiletries
+                              - listitem [ref=e1076]:
+                                - generic [ref=e1078]:
+                                  - img [ref=e1079]
+                                  - text: Bathrobe
+                              - listitem [ref=e1081]:
+                                - generic [ref=e1083]:
+                                  - img [ref=e1084]
+                                  - text: Safe
+                              - listitem [ref=e1086]:
+                                - generic [ref=e1088]:
+                                  - img [ref=e1089]
+                                  - text: Toilet
+                              - listitem [ref=e1091]:
+                                - generic [ref=e1093]:
+                                  - img [ref=e1094]
+                                  - text: Bathtub or shower
+                              - listitem [ref=e1096]:
+                                - generic [ref=e1098]:
+                                  - img [ref=e1099]
+                                  - text: Towels
+                              - listitem [ref=e1101]:
+                                - generic [ref=e1103]:
+                                  - img [ref=e1104]
+                                  - text: Linens
+                              - listitem [ref=e1106]:
+                                - generic [ref=e1108]:
+                                  - img [ref=e1109]
+                                  - text: Socket near the bed
+                              - listitem [ref=e1111]:
+                                - generic [ref=e1113]:
+                                  - img [ref=e1114]
+                                  - text: Desk
+                              - listitem [ref=e1116]:
+                                - generic [ref=e1118]:
+                                  - img [ref=e1119]
+                                  - text: Sitting area
+                              - listitem [ref=e1121]:
+                                - generic [ref=e1123]:
+                                  - img [ref=e1124]
+                                  - text: TV
+                              - listitem [ref=e1126]:
+                                - generic [ref=e1128]:
+                                  - img [ref=e1129]
+                                  - text: Slippers
+                              - listitem [ref=e1131]:
+                                - generic [ref=e1133]:
+                                  - img [ref=e1134]
+                                  - text: Refrigerator
+                              - listitem [ref=e1136]:
+                                - generic [ref=e1138]:
+                                  - img [ref=e1139]
+                                  - text: Telephone
+                              - listitem [ref=e1141]:
+                                - generic [ref=e1143]:
+                                  - img [ref=e1144]
+                                  - text: Tea/Coffee maker
+                              - listitem [ref=e1146]:
+                                - generic [ref=e1148]:
+                                  - img [ref=e1149]
+                                  - text: Heating
+                              - listitem [ref=e1151]:
+                                - generic [ref=e1153]:
+                                  - img [ref=e1154]
+                                  - text: Hairdryer
+                              - listitem [ref=e1156]:
+                                - generic [ref=e1158]:
+                                  - img [ref=e1159]
+                                  - text: Electric kettle
+                              - listitem [ref=e1161]:
+                                - generic [ref=e1163]:
+                                  - img [ref=e1164]
+                                  - text: Outdoor furniture
+                              - listitem [ref=e1166]:
+                                - generic [ref=e1168]:
+                                  - img [ref=e1169]
+                                  - text: Wake-up service
+                              - listitem [ref=e1171]:
+                                - generic [ref=e1173]:
+                                  - img [ref=e1174]
+                                  - text: Wardrobe or closet
+                              - listitem [ref=e1176]:
+                                - generic [ref=e1178]:
+                                  - img [ref=e1179]
+                                  - text: Clothes rack
+                              - listitem [ref=e1181]:
+                                - generic [ref=e1183]:
+                                  - img [ref=e1184]
+                                  - text: Toilet paper
+                              - listitem [ref=e1186]:
+                                - generic [ref=e1188]:
+                                  - img [ref=e1189]
+                                  - text: Hand sanitizer
+                              - listitem [ref=e1191]:
+                                - generic [ref=e1193]:
+                                  - img [ref=e1194]
+                                  - text: Single-room AC for guest accommodation
+                              - listitem [ref=e1196]:
+                                - generic [ref=e1198]:
+                                  - img [ref=e1199]
+                                  - text: Hearing accessible
+                      - 'cell "Max. people: 2" [ref=e1201]':
+                        - generic [ref=e1203]:
+                          - generic [ref=e1204]:
+                            - generic [ref=e1205]: "1"
+                            - generic [ref=e1206]: "1"
+                          - generic [ref=e1207]: "Max. people: 2"
+                      - cell "Includes taxes and fees 10% off. You’re getting a reduced rate because this property is offering a discount.. Genius rewards" [ref=e1208]:
+                        - generic [ref=e1209]:
+                          - generic [ref=e1210]:
+                            - generic [ref=e1211]:
+                              - generic [ref=e1213]: € 1,048
+                              - generic [ref=e1214]:
+                                - generic [ref=e1215]:
+                                  - text: € 943
+                                  - img [ref=e1217]
+                                - generic [ref=e1220]: Original price € 1,048 Current price € 943
+                            - generic [ref=e1221]: Includes taxes and fees
+                          - generic [ref=e1223]:
+                            - generic "10% off. You’re getting a reduced rate because this property is offering a discount.." [ref=e1225]:
+                              - generic [ref=e1227]: 10% off
+                            - generic "Genius rewards" [ref=e1229]:
+                              - img [ref=e1230]
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1240]:
+                        - generic [ref=e1241]:
+                          - list [ref=e1242]:
+                            - listitem [ref=e1243]:
+                              - img [ref=e1244]
+                              - generic [ref=e1247]: All-Inclusive
+                            - listitem [ref=e1248]:
+                              - generic [ref=e1249]:
+                                - img [ref=e1251]
+                                - generic [ref=e1256]:
+                                  - strong [ref=e1257]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e1258]:
+                              - generic [ref=e1259]:
+                                - img [ref=e1261]
+                                - generic [ref=e1266]:
+                                  - strong [ref=e1267]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e1268]:
+                              - img [ref=e1269]
+                              - generic [ref=e1272]: 10% Genius discount applied to the price before taxes and charges
+                            - listitem [ref=e1273]:
+                              - img [ref=e1274]
+                              - generic [ref=e1277]:
+                                - generic [ref=e1278]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e1279] [cursor=pointer]:
+                                  - img [ref=e1280]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e1283] [cursor=pointer]:
+                            - img [ref=e1285]
+                      - cell "Select Rooms 0" [ref=e1287]:
+                        - generic [ref=e1288]:
+                          - generic [ref=e1289]: Select Rooms
+                          - combobox "Select Rooms" [ref=e1290]:
+                            - option "0" [selected]
+                            - option "1 (€ 943)"
+                            - option "2 (€ 1,886)"
+                            - option "3 (€ 2,829)"
+                            - option "4 (€ 3,772)"
+                            - option "5 (€ 4,716)"
+                            - option "6 (€ 5,659)"
+                            - option "7 (€ 6,602)"
+                            - option "8 (€ 7,545)"
+                            - option "9 (€ 8,488)"
+                            - option "10 (€ 9,431)"
+                    - 'row "Max. people: 1 Only for 1 guest Includes taxes and fees 10% off. You’re getting a reduced rate because this property is offering a discount.. Genius rewards All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1291]':
+                      - 'cell "Max. people: 1 Only for 1 guest" [ref=e1292]':
+                        - generic [ref=e1294]:
+                          - generic [ref=e1296]: "1"
+                          - generic [ref=e1297]: "Max. people: 1"
+                        - generic [ref=e1300]: Only for 1 guest
+                      - cell "Includes taxes and fees 10% off. You’re getting a reduced rate because this property is offering a discount.. Genius rewards" [ref=e1301]:
+                        - generic [ref=e1302]:
+                          - generic [ref=e1303]:
+                            - generic [ref=e1304]:
+                              - generic [ref=e1306]: € 943
+                              - generic [ref=e1307]:
+                                - generic [ref=e1308]:
+                                  - text: € 849
+                                  - img [ref=e1310]
+                                - generic [ref=e1313]: Original price € 943 Current price € 849
+                            - generic [ref=e1314]: Includes taxes and fees
+                          - generic [ref=e1316]:
+                            - generic "10% off. You’re getting a reduced rate because this property is offering a discount.." [ref=e1318]:
+                              - generic [ref=e1320]: 10% off
+                            - generic "Genius rewards" [ref=e1322]:
+                              - img [ref=e1323]
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1333]:
+                        - generic [ref=e1334]:
+                          - list [ref=e1335]:
+                            - listitem [ref=e1336]:
+                              - img [ref=e1337]
+                              - generic [ref=e1340]: All-Inclusive
+                            - listitem [ref=e1341]:
+                              - generic [ref=e1342]:
+                                - img [ref=e1344]
+                                - generic [ref=e1349]:
+                                  - strong [ref=e1350]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e1351]:
+                              - generic [ref=e1352]:
+                                - img [ref=e1354]
+                                - generic [ref=e1359]:
+                                  - strong [ref=e1360]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e1361]:
+                              - img [ref=e1362]
+                              - generic [ref=e1365]: 10% Genius discount applied to the price before taxes and charges
+                            - listitem [ref=e1366]:
+                              - img [ref=e1367]
+                              - generic [ref=e1370]:
+                                - generic [ref=e1371]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e1372] [cursor=pointer]:
+                                  - img [ref=e1373]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e1376] [cursor=pointer]:
+                            - img [ref=e1378]
+                      - cell "Select Rooms 0" [ref=e1380]:
+                        - generic [ref=e1381]:
+                          - generic [ref=e1382]: Select Rooms
+                          - combobox "Select Rooms" [ref=e1383]:
+                            - option "0" [selected]
+                            - option "1 (€ 849)"
+                            - option "2 (€ 1,698)"
+                            - option "3 (€ 2,546)"
+                            - option "4 (€ 3,395)"
+                            - option "5 (€ 4,244)"
+                            - option "6 (€ 5,093)"
+                            - option "7 (€ 5,942)"
+                            - option "8 (€ 6,791)"
+                            - option "9 (€ 7,639)"
+                            - option "10 (€ 8,488)"
+                    - 'row "Executive Suite 1 king bed and 1 sofa bed Boasting 1 bedroom, this spacious suite has 1 bathroom with a bath, a seating area and terrace where you can relax. The air-conditioned suite features a TV, soundproof walls, a mini-bar, a tea and coffee maker as well as garden views. The unit offers 2 beds. Private suite 90 m² Garden view Air conditioning Attached bathroom Soundproof Terrace Coffee machine Minibar Free Wifi Show more amenities Max. people: 2 Includes taxes and fees 10% off. You’re getting a reduced rate because this property is offering a discount.. Genius rewards All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1384]':
+                      - rowheader "Executive Suite 1 king bed and 1 sofa bed Boasting 1 bedroom, this spacious suite has 1 bathroom with a bath, a seating area and terrace where you can relax. The air-conditioned suite features a TV, soundproof walls, a mini-bar, a tea and coffee maker as well as garden views. The unit offers 2 beds. Private suite 90 m² Garden view Air conditioning Attached bathroom Soundproof Terrace Coffee machine Minibar Free Wifi Show more amenities" [ref=e1385]:
+                        - generic [ref=e1386]:
+                          - link "Executive Suite" [ref=e1388] [cursor=pointer]:
+                            - /url: "#RD1092863102"
+                          - list [ref=e1391]:
+                            - listitem [ref=e1392]:
+                              - generic [ref=e1393]:
+                                - text: 1 king bed
+                                - generic [ref=e1394]: 녌
+                              - text: and
+                              - generic [ref=e1395]:
+                                - text: 1 sofa bed
+                                - generic [ref=e1396]: 녑
+                          - paragraph [ref=e1397]: Boasting 1 bedroom, this spacious suite has 1 bathroom with a bath, a seating area and terrace where you can relax. The air-conditioned suite features a TV, soundproof walls, a mini-bar, a tea and coffee maker as well as garden views. The unit offers 2 beds.
+                          - generic [ref=e1399]:
+                            - list [ref=e1400]:
+                              - listitem [ref=e1401]:
+                                - generic [ref=e1402]:
+                                  - img [ref=e1403]
+                                  - text: Private suite
+                              - listitem [ref=e1405]:
+                                - generic [ref=e1406]:
+                                  - img [ref=e1407]
+                                  - text: 90 m²
+                              - listitem [ref=e1409]:
+                                - generic [ref=e1410]:
+                                  - img [ref=e1411]
+                                  - text: Garden view
+                              - listitem [ref=e1413]:
+                                - generic [ref=e1414]:
+                                  - img [ref=e1415]
+                                  - text: Air conditioning
+                              - listitem [ref=e1417]:
+                                - generic [ref=e1418]:
+                                  - img [ref=e1419]
+                                  - text: Attached bathroom
+                              - listitem [ref=e1421]:
+                                - generic [ref=e1422]:
+                                  - img [ref=e1423]
+                                  - text: Soundproof
+                              - listitem [ref=e1425]:
+                                - generic [ref=e1426]:
+                                  - img [ref=e1427]
+                                  - text: Terrace
+                              - listitem [ref=e1429]:
+                                - generic [ref=e1430]:
+                                  - img [ref=e1431]
+                                  - text: Coffee machine
+                              - listitem [ref=e1433]:
+                                - generic [ref=e1434]:
+                                  - img [ref=e1435]
+                                  - text: Minibar
+                              - listitem [ref=e1437]:
+                                - generic [ref=e1438]:
+                                  - img [ref=e1439]
+                                  - text: Free Wifi
+                            - button "Show more amenities" [ref=e1441] [cursor=pointer]: More
+                      - 'cell "Max. people: 2" [ref=e1442]':
+                        - generic [ref=e1444]:
+                          - generic [ref=e1445]:
+                            - generic [ref=e1446]: "1"
+                            - generic [ref=e1447]: "1"
+                          - generic [ref=e1448]: "Max. people: 2"
+                      - cell "Includes taxes and fees 10% off. You’re getting a reduced rate because this property is offering a discount.. Genius rewards" [ref=e1449]:
+                        - generic [ref=e1450]:
+                          - generic [ref=e1451]:
+                            - generic [ref=e1452]:
+                              - generic [ref=e1454]: € 1,314
+                              - generic [ref=e1455]:
+                                - generic [ref=e1456]:
+                                  - text: € 1,182
+                                  - img [ref=e1458]
+                                - generic [ref=e1461]: Original price € 1,314 Current price € 1,182
+                            - generic [ref=e1462]: Includes taxes and fees
+                          - generic [ref=e1464]:
+                            - generic "10% off. You’re getting a reduced rate because this property is offering a discount.." [ref=e1466]:
+                              - generic [ref=e1468]: 10% off
+                            - generic "Genius rewards" [ref=e1470]:
+                              - img [ref=e1471]
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1481]:
+                        - generic [ref=e1482]:
+                          - list [ref=e1483]:
+                            - listitem [ref=e1484]:
+                              - img [ref=e1485]
+                              - generic [ref=e1488]: All-Inclusive
+                            - listitem [ref=e1489]:
+                              - generic [ref=e1490]:
+                                - img [ref=e1492]
+                                - generic [ref=e1497]:
+                                  - strong [ref=e1498]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e1499]:
+                              - generic [ref=e1500]:
+                                - img [ref=e1502]
+                                - generic [ref=e1507]:
+                                  - strong [ref=e1508]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e1509]:
+                              - img [ref=e1510]
+                              - generic [ref=e1513]: 10% Genius discount applied to the price before taxes and charges
+                            - listitem [ref=e1514]:
+                              - img [ref=e1515]
+                              - generic [ref=e1518]:
+                                - generic [ref=e1519]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e1520] [cursor=pointer]:
+                                  - img [ref=e1521]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e1524] [cursor=pointer]:
+                            - img [ref=e1526]
+                      - cell "Select Rooms 0" [ref=e1528]:
+                        - generic [ref=e1529]:
+                          - generic [ref=e1530]: Select Rooms
+                          - combobox "Select Rooms" [ref=e1531]:
+                            - option "0" [selected]
+                            - option "1 (€ 1,182)"
+                            - option "2 (€ 2,365)"
+                            - option "3 (€ 3,547)"
+                            - option "4 (€ 4,730)"
+                            - option "5 (€ 5,912)"
+                            - option "6 (€ 7,095)"
+                            - option "7 (€ 8,277)"
+                            - option "8 (€ 9,460)"
+                            - option "9 (€ 10,642)"
+                            - option "10 (€ 11,825)"
+                    - 'row "Grand Suite 1 king bed Featuring 1 bedroom, this spacious suite offers 1 bathroom with a bath, a seating area and terrace where you can relax. The air-conditioned suite offers a TV, soundproof walls, a mini-bar, a tea and coffee maker as well as garden views. The unit has 1 bed. Private suite 140 m² Garden view Air conditioning Attached bathroom Soundproof Terrace Coffee machine Minibar Free Wifi Show more amenities Max. people: 2 Includes taxes and fees 10% off. You’re getting a reduced rate because this property is offering a discount.. Genius rewards All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property • We have 4 left More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1532]':
+                      - rowheader "Grand Suite 1 king bed Featuring 1 bedroom, this spacious suite offers 1 bathroom with a bath, a seating area and terrace where you can relax. The air-conditioned suite offers a TV, soundproof walls, a mini-bar, a tea and coffee maker as well as garden views. The unit has 1 bed. Private suite 140 m² Garden view Air conditioning Attached bathroom Soundproof Terrace Coffee machine Minibar Free Wifi Show more amenities" [ref=e1533]:
+                        - generic [ref=e1534]:
+                          - link "Grand Suite" [ref=e1536] [cursor=pointer]:
+                            - /url: "#RD1092863103"
+                          - list [ref=e1539]:
+                            - listitem [ref=e1540]:
+                              - generic [ref=e1541]:
+                                - text: 1 king bed
+                                - generic [ref=e1542]: 녌
+                          - paragraph [ref=e1543]: Featuring 1 bedroom, this spacious suite offers 1 bathroom with a bath, a seating area and terrace where you can relax. The air-conditioned suite offers a TV, soundproof walls, a mini-bar, a tea and coffee maker as well as garden views. The unit has 1 bed.
+                          - generic [ref=e1545]:
+                            - list [ref=e1546]:
+                              - listitem [ref=e1547]:
+                                - generic [ref=e1548]:
+                                  - img [ref=e1549]
+                                  - text: Private suite
+                              - listitem [ref=e1551]:
+                                - generic [ref=e1552]:
+                                  - img [ref=e1553]
+                                  - text: 140 m²
+                              - listitem [ref=e1555]:
+                                - generic [ref=e1556]:
+                                  - img [ref=e1557]
+                                  - text: Garden view
+                              - listitem [ref=e1559]:
+                                - generic [ref=e1560]:
+                                  - img [ref=e1561]
+                                  - text: Air conditioning
+                              - listitem [ref=e1563]:
+                                - generic [ref=e1564]:
+                                  - img [ref=e1565]
+                                  - text: Attached bathroom
+                              - listitem [ref=e1567]:
+                                - generic [ref=e1568]:
+                                  - img [ref=e1569]
+                                  - text: Soundproof
+                              - listitem [ref=e1571]:
+                                - generic [ref=e1572]:
+                                  - img [ref=e1573]
+                                  - text: Terrace
+                              - listitem [ref=e1575]:
+                                - generic [ref=e1576]:
+                                  - img [ref=e1577]
+                                  - text: Coffee machine
+                              - listitem [ref=e1579]:
+                                - generic [ref=e1580]:
+                                  - img [ref=e1581]
+                                  - text: Minibar
+                              - listitem [ref=e1583]:
+                                - generic [ref=e1584]:
+                                  - img [ref=e1585]
+                                  - text: Free Wifi
+                            - button "Show more amenities" [ref=e1587] [cursor=pointer]: More
+                      - 'cell "Max. people: 2" [ref=e1588]':
+                        - generic [ref=e1590]:
+                          - generic [ref=e1591]:
+                            - generic [ref=e1592]: "1"
+                            - generic [ref=e1593]: "1"
+                          - generic [ref=e1594]: "Max. people: 2"
+                      - cell "Includes taxes and fees 10% off. You’re getting a reduced rate because this property is offering a discount.. Genius rewards" [ref=e1595]:
+                        - generic [ref=e1596]:
+                          - generic [ref=e1597]:
+                            - generic [ref=e1598]:
+                              - generic [ref=e1600]: € 1,764
+                              - generic [ref=e1601]:
+                                - generic [ref=e1602]:
+                                  - text: € 1,587
+                                  - img [ref=e1604]
+                                - generic [ref=e1607]: Original price € 1,764 Current price € 1,587
+                            - generic [ref=e1608]: Includes taxes and fees
+                          - generic [ref=e1610]:
+                            - generic "10% off. You’re getting a reduced rate because this property is offering a discount.." [ref=e1612]:
+                              - generic [ref=e1614]: 10% off
+                            - generic "Genius rewards" [ref=e1616]:
+                              - img [ref=e1617]
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property • We have 4 left More details on meals, cancellation, and prepayment policies" [ref=e1627]:
+                        - generic [ref=e1628]:
+                          - list [ref=e1629]:
+                            - listitem [ref=e1630]:
+                              - img [ref=e1631]
+                              - generic [ref=e1634]: All-Inclusive
+                            - listitem [ref=e1635]:
+                              - generic [ref=e1636]:
+                                - img [ref=e1638]
+                                - generic [ref=e1643]:
+                                  - strong [ref=e1644]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e1645]:
+                              - generic [ref=e1646]:
+                                - img [ref=e1648]
+                                - generic [ref=e1653]:
+                                  - strong [ref=e1654]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e1655]:
+                              - img [ref=e1656]
+                              - generic [ref=e1659]: 10% Genius discount applied to the price before taxes and charges
+                            - listitem [ref=e1660]:
+                              - img [ref=e1661]
+                              - generic [ref=e1664]:
+                                - generic [ref=e1665]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e1666] [cursor=pointer]:
+                                  - img [ref=e1667]
+                            - listitem [ref=e1669]:
+                              - generic [ref=e1670]: •
+                              - generic [ref=e1672]: We have 4 left
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e1674] [cursor=pointer]:
+                            - img [ref=e1676]
+                      - cell "Select Rooms 0" [ref=e1678]:
+                        - generic [ref=e1679]:
+                          - generic [ref=e1680]: Select Rooms
+                          - combobox "Select Rooms" [ref=e1681]:
+                            - option "0" [selected]
+                            - option "1 (€ 1,587)"
+                            - option "2 (€ 3,175)"
+                            - option "3 (€ 4,762)"
+                            - option "4 (€ 6,350)"
+                    - row [ref=e1682]:
+                      - 'rowheader "Presidential Suite Bedroom 1: 1 king bed Living room: 1 sofa bed This spacious suite features 1 living room, 1 separate bedroom and 1 bathroom with a bath and free toiletries. The air-conditioned suite features a TV, soundproof walls, a mini-bar, a tea and coffee maker as well as garden views. The unit has 2 beds. Private suite 210 m² Garden view Air conditioning Attached bathroom Soundproof Terrace Coffee machine Minibar Free Wifi Show more amenities" [ref=e1683]':
+                        - generic [ref=e1684]:
+                          - link "Presidential Suite" [ref=e1686] [cursor=pointer]:
+                            - /url: "#RD1092863105"
+                          - list [ref=e1689]:
+                            - listitem [ref=e1690]:
+                              - strong [ref=e1691]: "Bedroom 1:"
+                              - generic [ref=e1692]:
+                                - text: 1 king bed
+                                - generic [ref=e1693]: 녌
+                            - listitem [ref=e1694]:
+                              - strong [ref=e1695]: "Living room:"
+                              - generic [ref=e1696]:
+                                - text: 1 sofa bed
+                                - generic [ref=e1697]: 녑
+                          - paragraph [ref=e1698]: This spacious suite features 1 living room, 1 separate bedroom and 1 bathroom with a bath and free toiletries. The air-conditioned suite features a TV, soundproof walls, a mini-bar, a tea and coffee maker as well as garden views. The unit has 2 beds.
+                          - generic [ref=e1700]:
+                            - list [ref=e1701]:
+                              - listitem [ref=e1702]:
+                                - generic [ref=e1703]:
+                                  - img [ref=e1704]
+                                  - text: Private suite
+                              - listitem [ref=e1706]:
+                                - generic [ref=e1707]:
+                                  - img [ref=e1708]
+                                  - text: 210 m²
+                              - listitem [ref=e1710]:
+                                - generic [ref=e1711]:
+                                  - img [ref=e1712]
+                                  - text: Garden view
+                              - listitem [ref=e1714]:
+                                - generic [ref=e1715]:
+                                  - img [ref=e1716]
+                                  - text: Air conditioning
+                              - listitem [ref=e1718]:
+                                - generic [ref=e1719]:
+                                  - img [ref=e1720]
+                                  - text: Attached bathroom
+                              - listitem [ref=e1722]:
+                                - generic [ref=e1723]:
+                                  - img [ref=e1724]
+                                  - text: Soundproof
+                              - listitem [ref=e1726]:
+                                - generic [ref=e1727]:
+                                  - img [ref=e1728]
+                                  - text: Terrace
+                              - listitem [ref=e1730]:
+                                - generic [ref=e1731]:
+                                  - img [ref=e1732]
+                                  - text: Coffee machine
+                              - listitem [ref=e1734]:
+                                - generic [ref=e1735]:
+                                  - img [ref=e1736]
+                                  - text: Minibar
+                              - listitem [ref=e1738]:
+                                - generic [ref=e1739]:
+                                  - img [ref=e1740]
+                                  - text: Free Wifi
+                            - button "Show more amenities" [ref=e1742] [cursor=pointer]: More
+                      - 'cell "Max. people: 2" [ref=e1743]':
+                        - generic [ref=e1745]:
+                          - generic [ref=e1746]:
+                            - generic [ref=e1747]: "1"
+                            - generic [ref=e1748]: "1"
+                          - generic [ref=e1749]: "Max. people: 2"
+                      - cell "Includes taxes and fees 10% off. You’re getting a reduced rate because this property is offering a discount.. Genius rewards" [ref=e1750]:
+                        - generic [ref=e1751]:
+                          - generic [ref=e1752]:
+                            - generic [ref=e1753]:
+                              - generic [ref=e1755]: € 2,083
+                              - generic [ref=e1756]:
+                                - generic [ref=e1757]:
+                                  - text: € 1,875
+                                  - img [ref=e1759]
+                                - generic [ref=e1762]: Original price € 2,083 Current price € 1,875
+                            - generic [ref=e1763]: Includes taxes and fees
+                          - generic [ref=e1765]:
+                            - generic "10% off. You’re getting a reduced rate because this property is offering a discount.." [ref=e1767]:
+                              - generic [ref=e1769]: 10% off
+                            - generic "Genius rewards" [ref=e1771]:
+                              - img [ref=e1772]
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property • We have 4 left More details on meals, cancellation, and prepayment policies" [ref=e1782]:
+                        - generic [ref=e1783]:
+                          - list [ref=e1784]:
+                            - listitem [ref=e1785]:
+                              - img [ref=e1786]
+                              - generic [ref=e1789]: All-Inclusive
+                            - listitem [ref=e1790]:
+                              - generic [ref=e1791]:
+                                - img [ref=e1793]
+                                - generic [ref=e1798]:
+                                  - strong [ref=e1799]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e1800]:
+                              - generic [ref=e1801]:
+                                - img [ref=e1803]
+                                - generic [ref=e1808]:
+                                  - strong [ref=e1809]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e1810]:
+                              - img [ref=e1811]
+                              - generic [ref=e1814]: 10% Genius discount applied to the price before taxes and charges
+                            - listitem [ref=e1815]:
+                              - img [ref=e1816]
+                              - generic [ref=e1819]:
+                                - generic [ref=e1820]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e1821] [cursor=pointer]:
+                                  - img [ref=e1822]
+                            - listitem [ref=e1824]:
+                              - generic [ref=e1825]: •
+                              - generic [ref=e1827]: We have 4 left
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e1829] [cursor=pointer]:
+                            - img [ref=e1831]
+                      - cell "Select Rooms 0" [ref=e1833]:
+                        - generic [ref=e1834]:
+                          - generic [ref=e1835]: Select Rooms
+                          - combobox "Select Rooms" [ref=e1836]:
+                            - option "0" [selected]
+                            - option "1 (€ 1,875)"
+                            - option "2 (€ 3,749)"
+                            - option "3 (€ 5,624)"
+                            - option "4 (€ 7,499)"
+                    - 'row "Deluxe Triple Room Select your bed (if available) 1 queen bed 2 twin beds The spacious triple room offers air conditioning, soundproof walls, a terrace with garden views as well as a private bathroom boasting a bath. 1 room 60 m² Garden view Air conditioning Attached bathroom Soundproof Terrace Coffee machine Minibar Free Wifi Show more amenities Max. people: 3 Price € 1,540 Includes taxes and fees All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1837]':
+                      - rowheader "Deluxe Triple Room Select your bed (if available) 1 queen bed 2 twin beds The spacious triple room offers air conditioning, soundproof walls, a terrace with garden views as well as a private bathroom boasting a bath. 1 room 60 m² Garden view Air conditioning Attached bathroom Soundproof Terrace Coffee machine Minibar Free Wifi Show more amenities" [ref=e1838]:
+                        - generic [ref=e1839]:
+                          - link "Deluxe Triple Room" [ref=e1841] [cursor=pointer]:
+                            - /url: "#RD1092863109"
+                          - generic [ref=e1843]:
+                            - generic [ref=e1844]: Select your bed (if available)
+                            - generic [ref=e1845]:
+                              - radio "1 queen bed" [ref=e1847]
+                              - list [ref=e1848]:
+                                - listitem [ref=e1849] [cursor=pointer]:
+                                  - generic [ref=e1850]:
+                                    - text: 1 queen bed
+                                    - generic [ref=e1851]: 녌
+                            - generic [ref=e1852]:
+                              - radio "2 twin beds" [ref=e1854]
+                              - list [ref=e1855]:
+                                - listitem [ref=e1856] [cursor=pointer]:
+                                  - generic [ref=e1857]:
+                                    - text: 2 twin beds
+                                    - generic [ref=e1858]: 녍
+                          - paragraph [ref=e1859]: The spacious triple room offers air conditioning, soundproof walls, a terrace with garden views as well as a private bathroom boasting a bath.
+                          - generic [ref=e1861]:
+                            - list [ref=e1862]:
+                              - listitem [ref=e1863]:
+                                - generic [ref=e1864]:
+                                  - img [ref=e1865]
+                                  - text: 1 room
+                              - listitem [ref=e1867]:
+                                - generic [ref=e1868]:
+                                  - img [ref=e1869]
+                                  - text: 60 m²
+                              - listitem [ref=e1871]:
+                                - generic [ref=e1872]:
+                                  - img [ref=e1873]
+                                  - text: Garden view
+                              - listitem [ref=e1875]:
+                                - generic [ref=e1876]:
+                                  - img [ref=e1877]
+                                  - text: Air conditioning
+                              - listitem [ref=e1879]:
+                                - generic [ref=e1880]:
+                                  - img [ref=e1881]
+                                  - text: Attached bathroom
+                              - listitem [ref=e1883]:
+                                - generic [ref=e1884]:
+                                  - img [ref=e1885]
+                                  - text: Soundproof
+                              - listitem [ref=e1887]:
+                                - generic [ref=e1888]:
+                                  - img [ref=e1889]
+                                  - text: Terrace
+                              - listitem [ref=e1891]:
+                                - generic [ref=e1892]:
+                                  - img [ref=e1893]
+                                  - text: Coffee machine
+                              - listitem [ref=e1895]:
+                                - generic [ref=e1896]:
+                                  - img [ref=e1897]
+                                  - text: Minibar
+                              - listitem [ref=e1899]:
+                                - generic [ref=e1900]:
+                                  - img [ref=e1901]
+                                  - text: Free Wifi
+                            - button "Show more amenities" [ref=e1903] [cursor=pointer]: More
+                      - 'cell "Max. people: 3" [ref=e1904]':
+                        - generic [ref=e1906]:
+                          - generic [ref=e1907]:
+                            - generic [ref=e1908]: "1"
+                            - generic [ref=e1909]: "1"
+                            - generic [ref=e1910]: "1"
+                          - generic [ref=e1911]: "Max. people: 3"
+                      - cell "Price € 1,540 Includes taxes and fees" [ref=e1912]:
+                        - generic [ref=e1914]:
+                          - generic [ref=e1916]:
+                            - generic [ref=e1917]: € 1,540
+                            - generic [ref=e1918]: Price € 1,540
+                          - generic [ref=e1919]: Includes taxes and fees
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1920]:
+                        - generic [ref=e1921]:
+                          - list [ref=e1922]:
+                            - listitem [ref=e1923]:
+                              - img [ref=e1924]
+                              - generic [ref=e1927]: All-Inclusive
+                            - listitem [ref=e1928]:
+                              - generic [ref=e1929]:
+                                - img [ref=e1931]
+                                - generic [ref=e1936]:
+                                  - strong [ref=e1937]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e1938]:
+                              - generic [ref=e1939]:
+                                - img [ref=e1941]
+                                - generic [ref=e1946]:
+                                  - strong [ref=e1947]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e1948]:
+                              - img [ref=e1949]
+                              - generic [ref=e1952]:
+                                - generic [ref=e1953]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e1954] [cursor=pointer]:
+                                  - img [ref=e1955]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e1958] [cursor=pointer]:
+                            - img [ref=e1960]
+                      - cell "Select Rooms 0" [ref=e1962]:
+                        - generic [ref=e1963]:
+                          - generic [ref=e1964]: Select Rooms
+                          - combobox "Select Rooms" [ref=e1965]:
+                            - option "0" [selected]
+                            - option "1 (€ 1,540)"
+                            - option "2 (€ 3,080)"
+                            - option "3 (€ 4,620)"
+                            - option "4 (€ 6,159)"
+                            - option "5 (€ 7,699)"
+                            - option "6 (€ 9,239)"
+                            - option "7 (€ 10,779)"
+                            - option "8 (€ 12,319)"
+                            - option "9 (€ 13,859)"
+                            - option "10 (€ 15,399)"
+                    - row [ref=e1966]:
+                      - 'rowheader "Presidential Villa- 4 Bedrooms with Private Pool Bedroom 1: 1 king bed Bedroom 2: 1 king bed Bedroom 3: 1 king bed Bedroom 4: 1 king bed Guests will have a special experience as this villa provides a private pool. This spacious villa is consisted of of 1 living room, 4 separate bedrooms and 4 bathrooms with a bath and free toiletries. In the well-equipped kitchen, guests will find a refrigerator, an oven, a microwave and a toaster. The air-conditioned villa offers a TV, soundproof walls, a mini-bar, a tea and coffee maker as well as lake views. The unit offers 4 beds. Entire villa 1200 m² Private kitchen Attached bathroom Private pool Balcony Lake view Garden view Pool view Mountain view Air conditioning Soundproof Terrace Coffee machine Minibar Free Wifi Show more amenities" [ref=e1967]':
+                        - generic [ref=e1968]:
+                          - link "Presidential Villa- 4 Bedrooms with Private Pool" [ref=e1970] [cursor=pointer]:
+                            - /url: "#RD1092863108"
+                          - list [ref=e1973]:
+                            - listitem [ref=e1974]:
+                              - strong [ref=e1975]: "Bedroom 1:"
+                              - generic [ref=e1976]:
+                                - text: 1 king bed
+                                - generic [ref=e1977]: 녌
+                            - listitem [ref=e1978]:
+                              - strong [ref=e1979]: "Bedroom 2:"
+                              - generic [ref=e1980]:
+                                - text: 1 king bed
+                                - generic [ref=e1981]: 녌
+                            - listitem [ref=e1982]:
+                              - strong [ref=e1983]: "Bedroom 3:"
+                              - generic [ref=e1984]:
+                                - text: 1 king bed
+                                - generic [ref=e1985]: 녌
+                            - listitem [ref=e1986]:
+                              - strong [ref=e1987]: "Bedroom 4:"
+                              - generic [ref=e1988]:
+                                - text: 1 king bed
+                                - generic [ref=e1989]: 녌
+                          - paragraph [ref=e1990]: Guests will have a special experience as this villa provides a private pool. This spacious villa is consisted of of 1 living room, 4 separate bedrooms and 4 bathrooms with a bath and free toiletries. In the well-equipped kitchen, guests will find a refrigerator, an oven, a microwave and a toaster. The air-conditioned villa offers a TV, soundproof walls, a mini-bar, a tea and coffee maker as well as lake views. The unit offers 4 beds.
+                          - generic [ref=e1992]:
+                            - list [ref=e1993]:
+                              - listitem [ref=e1994]:
+                                - generic [ref=e1995]:
+                                  - img [ref=e1996]
+                                  - text: Entire villa
+                              - listitem [ref=e1998]:
+                                - generic [ref=e1999]:
+                                  - img [ref=e2000]
+                                  - text: 1200 m²
+                              - listitem [ref=e2002]:
+                                - generic [ref=e2003]:
+                                  - img [ref=e2004]
+                                  - text: Private kitchen
+                              - listitem [ref=e2006]:
+                                - generic [ref=e2007]:
+                                  - img [ref=e2008]
+                                  - text: Attached bathroom
+                              - listitem [ref=e2010]:
+                                - generic [ref=e2011]:
+                                  - img [ref=e2012]
+                                  - text: Private pool
+                              - listitem [ref=e2014]:
+                                - generic [ref=e2015]:
+                                  - img [ref=e2016]
+                                  - text: Balcony
+                              - listitem [ref=e2018]:
+                                - generic [ref=e2019]:
+                                  - img [ref=e2020]
+                                  - text: Lake view
+                              - listitem [ref=e2022]:
+                                - generic [ref=e2023]:
+                                  - img [ref=e2024]
+                                  - text: Garden view
+                              - listitem [ref=e2026]:
+                                - generic [ref=e2027]:
+                                  - img [ref=e2028]
+                                  - text: Pool view
+                              - listitem [ref=e2030]:
+                                - generic [ref=e2031]:
+                                  - img [ref=e2032]
+                                  - text: Mountain view
+                              - listitem [ref=e2034]:
+                                - generic [ref=e2035]:
+                                  - img [ref=e2036]
+                                  - text: Air conditioning
+                              - listitem [ref=e2038]:
+                                - generic [ref=e2039]:
+                                  - img [ref=e2040]
+                                  - text: Soundproof
+                              - listitem [ref=e2042]:
+                                - generic [ref=e2043]:
+                                  - img [ref=e2044]
+                                  - text: Terrace
+                              - listitem [ref=e2046]:
+                                - generic [ref=e2047]:
+                                  - img [ref=e2048]
+                                  - text: Coffee machine
+                              - listitem [ref=e2050]:
+                                - generic [ref=e2051]:
+                                  - img [ref=e2052]
+                                  - text: Minibar
+                              - listitem [ref=e2054]:
+                                - generic [ref=e2055]:
+                                  - img [ref=e2056]
+                                  - text: Free Wifi
+                            - button "Show more amenities" [ref=e2058] [cursor=pointer]: More
+                      - 'cell "Max. people: 6" [ref=e2059]':
+                        - generic [ref=e2061]:
+                          - generic [ref=e2062]:
+                            - generic [ref=e2063]: "1"
+                            - generic [ref=e2064]: ×
+                            - generic [ref=e2065]: "6"
+                          - generic [ref=e2066]: "Max. people: 6"
+                      - cell "Includes taxes and fees 10% off. You’re getting a reduced rate because this property is offering a discount.. Genius rewards" [ref=e2067]:
+                        - generic [ref=e2068]:
+                          - generic [ref=e2069]:
+                            - generic [ref=e2070]:
+                              - generic [ref=e2072]: € 4,191
+                              - generic [ref=e2073]:
+                                - generic [ref=e2074]:
+                                  - text: € 3,772
+                                  - img [ref=e2076]
+                                - generic [ref=e2079]: Original price € 4,191 Current price € 3,772
+                            - generic [ref=e2080]: Includes taxes and fees
+                          - generic [ref=e2082]:
+                            - generic "10% off. You’re getting a reduced rate because this property is offering a discount.." [ref=e2084]:
+                              - generic [ref=e2086]: 10% off
+                            - generic "Genius rewards" [ref=e2088]:
+                              - img [ref=e2089]
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property • We have 3 left More details on meals, cancellation, and prepayment policies" [ref=e2099]:
+                        - generic [ref=e2100]:
+                          - list [ref=e2101]:
+                            - listitem [ref=e2102]:
+                              - img [ref=e2103]
+                              - generic [ref=e2106]: All-Inclusive
+                            - listitem [ref=e2107]:
+                              - generic [ref=e2108]:
+                                - img [ref=e2110]
+                                - generic [ref=e2115]:
+                                  - strong [ref=e2116]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e2117]:
+                              - generic [ref=e2118]:
+                                - img [ref=e2120]
+                                - generic [ref=e2125]:
+                                  - strong [ref=e2126]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e2127]:
+                              - img [ref=e2128]
+                              - generic [ref=e2131]: 10% Genius discount applied to the price before taxes and charges
+                            - listitem [ref=e2132]:
+                              - img [ref=e2133]
+                              - generic [ref=e2136]:
+                                - generic [ref=e2137]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e2138] [cursor=pointer]:
+                                  - img [ref=e2139]
+                            - listitem [ref=e2141]:
+                              - generic [ref=e2142]: •
+                              - generic [ref=e2144]: We have 3 left
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e2146] [cursor=pointer]:
+                            - img [ref=e2148]
+                      - cell "Select Rooms 0" [ref=e2150]:
+                        - generic [ref=e2151]:
+                          - generic [ref=e2152]: Select Rooms
+                          - combobox "Select Rooms" [ref=e2153]:
+                            - option "0" [selected]
+                            - option "1 (€ 3,772)"
+                            - option "2 (€ 7,545)"
+                            - option "3 (€ 11,317)"
+                    - row [ref=e2154]:
+                      - 'rowheader "Queen Villa- 5 Bedrooms with Private Pool Bedroom 1: 1 king bed Bedroom 2: 1 king bed Bedroom 3: 1 king bed Bedroom 4: 1 king bed Bedroom 5: 1 king bed The private pool is the special feature of this villa. Featuring 5 bedrooms, this spacious villa offers 5 bathrooms with a bath, a seating area and terrace where you can relax. Guests can make meals in the kitchen that comes with a refrigerator, an oven, a microwave and a toaster. The air-conditioned villa provides a TV, soundproof walls, a mini-bar, a tea and coffee maker as well as lake views. The unit has 5 beds. Entire villa 1000 m² Private kitchen Attached bathroom Private pool Balcony Lake view Garden view Pool view Mountain view Air conditioning Soundproof Terrace Coffee machine Minibar Free Wifi Show more amenities" [ref=e2155]':
+                        - generic [ref=e2156]:
+                          - link "Queen Villa- 5 Bedrooms with Private Pool" [ref=e2158] [cursor=pointer]:
+                            - /url: "#RD1092863106"
+                          - list [ref=e2161]:
+                            - listitem [ref=e2162]:
+                              - strong [ref=e2163]: "Bedroom 1:"
+                              - generic [ref=e2164]:
+                                - text: 1 king bed
+                                - generic [ref=e2165]: 녌
+                            - listitem [ref=e2166]:
+                              - strong [ref=e2167]: "Bedroom 2:"
+                              - generic [ref=e2168]:
+                                - text: 1 king bed
+                                - generic [ref=e2169]: 녌
+                            - listitem [ref=e2170]:
+                              - strong [ref=e2171]: "Bedroom 3:"
+                              - generic [ref=e2172]:
+                                - text: 1 king bed
+                                - generic [ref=e2173]: 녌
+                            - listitem [ref=e2174]:
+                              - strong [ref=e2175]: "Bedroom 4:"
+                              - generic [ref=e2176]:
+                                - text: 1 king bed
+                                - generic [ref=e2177]: 녌
+                            - listitem [ref=e2178]:
+                              - strong [ref=e2179]: "Bedroom 5:"
+                              - generic [ref=e2180]:
+                                - text: 1 king bed
+                                - generic [ref=e2181]: 녌
+                          - paragraph [ref=e2182]: The private pool is the special feature of this villa. Featuring 5 bedrooms, this spacious villa offers 5 bathrooms with a bath, a seating area and terrace where you can relax. Guests can make meals in the kitchen that comes with a refrigerator, an oven, a microwave and a toaster. The air-conditioned villa provides a TV, soundproof walls, a mini-bar, a tea and coffee maker as well as lake views. The unit has 5 beds.
+                          - generic [ref=e2184]:
+                            - list [ref=e2185]:
+                              - listitem [ref=e2186]:
+                                - generic [ref=e2187]:
+                                  - img [ref=e2188]
+                                  - text: Entire villa
+                              - listitem [ref=e2190]:
+                                - generic [ref=e2191]:
+                                  - img [ref=e2192]
+                                  - text: 1000 m²
+                              - listitem [ref=e2194]:
+                                - generic [ref=e2195]:
+                                  - img [ref=e2196]
+                                  - text: Private kitchen
+                              - listitem [ref=e2198]:
+                                - generic [ref=e2199]:
+                                  - img [ref=e2200]
+                                  - text: Attached bathroom
+                              - listitem [ref=e2202]:
+                                - generic [ref=e2203]:
+                                  - img [ref=e2204]
+                                  - text: Private pool
+                              - listitem [ref=e2206]:
+                                - generic [ref=e2207]:
+                                  - img [ref=e2208]
+                                  - text: Balcony
+                              - listitem [ref=e2210]:
+                                - generic [ref=e2211]:
+                                  - img [ref=e2212]
+                                  - text: Lake view
+                              - listitem [ref=e2214]:
+                                - generic [ref=e2215]:
+                                  - img [ref=e2216]
+                                  - text: Garden view
+                              - listitem [ref=e2218]:
+                                - generic [ref=e2219]:
+                                  - img [ref=e2220]
+                                  - text: Pool view
+                              - listitem [ref=e2222]:
+                                - generic [ref=e2223]:
+                                  - img [ref=e2224]
+                                  - text: Mountain view
+                              - listitem [ref=e2226]:
+                                - generic [ref=e2227]:
+                                  - img [ref=e2228]
+                                  - text: Air conditioning
+                              - listitem [ref=e2230]:
+                                - generic [ref=e2231]:
+                                  - img [ref=e2232]
+                                  - text: Soundproof
+                              - listitem [ref=e2234]:
+                                - generic [ref=e2235]:
+                                  - img [ref=e2236]
+                                  - text: Terrace
+                              - listitem [ref=e2238]:
+                                - generic [ref=e2239]:
+                                  - img [ref=e2240]
+                                  - text: Coffee machine
+                              - listitem [ref=e2242]:
+                                - generic [ref=e2243]:
+                                  - img [ref=e2244]
+                                  - text: Minibar
+                              - listitem [ref=e2246]:
+                                - generic [ref=e2247]:
+                                  - img [ref=e2248]
+                                  - text: Free Wifi
+                            - button "Show more amenities" [ref=e2250] [cursor=pointer]: More
+                      - 'cell "Max. people: 10" [ref=e2251]':
+                        - generic [ref=e2253]:
+                          - generic [ref=e2254]:
+                            - generic [ref=e2255]: "1"
+                            - generic [ref=e2256]: ×
+                            - generic [ref=e2257]: "10"
+                          - generic [ref=e2258]: "Max. people: 10"
+                      - cell "Includes taxes and fees 10% off. You’re getting a reduced rate because this property is offering a discount.. Genius rewards" [ref=e2259]:
+                        - generic [ref=e2260]:
+                          - generic [ref=e2261]:
+                            - generic [ref=e2262]:
+                              - generic [ref=e2264]: € 6,549
+                              - generic [ref=e2265]:
+                                - generic [ref=e2266]:
+                                  - text: € 5,894
+                                  - img [ref=e2268]
+                                - generic [ref=e2271]: Original price € 6,549 Current price € 5,894
+                            - generic [ref=e2272]: Includes taxes and fees
+                          - generic [ref=e2274]:
+                            - generic "10% off. You’re getting a reduced rate because this property is offering a discount.." [ref=e2276]:
+                              - generic [ref=e2278]: 10% off
+                            - generic "Genius rewards" [ref=e2280]:
+                              - img [ref=e2281]
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property • We have 3 left More details on meals, cancellation, and prepayment policies" [ref=e2291]:
+                        - generic [ref=e2292]:
+                          - list [ref=e2293]:
+                            - listitem [ref=e2294]:
+                              - img [ref=e2295]
+                              - generic [ref=e2298]: All-Inclusive
+                            - listitem [ref=e2299]:
+                              - generic [ref=e2300]:
+                                - img [ref=e2302]
+                                - generic [ref=e2307]:
+                                  - strong [ref=e2308]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e2309]:
+                              - generic [ref=e2310]:
+                                - img [ref=e2312]
+                                - generic [ref=e2317]:
+                                  - strong [ref=e2318]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e2319]:
+                              - img [ref=e2320]
+                              - generic [ref=e2323]: 10% Genius discount applied to the price before taxes and charges
+                            - listitem [ref=e2324]:
+                              - img [ref=e2325]
+                              - generic [ref=e2328]:
+                                - generic [ref=e2329]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e2330] [cursor=pointer]:
+                                  - img [ref=e2331]
+                            - listitem [ref=e2333]:
+                              - generic [ref=e2334]: •
+                              - generic [ref=e2336]: We have 3 left
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e2338] [cursor=pointer]:
+                            - img [ref=e2340]
+                      - cell "Select Rooms 0" [ref=e2342]:
+                        - generic [ref=e2343]:
+                          - generic [ref=e2344]: Select Rooms
+                          - combobox "Select Rooms" [ref=e2345]:
+                            - option "0" [selected]
+                            - option "1 (€ 5,894)"
+                            - option "2 (€ 11,789)"
+                            - option "3 (€ 17,683)"
+                    - row [ref=e2346]:
+                      - 'rowheader "Royal Villa- 6 Bedrooms with Private Pool Bedroom 1: 1 king bed Bedroom 2: 1 king bed and 1 sofa bed Bedroom 3: 1 king bed Bedroom 4: 1 king bed Bedroom 5: 1 king bed Bedroom 6: 1 king bed Living room: 1 sofa bed Living room: 2 sofa beds Guests will have a special experience as this villa features a private pool. This spacious villa is consisted of of 2 living rooms, 6 separate bedrooms and 5 bathrooms with a bath and free toiletries. In the well-equipped kitchen, guests will find a refrigerator, an oven, a microwave and a toaster. The air-conditioned villa offers a TV, soundproof walls, a mini-bar, a tea and coffee maker as well as lake views. The unit offers 10 beds. Entire villa 1000 m² Private kitchen Attached bathroom Private pool Balcony Lake view Garden view Pool view Mountain view Air conditioning Soundproof Terrace Coffee machine Minibar Free Wifi Show more amenities" [ref=e2347]':
+                        - generic [ref=e2348]:
+                          - link "Royal Villa- 6 Bedrooms with Private Pool" [ref=e2350] [cursor=pointer]:
+                            - /url: "#RD1092863107"
+                          - list [ref=e2353]:
+                            - listitem [ref=e2354]:
+                              - strong [ref=e2355]: "Bedroom 1:"
+                              - generic [ref=e2356]:
+                                - text: 1 king bed
+                                - generic [ref=e2357]: 녌
+                            - listitem [ref=e2358]:
+                              - strong [ref=e2359]: "Bedroom 2:"
+                              - generic [ref=e2360]:
+                                - text: 1 king bed
+                                - generic [ref=e2361]: 녌
+                              - text: and
+                              - generic [ref=e2362]:
+                                - text: 1 sofa bed
+                                - generic [ref=e2363]: 녑
+                            - listitem [ref=e2364]:
+                              - strong [ref=e2365]: "Bedroom 3:"
+                              - generic [ref=e2366]:
+                                - text: 1 king bed
+                                - generic [ref=e2367]: 녌
+                            - listitem [ref=e2368]:
+                              - strong [ref=e2369]: "Bedroom 4:"
+                              - generic [ref=e2370]:
+                                - text: 1 king bed
+                                - generic [ref=e2371]: 녌
+                            - listitem [ref=e2372]:
+                              - strong [ref=e2373]: "Bedroom 5:"
+                              - generic [ref=e2374]:
+                                - text: 1 king bed
+                                - generic [ref=e2375]: 녌
+                            - listitem [ref=e2376]:
+                              - strong [ref=e2377]: "Bedroom 6:"
+                              - generic [ref=e2378]:
+                                - text: 1 king bed
+                                - generic [ref=e2379]: 녌
+                            - listitem [ref=e2380]:
+                              - strong [ref=e2381]: "Living room:"
+                              - generic [ref=e2382]:
+                                - text: 1 sofa bed
+                                - generic [ref=e2383]: 녑
+                            - listitem [ref=e2384]:
+                              - strong [ref=e2385]: "Living room:"
+                              - generic [ref=e2386]:
+                                - text: 2 sofa beds
+                                - generic [ref=e2387]: 녑
+                          - paragraph [ref=e2388]: Guests will have a special experience as this villa features a private pool. This spacious villa is consisted of of 2 living rooms, 6 separate bedrooms and 5 bathrooms with a bath and free toiletries. In the well-equipped kitchen, guests will find a refrigerator, an oven, a microwave and a toaster. The air-conditioned villa offers a TV, soundproof walls, a mini-bar, a tea and coffee maker as well as lake views. The unit offers 10 beds.
+                          - generic [ref=e2390]:
+                            - list [ref=e2391]:
+                              - listitem [ref=e2392]:
+                                - generic [ref=e2393]:
+                                  - img [ref=e2394]
+                                  - text: Entire villa
+                              - listitem [ref=e2396]:
+                                - generic [ref=e2397]:
+                                  - img [ref=e2398]
+                                  - text: 1000 m²
+                              - listitem [ref=e2400]:
+                                - generic [ref=e2401]:
+                                  - img [ref=e2402]
+                                  - text: Private kitchen
+                              - listitem [ref=e2404]:
+                                - generic [ref=e2405]:
+                                  - img [ref=e2406]
+                                  - text: Attached bathroom
+                              - listitem [ref=e2408]:
+                                - generic [ref=e2409]:
+                                  - img [ref=e2410]
+                                  - text: Private pool
+                              - listitem [ref=e2412]:
+                                - generic [ref=e2413]:
+                                  - img [ref=e2414]
+                                  - text: Balcony
+                              - listitem [ref=e2416]:
+                                - generic [ref=e2417]:
+                                  - img [ref=e2418]
+                                  - text: Lake view
+                              - listitem [ref=e2420]:
+                                - generic [ref=e2421]:
+                                  - img [ref=e2422]
+                                  - text: Garden view
+                              - listitem [ref=e2424]:
+                                - generic [ref=e2425]:
+                                  - img [ref=e2426]
+                                  - text: Pool view
+                              - listitem [ref=e2428]:
+                                - generic [ref=e2429]:
+                                  - img [ref=e2430]
+                                  - text: Mountain view
+                              - listitem [ref=e2432]:
+                                - generic [ref=e2433]:
+                                  - img [ref=e2434]
+                                  - text: Air conditioning
+                              - listitem [ref=e2436]:
+                                - generic [ref=e2437]:
+                                  - img [ref=e2438]
+                                  - text: Soundproof
+                              - listitem [ref=e2440]:
+                                - generic [ref=e2441]:
+                                  - img [ref=e2442]
+                                  - text: Terrace
+                              - listitem [ref=e2444]:
+                                - generic [ref=e2445]:
+                                  - img [ref=e2446]
+                                  - text: Coffee machine
+                              - listitem [ref=e2448]:
+                                - generic [ref=e2449]:
+                                  - img [ref=e2450]
+                                  - text: Minibar
+                              - listitem [ref=e2452]:
+                                - generic [ref=e2453]:
+                                  - img [ref=e2454]
+                                  - text: Free Wifi
+                            - button "Show more amenities" [ref=e2456] [cursor=pointer]: More
+                      - 'cell "Max. people: 12" [ref=e2457]':
+                        - generic [ref=e2459]:
+                          - generic [ref=e2460]:
+                            - generic [ref=e2461]: "1"
+                            - generic [ref=e2462]: ×
+                            - generic [ref=e2463]: "12"
+                          - generic [ref=e2464]: "Max. people: 12"
+                      - cell "Includes taxes and fees 10% off. You’re getting a reduced rate because this property is offering a discount.. Genius rewards" [ref=e2465]:
+                        - generic [ref=e2466]:
+                          - generic [ref=e2467]:
+                            - generic [ref=e2468]:
+                              - generic [ref=e2470]: € 7,859
+                              - generic [ref=e2471]:
+                                - generic [ref=e2472]:
+                                  - text: € 7,073
+                                  - img [ref=e2474]
+                                - generic [ref=e2477]: Original price € 7,859 Current price € 7,073
+                            - generic [ref=e2478]: Includes taxes and fees
+                          - generic [ref=e2480]:
+                            - generic "10% off. You’re getting a reduced rate because this property is offering a discount.." [ref=e2482]:
+                              - generic [ref=e2484]: 10% off
+                            - generic "Genius rewards" [ref=e2486]:
+                              - img [ref=e2487]
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property • We have 3 left More details on meals, cancellation, and prepayment policies" [ref=e2497]:
+                        - generic [ref=e2498]:
+                          - list [ref=e2499]:
+                            - listitem [ref=e2500]:
+                              - img [ref=e2501]
+                              - generic [ref=e2504]: All-Inclusive
+                            - listitem [ref=e2505]:
+                              - generic [ref=e2506]:
+                                - img [ref=e2508]
+                                - generic [ref=e2513]:
+                                  - strong [ref=e2514]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e2515]:
+                              - generic [ref=e2516]:
+                                - img [ref=e2518]
+                                - generic [ref=e2523]:
+                                  - strong [ref=e2524]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e2525]:
+                              - img [ref=e2526]
+                              - generic [ref=e2529]: 10% Genius discount applied to the price before taxes and charges
+                            - listitem [ref=e2530]:
+                              - img [ref=e2531]
+                              - generic [ref=e2534]:
+                                - generic [ref=e2535]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e2536] [cursor=pointer]:
+                                  - img [ref=e2537]
+                            - listitem [ref=e2539]:
+                              - generic [ref=e2540]: •
+                              - generic [ref=e2542]: We have 3 left
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e2544] [cursor=pointer]:
+                            - img [ref=e2546]
+                      - cell "Select Rooms 0" [ref=e2548]:
+                        - generic [ref=e2549]:
+                          - generic [ref=e2550]: Select Rooms
+                          - combobox "Select Rooms" [ref=e2551]:
+                            - option "0" [selected]
+                            - option "1 (€ 7,073)"
+                            - option "2 (€ 14,146)"
+                            - option "3 (€ 21,219)"
+                - generic [ref=e2554]:
+                  - button "I'll reserve" [ref=e2556] [cursor=pointer]:
+                    - generic [ref=e2557]: I'll reserve
+                  - list [ref=e2559]:
+                    - listitem [ref=e2560]: It only takes 2 minutes
+                    - listitem [ref=e2561]: You won't be charged yet
+          - generic [ref=e2585]:
+            - generic [ref=e2587]:
+              - generic [ref=e2588]:
+                - heading "Guest reviews" [level=2] [ref=e2590]
+                - button "See availability" [ref=e2592] [cursor=pointer]:
+                  - generic [ref=e2593]: See availability
+              - button "Scored 9.5 Rated exceptional Read all reviews" [ref=e2596] [cursor=pointer]:
+                - generic [ref=e2597]:
+                  - generic [ref=e2598]:
+                    - generic [ref=e2599]: Scored 9.5
+                    - generic [ref=e2600]: "9.5"
+                    - generic [ref=e2601]: Rated exceptional
+                    - generic [ref=e2602]:
+                      - generic [ref=e2603]: Exceptional
+                      - generic [ref=e2604]: · 676 reviews
+                  - generic [ref=e2606]: Read all reviews
+              - group "Review categories" [ref=e2608]:
+                - heading "Categories:" [level=3] [ref=e2610]
+                - generic [ref=e2611]:
+                  - generic "Average rating out of 10" [ref=e2613]:
+                    - generic [ref=e2614]:
+                      - generic [ref=e2615]:
+                        - generic [ref=e2618]: Staff
+                        - generic [ref=e2620]: "9.6"
+                      - meter "Staff" [ref=e2621]
+                  - generic "Average rating out of 10" [ref=e2624]:
+                    - generic [ref=e2625]:
+                      - generic [ref=e2626]:
+                        - generic [ref=e2629]:
+                          - text: Facilities
+                          - img "High score for Sharm El Sheikh" [ref=e2630]:
+                            - img [ref=e2631]
+                        - generic [ref=e2634]: "9.5"
+                      - meter "Facilities High score for Sharm El Sheikh" [ref=e2635]
+                  - generic "Average rating out of 10" [ref=e2638]:
+                    - generic [ref=e2639]:
+                      - generic [ref=e2640]:
+                        - generic [ref=e2643]: Cleanliness
+                        - generic [ref=e2645]: "9.6"
+                      - meter "Cleanliness" [ref=e2646]
+                  - generic "Average rating out of 10" [ref=e2649]:
+                    - generic [ref=e2650]:
+                      - generic [ref=e2651]:
+                        - generic [ref=e2654]:
+                          - text: Comfort
+                          - img "High score for Sharm El Sheikh" [ref=e2655]:
+                            - img [ref=e2656]
+                        - generic [ref=e2659]: "9.6"
+                      - meter "Comfort High score for Sharm El Sheikh" [ref=e2660]
+                  - generic "Average rating out of 10" [ref=e2663]:
+                    - generic [ref=e2664]:
+                      - generic [ref=e2665]:
+                        - generic [ref=e2668]: Value for money
+                        - generic [ref=e2670]: "9.4"
+                      - meter "Value for money" [ref=e2671]
+                  - generic "Average rating out of 10" [ref=e2674]:
+                    - generic [ref=e2675]:
+                      - generic [ref=e2676]:
+                        - generic [ref=e2679]: Location
+                        - generic [ref=e2681]: "9.5"
+                      - meter "Location" [ref=e2682]
+                  - generic "Average rating out of 10" [ref=e2685]:
+                    - generic [ref=e2686]:
+                      - generic [ref=e2687]:
+                        - generic [ref=e2690]:
+                          - text: Free Wifi
+                          - img "High score for Sharm El Sheikh" [ref=e2691]:
+                            - img [ref=e2692]
+                        - generic [ref=e2695]: "9.4"
+                      - meter "Free Wifi High score for Sharm El Sheikh" [ref=e2696]
+                  - generic [ref=e2701]:
+                    - img [ref=e2704]
+                    - generic [ref=e2707]: High score for Sharm El Sheikh
+              - group "Select topics to read reviews:" [ref=e2709]:
+                - heading "Select topics to read reviews:" [level=3] [ref=e2712]
+                - group "Select topics to read reviews:" [ref=e2714]:
+                  - button "Room" [ref=e2715]:
+                    - checkbox "Room" [ref=e2716]
+                    - generic [ref=e2717] [cursor=pointer]:
+                      - img [ref=e2719]
+                      - generic [ref=e2721]: Room
+                  - button "Dinner" [ref=e2722]:
+                    - checkbox "Dinner" [ref=e2723]
+                    - generic [ref=e2724] [cursor=pointer]:
+                      - img [ref=e2726]
+                      - generic [ref=e2728]: Dinner
+                  - button "Swimming pool" [ref=e2729]:
+                    - checkbox "Swimming pool" [ref=e2730]
+                    - generic [ref=e2731] [cursor=pointer]:
+                      - img [ref=e2733]
+                      - generic [ref=e2735]: Swimming pool
+                  - button "Clean" [ref=e2736]:
+                    - checkbox "Clean" [ref=e2737]
+                    - generic [ref=e2738] [cursor=pointer]:
+                      - img [ref=e2740]
+                      - generic [ref=e2742]: Clean
+                  - button "Breakfast" [ref=e2743]:
+                    - checkbox "Breakfast" [ref=e2744]
+                    - generic [ref=e2745] [cursor=pointer]:
+                      - img [ref=e2747]
+                      - generic [ref=e2749]: Breakfast
+              - generic [ref=e2751]:
+                - generic [ref=e2752]:
+                  - heading "Guests who stayed here loved" [level=3] [ref=e2753]
+                  - generic [ref=e2754]:
+                    - region "Guests who stayed here loved" [ref=e2755]:
+                      - group [ref=e2756]:
+                        - generic [ref=e2758]:
+                          - generic [ref=e2760]:
+                            - generic [ref=e2762]: A
+                            - generic [ref=e2763]:
+                              - generic [ref=e2764]: Ayaz
+                              - generic [ref=e2765]:
+                                - img "United States" [ref=e2766]
+                                - generic [ref=e2767]: United States
+                          - generic [ref=e2770]: “Beautiful property great location, just by the airport”
+                          - button "Read more of Ayaz's review" [ref=e2772] [cursor=pointer]:
+                            - generic [ref=e2773]: See pros and cons
+                      - group [ref=e2774]:
+                        - generic [ref=e2776]:
+                          - generic [ref=e2778]:
+                            - generic [ref=e2780]: M
+                            - generic [ref=e2781]:
+                              - generic [ref=e2782]: Marc
+                              - generic [ref=e2783]:
+                                - img "United States" [ref=e2784]
+                                - generic [ref=e2785]: United States
+                          - generic [ref=e2788]: “location was great, food at the resort was outstanding, and the room was excellent.”
+                          - button "Read more of Marc's review" [ref=e2790] [cursor=pointer]:
+                            - generic [ref=e2791]: See pros and cons
+                      - group [ref=e2792]:
+                        - generic [ref=e2794]:
+                          - generic [ref=e2799]:
+                            - generic [ref=e2800]: Nader
+                            - generic [ref=e2801]:
+                              - img "Egypt" [ref=e2802]
+                              - generic [ref=e2803]: Egypt
+                          - generic [ref=e2806]: “FRIENDLY STUFF SPECIALLY MR MOHAMED HASSAN IN RECEPTION THE ALL STUFF IN BAR AND RESTAURANT ARE FULLY PROFESSIONAL . HIGH MODERN LUXURY HOTEL I RECOMMEND IT”
+                          - button "Read more of Nader's review" [ref=e2808] [cursor=pointer]:
+                            - generic [ref=e2809]: See pros and cons
+                      - group [ref=e2810]:
+                        - generic [ref=e2812]:
+                          - generic [ref=e2814]:
+                            - generic [ref=e2816]: H
+                            - generic [ref=e2817]:
+                              - generic [ref=e2818]: Heba
+                              - generic [ref=e2819]:
+                                - img "Israel" [ref=e2820]
+                                - generic [ref=e2821]: Israel
+                          - generic [ref=e2824]: "“From the very first step into Pickalbatros Luxury Suites, we knew this was going to be something special! The vibes, the elegance, and the attention to detail were just perfect. Shoutout to the amazing team who made our stay unforgettable: Omar...”"
+                          - button "Read more of Heba's review" [ref=e2826] [cursor=pointer]:
+                            - generic [ref=e2827]: See pros and cons
+                      - group [ref=e2828]:
+                        - generic [ref=e2830]:
+                          - generic [ref=e2832]:
+                            - generic [ref=e2834]: A
+                            - generic [ref=e2835]:
+                              - generic [ref=e2836]: Ahmad
+                              - generic [ref=e2837]:
+                                - img "Israel" [ref=e2838]
+                                - generic [ref=e2839]: Israel
+                          - generic [ref=e2842]: “The royal villa was excellent with 6 bedrooms and 6 bathrooms. The staff is very helpfull. Thank to Mr. Moamen moustafa about his help. the turkish resturant is good.”
+                          - button "Read more of Ahmad's review" [ref=e2844] [cursor=pointer]:
+                            - generic [ref=e2845]: See pros and cons
+                      - group [ref=e2846]:
+                        - generic [ref=e2848]:
+                          - generic [ref=e2853]:
+                            - generic [ref=e2854]: Bouzid
+                            - generic [ref=e2855]:
+                              - img "Algeria" [ref=e2856]
+                              - generic [ref=e2857]: Algeria
+                          - generic [ref=e2860]: “Every thing in the hotel was perfect ( food , facilities, pool, cleanliness.. ) we really enjoyed everything there thank you for your service”
+                          - button "Read more of Bouzid's review" [ref=e2862] [cursor=pointer]:
+                            - generic [ref=e2863]: See pros and cons
+                      - group [ref=e2864]:
+                        - generic [ref=e2866]:
+                          - generic [ref=e2868]:
+                            - generic [ref=e2870]: "Y"
+                            - generic [ref=e2871]:
+                              - generic [ref=e2872]: Yazid
+                              - generic [ref=e2873]:
+                                - img "Israel" [ref=e2874]
+                                - generic [ref=e2875]: Israel
+                          - generic [ref=e2878]: “My stay at Pickalbatros Golf Luxury Suites was truly exceptional. From the moment I arrived, I felt warmly welcomed by the staff, who were always attentive to every detail and eager to help with a smile. The restaurants at the hotel were...”
+                          - button "Read more of Yazid's review" [ref=e2880] [cursor=pointer]:
+                            - generic [ref=e2881]: See pros and cons
+                      - group [ref=e2882]:
+                        - generic [ref=e2884]:
+                          - generic [ref=e2886]:
+                            - generic [ref=e2888]: "Y"
+                            - generic [ref=e2889]:
+                              - generic [ref=e2890]: Yazid
+                              - generic [ref=e2891]:
+                                - img "Israel" [ref=e2892]
+                                - generic [ref=e2893]: Israel
+                          - generic [ref=e2896]: “My stay at Pickalbatros Golf Luxury Suites was truly exceptional. From the moment I arrived, I felt warmly welcomed by the staff, who were always attentive to every detail and eager to help with a smile. The restaurants at the hotel were...”
+                          - button "Read more of Yazid's review" [ref=e2898] [cursor=pointer]:
+                            - generic [ref=e2899]: See pros and cons
+                      - group [ref=e2900]:
+                        - generic [ref=e2902]:
+                          - generic [ref=e2904]:
+                            - generic [ref=e2906]: "Y"
+                            - generic [ref=e2907]:
+                              - generic [ref=e2908]: Yazid
+                              - generic [ref=e2909]:
+                                - img "Israel" [ref=e2910]
+                                - generic [ref=e2911]: Israel
+                          - generic [ref=e2914]: “My stay at Pickalbatros Golf Luxury Suites was truly exceptional. From the moment I arrived, I felt warmly welcomed by the staff, who were always attentive to every detail and eager to help with a smile. The restaurants at the hotel were...”
+                          - button "Read more of Yazid's review" [ref=e2916] [cursor=pointer]:
+                            - generic [ref=e2917]: See pros and cons
+                      - group [ref=e2918]:
+                        - generic [ref=e2920]:
+                          - generic [ref=e2922]:
+                            - generic [ref=e2924]: E
+                            - generic [ref=e2925]:
+                              - generic [ref=e2926]: Enes
+                              - generic [ref=e2927]:
+                                - img "United States" [ref=e2928]
+                                - generic [ref=e2929]: United States
+                          - generic [ref=e2932]: “The hotel staff was one of the best I have ever seen. From the start, they were very helpful. Specifically, Mohammed, Ashraf, and Salah from the reception took good care of us and attended to all of our needs.”
+                          - button "Read more of Enes's review" [ref=e2934] [cursor=pointer]:
+                            - generic [ref=e2935]: See pros and cons
+                    - button [ref=e2936] [cursor=pointer]:
+                      - img [ref=e2939]
+                - button "Read all reviews" [ref=e2941] [cursor=pointer]:
+                  - generic [ref=e2942]: Read all reviews
+            - generic [ref=e3704]:
+              - generic [ref=e3705]:
+                - heading "Travelers are asking" [level=2] [ref=e3707]:
+                  - generic [ref=e3708]: Travelers are asking
+                - button "See availability" [ref=e3710] [cursor=pointer]:
+                  - generic [ref=e3711]: See availability
+              - generic [ref=e3713]:
+                - generic [ref=e3714]:
+                  - list [ref=e3716]:
+                    - listitem [ref=e3717]:
+                      - button "Do they serve breakfast?" [ref=e3718] [cursor=pointer]:
+                        - generic [ref=e3719]:
+                          - img [ref=e3722]
+                          - generic [ref=e3724]: Do they serve breakfast?
+                          - img [ref=e3727]
+                    - listitem [ref=e3729]:
+                      - button "Is the swimming pool open?" [ref=e3730] [cursor=pointer]:
+                        - generic [ref=e3731]:
+                          - img [ref=e3734]
+                          - generic [ref=e3736]: Is the swimming pool open?
+                          - img [ref=e3739]
+                    - listitem [ref=e3741]:
+                      - button "Can I park there?" [ref=e3742] [cursor=pointer]:
+                        - generic [ref=e3743]:
+                          - img [ref=e3746]
+                          - generic [ref=e3748]: Can I park there?
+                          - img [ref=e3751]
+                    - listitem [ref=e3753]:
+                      - button "Is the restaurant open?" [ref=e3754] [cursor=pointer]:
+                        - generic [ref=e3755]:
+                          - img [ref=e3758]
+                          - generic [ref=e3760]: Is the restaurant open?
+                          - img [ref=e3763]
+                    - listitem [ref=e3765]:
+                      - button "Is the spa open?" [ref=e3766] [cursor=pointer]:
+                        - generic [ref=e3767]:
+                          - img [ref=e3770]
+                          - generic [ref=e3772]: Is the spa open?
+                          - img [ref=e3775]
+                    - listitem [ref=e3777]:
+                      - button "Is there an airport shuttle service?" [ref=e3778] [cursor=pointer]:
+                        - generic [ref=e3779]:
+                          - img [ref=e3782]
+                          - generic [ref=e3784]: Is there an airport shuttle service?
+                          - img [ref=e3787]
+                    - listitem [ref=e3789]:
+                      - button "What restaurants, attractions, and public transit options are nearby?" [ref=e3790] [cursor=pointer]:
+                        - generic [ref=e3791]:
+                          - img [ref=e3794]
+                          - generic [ref=e3796]: What restaurants, attractions, and public transit options are nearby?
+                          - img [ref=e3799]
+                    - listitem [ref=e3801]:
+                      - button "What's the Wi-Fi policy?" [ref=e3802] [cursor=pointer]:
+                        - generic [ref=e3803]:
+                          - img [ref=e3806]
+                          - generic [ref=e3808]: What's the Wi-Fi policy?
+                          - img [ref=e3811]
+                    - listitem [ref=e3813]:
+                      - button "Are there rooms with a private bathroom?" [ref=e3814] [cursor=pointer]:
+                        - generic [ref=e3815]:
+                          - img [ref=e3818]
+                          - generic [ref=e3820]: Are there rooms with a private bathroom?
+                          - img [ref=e3823]
+                    - listitem [ref=e3825]:
+                      - button "Are there rooms with a balcony?" [ref=e3826] [cursor=pointer]:
+                        - generic [ref=e3827]:
+                          - img [ref=e3830]
+                          - generic [ref=e3832]: Are there rooms with a balcony?
+                          - img [ref=e3835]
+                  - generic [ref=e3838]:
+                    - heading "Still looking?" [level=3] [ref=e3839]
+                    - button "Ask a question" [ref=e3840] [cursor=pointer]:
+                      - generic [ref=e3841]: Ask a question
+                    - paragraph [ref=e3842]: We have an instant answer to most questions
+                - button "See other questions (19)" [ref=e3845] [cursor=pointer]:
+                  - generic [ref=e3846]: See other questions (19)
+            - generic [ref=e2992]:
+              - generic [ref=e2993]:
+                - heading "Hotel area info" [level=2] [ref=e2995]:
+                  - generic [ref=e2996]: Hotel area info
+                - button "See availability" [ref=e2998] [cursor=pointer]:
+                  - generic [ref=e2999]: See availability
+              - generic [ref=e3000]:
+                - generic [ref=e3847]:
+                  - button "Guests loved walking around the neighborhood!" [ref=e3849] [cursor=pointer]:
+                    - generic [ref=e3851]: Guests loved walking around the neighborhood!
+                  - link "Excellent location – show map" [ref=e3853] [cursor=pointer]:
+                    - /url: "#map_opened-hotel_surroundings"
+                    - generic [ref=e3854]: Excellent location – show map
+                - generic [ref=e3001]:
+                  - generic [ref=e3855]:
+                    - generic [ref=e3856]:
+                      - generic [ref=e3857]:
+                        - img [ref=e3859]
+                        - heading "Top attractions" [level=3] [ref=e3861]:
+                          - generic [ref=e3862]: Top attractions
+                      - list [ref=e3863]:
+                        - listitem [ref=e3864]:
+                          - generic [ref=e3867]:
+                            - generic [ref=e3868]: Al Fanar Light House
+                            - generic [ref=e3870]: 15 km
+                    - generic [ref=e3871]:
+                      - generic [ref=e3872]:
+                        - img [ref=e3874]
+                        - heading "Restaurants & cafes" [level=3] [ref=e3876]:
+                          - generic [ref=e3877]: Restaurants & cafes
+                      - list [ref=e3878]:
+                        - listitem [ref=e3879]:
+                          - generic [ref=e3882]:
+                            - generic [ref=e3883]: Cafe/Bar Shisha Corner
+                            - generic [ref=e3885]: 30 m
+                        - listitem [ref=e3886]:
+                          - generic [ref=e3889]:
+                            - generic [ref=e3890]: Cafe/Bar Windsor Lounge
+                            - generic [ref=e3892]: 100 m
+                        - listitem [ref=e3893]:
+                          - generic [ref=e3896]:
+                            - generic [ref=e3897]: Cafe/Bar Sushi Lounge Bar
+                            - generic [ref=e3899]: 2.8 km
+                    - generic [ref=e3900]:
+                      - generic [ref=e3901]:
+                        - img [ref=e3903]
+                        - heading "Beaches in the Neighborhood" [level=3] [ref=e3905]:
+                          - generic [ref=e3906]: Beaches in the Neighborhood
+                      - list [ref=e3907]:
+                        - listitem [ref=e3908]:
+                          - generic [ref=e3911]:
+                            - generic [ref=e3912]: Sharks Bay Beach
+                            - generic [ref=e3914]: 3 km
+                        - listitem [ref=e3915]:
+                          - generic [ref=e3918]:
+                            - generic [ref=e3919]: Domina Coral Bay Beach
+                            - generic [ref=e3921]: 3.4 km
+                        - listitem [ref=e3922]:
+                          - generic [ref=e3925]:
+                            - generic [ref=e3926]: Naama Bay Beach
+                            - generic [ref=e3928]: 4.3 km
+                        - listitem [ref=e3929]:
+                          - generic [ref=e3932]:
+                            - generic [ref=e3933]: Gardens Bay Beach
+                            - generic [ref=e3935]: 4.8 km
+                        - listitem [ref=e3936]:
+                          - generic [ref=e3939]:
+                            - generic [ref=e3940]: White Knight Bay Beach
+                            - generic [ref=e3942]: 6 km
+                    - generic [ref=e3943]:
+                      - generic [ref=e3944]:
+                        - img [ref=e3946]
+                        - heading "Closest Airports" [level=3] [ref=e3948]:
+                          - generic [ref=e3949]: Closest Airports
+                      - list [ref=e3950]:
+                        - listitem [ref=e3951]:
+                          - generic [ref=e3954]:
+                            - generic [ref=e3955]: Sharm el-Sheikh International Airport
+                            - generic [ref=e3957]: 3.8 km
+                  - generic [ref=e3958]: Shortest estimated walking or driving distances displayed. Actual distances may vary.
+                - group [ref=e3961]:
+                  - generic [ref=e3963]: Missing some information?
+                  - generic [ref=e3965]:
+                    - button "Yes" [ref=e3967] [cursor=pointer]:
+                      - generic [ref=e3968]: "Yes"
+                    - generic [ref=e3969]:
+                      - text: /
+                      - button "No" [ref=e3970] [cursor=pointer]:
+                        - generic [ref=e3971]: "No"
+            - generic [ref=e3023]:
+              - generic [ref=e3024]:
+                - generic [ref=e3025]:
+                  - heading "Food and Drink" [level=2] [ref=e3026]:
+                    - generic [ref=e3027]: Food and Drink
+                  - generic [ref=e3972]: Breakfast on site, restaurants on site, plus facilities and nearby options
+                - button "See availability" [ref=e3029] [cursor=pointer]:
+                  - generic [ref=e3030]: See availability
+              - generic [ref=e3032]:
+                - generic [ref=e3035]:
+                  - button "a table with plates of food on it at Pickalbatros Golf Luxury Suites - All Inclusive in Sharm El Sheikh" [ref=e3039] [cursor=pointer]:
+                    - img "a table with plates of food on it at Pickalbatros Golf Luxury Suites - All Inclusive in Sharm El Sheikh" [ref=e3041]
+                  - generic [ref=e3042]:
+                    - heading "Breakfast" [level=3] [ref=e3044]:
+                      - generic [ref=e3045]: Breakfast
+                    - list [ref=e3047]:
+                      - listitem [ref=e3048]:
+                        - generic [ref=e3049]: Exceptional breakfast included with select options or available at the property for € 0.09 per person.
+                      - listitem [ref=e3050]:
+                        - generic [ref=e3051]:
+                          - generic [ref=e3052]: Food
+                          - generic [ref=e3053]: Bread • Pastries • Pancakes • Butter • Cheese • Cold meat • Eggs • Yogurt • Fruit
+                      - listitem [ref=e3054]:
+                        - generic [ref=e3055]:
+                          - generic [ref=e3056]: Drinks
+                          - generic [ref=e3057]: Coffee • Tea
+                - generic [ref=e3060]:
+                  - button "a restaurant with tables and chairs and chandeliers at Pickalbatros Golf Luxury Suites - All Inclusive in Sharm El Sheikh" [ref=e3064] [cursor=pointer]:
+                    - img "a restaurant with tables and chairs and chandeliers at Pickalbatros Golf Luxury Suites - All Inclusive in Sharm El Sheikh" [ref=e3066]
+                  - generic [ref=e3067]:
+                    - generic [ref=e3070]: Turquoise
+                    - list [ref=e3072]:
+                      - listitem [ref=e3073]:
+                        - generic [ref=e3074]:
+                          - generic [ref=e3075]: Cuisine
+                          - generic [ref=e3076]: International
+                      - listitem [ref=e3077]:
+                        - generic [ref=e3078]:
+                          - generic [ref=e3079]: Service
+                          - generic [ref=e3080]: Breakfast • Lunch • Dinner
+                      - listitem [ref=e3081]:
+                        - generic [ref=e3082]:
+                          - generic [ref=e3083]: Dietary options
+                          - generic [ref=e3084]: Halal
+                - generic [ref=e3087]:
+                  - img "More food and drink" [ref=e3089]
+                  - generic [ref=e3090]:
+                    - generic [ref=e3092]: More food and drink
+                    - generic [ref=e3093]: Meals • Restaurants • Facilities • Nearby options
+                  - button "View all food & drink details" [ref=e3094] [cursor=pointer]:
+                    - generic [ref=e3095]: View all food & drink details
+            - region "Survey with 2 questions" [ref=e3097]:
+              - generic [ref=e3101]:
+                - button "Close survey" [ref=e3103] [cursor=pointer]:
+                  - img [ref=e3106]
+                - heading "How are we doing?" [level=3] [ref=e3108]:
+                  - generic [ref=e3109]: How are we doing?
+                - generic [ref=e3110]:
+                  - img [ref=e3112]
+                  - generic [ref=e3113]:
+                    - generic [ref=e3114]:
+                      - generic "Question 1 of 2" [ref=e3115]: 1 of 2
+                      - generic [ref=e3116]: It's easy to compare accommodation options
+                    - group "Rate how much you agree with the following statement. This is a 5-point scale, with 1 being strongly agree and 5 strongly disagree." [ref=e3118]:
+                      - generic [ref=e3119]:
+                        - radio "Strongly agree" [ref=e3120]
+                        - generic [ref=e3124] [cursor=pointer]: Strongly agree
+                      - generic [ref=e3125]:
+                        - radio "Agree" [ref=e3126]
+                        - generic [ref=e3130] [cursor=pointer]: Agree
+                      - generic [ref=e3131]:
+                        - radio "Neutral" [ref=e3132]
+                        - generic [ref=e3136] [cursor=pointer]: Neutral
+                      - generic [ref=e3137]:
+                        - radio "Disagree" [ref=e3138]
+                        - generic [ref=e3142] [cursor=pointer]: Disagree
+                      - generic [ref=e3143]:
+                        - radio "Strongly disagree" [ref=e3144]
+                        - generic [ref=e3148] [cursor=pointer]: Strongly disagree
+            - generic [ref=e3152]:
+              - generic [ref=e3153]:
+                - generic [ref=e3154]:
+                  - heading "House rules" [level=2] [ref=e3155]:
+                    - generic [ref=e3156]: House rules
+                  - generic [ref=e3157]: Pickalbatros Golf Luxury Suites - All Inclusive takes special requests – add in the next step!
+                - button "See availability" [ref=e3159] [cursor=pointer]:
+                  - generic [ref=e3160]: See availability
+              - generic [ref=e3162]:
+                - generic [ref=e3163]:
+                  - generic [ref=e3165]:
+                    - img [ref=e3167]
+                    - generic [ref=e3169]: Check-in
+                  - generic [ref=e3171]: From 2:00 PM
+                - separator [ref=e3172]
+                - generic [ref=e3173]:
+                  - generic [ref=e3175]:
+                    - img [ref=e3177]
+                    - generic [ref=e3179]: Check-out
+                  - generic [ref=e3181]: Until 12:00 PM
+                - separator [ref=e3182]
+                - generic [ref=e3183]:
+                  - generic [ref=e3185]:
+                    - img [ref=e3187]
+                    - generic [ref=e3189]: Cancellation/ prepayment
+                  - generic [ref=e3191]:
+                    - text: Cancellation and prepayment policies vary according to accommodation type. Check what
+                    - link "conditions" [ref=e3192] [cursor=pointer]:
+                      - /url: "#availability_target"
+                    - text: apply to each option when making your selection.
+                - separator [ref=e3193]
+                - generic [ref=e3194]:
+                  - generic [ref=e3196]:
+                    - img [ref=e3198]
+                    - generic [ref=e3200]: Children & Beds
+                  - generic [ref=e3202]:
+                    - generic [ref=e3203]:
+                      - heading "Child policies" [level=3] [ref=e3204]
+                      - paragraph [ref=e3205]: Children of all ages are welcome.
+                      - paragraph [ref=e3206]: To see correct prices and occupancy info, add the number and ages of children in your group to your search.
+                    - heading "Crib and extra bed policies" [level=3] [ref=e3207]
+                    - generic [ref=e3208]:
+                      - paragraph [ref=e3209]: The number of extra beds allowed depends on the option you choose. Check your selected option for more info.
+                      - paragraph [ref=e3210]: There are no cribs available at this property.
+                      - paragraph [ref=e3211]: All extra beds are subject to availability.
+                - separator [ref=e3212]
+                - generic [ref=e3213]:
+                  - generic [ref=e3215]:
+                    - img [ref=e3217]
+                    - generic [ref=e3219]: No age restriction
+                  - generic [ref=e3221]: There's no age requirement for check-in
+                - separator [ref=e3222]
+                - generic [ref=e3223]:
+                  - generic [ref=e3225]:
+                    - img [ref=e3227]
+                    - generic [ref=e3229]: Pets
+                  - generic [ref=e3231]: Pets are not allowed.
+                - separator [ref=e3232]
+                - generic [ref=e3233]:
+                  - generic [ref=e3235]:
+                    - img [ref=e3237]
+                    - generic [ref=e3239]: Groups
+                  - generic [ref=e3241]: When booking more than 7 rooms, different policies and additional fees may apply.
+                - separator [ref=e3242]
+                - generic [ref=e3243]:
+                  - generic [ref=e3245]:
+                    - img [ref=e3247]
+                    - generic [ref=e3249]: Accepted payment methods
+                  - generic [ref=e3251]:
+                    - img "Visa" [ref=e3253]
+                    - img "Mastercard" [ref=e3255]
+                    - generic [ref=e3257]: Cash
+            - generic [ref=e3261]:
+              - generic [ref=e3262]:
+                - generic [ref=e3263]:
+                  - heading "The fine print" [level=2] [ref=e3264]:
+                    - generic [ref=e3265]: The fine print
+                  - generic [ref=e3266]: Must-know information for guests at this property
+                - button "See availability" [ref=e3268] [cursor=pointer]:
+                  - generic [ref=e3269]: See availability
+              - generic [ref=e3272]:
+                - paragraph [ref=e3273]: A birth certificate is required at check-in for all accompanying children.
+                - paragraph [ref=e3274]: All Egyptian nationals must present a marriage certificate at check-in.
+                - paragraph [ref=e3275]: Guests booking the Honeymoon Offer Room must present a valid marriage certificate dated within three months of arrival.
+                - paragraph [ref=e3276]: Proper swimwear is required for use in the pool and sea. Clothing other than swimwear is not permitted.
+                - paragraph [ref=e3277]: Group bookings of 4 rooms or more are subject to different policies and additional charges.
+                - paragraph [ref=e3278]: Children aged 12 years and above are considered adults and will be charged the adult rate.
+                - paragraph [ref=e3279]: For children under 12 years, a supplement will apply according to the hotel's policy.
+                - paragraph [ref=e3280]: The rate for the "Special Offer – Egyptians and Residents Only" is exclusively available to Egyptian citizens and residents. A valid Egyptian ID, passport, or residency document must be presented upon check-in. Additional charges may apply if valid documentation is not provided.
+            - generic [ref=e3282]:
+              - heading "Legal information" [level=2] [ref=e3283]
+              - generic [ref=e3284]:
+                - text: "This property is managed, licensed, or represented by a business. This label has no relevance in terms of tax, including VAT and other \"indirect taxes,\" but is required under applicable consumer laws. Find more info about the business here:"
+                - button "See business details" [ref=e3285] [cursor=pointer]:
+                  - generic [ref=e3286]: See business details
+                - text: .
+          - generic [ref=e3975]:
+            - heading "FAQs about Pickalbatros Golf Luxury Suites - All Inclusive" [level=2] [ref=e3977]
+            - generic [ref=e3978]:
+              - generic [ref=e3980]:
+                - button "What kind of breakfast is served at Pickalbatros Golf Luxury Suites - All Inclusive?" [ref=e3983] [cursor=pointer]:
+                  - heading "What kind of breakfast is served at Pickalbatros Golf Luxury Suites - All Inclusive?" [level=3] [ref=e3985]
+                  - img [ref=e3987]
+                - separator [ref=e3989]
+                - button "Does Pickalbatros Golf Luxury Suites - All Inclusive have a pool?" [ref=e3992] [cursor=pointer]:
+                  - heading "Does Pickalbatros Golf Luxury Suites - All Inclusive have a pool?" [level=3] [ref=e3994]
+                  - img [ref=e3996]
+                - separator [ref=e3998]
+                - button "What type of room can I book at Pickalbatros Golf Luxury Suites - All Inclusive?" [ref=e4001] [cursor=pointer]:
+                  - heading "What type of room can I book at Pickalbatros Golf Luxury Suites - All Inclusive?" [level=3] [ref=e4003]
+                  - img [ref=e4005]
+                - separator [ref=e4007]
+                - button "What are the check-in and check-out times at Pickalbatros Golf Luxury Suites - All Inclusive?" [ref=e4010] [cursor=pointer]:
+                  - heading "What are the check-in and check-out times at Pickalbatros Golf Luxury Suites - All Inclusive?" [level=3] [ref=e4012]
+                  - img [ref=e4014]
+                - separator [ref=e4016]
+                - button "How much does it cost to stay at Pickalbatros Golf Luxury Suites - All Inclusive?" [ref=e4019] [cursor=pointer]:
+                  - heading "How much does it cost to stay at Pickalbatros Golf Luxury Suites - All Inclusive?" [level=3] [ref=e4021]
+                  - img [ref=e4023]
+              - generic [ref=e4026]:
+                - button "Does Pickalbatros Golf Luxury Suites - All Inclusive have a restaurant on site?" [ref=e4029] [cursor=pointer]:
+                  - heading "Does Pickalbatros Golf Luxury Suites - All Inclusive have a restaurant on site?" [level=3] [ref=e4031]
+                  - img [ref=e4033]
+                - separator [ref=e4035]
+                - button "What is there to do at Pickalbatros Golf Luxury Suites - All Inclusive?" [ref=e4038] [cursor=pointer]:
+                  - heading "What is there to do at Pickalbatros Golf Luxury Suites - All Inclusive?" [level=3] [ref=e4040]
+                  - img [ref=e4042]
+                - separator [ref=e4044]
+                - button "How far is Pickalbatros Golf Luxury Suites - All Inclusive from the center of Sharm El Sheikh?" [ref=e4047] [cursor=pointer]:
+                  - heading "How far is Pickalbatros Golf Luxury Suites - All Inclusive from the center of Sharm El Sheikh?" [level=3] [ref=e4049]
+                  - img [ref=e4051]
+                - separator [ref=e4053]
+                - button "How close to the beach is Pickalbatros Golf Luxury Suites - All Inclusive?" [ref=e4056] [cursor=pointer]:
+                  - heading "How close to the beach is Pickalbatros Golf Luxury Suites - All Inclusive?" [level=3] [ref=e4058]
+                  - img [ref=e4060]
+      - generic [ref=e3291]:
+        - heading "Other properties by Pickalbatros you might like" [level=2] [ref=e3292]:
+          - generic [ref=e3293]: Other properties by Pickalbatros you might like
+        - paragraph
+        - region [ref=e3295]:
+          - list [ref=e3296]:
+            - listitem [ref=e3297]:
+              - link "Resort 5 stars Pickalbatros Palace Sharm \"Aqua Park\"- All inclusive 9.3 Wonderful 10.3 km from center Starting from € 2,171" [ref=e3298] [cursor=pointer]:
+                - /url: /hotel/eg/melia-sharm-resort-spa.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=61912eeb05fe7e44d4f8c11049b02a8b&checkin=2026-02-15&checkout=2026-02-22&dest_id=-302053&dest_type=city&group_adults=2&group_children=0&no_rooms=2&sb_travel_purpose=0&ucfac=481&
+                - img [ref=e3300]
+                - generic [ref=e3301]:
+                  - generic [ref=e3302]:
+                    - text: Resort
+                    - generic "5 stars" [ref=e3303]:
+                      - img [ref=e3304]
+                      - generic [ref=e3306]: 5 stars
+                  - generic [ref=e3307]:
+                    - heading "Pickalbatros Palace Sharm \"Aqua Park\"- All inclusive" [level=3] [ref=e3308]
+                    - heading "9.3 Wonderful" [level=4] [ref=e3309]
+                  - generic [ref=e3310]:
+                    - generic [ref=e3311]:
+                      - img [ref=e3312]
+                      - text: 10.3 km from center
+                    - generic [ref=e3314]:
+                      - generic [ref=e3315]: Starting from
+                      - generic [ref=e3316]: € 2,171
+            - listitem [ref=e3317]:
+              - link "Resort 5 stars Pickalbatros Royal Grand Sharm - Adults Friendly 16 Years Plus 9.4 Wonderful 6.1 km from center Starting from € 1,740" [ref=e3318] [cursor=pointer]:
+                - /url: /hotel/eg/royal-grand-sharm.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=61912eeb05fe7e44d4f8c11049b02a8b&checkin=2026-02-15&checkout=2026-02-22&dest_id=-302053&dest_type=city&group_adults=2&group_children=0&no_rooms=2&sb_travel_purpose=0&ucfac=481&
+                - img [ref=e3320]
+                - generic [ref=e3321]:
+                  - generic [ref=e3322]:
+                    - text: Resort
+                    - generic "5 stars" [ref=e3323]:
+                      - img [ref=e3324]
+                      - generic [ref=e3326]: 5 stars
+                  - generic [ref=e3327]:
+                    - heading "Pickalbatros Royal Grand Sharm - Adults Friendly 16 Years Plus" [level=3] [ref=e3328]
+                    - heading "9.4 Wonderful" [level=4] [ref=e3329]
+                  - generic [ref=e3330]:
+                    - generic [ref=e3331]:
+                      - img [ref=e3332]
+                      - text: 6.1 km from center
+                    - generic [ref=e3334]:
+                      - generic [ref=e3335]: Starting from
+                      - generic [ref=e3336]: € 1,740
+            - listitem [ref=e3337]:
+              - link "Resort 5 stars Pickalbatros Golf Beach Resort - All Inclusive 9 Wonderful 5.5 km from center Starting from € 1,564" [ref=e3338] [cursor=pointer]:
+                - /url: /hotel/eg/maritim-jolie-ville-golf-resort.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=61912eeb05fe7e44d4f8c11049b02a8b&checkin=2026-02-15&checkout=2026-02-22&dest_id=-302053&dest_type=city&group_adults=2&group_children=0&no_rooms=2&sb_travel_purpose=0&ucfac=481&
+                - img [ref=e3340]
+                - generic [ref=e3341]:
+                  - generic [ref=e3342]:
+                    - text: Resort
+                    - generic "5 stars" [ref=e3343]:
+                      - img [ref=e3344]
+                      - generic [ref=e3346]: 5 stars
+                  - generic [ref=e3347]:
+                    - heading "Pickalbatros Golf Beach Resort - All Inclusive" [level=3] [ref=e3348]
+                    - heading "9 Wonderful" [level=4] [ref=e3349]
+                  - generic [ref=e3350]:
+                    - generic [ref=e3351]:
+                      - img [ref=e3352]
+                      - text: 5.5 km from center
+                    - generic [ref=e3354]:
+                      - generic [ref=e3355]: Starting from
+                      - generic [ref=e3356]: € 1,564
+            - listitem [ref=e3357]:
+              - link "Resort 4 stars Pickalbatros Aqua Blu Sharm El Sheikh 9.3 Wonderful 7.1 km from center Starting from € 2,149" [ref=e3358] [cursor=pointer]:
+                - /url: /hotel/eg/aqua-blu-sharm-el-sheikh.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=61912eeb05fe7e44d4f8c11049b02a8b&checkin=2026-02-15&checkout=2026-02-22&dest_id=-302053&dest_type=city&group_adults=2&group_children=0&no_rooms=2&sb_travel_purpose=0&ucfac=481&
+                - img [ref=e3360]
+                - generic [ref=e3361]:
+                  - generic [ref=e3362]:
+                    - text: Resort
+                    - generic "4 stars" [ref=e3363]:
+                      - img [ref=e3364]
+                      - generic [ref=e3366]: 4 stars
+                  - generic [ref=e3367]:
+                    - heading "Pickalbatros Aqua Blu Sharm El Sheikh" [level=3] [ref=e3368]
+                    - heading "9.3 Wonderful" [level=4] [ref=e3369]
+                  - generic [ref=e3370]:
+                    - generic [ref=e3371]:
+                      - img [ref=e3372]
+                      - text: 7.1 km from center
+                    - generic [ref=e3374]:
+                      - generic [ref=e3375]: Starting from
+                      - generic [ref=e3376]: € 2,149
+            - listitem [ref=e3377]:
+              - link "Resort 5 stars Pickalbatros Laguna Vista Aqua Park - 24 HRS All Inclusive 9.4 Wonderful 17.4 km from center Starting from € 2,080" [ref=e3378] [cursor=pointer]:
+                - /url: /hotel/eg/laguna-vista-beach-resort.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=61912eeb05fe7e44d4f8c11049b02a8b&checkin=2026-02-15&checkout=2026-02-22&dest_id=-302053&dest_type=city&group_adults=2&group_children=0&no_rooms=2&sb_travel_purpose=0&ucfac=481&
+                - img [ref=e3380]
+                - generic [ref=e3381]:
+                  - generic [ref=e3382]:
+                    - text: Resort
+                    - generic "5 stars" [ref=e3383]:
+                      - img [ref=e3384]
+                      - generic [ref=e3386]: 5 stars
+                  - generic [ref=e3387]:
+                    - heading "Pickalbatros Laguna Vista Aqua Park - 24 HRS All Inclusive" [level=3] [ref=e3388]
+                    - heading "9.4 Wonderful" [level=4] [ref=e3389]
+                  - generic [ref=e3390]:
+                    - generic [ref=e3391]:
+                      - img [ref=e3392]
+                      - text: 17.4 km from center
+                    - generic [ref=e3394]:
+                      - generic [ref=e3395]: Starting from
+                      - generic [ref=e3396]: € 2,080
+          - button [ref=e3397] [cursor=pointer]
+      - button "The Best of Sharm El Sheikh Click here to see more hotels and accommodations near popular landmarks in Sharm El Sheikh" [ref=e3402] [cursor=pointer]:
+        - generic [ref=e3404]:
+          - generic [ref=e3406]: The Best of Sharm El Sheikh
+          - generic [ref=e3407]: Click here to see more hotels and accommodations near popular landmarks in Sharm El Sheikh
+        - img [ref=e3409]
+  - contentinfo [ref=e3411]:
+    - contentinfo [ref=e3415]:
+      - navigation "Quick Links" [ref=e3418]:
+        - list [ref=e3419]:
+          - listitem [ref=e3420]:
+            - link "Countries" [ref=e3421] [cursor=pointer]:
+              - /url: https://www.booking.com/country.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3423]: Countries
+            - text: .
+          - listitem [ref=e3424]:
+            - link "Regions" [ref=e3425] [cursor=pointer]:
+              - /url: https://www.booking.com/region.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3427]: Regions
+            - text: .
+          - listitem [ref=e3428]:
+            - link "Cities" [ref=e3429] [cursor=pointer]:
+              - /url: https://www.booking.com/city.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3431]: Cities
+            - text: .
+          - listitem [ref=e3432]:
+            - link "Districts" [ref=e3433] [cursor=pointer]:
+              - /url: https://www.booking.com/district.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3435]: Districts
+            - text: .
+          - listitem [ref=e3436]:
+            - link "Airports" [ref=e3437] [cursor=pointer]:
+              - /url: https://www.booking.com/airport.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3439]: Airports
+            - text: .
+          - listitem [ref=e3440]:
+            - link "Hotels" [ref=e3441] [cursor=pointer]:
+              - /url: https://www.booking.com/hotel/index.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3443]: Hotels
+            - text: .
+          - listitem [ref=e3444]:
+            - link "Places of interest" [ref=e3445] [cursor=pointer]:
+              - /url: https://www.booking.com/landmark.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3447]: Places of interest
+            - text: .
+          - listitem [ref=e3448]:
+            - link "Vacation Homes" [ref=e3449] [cursor=pointer]:
+              - /url: https://www.booking.com/booking-home/index.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3451]: Vacation Homes
+            - text: .
+          - listitem [ref=e3452]:
+            - link "Apartments" [ref=e3453] [cursor=pointer]:
+              - /url: https://www.booking.com/apartments/index.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3455]: Apartments
+            - text: .
+          - listitem [ref=e3456]:
+            - link "Resorts" [ref=e3457] [cursor=pointer]:
+              - /url: https://www.booking.com/resorts/index.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3459]: Resorts
+            - text: .
+          - listitem [ref=e3460]:
+            - link "Villas" [ref=e3461] [cursor=pointer]:
+              - /url: https://www.booking.com/villas/index.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3463]: Villas
+            - text: .
+          - listitem [ref=e3464]:
+            - link "Hostels" [ref=e3465] [cursor=pointer]:
+              - /url: https://www.booking.com/hostels/index.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3467]: Hostels
+            - text: .
+          - listitem [ref=e3468]:
+            - link "B&Bs" [ref=e3469] [cursor=pointer]:
+              - /url: https://www.booking.com/bed-and-breakfast/index.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3471]: B&Bs
+            - text: .
+          - listitem [ref=e3472]:
+            - link "Guest Houses" [ref=e3473] [cursor=pointer]:
+              - /url: https://www.booking.com/guest-house/index.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3475]: Guest Houses
+            - text: .
+          - listitem [ref=e3476]:
+            - link "Unique places to stay" [ref=e3477] [cursor=pointer]:
+              - /url: https://www.booking.com/accommodations.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3479]: Unique places to stay
+            - text: .
+          - listitem [ref=e3480]:
+            - link "Discover monthly stays" [ref=e3481] [cursor=pointer]:
+              - /url: https://www.booking.com/extended-stays/index.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3483]: Discover monthly stays
+      - generic [ref=e3485]:
+        - generic [ref=e3486]:
+          - heading "Support" [level=3] [ref=e3488]
+          - list [ref=e3489]:
+            - listitem [ref=e3490]:
+              - link "Manage your trips" [ref=e3492] [cursor=pointer]:
+                - /url: https://secure.booking.com/mytrips.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3493]: Manage your trips
+            - listitem [ref=e3494]:
+              - link "Contact Customer Service" [ref=e3496] [cursor=pointer]:
+                - /url: https://secure.booking.com/help.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3497]: Contact Customer Service
+            - listitem [ref=e3498]:
+              - link "Safety Resource Center" [ref=e3500] [cursor=pointer]:
+                - /url: https://www.booking.com/trust_and_safety.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3501]: Safety Resource Center
+        - generic [ref=e3502]:
+          - heading "Discover" [level=3] [ref=e3504]
+          - list [ref=e3505]:
+            - listitem [ref=e3506]:
+              - link "Genius loyalty program" [ref=e3508] [cursor=pointer]:
+                - /url: https://www.booking.com/genius.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3509]: Genius loyalty program
+            - listitem [ref=e3510]:
+              - link "Seasonal and holiday deals" [ref=e3512] [cursor=pointer]:
+                - /url: https://www.booking.com/deals/index.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3513]: Seasonal and holiday deals
+            - listitem [ref=e3514]:
+              - link "Travel articles" [ref=e3516] [cursor=pointer]:
+                - /url: https://www.booking.com/articles.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3517]: Travel articles
+            - listitem [ref=e3518]:
+              - link "Booking.com for Business" [ref=e3520] [cursor=pointer]:
+                - /url: https://business.booking.com/?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3521]: Booking.com for Business
+            - listitem [ref=e3522]:
+              - link "Traveller Review Awards" [ref=e3524] [cursor=pointer]:
+                - /url: https://www.booking.com/traveller-awards/index.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3525]: Traveller Review Awards
+            - listitem [ref=e3526]:
+              - link "Car rental" [ref=e3528] [cursor=pointer]:
+                - /url: https://www.booking.com/cars/index.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3529]: Car rental
+            - listitem [ref=e3530]:
+              - link "Flight finder" [ref=e3532] [cursor=pointer]:
+                - /url: https://booking.com/pxgo?aid=304142&url=https%3A%2F%2Fbooking.kayak.com%2Fin%3Fsid%3D62602bd6875882c94a550124b54b5306%26mc%3DEUR%26bdclc%3Den-us%26p%3Dfooter_link%26a%3Dbdc%252Ffooter_link&lang=en-us&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&token=UmFuZG9tSVYkc2RlIyh9YaAHsRE_5bn31ax_VSbtHJYfjLSZ23pbnBJBcgKFCOGlDtX_Lf3gCdkz7wZEgm7DXLugPWP-p9HdRbd1IDnM_P639w0lMhoAKJEQH7pt9hLAkE5HH6ntlM1bS8d6iCPvOTf18KQ8_XynLyUu0FMKC37VDSrOutx69ZYLVt2N-WilEmu4f1H-yObL8MUlnRt2X1LF5oXGBZozqw7rS9BLcD36lPh7Fsc7bxQ9OhACZbx_wAT_yQzRI4-W0cQ85bJszZyJYv5Pm-e0zUC5S3g1cOWGMeUjSaxVQtpo_alOuTn3oFdZsMy24R8nccUibL3U3_KKKGeb-HZ8u2qsQUT1gB4mNqyW-OfNyGetmiIPnyeAVyZVEmmMLi0BUUKqnvRQ78ZZR0BfGSnw5hMajnL5h2AXDWrNUYnz3El4tRoNXvggIGTmZjMfjO8Xq2-MVAXIewLPlFZeXK7lCZ8hhyrAnWxPM2KhLYFH2SPiN86dAioe26k_kKPQUzuk_4VE2TBYrPdmCFVsmiOSvb4vRPf439LaXfF4y5JwOtofHDbvbOLAdM3XQiHH5KuuOoJQZtQOQUPCjCABuCLr
+                - generic [ref=e3533]: Flight finder
+            - listitem [ref=e3534]:
+              - link "Restaurant reservations" [ref=e3536] [cursor=pointer]:
+                - /url: https://www.opentable.com/?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&ref=16087
+                - generic [ref=e3537]: Restaurant reservations
+            - listitem [ref=e3538]:
+              - link "Booking.com for Travel Agents" [ref=e3540] [cursor=pointer]:
+                - /url: https://www.booking.com/affiliate-program/v2/index.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306&utm_campaign=booking-footer&utm_content=travel-agents-link&utm_medium=referral&utm_source=booking.com
+                - generic [ref=e3541]: Booking.com for Travel Agents
+        - generic [ref=e3542]:
+          - heading "Terms and settings" [level=3] [ref=e3544]
+          - list [ref=e3545]:
+            - listitem [ref=e3546]:
+              - link "Manage cookie settings" [ref=e3548] [cursor=pointer]:
+                - /url: https://www.booking.com/content/privacy.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3549]: Manage cookie settings
+            - listitem [ref=e3550]:
+              - link "Privacy Notice" [ref=e3552] [cursor=pointer]:
+                - /url: https://www.booking.com/content/privacy.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3553]: Privacy Notice
+            - listitem [ref=e3554]:
+              - link "Terms of Service" [ref=e3556] [cursor=pointer]:
+                - /url: https://www.booking.com/content/terms.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3557]: Terms of Service
+            - listitem [ref=e3558]:
+              - link "Accessibility Statement" [ref=e3560] [cursor=pointer]:
+                - /url: https://www.booking.com/content/accessibility_statement.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3561]: Accessibility Statement
+            - listitem [ref=e3562]:
+              - link "Dispute resolution" [ref=e3564] [cursor=pointer]:
+                - /url: https://secure.booking.com/content/complaints.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3565]: Dispute resolution
+            - listitem [ref=e3566]:
+              - link "Modern Slavery Statement" [ref=e3568] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/modern-slavery-statement/?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB
+                - generic [ref=e3569]: Modern Slavery Statement
+            - listitem [ref=e3570]:
+              - link "Human Rights Statement" [ref=e3572] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/about/compliance-and-ethics/human-rights/?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB
+                - generic [ref=e3573]: Human Rights Statement
+            - listitem [ref=e3574]:
+              - link "Manage personalized recommendations" [ref=e3576] [cursor=pointer]:
+                - /url: https://account.booking.com/mysettings/preferences?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB
+                - generic [ref=e3577]: Manage personalized recommendations
+        - generic [ref=e3578]:
+          - heading "Partners" [level=3] [ref=e3580]
+          - list [ref=e3581]:
+            - listitem [ref=e3582]:
+              - link "Extranet login" [ref=e3584] [cursor=pointer]:
+                - /url: https://admin.booking.com/?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306&utm_campaign=login_footer_v0&utm_medium=frontend&utm_source=extranet_login_footer
+                - generic [ref=e3585]: Extranet login
+            - listitem [ref=e3586]:
+              - link "Partner help" [ref=e3588] [cursor=pointer]:
+                - /url: https://partner.booking.com/en-us?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306&utm_campaign=footer_list&utm_medium=frontend_footer&utm_source=booking.com
+                - generic [ref=e3589]: Partner help
+            - listitem [ref=e3590]:
+              - link "List your property" [ref=e3592] [cursor=pointer]:
+                - /url: https://join.booking.com/?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&lang=en-us&sid=62602bd6875882c94a550124b54b5306&utm_medium=frontend&utm_source=footer_menu
+                - generic [ref=e3593]: List your property
+            - listitem [ref=e3594]:
+              - link "Become an affiliate" [ref=e3596] [cursor=pointer]:
+                - /url: https://www.booking.com/affiliate-program/v2/index.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306&utm_campaign=booking-footer&utm_content=become-an-affiliate-link&utm_medium=referral&utm_source=booking.com
+                - generic [ref=e3597]: Become an affiliate
+        - generic [ref=e3598]:
+          - heading "About" [level=3] [ref=e3600]
+          - list [ref=e3601]:
+            - listitem [ref=e3602]:
+              - link "About Booking.com" [ref=e3604] [cursor=pointer]:
+                - /url: https://www.booking.com/content/about.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3605]: About Booking.com
+            - listitem [ref=e3606]:
+              - link "How We Work" [ref=e3608] [cursor=pointer]:
+                - /url: https://www.booking.com/content/how_we_work.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3609]: How We Work
+            - listitem [ref=e3610]:
+              - link "Sustainability" [ref=e3612] [cursor=pointer]:
+                - /url: https://www.sustainability.booking.com/?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB
+                - generic [ref=e3613]: Sustainability
+            - listitem [ref=e3614]:
+              - link "Press center" [ref=e3616] [cursor=pointer]:
+                - /url: https://globalnews.booking.com/?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&lang=en
+                - generic [ref=e3617]: Press center
+            - listitem [ref=e3618]:
+              - link "Careers" [ref=e3620] [cursor=pointer]:
+                - /url: https://careers.booking.com/?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB
+                - generic [ref=e3621]: Careers
+            - listitem [ref=e3622]:
+              - link "Investor relations" [ref=e3624] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB
+                - generic [ref=e3625]: Investor relations
+            - listitem [ref=e3626]:
+              - link "Corporate contact" [ref=e3628] [cursor=pointer]:
+                - /url: https://www.booking.com/content/contact-us.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3629]: Corporate contact
+            - listitem [ref=e3630]:
+              - link "Content guidelines and reporting" [ref=e3632] [cursor=pointer]:
+                - /url: https://www.booking.com/content-moderation-policy/overview-page.html?aid=304142&label=gen173nr-10CAsoQ0Iscml4b3MtZ29sZi12aWxsYXMtYW5kLXN1aXRlcy1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Asm9r8sGwAIB0gIkMzA3NTIxYjQtMmQxYy00YTFkLTg0MGEtM2I0NDZjOGI0YWVi2AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3633]: Content guidelines and reporting
+      - generic [ref=e3635]:
+        - generic [ref=e3636]:
+          - 'button "Language: English (US)" [ref=e3638] [cursor=pointer]'
+          - button "Prices in Euro" [ref=e3643] [cursor=pointer]:
+            - generic [ref=e3644]: EUR
+        - separator [ref=e3645]
+        - generic [ref=e3646]:
+          - generic [ref=e3648]: Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.
+          - generic [ref=e3649]: Copyright © 1996–2026 Booking.com™. All rights reserved.
+        - generic [ref=e3650]:
+          - img "Booking.com" [ref=e3651]:
+            - img [ref=e3652]
+          - img "Priceline.com" [ref=e3654]:
+            - img [ref=e3655]
+          - img "Kayak" [ref=e3658]:
+            - img [ref=e3659]
+          - img "Agoda" [ref=e3673]:
+            - img [ref=e3674]
+          - img "OpenTable" [ref=e3682]:
+            - img [ref=e3683]
+  - text: 끖 낝 끲 낝 넌
+```

@@ -1,0 +1,6077 @@
+### Page state
+- Page URL: https://www.booking.com/hotel/eg/novotel-sharm-el-sheikh.html?checkin=2026-02-15&checkout=2026-02-22&group_adults=2&no_rooms=2
+- Page Title: Hotel Novotel Sharm El-Sheikh, Sharm El Sheikh (updated prices 2026)
+- Page Snapshot:
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e3] [cursor=pointer]:
+    - /url: "#basiclayout"
+    - generic [ref=e5]: Skip to main content
+  - banner [ref=e9]:
+    - generic [ref=e10]:
+      - navigation [ref=e11]:
+        - link "Booking.com" [ref=e15] [cursor=pointer]:
+          - /url: https://www.booking.com/index.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+          - img [ref=e16]
+        - generic [ref=e18]:
+          - button "Prices in Euro" [ref=e20] [cursor=pointer]:
+            - generic [ref=e21]: EUR
+          - 'button "Language: English (US)" [ref=e23] [cursor=pointer]'
+          - link "Customer support" [ref=e28] [cursor=pointer]:
+            - /url: https://secure.booking.com/help.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306&source=header&src=profile_contact_cs
+            - img [ref=e31]
+          - link "List your property" [ref=e33] [cursor=pointer]:
+            - /url: https://join.booking.com/?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&lang=en-us&sid=62602bd6875882c94a550124b54b5306&utm_medium=frontend&utm_source=topbar
+            - generic [ref=e34]: List your property
+          - button "Your account menu Henri Erilaid Genius Level 2" [ref=e37] [cursor=pointer]:
+            - generic "Your account menu Henri Erilaid Genius Level 2" [ref=e39]:
+              - generic [ref=e42]:
+                - generic [ref=e43]: Henri Erilaid
+                - generic [ref=e46]: Genius Level 2
+      - navigation "What are you looking for?" [ref=e47]:
+        - menubar [ref=e49]:
+          - menuitem "Stays" [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]:
+              - img [ref=e53]
+              - generic [ref=e55]: Stays
+          - menuitem "Flights" [ref=e56] [cursor=pointer]:
+            - generic [ref=e57]:
+              - img [ref=e59]
+              - generic [ref=e61]: Flights
+          - menuitem "Flight + Hotel" [ref=e62] [cursor=pointer]:
+            - generic [ref=e63]:
+              - img [ref=e65]
+              - generic [ref=e67]: Flight + Hotel
+          - menuitem "Car rental" [ref=e68] [cursor=pointer]:
+            - generic [ref=e69]:
+              - img [ref=e71]
+              - generic [ref=e73]: Car rental
+          - menuitem "Attractions" [ref=e74] [cursor=pointer]:
+            - generic [ref=e75]:
+              - img [ref=e77]
+              - generic [ref=e79]: Attractions
+          - menuitem "Airport taxis" [ref=e80] [cursor=pointer]:
+            - generic [ref=e81]:
+              - img [ref=e83]
+              - generic [ref=e85]: Airport taxis
+  - region "Search properties" [ref=e91]:
+    - generic [ref=e92]:
+      - generic [ref=e98]:
+        - img [ref=e101]
+        - combobox "Where are you going?" [ref=e103]: Sharm El Sheikh
+        - button "Clear" [ref=e106] [cursor=pointer]:
+          - img "Clear" [ref=e107]:
+            - img [ref=e108]
+      - button "Sun, Feb 15 — Sun, Feb 22" [ref=e112] [cursor=pointer]:
+        - generic [ref=e113]:
+          - img [ref=e115]
+          - generic [ref=e117]: Sun, Feb 15
+          - generic [ref=e118]: —
+          - generic [ref=e119]: Sun, Feb 22
+      - 'button "Number of travelers and rooms. Currently selected: 2 adults · 0 children · 2 rooms" [ref=e122] [cursor=pointer]':
+        - generic [ref=e123]:
+          - img [ref=e125]
+          - text: 2 adults · 0 children · 2 rooms
+        - img [ref=e128]
+      - button "Search" [ref=e131] [cursor=pointer]:
+        - generic [ref=e132]: Search
+    - group
+  - generic [ref=e134]:
+    - navigation "Breadcrumbs" [ref=e138]:
+      - list [ref=e139]:
+        - listitem [ref=e140]:
+          - link "Home" [ref=e141] [cursor=pointer]:
+            - /url: https://www.booking.com/index.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB
+            - generic [ref=e142]: Home
+          - img [ref=e144]
+        - listitem [ref=e146]:
+          - link "Hotels" [ref=e147] [cursor=pointer]:
+            - /url: https://www.booking.com/hotel/index.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB
+            - generic [ref=e148]: Hotels
+          - img [ref=e150]
+        - listitem [ref=e152]:
+          - link "All resorts" [ref=e153] [cursor=pointer]:
+            - /url: https://www.booking.com/resorts/index.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB
+            - generic [ref=e154]: All resorts
+          - img [ref=e156]
+        - listitem [ref=e158]:
+          - link "Egypt" [ref=e159] [cursor=pointer]:
+            - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&dest_id=63&dest_type=country&nflt=sth%3D12
+            - generic [ref=e160]: Egypt
+          - img [ref=e162]
+        - listitem [ref=e164]:
+          - link "South Sinai" [ref=e165] [cursor=pointer]:
+            - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&dest_id=3151&dest_type=region&nflt=sth%3D12
+            - generic [ref=e166]: South Sinai
+          - img [ref=e168]
+        - listitem [ref=e170]:
+          - link "Sharm El Sheikh" [ref=e171] [cursor=pointer]:
+            - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&dest_id=-302053&dest_type=city&nflt=sth%3D12
+            - generic [ref=e172]: Sharm El Sheikh
+          - img [ref=e174]
+        - listitem [ref=e176]:
+          - heading "Hotel Novotel Sharm El-Sheikh (Resort) (Egypt) Deals" [level=1] [ref=e178]:
+            - generic [ref=e179]: Hotel Novotel Sharm El-Sheikh (Resort) (Egypt) Deals
+    - generic [ref=e180]:
+      - main [ref=e181]:
+        - generic [ref=e182]:
+          - generic [ref=e183]:
+            - generic [ref=e184]:
+              - navigation "Internal page link" [ref=e188]:
+                - list [ref=e190]:
+                  - listitem [ref=e191]:
+                    - link "Overview" [ref=e192] [cursor=pointer]:
+                      - /url: "#hotelTmpl"
+                      - generic [ref=e194]: Overview
+                  - listitem [ref=e195]:
+                    - link "Info & prices" [ref=e196] [cursor=pointer]:
+                      - /url: "#availability"
+                      - generic [ref=e198]: Info & prices
+                  - listitem [ref=e199]:
+                    - link "Facilities" [ref=e200] [cursor=pointer]:
+                      - /url: "#hp_facilities_box"
+                      - generic [ref=e202]: Facilities
+                  - listitem [ref=e203]:
+                    - link "House rules" [ref=e204] [cursor=pointer]:
+                      - /url: "#policies"
+                      - generic [ref=e206]: House rules
+                  - listitem [ref=e207]:
+                    - link "Important and legal info" [ref=e208] [cursor=pointer]:
+                      - /url: "#important_info"
+                      - generic [ref=e210]: Important and legal info
+                  - listitem [ref=e211]:
+                    - link "Guest reviews (3,827)" [ref=e212] [cursor=pointer]:
+                      - /url: "#blockdisplay4"
+                      - generic [ref=e214]: Guest reviews (3,827)
+              - generic [ref=e216]:
+                - generic [ref=e217]:
+                  - button "Save this item to a trip list" [ref=e225] [cursor=pointer]:
+                    - img [ref=e7894]
+                  - button "Share this property" [ref=e235] [cursor=pointer]:
+                    - img [ref=e238]
+                  - button "Reserve" [ref=e240] [cursor=pointer]:
+                    - generic [ref=e241]: Reserve
+                  - button "We Price Match" [ref=e245] [cursor=pointer]:
+                    - img [ref=e248]
+                    - generic [ref=e250]: We Price Match
+                - generic [ref=e252]:
+                  - generic [ref=e255]:
+                    - button "5 out of 5 stars" [ref=e257] [cursor=pointer]:
+                      - img "5 out of 5 stars" [ref=e258]:
+                        - generic [ref=e259]:
+                          - img [ref=e261]
+                          - img [ref=e264]
+                        - generic [ref=e266]:
+                          - img [ref=e268]
+                          - img [ref=e271]
+                        - generic [ref=e273]:
+                          - img [ref=e275]
+                          - img [ref=e278]
+                        - generic [ref=e280]:
+                          - img [ref=e282]
+                          - img [ref=e285]
+                        - generic [ref=e287]:
+                          - img [ref=e289]
+                          - img [ref=e292]
+                    - button [ref=e295] [cursor=pointer]:
+                      - img [ref=e297]
+                    - button "Beachfront · Private Beach" [ref=e300] [cursor=pointer]:
+                      - generic [ref=e303]:
+                        - img [ref=e305]
+                        - generic [ref=e307]: Beachfront · Private Beach
+                    - generic [ref=e311]:
+                      - img [ref=e313]
+                      - generic [ref=e315]: Sustainability certification
+                  - heading "Hotel Novotel Sharm El-Sheikh" [level=2] [ref=e317]
+                - generic [ref=e322]:
+                  - link "Hotel Novotel Sharm El-Sheikh, Sharm El Sheikh - Check location" [ref=e323] [cursor=pointer]:
+                    - /url: "#map_opened-map_trigger_header_pin"
+                    - img [ref=e326]
+                  - generic [ref=e328]:
+                    - button "Naama Bay, Sharm El Sheikh, Egypt" [ref=e330] [cursor=pointer]:
+                      - generic [ref=e331]:
+                        - text: Naama Bay, Sharm El Sheikh, Egypt
+                        - generic [ref=e332]:
+                          - generic [ref=e333]:
+                            - text: Excellent location – rated 9.5/10!
+                            - generic [ref=e334]: (score from 3754 reviews)
+                          - generic [ref=e335]: Real guests • Real stays • Real opinions
+                    - text: –
+                    - link "Excellent location – show map" [ref=e336] [cursor=pointer]:
+                      - /url: "#map_opened-map_trigger_header"
+                      - generic [ref=e337]: Excellent location – show map
+              - generic "Photo Gallery of Hotel Novotel Sharm El-Sheikh" [ref=e341]:
+                - region "Photo gallery for Hotel Novotel Sharm El-Sheikh" [ref=e343]:
+                  - generic [ref=e346]:
+                    - generic [ref=e347]:
+                      - button "an aerial view of a resort pool with palm trees at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh" [ref=e349] [cursor=pointer]:
+                        - img "an aerial view of a resort pool with palm trees at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh" [ref=e351]
+                      - generic [ref=e352]:
+                        - button "a villa with a garden and a road at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh" [ref=e354] [cursor=pointer]:
+                          - img "a villa with a garden and a road at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh" [ref=e356]
+                        - button "a street in front of a hotel with palm trees at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh" [ref=e358] [cursor=pointer]:
+                          - img "a street in front of a hotel with palm trees at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh" [ref=e360]
+                    - generic [ref=e361]:
+                      - button "a person riding a golf cart down a sidewalk in front of a house at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh" [ref=e363] [cursor=pointer]:
+                        - img "a person riding a golf cart down a sidewalk in front of a house at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh" [ref=e365]
+                      - button "a large white building with a green lawn at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh" [ref=e367] [cursor=pointer]:
+                        - img "a large white building with a green lawn at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh" [ref=e369]
+                      - button "a playground with palm trees and a slide at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh" [ref=e371] [cursor=pointer]:
+                        - img "a playground with palm trees and a slide at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh" [ref=e373]
+                      - button "a room with two tables and chairs and a patio at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh" [ref=e375] [cursor=pointer]:
+                        - img "a room with two tables and chairs and a patio at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh" [ref=e377]
+                      - generic [ref=e378]:
+                        - button "a playground in a park with palm trees at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh +265 photos" [ref=e379] [cursor=pointer]:
+                          - img "a playground in a park with palm trees at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh +265 photos" [ref=e381]
+                        - generic: +265 photos
+              - generic [ref=e383]:
+                - generic [ref=e386]:
+                  - link "Scored 9.1 Rated wonderful" [ref=e388] [cursor=pointer]:
+                    - /url: "#blockdisplay4"
+                    - generic [ref=e391]:
+                      - generic [ref=e392]: Scored 9.1
+                      - generic [ref=e393]: "9.1"
+                      - generic [ref=e394]: Rated wonderful
+                      - generic [ref=e395]:
+                        - generic [ref=e396]: Wonderful
+                        - generic [ref=e397]: 3,827 reviews
+                  - separator [ref=e398]
+                  - generic [ref=e400]:
+                    - heading "Guests who stayed here loved" [level=3] [ref=e401]
+                    - generic [ref=e402]:
+                      - region "Guests who stayed here loved" [ref=e403]:
+                        - group [ref=e404]:
+                          - generic [ref=e406]:
+                            - generic [ref=e409]: “It was an amazing vacation the hotel is very clean and the staff are very friendly and helpful Totally recommend the place and will be back again...”
+                            - generic [ref=e415]:
+                              - text: Abram
+                              - img "United States" [ref=e416]
+                              - generic [ref=e417]: United States
+                        - group [ref=e418]:
+                          - generic [ref=e420]:
+                            - generic [ref=e423]: “I had breakfast it was very good it was all defrant kind of food i did enjoyed it . THANKS”
+                            - generic [ref=e429]:
+                              - text: Ebrahim
+                              - img "Saudi Arabia" [ref=e430]
+                              - generic [ref=e431]: Saudi Arabia
+                        - group [ref=e432]:
+                          - generic [ref=e434]:
+                            - generic [ref=e437]: “Special thanks to Mrs Ghadeer the guest relation for professionalism and many thanks to Ali at the reception for his hospitality”
+                            - generic [ref=e443]:
+                              - text: Hala
+                              - img "United Arab Emirates" [ref=e444]
+                              - generic [ref=e445]: United Arab Emirates
+                        - group [ref=e446]:
+                          - generic [ref=e448]:
+                            - generic [ref=e451]: “Atmosphere, the vibes , all activities are amazing”
+                            - generic [ref=e457]:
+                              - text: Abdelhamid
+                              - img "Kuwait" [ref=e458]
+                              - generic [ref=e459]: Kuwait
+                        - group [ref=e460]:
+                          - generic [ref=e462]:
+                            - generic [ref=e465]: “beach was very nice in my opinion, the whole vibe was so nice, dinners and breakfast and the quality of food was definitely very good! chefs are...”
+                            - generic [ref=e471]:
+                              - text: Ahmed
+                              - img "Germany" [ref=e472]
+                              - generic [ref=e473]: Germany
+                        - group [ref=e474]:
+                          - generic [ref=e476]:
+                            - generic [ref=e479]: “Exceptionally friendly staff, especially Ali from reception. Nice facilities, lovely sandy beach, clean room and good location.”
+                            - generic [ref=e481]:
+                              - generic [ref=e483]: F
+                              - generic [ref=e485]:
+                                - text: Fady
+                                - img "Egypt" [ref=e486]
+                                - generic [ref=e487]: Egypt
+                        - group [ref=e488]:
+                          - generic [ref=e490]:
+                            - generic [ref=e493]: “Thanks alot for the amazing stay and for ghadeer and alaa”
+                            - generic [ref=e499]:
+                              - text: Ahmed
+                              - img "Egypt" [ref=e500]
+                              - generic [ref=e501]: Egypt
+                        - group [ref=e502]:
+                          - generic [ref=e504]:
+                            - generic [ref=e507]: “It was comfortable and quite, breakfast was delicious”
+                            - generic [ref=e513]:
+                              - text: Hassan
+                              - img "Saudi Arabia" [ref=e514]
+                              - generic [ref=e515]: Saudi Arabia
+                        - group [ref=e516]:
+                          - generic [ref=e518]:
+                            - generic [ref=e521]: “Great location. The staff are very friendly and fast to help. The rooms are clean. The best sandy beach in sharm”
+                            - generic [ref=e527]:
+                              - text: Hala
+                              - img "Egypt" [ref=e528]
+                              - generic [ref=e529]: Egypt
+                        - group [ref=e530]:
+                          - generic [ref=e532]:
+                            - generic [ref=e535]: “I enjoyed too much perfect staff even with the misleading of booking .com they manage the problem and solve it , Mr Mohamed Hamdy , ms Israa thank...”
+                            - generic [ref=e541]:
+                              - text: Iman
+                              - img "Egypt" [ref=e542]
+                              - generic [ref=e543]: Egypt
+                      - button [ref=e544] [cursor=pointer]:
+                        - img [ref=e547]
+                  - separator [ref=e549]
+                  - generic [ref=e552]:
+                    - generic [ref=e553]: "8.5"
+                    - generic [ref=e554]: "8.5"
+                    - generic [ref=e555]: Top-rated beach nearby
+                    - generic [ref=e557]: Top-rated beach nearby
+                - generic [ref=e7898] [cursor=pointer]:
+                  - generic [ref=e7899]:
+                    - generic:
+                      - generic:
+                        - img
+                      - img [ref=e7900]
+                  - button "Show on map" [ref=e7902]:
+                    - generic [ref=e7903]: Show on map
+            - list [ref=e573]:
+              - listitem [ref=e574]:
+                - img [ref=e578]
+                - generic [ref=e581]: Good Breakfast
+              - listitem [ref=e582]:
+                - img [ref=e586]
+                - generic [ref=e589]: Spa
+              - listitem [ref=e590]:
+                - img [ref=e594]
+                - generic [ref=e597]: 3 restaurants
+              - listitem [ref=e598]:
+                - img [ref=e602]
+                - generic [ref=e605]: Room service
+              - listitem [ref=e606]:
+                - img [ref=e610]
+                - generic [ref=e613]: Free Wifi
+              - listitem [ref=e614]:
+                - img [ref=e618]
+                - generic [ref=e621]: Balcony
+              - listitem [ref=e622]:
+                - img [ref=e626]
+                - generic [ref=e629]: View
+              - listitem [ref=e630]:
+                - img [ref=e634]
+                - generic [ref=e637]: Pet friendly
+              - listitem [ref=e638]:
+                - img [ref=e642]
+                - generic [ref=e645]: Airport shuttle
+              - listitem [ref=e646]:
+                - img [ref=e650]
+                - generic [ref=e653]: 7 swimming pools
+          - generic [ref=e655]:
+            - heading "Recommended for 2 adults" [level=3] [ref=e656]
+            - table [ref=e657]:
+              - rowgroup [ref=e658]:
+                - 'row "2 × Standard Room with 2 Single Beds, Garden Side (Palm Wing) Price for: Max. people: 1 , Max. people: 1 Each unit has: Beds: 2 twin beds Free cancellation before 6:00 PM on February 14, 2026 More details on meals, cancellation, and prepayment policies No prepayment needed – pay at the property Breakfast included We have 7 left 1 week, 2 adults Includes taxes and fees Reserve your selections You won''t be charged yet" [ref=e659]':
+                  - 'cell "2 × Standard Room with 2 Single Beds, Garden Side (Palm Wing) Price for: Max. people: 1 , Max. people: 1 Each unit has: Beds: 2 twin beds Free cancellation before 6:00 PM on February 14, 2026 More details on meals, cancellation, and prepayment policies No prepayment needed – pay at the property Breakfast included We have 7 left" [ref=e660]':
+                    - generic [ref=e661]:
+                      - table [ref=e662]:
+                        - rowgroup [ref=e663]:
+                          - row "2 × Standard Room with 2 Single Beds, Garden Side (Palm Wing)" [ref=e664]:
+                            - cell "2 × Standard Room with 2 Single Beds, Garden Side (Palm Wing)" [ref=e665]:
+                              - generic [ref=e666]:
+                                - text: 2 ×
+                                - link "Standard Room with 2 Single Beds, Garden Side (Palm Wing)" [ref=e667] [cursor=pointer]:
+                                  - /url: "#RD1609606"
+                      - generic [ref=e669]:
+                        - text: "Price for:"
+                        - generic [ref=e670]:
+                          - generic [ref=e672]: "1"
+                          - generic [ref=e673]: "Max. people: 1"
+                        - text: ","
+                        - generic [ref=e674]:
+                          - generic [ref=e676]: "1"
+                          - generic [ref=e677]: "Max. people: 1"
+                      - text: "Each unit has:"
+                      - generic [ref=e678]:
+                        - text: "Beds:"
+                        - generic [ref=e680]:
+                          - text: 2 twin beds
+                          - generic [ref=e681]:
+                            - img [ref=e682]
+                            - img [ref=e686]
+                      - generic [ref=e690]:
+                        - generic [ref=e692]:
+                          - img [ref=e694]
+                          - generic [ref=e699]:
+                            - strong [ref=e700]: Free cancellation
+                            - text: before 6:00 PM on February 14, 2026
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e703] [cursor=pointer]:
+                            - img [ref=e705]
+                        - generic [ref=e708]:
+                          - img [ref=e710]
+                          - generic [ref=e715]:
+                            - strong [ref=e716]: No prepayment needed
+                            - text: – pay at the property
+                        - generic [ref=e718]:
+                          - img [ref=e721]
+                          - generic [ref=e727]: Breakfast included
+                      - generic [ref=e730]:
+                        - img [ref=e731]
+                        - generic [ref=e736]: We have 7 left
+                  - cell "1 week, 2 adults Includes taxes and fees Reserve your selections You won't be charged yet" [ref=e737]:
+                    - table [ref=e738]:
+                      - rowgroup [ref=e739]:
+                        - row "1 week, 2 adults Includes taxes and fees" [ref=e740]:
+                          - cell "1 week, 2 adults Includes taxes and fees" [ref=e741]:
+                            - generic [ref=e742]:
+                              - generic [ref=e743]: 1 week, 2 adults
+                              - generic [ref=e744]:
+                                - generic [ref=e745]: € 1,602
+                                - generic [ref=e746]: Price € 1,602
+                              - generic [ref=e747]: Includes taxes and fees
+                        - row "Reserve your selections You won't be charged yet" [ref=e748]:
+                          - cell "Reserve your selections You won't be charged yet" [ref=e749]:
+                            - link "Reserve your selections" [ref=e750] [cursor=pointer]:
+                              - /url: https://secure.booking.com/book.html?aid=304142&amp;label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&amp;sid=61912eeb05fe7e44d4f8c11049b02a8b&amp;aid=304142&amp;checkin=2026-02-15&amp;hostname=https%3A%2F%2Fsecure.booking.com&amp;hotel_id=16096&amp;interval=7&amp;is_alt_group_recommendation=0&amp;is_group_recommendation=1&amp;lang=en-us&amp;room1=A&amp;room2=A&amp;selected_currency=EUR&amp;stage=1&amp;;nr_rooms_1609606_421577742_1_41_0=2;grp_srls_1609606_421577742_1_41_0=A,A&amp;bedPreference_1609606=-1
+                              - generic [ref=e751]: Reserve your selections
+                            - generic [ref=e752]: You won't be charged yet
+          - generic [ref=e753]:
+            - generic [ref=e754]:
+              - generic [ref=e755]:
+                - generic [ref=e758]:
+                  - heading "Experience World-class Service at Hotel Novotel Sharm El-Sheikh" [level=3] [ref=e759]
+                  - paragraph [ref=e760]: Located in Sharm El-Sheikh, this hotel is located within Naama Bay. It has a private beach, 5 swimming pools, and offers air-conditioned rooms with satellite TV. Rooms at the Novotel Sharm El-Sheikh have tiled floors and elegant furnishings. They come equipped with a mini-bar, as well as tea and coffee making facilities. Some rooms feature balconies with panoramic views. The property has two wings "Beach Wing" located at the side of the beach and "Palm Wing" located on the other side across the road. The Novotel has 3 restaurants that serve a variety of regional and international cuisine. Al Dente offers Italian fare and views of the Red Sea. The Bedu Bar provides live entertainment. Guests can enjoy a relaxing massage, or visit the fitness center. The hotel also has a games room with table tennis, and a children’s playground. Novotel Sharm El-Sheikh is less than 6.2 mi from Sharm el-Sheikh International Airport. The hotel offers 24-hour front desk service, and free private on-site parking.
+                  - paragraph [ref=e761]: Groups in particular like the location – they rated it 9.4 for stays with multiple people.
+                  - paragraph [ref=e762]: Distance in property description is calculated using © OpenStreetMap
+                - generic [ref=e766]:
+                  - heading "Most popular facilities" [level=3] [ref=e767]:
+                    - generic [ref=e768]: Most popular facilities
+                  - list [ref=e769]:
+                    - listitem [ref=e770]:
+                      - generic [ref=e771]:
+                        - img [ref=e773]
+                        - generic [ref=e778]: 7 swimming pools
+                    - listitem [ref=e779]:
+                      - generic [ref=e780]:
+                        - img [ref=e782]
+                        - generic [ref=e787]: Airport shuttle
+                    - listitem [ref=e788]:
+                      - generic [ref=e789]:
+                        - img [ref=e791]
+                        - generic [ref=e796]: Spa
+                    - listitem [ref=e797]:
+                      - generic [ref=e798]:
+                        - img [ref=e800]
+                        - generic [ref=e805]: Fitness center
+                    - listitem [ref=e806]:
+                      - generic [ref=e807]:
+                        - img [ref=e809]
+                        - generic [ref=e814]: Non-smoking rooms
+                    - listitem [ref=e815]:
+                      - generic [ref=e816]:
+                        - img [ref=e818]
+                        - generic [ref=e823]: 3 restaurants
+                    - listitem [ref=e824]:
+                      - generic [ref=e825]:
+                        - img [ref=e827]
+                        - generic [ref=e832]: Bar
+                    - listitem [ref=e833]:
+                      - generic [ref=e834]:
+                        - img [ref=e836]
+                        - generic [ref=e841]: Beachfront
+                    - listitem [ref=e842]:
+                      - generic [ref=e843]:
+                        - img [ref=e845]
+                        - generic [ref=e850]: Private beach area
+                    - listitem [ref=e851]:
+                      - generic [ref=e852]:
+                        - img [ref=e854]
+                        - button "Good Breakfast" [ref=e859] [cursor=pointer]:
+                          - generic [ref=e861]: Good Breakfast
+              - generic [ref=e863]:
+                - generic [ref=e867]:
+                  - generic [ref=e869]:
+                    - generic [ref=e870]: Novotel
+                    - generic [ref=e871]: Hotel chain/brand
+                  - img "Novotel" [ref=e874]
+                - generic [ref=e876]:
+                  - heading "Property highlights" [level=3] [ref=e877]
+                  - generic [ref=e878]:
+                    - generic [ref=e879]:
+                      - heading "Perfect for a 1-week stay!" [level=4] [ref=e880]
+                      - paragraph [ref=e881]:
+                        - img [ref=e883]
+                        - generic [ref=e885]: Located in the real heart of Sharm El Sheikh, this property has an excellent location score of 9.5!
+                    - generic [ref=e886]:
+                      - heading "Breakfast Info" [level=4] [ref=e887]
+                      - paragraph [ref=e888]:
+                        - generic [ref=e889]: Continental, Buffet
+                    - generic:
+                      - list
+                    - generic [ref=e890]:
+                      - generic [ref=e891]:
+                        - heading "Activities:" [level=4] [ref=e892]
+                        - list [ref=e893]:
+                          - listitem [ref=e894]:
+                            - paragraph [ref=e895]:
+                              - generic [ref=e896]: Fitness center
+                          - listitem [ref=e897]:
+                            - paragraph [ref=e898]:
+                              - generic [ref=e899]: Golf course (within 2 miles)
+                          - listitem [ref=e900]:
+                            - paragraph [ref=e901]:
+                              - generic [ref=e902]: Spa
+                      - generic [ref=e903]:
+                        - heading "Loyal Customers" [level=4] [ref=e904]
+                        - paragraph [ref=e905]:
+                          - generic [ref=e907]: There are more repeat guests here than most other properties.
+                    - generic [ref=e908]:
+                      - button "Reserve" [ref=e909] [cursor=pointer]:
+                        - generic [ref=e910]: Reserve
+                      - generic [ref=e912]:
+                        - button "Save the property" [ref=e7904] [cursor=pointer]:
+                          - img [ref=e7907]
+                          - generic [ref=e7909]: Save the property
+                        - paragraph
+            - separator [ref=e924]
+            - generic [ref=e926]:
+              - generic [ref=e927]:
+                - heading "Availability" [level=2] [ref=e928]
+                - button "We Price Match" [ref=e932] [cursor=pointer]:
+                  - img [ref=e935]
+                  - generic [ref=e937]: We Price Match
+              - generic [ref=e940]:
+                - generic [ref=e941]: Prices converted to EUR
+                - button [ref=e943] [cursor=pointer]:
+                  - img [ref=e946]
+              - region "Search properties" [ref=e950]:
+                - generic [ref=e951]:
+                  - generic [ref=e953]:
+                    - img [ref=e955] [cursor=pointer]
+                    - button "Sun, Feb 15" [ref=e957] [cursor=pointer]:
+                      - generic [ref=e958]: Sun, Feb 15
+                    - generic [ref=e959] [cursor=pointer]: —
+                    - button "Sun, Feb 22" [ref=e960] [cursor=pointer]:
+                      - generic [ref=e961]: Sun, Feb 22
+                  - 'button "Number of travelers and rooms. Currently selected: 2 adults · 0 children · 2 rooms" [ref=e964] [cursor=pointer]':
+                    - generic [ref=e965]:
+                      - img [ref=e967]
+                      - text: 2 adults · 0 children · 2 rooms
+                    - img [ref=e970]
+                  - button "Change search" [ref=e973] [cursor=pointer]:
+                    - generic [ref=e974]: Change search
+                - group
+              - generic [ref=e979]:
+                - group "Filter by:" [ref=e980]:
+                  - generic [ref=e981]: "Filter by:"
+                  - generic [ref=e984]:
+                    - generic [ref=e986]:
+                      - checkbox "Rooms"
+                      - generic [ref=e987] [cursor=pointer]: Rooms
+                    - generic [ref=e989]:
+                      - checkbox "Suites"
+                      - generic [ref=e990] [cursor=pointer]: Suites
+                - generic [ref=e992]:
+                  - table "Select a room type and the number of rooms you want to reserve." [ref=e994]:
+                    - caption [ref=e995]: Select a room type and the number of rooms you want to reserve.
+                    - rowgroup [ref=e996]:
+                      - row "Room type Number of guests Price for 1 week Your choices Select amount" [ref=e997]:
+                        - columnheader "Room type" [ref=e998]
+                        - columnheader "Number of guests" [ref=e999]
+                        - columnheader "Price for 1 week" [ref=e1000]: Price for 1 week
+                        - columnheader "Your choices" [ref=e1003]
+                        - columnheader "Select amount" [ref=e1004]
+                    - rowgroup [ref=e1005]:
+                      - 'row "Standard Room with 2 Single Beds, Garden Side (Palm Wing) We have 7 left 2 twin beds This room features a balcony or terrace looking at a nice garden view located at the palm side. Separated from beach by a road. It includes 2 single beds, air-conditioning, shower, safe box and a flat-screen TV. 1 room 42 m² Balcony Garden view Mountain view Air conditioning Private bathroom Flat-screen TV Soundproof Terrace Minibar Included facilities Max. people: 2 Price € 818 Includes taxes and fees Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1006]':
+                        - rowheader "Standard Room with 2 Single Beds, Garden Side (Palm Wing) We have 7 left 2 twin beds This room features a balcony or terrace looking at a nice garden view located at the palm side. Separated from beach by a road. It includes 2 single beds, air-conditioning, shower, safe box and a flat-screen TV. 1 room 42 m² Balcony Garden view Mountain view Air conditioning Private bathroom Flat-screen TV Soundproof Terrace Minibar Included facilities" [ref=e1007]:
+                          - generic [ref=e1008]:
+                            - link "Standard Room with 2 Single Beds, Garden Side (Palm Wing)" [ref=e1010] [cursor=pointer]:
+                              - /url: "#RD1609606"
+                            - generic [ref=e1013]:
+                              - img [ref=e1014]
+                              - generic [ref=e1019]: We have 7 left
+                            - list [ref=e1022]:
+                              - listitem [ref=e1023]:
+                                - generic [ref=e1024]:
+                                  - text: 2 twin beds
+                                  - generic [ref=e1025]: 녍
+                            - paragraph [ref=e1026]: This room features a balcony or terrace looking at a nice garden view located at the palm side. Separated from beach by a road. It includes 2 single beds, air-conditioning, shower, safe box and a flat-screen TV.
+                            - generic [ref=e1028]:
+                              - list [ref=e1029]:
+                                - listitem [ref=e1030]:
+                                  - generic [ref=e1031]:
+                                    - img [ref=e1032]
+                                    - text: 1 room
+                                - listitem [ref=e1034]:
+                                  - generic [ref=e1035]:
+                                    - img [ref=e1036]
+                                    - text: 42 m²
+                                - listitem [ref=e1038]:
+                                  - generic [ref=e1039]:
+                                    - img [ref=e1040]
+                                    - text: Balcony
+                                - listitem [ref=e1042]:
+                                  - generic [ref=e1043]:
+                                    - img [ref=e1044]
+                                    - text: Garden view
+                                - listitem [ref=e1046]:
+                                  - generic [ref=e1047]:
+                                    - img [ref=e1048]
+                                    - text: Mountain view
+                                - listitem [ref=e1050]:
+                                  - generic [ref=e1051]:
+                                    - img [ref=e1052]
+                                    - text: Air conditioning
+                                - listitem [ref=e1054]:
+                                  - generic [ref=e1055]:
+                                    - img [ref=e1056]
+                                    - text: Private bathroom
+                                - listitem [ref=e1058]:
+                                  - generic [ref=e1059]:
+                                    - img [ref=e1060]
+                                    - text: Flat-screen TV
+                                - listitem [ref=e1062]:
+                                  - generic [ref=e1063]:
+                                    - img [ref=e1064]
+                                    - text: Soundproof
+                                - listitem [ref=e1066]:
+                                  - generic [ref=e1067]:
+                                    - img [ref=e1068]
+                                    - text: Terrace
+                                - listitem [ref=e1070]:
+                                  - generic [ref=e1071]:
+                                    - img [ref=e1072]
+                                    - text: Minibar
+                              - separator [ref=e1074]
+                              - list "Included facilities" [ref=e1075]:
+                                - listitem [ref=e1076]:
+                                  - generic [ref=e1078]:
+                                    - img [ref=e1079]
+                                    - text: Free toiletries
+                                - listitem [ref=e1081]:
+                                  - generic [ref=e1083]:
+                                    - img [ref=e1084]
+                                    - text: Bathrobe
+                                - listitem [ref=e1086]:
+                                  - generic [ref=e1088]:
+                                    - img [ref=e1089]
+                                    - text: Safe
+                                - listitem [ref=e1091]:
+                                  - generic [ref=e1093]:
+                                    - img [ref=e1094]
+                                    - text: Toilet
+                                - listitem [ref=e1096]:
+                                  - generic [ref=e1098]:
+                                    - img [ref=e1099]
+                                    - text: Sofa
+                                - listitem [ref=e1101]:
+                                  - generic [ref=e1103]:
+                                    - img [ref=e1104]
+                                    - text: Bathtub or shower
+                                - listitem [ref=e1106]:
+                                  - generic [ref=e1108]:
+                                    - img [ref=e1109]
+                                    - text: Towels
+                                - listitem [ref=e1111]:
+                                  - generic [ref=e1113]:
+                                    - img [ref=e1114]
+                                    - text: Linens
+                                - listitem [ref=e1116]:
+                                  - generic [ref=e1118]:
+                                    - img [ref=e1119]
+                                    - text: Socket near the bed
+                                - listitem [ref=e1121]:
+                                  - generic [ref=e1123]:
+                                    - img [ref=e1124]
+                                    - text: Tile/Marble floor
+                                - listitem [ref=e1126]:
+                                  - generic [ref=e1128]:
+                                    - img [ref=e1129]
+                                    - text: Desk
+                                - listitem [ref=e1131]:
+                                  - generic [ref=e1133]:
+                                    - img [ref=e1134]
+                                    - text: Sitting area
+                                - listitem [ref=e1136]:
+                                  - generic [ref=e1138]:
+                                    - img [ref=e1139]
+                                    - text: TV
+                                - listitem [ref=e1141]:
+                                  - generic [ref=e1143]:
+                                    - img [ref=e1144]
+                                    - text: Slippers
+                                - listitem [ref=e1146]:
+                                  - generic [ref=e1148]:
+                                    - img [ref=e1149]
+                                    - text: Telephone
+                                - listitem [ref=e1151]:
+                                  - generic [ref=e1153]:
+                                    - img [ref=e1154]
+                                    - text: Ironing facilities
+                                - listitem [ref=e1156]:
+                                  - generic [ref=e1158]:
+                                    - img [ref=e1159]
+                                    - text: Satellite channels
+                                - listitem [ref=e1161]:
+                                  - generic [ref=e1163]:
+                                    - img [ref=e1164]
+                                    - text: Tea/Coffee maker
+                                - listitem [ref=e1166]:
+                                  - generic [ref=e1168]:
+                                    - img [ref=e1169]
+                                    - text: Iron
+                                - listitem [ref=e1171]:
+                                  - generic [ref=e1173]:
+                                    - img [ref=e1174]
+                                    - text: Heating
+                                - listitem [ref=e1176]:
+                                  - generic [ref=e1178]:
+                                    - img [ref=e1179]
+                                    - text: Hairdryer
+                                - listitem [ref=e1181]:
+                                  - generic [ref=e1183]:
+                                    - img [ref=e1184]
+                                    - text: Towels/Sheets (extra fee)
+                                - listitem [ref=e1186]:
+                                  - generic [ref=e1188]:
+                                    - img [ref=e1189]
+                                    - text: Wake-up service/Alarm clock
+                                - listitem [ref=e1191]:
+                                  - generic [ref=e1193]:
+                                    - img [ref=e1194]
+                                    - text: Electric kettle
+                                - listitem [ref=e1196]:
+                                  - generic [ref=e1198]:
+                                    - img [ref=e1199]
+                                    - text: Outdoor furniture
+                                - listitem [ref=e1201]:
+                                  - generic [ref=e1203]:
+                                    - img [ref=e1204]
+                                    - text: Wake-up service
+                                - listitem [ref=e1206]:
+                                  - generic [ref=e1208]:
+                                    - img [ref=e1209]
+                                    - text: Laptop safe
+                                - listitem [ref=e1211]:
+                                  - generic [ref=e1213]:
+                                    - img [ref=e1214]
+                                    - text: Wardrobe or closet
+                                - listitem [ref=e1216]:
+                                  - generic [ref=e1218]:
+                                    - img [ref=e1219]
+                                    - text: Clothes rack
+                                - listitem [ref=e1221]:
+                                  - generic [ref=e1223]:
+                                    - img [ref=e1224]
+                                    - text: Drying rack for clothing
+                                - listitem [ref=e1226]:
+                                  - generic [ref=e1228]:
+                                    - img [ref=e1229]
+                                    - text: Toilet paper
+                        - 'cell "Max. people: 2" [ref=e1231]':
+                          - generic [ref=e1233]:
+                            - generic [ref=e1234]:
+                              - generic [ref=e1235]: "1"
+                              - generic [ref=e1236]: "1"
+                            - generic [ref=e1237]: "Max. people: 2"
+                        - cell "Price € 818 Includes taxes and fees" [ref=e1238]:
+                          - generic [ref=e1240]:
+                            - generic [ref=e1242]:
+                              - generic [ref=e1243]: € 818
+                              - generic [ref=e1244]: Price € 818
+                            - generic [ref=e1245]: Includes taxes and fees
+                        - cell "Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e1246]:
+                          - generic [ref=e1247]:
+                            - list [ref=e1248]:
+                              - listitem [ref=e1249]:
+                                - img [ref=e1250]
+                                - generic [ref=e1253]:
+                                  - generic [ref=e1254]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e1255]:
+                                - generic [ref=e1256]:
+                                  - img [ref=e1258]
+                                  - strong [ref=e1265]: Non-refundable
+                              - listitem [ref=e1266]:
+                                - generic [ref=e1267]:
+                                  - generic [ref=e1269]: •
+                                  - generic [ref=e1272]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e1274] [cursor=pointer]:
+                              - img [ref=e1276]
+                        - cell "Select Rooms 0" [ref=e1278]:
+                          - generic [ref=e1279]:
+                            - generic [ref=e1280]: Select Rooms
+                            - combobox "Select Rooms" [ref=e1281]:
+                              - option "0" [selected]
+                              - option "1 (€ 818)"
+                              - option "2 (€ 1,637)"
+                              - option "3 (€ 2,455)"
+                              - option "4 (€ 3,274)"
+                              - option "5 (€ 4,092)"
+                              - option "6 (€ 4,910)"
+                              - option "7 (€ 5,729)"
+                      - 'row "Max. people: 2 Price € 941 Includes taxes and fees Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1282]':
+                        - 'cell "Max. people: 2" [ref=e1283]':
+                          - generic [ref=e1285]:
+                            - generic [ref=e1286]:
+                              - generic [ref=e1287]: "1"
+                              - generic [ref=e1288]: "1"
+                            - generic [ref=e1289]: "Max. people: 2"
+                        - cell "Price € 941 Includes taxes and fees" [ref=e1290]:
+                          - generic [ref=e1292]:
+                            - generic [ref=e1294]:
+                              - generic [ref=e1295]: € 941
+                              - generic [ref=e1296]: Price € 941
+                            - generic [ref=e1297]: Includes taxes and fees
+                        - cell "Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e1298]:
+                          - generic [ref=e1299]:
+                            - list [ref=e1300]:
+                              - listitem [ref=e1301]:
+                                - img [ref=e1302]
+                                - generic [ref=e1305]:
+                                  - generic [ref=e1306]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e1307]:
+                                - generic [ref=e1308]:
+                                  - img [ref=e1310]
+                                  - generic [ref=e1315]:
+                                    - strong [ref=e1316]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e1317]:
+                                - generic [ref=e1318]:
+                                  - img [ref=e1320]
+                                  - generic [ref=e1325]:
+                                    - strong [ref=e1326]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e1328] [cursor=pointer]:
+                              - img [ref=e1330]
+                        - cell "Select Rooms 0" [ref=e1332]:
+                          - generic [ref=e1333]:
+                            - generic [ref=e1334]: Select Rooms
+                            - combobox "Select Rooms" [ref=e1335]:
+                              - option "0" [selected]
+                              - option "1 (€ 941)"
+                              - option "2 (€ 1,882)"
+                              - option "3 (€ 2,823)"
+                              - option "4 (€ 3,763)"
+                              - option "5 (€ 4,704)"
+                              - option "6 (€ 5,645)"
+                              - option "7 (€ 6,586)"
+                      - 'row "Max. people: 2 Price € 947 Includes taxes and fees Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1336]':
+                        - 'cell "Max. people: 2" [ref=e1337]':
+                          - generic [ref=e1339]:
+                            - generic [ref=e1340]:
+                              - generic [ref=e1341]: "1"
+                              - generic [ref=e1342]: "1"
+                            - generic [ref=e1343]: "Max. people: 2"
+                        - cell "Price € 947 Includes taxes and fees" [ref=e1344]:
+                          - generic [ref=e1346]:
+                            - generic [ref=e1348]:
+                              - generic [ref=e1349]: € 947
+                              - generic [ref=e1350]: Price € 947
+                            - generic [ref=e1351]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e1352]:
+                          - generic [ref=e1353]:
+                            - list [ref=e1354]:
+                              - listitem [ref=e1355]:
+                                - img [ref=e1356]
+                                - generic [ref=e1359]: Breakfast & dinner included
+                              - listitem [ref=e1360]:
+                                - generic [ref=e1361]:
+                                  - img [ref=e1363]
+                                  - strong [ref=e1370]: Non-refundable
+                              - listitem [ref=e1371]:
+                                - generic [ref=e1372]:
+                                  - generic [ref=e1374]: •
+                                  - generic [ref=e1377]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e1379] [cursor=pointer]:
+                              - img [ref=e1381]
+                        - cell "Select Rooms 0" [ref=e1383]:
+                          - generic [ref=e1384]:
+                            - generic [ref=e1385]: Select Rooms
+                            - combobox "Select Rooms" [ref=e1386]:
+                              - option "0" [selected]
+                              - option "1 (€ 947)"
+                              - option "2 (€ 1,895)"
+                              - option "3 (€ 2,842)"
+                              - option "4 (€ 3,790)"
+                              - option "5 (€ 4,737)"
+                              - option "6 (€ 5,685)"
+                              - option "7 (€ 6,632)"
+                      - 'row "Max. people: 2 Price € 1,056 Includes taxes and fees All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1387]':
+                        - 'cell "Max. people: 2" [ref=e1388]':
+                          - generic [ref=e1390]:
+                            - generic [ref=e1391]:
+                              - generic [ref=e1392]: "1"
+                              - generic [ref=e1393]: "1"
+                            - generic [ref=e1394]: "Max. people: 2"
+                        - cell "Price € 1,056 Includes taxes and fees" [ref=e1395]:
+                          - generic [ref=e1397]:
+                            - generic [ref=e1399]:
+                              - generic [ref=e1400]: € 1,056
+                              - generic [ref=e1401]: Price € 1,056
+                            - generic [ref=e1402]: Includes taxes and fees
+                        - cell "All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e1403]:
+                          - generic [ref=e1404]:
+                            - list [ref=e1405]:
+                              - listitem [ref=e1406]:
+                                - img [ref=e1407]
+                                - generic [ref=e1410]: All-Inclusive
+                              - listitem [ref=e1411]:
+                                - generic [ref=e1412]:
+                                  - img [ref=e1414]
+                                  - strong [ref=e1421]: Non-refundable
+                              - listitem [ref=e1422]:
+                                - generic [ref=e1423]:
+                                  - generic [ref=e1425]: •
+                                  - generic [ref=e1428]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e1430] [cursor=pointer]:
+                              - img [ref=e1432]
+                        - cell "Select Rooms 0" [ref=e1434]:
+                          - generic [ref=e1435]:
+                            - generic [ref=e1436]: Select Rooms
+                            - combobox "Select Rooms" [ref=e1437]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,056)"
+                              - option "2 (€ 2,112)"
+                              - option "3 (€ 3,169)"
+                              - option "4 (€ 4,225)"
+                              - option "5 (€ 5,281)"
+                              - option "6 (€ 6,337)"
+                              - option "7 (€ 7,393)"
+                      - 'row "Max. people: 2 Price € 1,070 Includes taxes and fees Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1438]':
+                        - 'cell "Max. people: 2" [ref=e1439]':
+                          - generic [ref=e1441]:
+                            - generic [ref=e1442]:
+                              - generic [ref=e1443]: "1"
+                              - generic [ref=e1444]: "1"
+                            - generic [ref=e1445]: "Max. people: 2"
+                        - cell "Price € 1,070 Includes taxes and fees" [ref=e1446]:
+                          - generic [ref=e1448]:
+                            - generic [ref=e1450]:
+                              - generic [ref=e1451]: € 1,070
+                              - generic [ref=e1452]: Price € 1,070
+                            - generic [ref=e1453]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e1454]:
+                          - generic [ref=e1455]:
+                            - list [ref=e1456]:
+                              - listitem [ref=e1457]:
+                                - img [ref=e1458]
+                                - generic [ref=e1461]: Breakfast & dinner included
+                              - listitem [ref=e1462]:
+                                - generic [ref=e1463]:
+                                  - img [ref=e1465]
+                                  - generic [ref=e1470]:
+                                    - strong [ref=e1471]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e1472]:
+                                - generic [ref=e1473]:
+                                  - img [ref=e1475]
+                                  - generic [ref=e1480]:
+                                    - strong [ref=e1481]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e1483] [cursor=pointer]:
+                              - img [ref=e1485]
+                        - cell "Select Rooms 0" [ref=e1487]:
+                          - generic [ref=e1488]:
+                            - generic [ref=e1489]: Select Rooms
+                            - combobox "Select Rooms" [ref=e1490]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,070)"
+                              - option "2 (€ 2,140)"
+                              - option "3 (€ 3,210)"
+                              - option "4 (€ 4,280)"
+                              - option "5 (€ 5,350)"
+                              - option "6 (€ 6,420)"
+                              - option "7 (€ 7,490)"
+                      - 'row "Max. people: 2 Price € 1,179 Includes taxes and fees All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1491]':
+                        - 'cell "Max. people: 2" [ref=e1492]':
+                          - generic [ref=e1494]:
+                            - generic [ref=e1495]:
+                              - generic [ref=e1496]: "1"
+                              - generic [ref=e1497]: "1"
+                            - generic [ref=e1498]: "Max. people: 2"
+                        - cell "Price € 1,179 Includes taxes and fees" [ref=e1499]:
+                          - generic [ref=e1501]:
+                            - generic [ref=e1503]:
+                              - generic [ref=e1504]: € 1,179
+                              - generic [ref=e1505]: Price € 1,179
+                            - generic [ref=e1506]: Includes taxes and fees
+                        - cell "All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e1507]:
+                          - generic [ref=e1508]:
+                            - list [ref=e1509]:
+                              - listitem [ref=e1510]:
+                                - img [ref=e1511]
+                                - generic [ref=e1514]: All-Inclusive
+                              - listitem [ref=e1515]:
+                                - generic [ref=e1516]:
+                                  - img [ref=e1518]
+                                  - generic [ref=e1523]:
+                                    - strong [ref=e1524]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e1525]:
+                                - generic [ref=e1526]:
+                                  - img [ref=e1528]
+                                  - generic [ref=e1533]:
+                                    - strong [ref=e1534]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e1536] [cursor=pointer]:
+                              - img [ref=e1538]
+                        - cell "Select Rooms 0" [ref=e1540]:
+                          - generic [ref=e1541]:
+                            - generic [ref=e1542]: Select Rooms
+                            - combobox "Select Rooms" [ref=e1543]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,179)"
+                              - option "2 (€ 2,357)"
+                              - option "3 (€ 3,536)"
+                              - option "4 (€ 4,715)"
+                              - option "5 (€ 5,893)"
+                              - option "6 (€ 7,072)"
+                              - option "7 (€ 8,251)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 690 Includes taxes and fees Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1544]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e1545]':
+                          - generic [ref=e1547]:
+                            - generic [ref=e1549]: "1"
+                            - generic [ref=e1550]: "Max. people: 1"
+                          - generic [ref=e1553]: Only for 1 guest
+                        - cell "Price € 690 Includes taxes and fees" [ref=e1554]:
+                          - generic [ref=e1556]:
+                            - generic [ref=e1558]:
+                              - generic [ref=e1559]: € 690
+                              - generic [ref=e1560]: Price € 690
+                            - generic [ref=e1561]: Includes taxes and fees
+                        - cell "Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e1562]:
+                          - generic [ref=e1563]:
+                            - list [ref=e1564]:
+                              - listitem [ref=e1565]:
+                                - img [ref=e1566]
+                                - generic [ref=e1569]:
+                                  - generic [ref=e1570]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e1571]:
+                                - generic [ref=e1572]:
+                                  - img [ref=e1574]
+                                  - strong [ref=e1581]: Non-refundable
+                              - listitem [ref=e1582]:
+                                - generic [ref=e1583]:
+                                  - generic [ref=e1585]: •
+                                  - generic [ref=e1588]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e1590] [cursor=pointer]:
+                              - img [ref=e1592]
+                        - cell "Select Rooms 0" [ref=e1594]:
+                          - generic [ref=e1595]:
+                            - generic [ref=e1596]: Select Rooms
+                            - combobox "Select Rooms" [ref=e1597]:
+                              - option "0" [selected]
+                              - option "1 (€ 690)"
+                              - option "2 (€ 1,380)"
+                              - option "3 (€ 2,070)"
+                              - option "4 (€ 2,760)"
+                              - option "5 (€ 3,450)"
+                              - option "6 (€ 4,141)"
+                              - option "7 (€ 4,831)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 755 Includes taxes and fees Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1598]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e1599]':
+                          - generic [ref=e1601]:
+                            - generic [ref=e1603]: "1"
+                            - generic [ref=e1604]: "Max. people: 1"
+                          - generic [ref=e1607]: Only for 1 guest
+                        - cell "Price € 755 Includes taxes and fees" [ref=e1608]:
+                          - generic [ref=e1610]:
+                            - generic [ref=e1612]:
+                              - generic [ref=e1613]: € 755
+                              - generic [ref=e1614]: Price € 755
+                            - generic [ref=e1615]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e1616]:
+                          - generic [ref=e1617]:
+                            - list [ref=e1618]:
+                              - listitem [ref=e1619]:
+                                - img [ref=e1620]
+                                - generic [ref=e1623]: Breakfast & dinner included
+                              - listitem [ref=e1624]:
+                                - generic [ref=e1625]:
+                                  - img [ref=e1627]
+                                  - strong [ref=e1634]: Non-refundable
+                              - listitem [ref=e1635]:
+                                - generic [ref=e1636]:
+                                  - generic [ref=e1638]: •
+                                  - generic [ref=e1641]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e1643] [cursor=pointer]:
+                              - img [ref=e1645]
+                        - cell "Select Rooms 0" [ref=e1647]:
+                          - generic [ref=e1648]:
+                            - generic [ref=e1649]: Select Rooms
+                            - combobox "Select Rooms" [ref=e1650]:
+                              - option "0" [selected]
+                              - option "1 (€ 755)"
+                              - option "2 (€ 1,509)"
+                              - option "3 (€ 2,264)"
+                              - option "4 (€ 3,019)"
+                              - option "5 (€ 3,773)"
+                              - option "6 (€ 4,528)"
+                              - option "7 (€ 5,282)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 801 Includes taxes and fees Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1651]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e1652]':
+                          - generic [ref=e1654]:
+                            - generic [ref=e1656]: "1"
+                            - generic [ref=e1657]: "Max. people: 1"
+                          - generic [ref=e1660]: Only for 1 guest
+                        - cell "Price € 801 Includes taxes and fees" [ref=e1661]:
+                          - generic [ref=e1663]:
+                            - generic [ref=e1665]:
+                              - generic [ref=e1666]: € 801
+                              - generic [ref=e1667]: Price € 801
+                            - generic [ref=e1668]: Includes taxes and fees
+                        - cell "Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e1669]:
+                          - generic [ref=e1670]:
+                            - list [ref=e1671]:
+                              - listitem [ref=e1672]:
+                                - img [ref=e1673]
+                                - generic [ref=e1676]:
+                                  - generic [ref=e1677]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e1678]:
+                                - generic [ref=e1679]:
+                                  - img [ref=e1681]
+                                  - generic [ref=e1686]:
+                                    - strong [ref=e1687]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e1688]:
+                                - generic [ref=e1689]:
+                                  - img [ref=e1691]
+                                  - generic [ref=e1696]:
+                                    - strong [ref=e1697]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e1699] [cursor=pointer]:
+                              - img [ref=e1701]
+                        - cell "Select Rooms 0" [ref=e1703]:
+                          - generic [ref=e1704]:
+                            - generic [ref=e1705]: Select Rooms
+                            - combobox "Select Rooms" [ref=e1706]:
+                              - option "0" [selected]
+                              - option "1 (€ 801)"
+                              - option "2 (€ 1,602)"
+                              - option "3 (€ 2,403)"
+                              - option "4 (€ 3,204)"
+                              - option "5 (€ 4,005)"
+                              - option "6 (€ 4,805)"
+                              - option "7 (€ 5,606)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 809 Includes taxes and fees All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1707]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e1708]':
+                          - generic [ref=e1710]:
+                            - generic [ref=e1712]: "1"
+                            - generic [ref=e1713]: "Max. people: 1"
+                          - generic [ref=e1716]: Only for 1 guest
+                        - cell "Price € 809 Includes taxes and fees" [ref=e1717]:
+                          - generic [ref=e1719]:
+                            - generic [ref=e1721]:
+                              - generic [ref=e1722]: € 809
+                              - generic [ref=e1723]: Price € 809
+                            - generic [ref=e1724]: Includes taxes and fees
+                        - cell "All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e1725]:
+                          - generic [ref=e1726]:
+                            - list [ref=e1727]:
+                              - listitem [ref=e1728]:
+                                - img [ref=e1729]
+                                - generic [ref=e1732]: All-Inclusive
+                              - listitem [ref=e1733]:
+                                - generic [ref=e1734]:
+                                  - img [ref=e1736]
+                                  - strong [ref=e1743]: Non-refundable
+                              - listitem [ref=e1744]:
+                                - generic [ref=e1745]:
+                                  - generic [ref=e1747]: •
+                                  - generic [ref=e1750]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e1752] [cursor=pointer]:
+                              - img [ref=e1754]
+                        - cell "Select Rooms 0" [ref=e1756]:
+                          - generic [ref=e1757]:
+                            - generic [ref=e1758]: Select Rooms
+                            - combobox "Select Rooms" [ref=e1759]:
+                              - option "0" [selected]
+                              - option "1 (€ 809)"
+                              - option "2 (€ 1,618)"
+                              - option "3 (€ 2,427)"
+                              - option "4 (€ 3,236)"
+                              - option "5 (€ 4,045)"
+                              - option "6 (€ 4,854)"
+                              - option "7 (€ 5,663)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 865 Includes taxes and fees Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1760]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e1761]':
+                          - generic [ref=e1763]:
+                            - generic [ref=e1765]: "1"
+                            - generic [ref=e1766]: "Max. people: 1"
+                          - generic [ref=e1769]: Only for 1 guest
+                        - cell "Price € 865 Includes taxes and fees" [ref=e1770]:
+                          - generic [ref=e1772]:
+                            - generic [ref=e1774]:
+                              - generic [ref=e1775]: € 865
+                              - generic [ref=e1776]: Price € 865
+                            - generic [ref=e1777]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e1778]:
+                          - generic [ref=e1779]:
+                            - list [ref=e1780]:
+                              - listitem [ref=e1781]:
+                                - img [ref=e1782]
+                                - generic [ref=e1785]: Breakfast & dinner included
+                              - listitem [ref=e1786]:
+                                - generic [ref=e1787]:
+                                  - img [ref=e1789]
+                                  - generic [ref=e1794]:
+                                    - strong [ref=e1795]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e1796]:
+                                - generic [ref=e1797]:
+                                  - img [ref=e1799]
+                                  - generic [ref=e1804]:
+                                    - strong [ref=e1805]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e1807] [cursor=pointer]:
+                              - img [ref=e1809]
+                        - cell "Select Rooms 0" [ref=e1811]:
+                          - generic [ref=e1812]:
+                            - generic [ref=e1813]: Select Rooms
+                            - combobox "Select Rooms" [ref=e1814]:
+                              - option "0" [selected]
+                              - option "1 (€ 865)"
+                              - option "2 (€ 1,731)"
+                              - option "3 (€ 2,596)"
+                              - option "4 (€ 3,462)"
+                              - option "5 (€ 4,327)"
+                              - option "6 (€ 5,193)"
+                              - option "7 (€ 6,058)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 920 Includes taxes and fees All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1815]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e1816]':
+                          - generic [ref=e1818]:
+                            - generic [ref=e1820]: "1"
+                            - generic [ref=e1821]: "Max. people: 1"
+                          - generic [ref=e1824]: Only for 1 guest
+                        - cell "Price € 920 Includes taxes and fees" [ref=e1825]:
+                          - generic [ref=e1827]:
+                            - generic [ref=e1829]:
+                              - generic [ref=e1830]: € 920
+                              - generic [ref=e1831]: Price € 920
+                            - generic [ref=e1832]: Includes taxes and fees
+                        - cell "All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e1833]:
+                          - generic [ref=e1834]:
+                            - list [ref=e1835]:
+                              - listitem [ref=e1836]:
+                                - img [ref=e1837]
+                                - generic [ref=e1840]: All-Inclusive
+                              - listitem [ref=e1841]:
+                                - generic [ref=e1842]:
+                                  - img [ref=e1844]
+                                  - generic [ref=e1849]:
+                                    - strong [ref=e1850]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e1851]:
+                                - generic [ref=e1852]:
+                                  - img [ref=e1854]
+                                  - generic [ref=e1859]:
+                                    - strong [ref=e1860]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e1862] [cursor=pointer]:
+                              - img [ref=e1864]
+                        - cell "Select Rooms 0" [ref=e1866]:
+                          - generic [ref=e1867]:
+                            - generic [ref=e1868]: Select Rooms
+                            - combobox "Select Rooms" [ref=e1869]:
+                              - option "0" [selected]
+                              - option "1 (€ 920)"
+                              - option "2 (€ 1,840)"
+                              - option "3 (€ 2,759)"
+                              - option "4 (€ 3,679)"
+                              - option "5 (€ 4,599)"
+                              - option "6 (€ 5,519)"
+                              - option "7 (€ 6,439)"
+                      - 'row "Superior Room with 2 Single Beds, Garden side (Beach wing) We have 7 left 2 twin beds Featuring a balcony or terrace looking at a garden view, this room is located at the beach side. It includes 2 single beds, air-conditioning, shower, safe box and a flat-screen TV. 1 room 34 m² Balcony Garden view City view Air conditioning Patio Private bathroom Flat-screen TV Soundproof Minibar Show more amenities Max. people: 2 Price € 951 Includes taxes and fees Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1870]':
+                        - rowheader "Superior Room with 2 Single Beds, Garden side (Beach wing) We have 7 left 2 twin beds Featuring a balcony or terrace looking at a garden view, this room is located at the beach side. It includes 2 single beds, air-conditioning, shower, safe box and a flat-screen TV. 1 room 34 m² Balcony Garden view City view Air conditioning Patio Private bathroom Flat-screen TV Soundproof Minibar Show more amenities" [ref=e1871]:
+                          - generic [ref=e1872]:
+                            - link "Superior Room with 2 Single Beds, Garden side (Beach wing)" [ref=e1874] [cursor=pointer]:
+                              - /url: "#RD1609603"
+                            - generic [ref=e1877]:
+                              - img [ref=e1878]
+                              - generic [ref=e1883]: We have 7 left
+                            - list [ref=e1886]:
+                              - listitem [ref=e1887]:
+                                - generic [ref=e1888]:
+                                  - text: 2 twin beds
+                                  - generic [ref=e1889]: 녍
+                            - paragraph [ref=e1890]: Featuring a balcony or terrace looking at a garden view, this room is located at the beach side. It includes 2 single beds, air-conditioning, shower, safe box and a flat-screen TV.
+                            - generic [ref=e1892]:
+                              - list [ref=e1893]:
+                                - listitem [ref=e1894]:
+                                  - generic [ref=e1895]:
+                                    - img [ref=e1896]
+                                    - text: 1 room
+                                - listitem [ref=e1898]:
+                                  - generic [ref=e1899]:
+                                    - img [ref=e1900]
+                                    - text: 34 m²
+                                - listitem [ref=e1902]:
+                                  - generic [ref=e1903]:
+                                    - img [ref=e1904]
+                                    - text: Balcony
+                                - listitem [ref=e1906]:
+                                  - generic [ref=e1907]:
+                                    - img [ref=e1908]
+                                    - text: Garden view
+                                - listitem [ref=e1910]:
+                                  - generic [ref=e1911]:
+                                    - img [ref=e1912]
+                                    - text: City view
+                                - listitem [ref=e1914]:
+                                  - generic [ref=e1915]:
+                                    - img [ref=e1916]
+                                    - text: Air conditioning
+                                - listitem [ref=e1918]:
+                                  - generic [ref=e1919]:
+                                    - img [ref=e1920]
+                                    - text: Patio
+                                - listitem [ref=e1922]:
+                                  - generic [ref=e1923]:
+                                    - img [ref=e1924]
+                                    - text: Private bathroom
+                                - listitem [ref=e1926]:
+                                  - generic [ref=e1927]:
+                                    - img [ref=e1928]
+                                    - text: Flat-screen TV
+                                - listitem [ref=e1930]:
+                                  - generic [ref=e1931]:
+                                    - img [ref=e1932]
+                                    - text: Soundproof
+                                - listitem [ref=e1934]:
+                                  - generic [ref=e1935]:
+                                    - img [ref=e1936]
+                                    - text: Minibar
+                              - button "Show more amenities" [ref=e1938] [cursor=pointer]: More
+                        - 'cell "Max. people: 2" [ref=e1939]':
+                          - generic [ref=e1941]:
+                            - generic [ref=e1942]:
+                              - generic [ref=e1943]: "1"
+                              - generic [ref=e1944]: "1"
+                            - generic [ref=e1945]: "Max. people: 2"
+                        - cell "Price € 951 Includes taxes and fees" [ref=e1946]:
+                          - generic [ref=e1948]:
+                            - generic [ref=e1950]:
+                              - generic [ref=e1951]: € 951
+                              - generic [ref=e1952]: Price € 951
+                            - generic [ref=e1953]: Includes taxes and fees
+                        - cell "Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e1954]:
+                          - generic [ref=e1955]:
+                            - list [ref=e1956]:
+                              - listitem [ref=e1957]:
+                                - img [ref=e1958]
+                                - generic [ref=e1961]:
+                                  - generic [ref=e1962]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e1963]:
+                                - generic [ref=e1964]:
+                                  - img [ref=e1966]
+                                  - strong [ref=e1973]: Non-refundable
+                              - listitem [ref=e1974]:
+                                - generic [ref=e1975]:
+                                  - generic [ref=e1977]: •
+                                  - generic [ref=e1980]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e1982] [cursor=pointer]:
+                              - img [ref=e1984]
+                        - cell "Select Rooms 0" [ref=e1986]:
+                          - generic [ref=e1987]:
+                            - generic [ref=e1988]: Select Rooms
+                            - combobox "Select Rooms" [ref=e1989]:
+                              - option "0" [selected]
+                              - option "1 (€ 951)"
+                              - option "2 (€ 1,901)"
+                              - option "3 (€ 2,852)"
+                              - option "4 (€ 3,802)"
+                              - option "5 (€ 4,753)"
+                              - option "6 (€ 5,704)"
+                              - option "7 (€ 6,654)"
+                      - 'row "Max. people: 2 Price € 1,080 Includes taxes and fees Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1990]':
+                        - 'cell "Max. people: 2" [ref=e1991]':
+                          - generic [ref=e1993]:
+                            - generic [ref=e1994]:
+                              - generic [ref=e1995]: "1"
+                              - generic [ref=e1996]: "1"
+                            - generic [ref=e1997]: "Max. people: 2"
+                        - cell "Price € 1,080 Includes taxes and fees" [ref=e1998]:
+                          - generic [ref=e2000]:
+                            - generic [ref=e2002]:
+                              - generic [ref=e2003]: € 1,080
+                              - generic [ref=e2004]: Price € 1,080
+                            - generic [ref=e2005]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e2006]:
+                          - generic [ref=e2007]:
+                            - list [ref=e2008]:
+                              - listitem [ref=e2009]:
+                                - img [ref=e2010]
+                                - generic [ref=e2013]: Breakfast & dinner included
+                              - listitem [ref=e2014]:
+                                - generic [ref=e2015]:
+                                  - img [ref=e2017]
+                                  - strong [ref=e2024]: Non-refundable
+                              - listitem [ref=e2025]:
+                                - generic [ref=e2026]:
+                                  - generic [ref=e2028]: •
+                                  - generic [ref=e2031]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e2033] [cursor=pointer]:
+                              - img [ref=e2035]
+                        - cell "Select Rooms 0" [ref=e2037]:
+                          - generic [ref=e2038]:
+                            - generic [ref=e2039]: Select Rooms
+                            - combobox "Select Rooms" [ref=e2040]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,080)"
+                              - option "2 (€ 2,159)"
+                              - option "3 (€ 3,239)"
+                              - option "4 (€ 4,319)"
+                              - option "5 (€ 5,398)"
+                              - option "6 (€ 6,478)"
+                              - option "7 (€ 7,558)"
+                      - 'row "Max. people: 2 Price € 1,096 Includes taxes and fees Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2041]':
+                        - 'cell "Max. people: 2" [ref=e2042]':
+                          - generic [ref=e2044]:
+                            - generic [ref=e2045]:
+                              - generic [ref=e2046]: "1"
+                              - generic [ref=e2047]: "1"
+                            - generic [ref=e2048]: "Max. people: 2"
+                        - cell "Price € 1,096 Includes taxes and fees" [ref=e2049]:
+                          - generic [ref=e2051]:
+                            - generic [ref=e2053]:
+                              - generic [ref=e2054]: € 1,096
+                              - generic [ref=e2055]: Price € 1,096
+                            - generic [ref=e2056]: Includes taxes and fees
+                        - cell "Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e2057]:
+                          - generic [ref=e2058]:
+                            - list [ref=e2059]:
+                              - listitem [ref=e2060]:
+                                - img [ref=e2061]
+                                - generic [ref=e2064]:
+                                  - generic [ref=e2065]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e2066]:
+                                - generic [ref=e2067]:
+                                  - img [ref=e2069]
+                                  - generic [ref=e2074]:
+                                    - strong [ref=e2075]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e2076]:
+                                - generic [ref=e2077]:
+                                  - img [ref=e2079]
+                                  - generic [ref=e2084]:
+                                    - strong [ref=e2085]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e2087] [cursor=pointer]:
+                              - img [ref=e2089]
+                        - cell "Select Rooms 0" [ref=e2091]:
+                          - generic [ref=e2092]:
+                            - generic [ref=e2093]: Select Rooms
+                            - combobox "Select Rooms" [ref=e2094]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,096)"
+                              - option "2 (€ 2,193)"
+                              - option "3 (€ 3,289)"
+                              - option "4 (€ 4,386)"
+                              - option "5 (€ 5,482)"
+                              - option "6 (€ 6,578)"
+                              - option "7 (€ 7,675)"
+                      - 'row "Max. people: 2 Price € 1,188 Includes taxes and fees All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2095]':
+                        - 'cell "Max. people: 2" [ref=e2096]':
+                          - generic [ref=e2098]:
+                            - generic [ref=e2099]:
+                              - generic [ref=e2100]: "1"
+                              - generic [ref=e2101]: "1"
+                            - generic [ref=e2102]: "Max. people: 2"
+                        - cell "Price € 1,188 Includes taxes and fees" [ref=e2103]:
+                          - generic [ref=e2105]:
+                            - generic [ref=e2107]:
+                              - generic [ref=e2108]: € 1,188
+                              - generic [ref=e2109]: Price € 1,188
+                            - generic [ref=e2110]: Includes taxes and fees
+                        - cell "All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e2111]:
+                          - generic [ref=e2112]:
+                            - list [ref=e2113]:
+                              - listitem [ref=e2114]:
+                                - img [ref=e2115]
+                                - generic [ref=e2118]: All-Inclusive
+                              - listitem [ref=e2119]:
+                                - generic [ref=e2120]:
+                                  - img [ref=e2122]
+                                  - strong [ref=e2129]: Non-refundable
+                              - listitem [ref=e2130]:
+                                - generic [ref=e2131]:
+                                  - generic [ref=e2133]: •
+                                  - generic [ref=e2136]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e2138] [cursor=pointer]:
+                              - img [ref=e2140]
+                        - cell "Select Rooms 0" [ref=e2142]:
+                          - generic [ref=e2143]:
+                            - generic [ref=e2144]: Select Rooms
+                            - combobox "Select Rooms" [ref=e2145]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,188)"
+                              - option "2 (€ 2,377)"
+                              - option "3 (€ 3,565)"
+                              - option "4 (€ 4,753)"
+                              - option "5 (€ 5,942)"
+                              - option "6 (€ 7,130)"
+                              - option "7 (€ 8,319)"
+                      - 'row "Max. people: 2 Price € 1,225 Includes taxes and fees Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2146]':
+                        - 'cell "Max. people: 2" [ref=e2147]':
+                          - generic [ref=e2149]:
+                            - generic [ref=e2150]:
+                              - generic [ref=e2151]: "1"
+                              - generic [ref=e2152]: "1"
+                            - generic [ref=e2153]: "Max. people: 2"
+                        - cell "Price € 1,225 Includes taxes and fees" [ref=e2154]:
+                          - generic [ref=e2156]:
+                            - generic [ref=e2158]:
+                              - generic [ref=e2159]: € 1,225
+                              - generic [ref=e2160]: Price € 1,225
+                            - generic [ref=e2161]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e2162]:
+                          - generic [ref=e2163]:
+                            - list [ref=e2164]:
+                              - listitem [ref=e2165]:
+                                - img [ref=e2166]
+                                - generic [ref=e2169]: Breakfast & dinner included
+                              - listitem [ref=e2170]:
+                                - generic [ref=e2171]:
+                                  - img [ref=e2173]
+                                  - generic [ref=e2178]:
+                                    - strong [ref=e2179]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e2180]:
+                                - generic [ref=e2181]:
+                                  - img [ref=e2183]
+                                  - generic [ref=e2188]:
+                                    - strong [ref=e2189]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e2191] [cursor=pointer]:
+                              - img [ref=e2193]
+                        - cell "Select Rooms 0" [ref=e2195]:
+                          - generic [ref=e2196]:
+                            - generic [ref=e2197]: Select Rooms
+                            - combobox "Select Rooms" [ref=e2198]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,225)"
+                              - option "2 (€ 2,451)"
+                              - option "3 (€ 3,676)"
+                              - option "4 (€ 4,902)"
+                              - option "5 (€ 6,127)"
+                              - option "6 (€ 7,353)"
+                              - option "7 (€ 8,578)"
+                      - 'row "Max. people: 2 Price € 1,334 Includes taxes and fees All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2199]':
+                        - 'cell "Max. people: 2" [ref=e2200]':
+                          - generic [ref=e2202]:
+                            - generic [ref=e2203]:
+                              - generic [ref=e2204]: "1"
+                              - generic [ref=e2205]: "1"
+                            - generic [ref=e2206]: "Max. people: 2"
+                        - cell "Price € 1,334 Includes taxes and fees" [ref=e2207]:
+                          - generic [ref=e2209]:
+                            - generic [ref=e2211]:
+                              - generic [ref=e2212]: € 1,334
+                              - generic [ref=e2213]: Price € 1,334
+                            - generic [ref=e2214]: Includes taxes and fees
+                        - cell "All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e2215]:
+                          - generic [ref=e2216]:
+                            - list [ref=e2217]:
+                              - listitem [ref=e2218]:
+                                - img [ref=e2219]
+                                - generic [ref=e2222]: All-Inclusive
+                              - listitem [ref=e2223]:
+                                - generic [ref=e2224]:
+                                  - img [ref=e2226]
+                                  - generic [ref=e2231]:
+                                    - strong [ref=e2232]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e2233]:
+                                - generic [ref=e2234]:
+                                  - img [ref=e2236]
+                                  - generic [ref=e2241]:
+                                    - strong [ref=e2242]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e2244] [cursor=pointer]:
+                              - img [ref=e2246]
+                        - cell "Select Rooms 0" [ref=e2248]:
+                          - generic [ref=e2249]:
+                            - generic [ref=e2250]: Select Rooms
+                            - combobox "Select Rooms" [ref=e2251]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,334)"
+                              - option "2 (€ 2,668)"
+                              - option "3 (€ 4,002)"
+                              - option "4 (€ 5,337)"
+                              - option "5 (€ 6,671)"
+                              - option "6 (€ 8,005)"
+                              - option "7 (€ 9,339)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 822 Includes taxes and fees Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2252]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e2253]':
+                          - generic [ref=e2255]:
+                            - generic [ref=e2257]: "1"
+                            - generic [ref=e2258]: "Max. people: 1"
+                          - generic [ref=e2261]: Only for 1 guest
+                        - cell "Price € 822 Includes taxes and fees" [ref=e2262]:
+                          - generic [ref=e2264]:
+                            - generic [ref=e2266]:
+                              - generic [ref=e2267]: € 822
+                              - generic [ref=e2268]: Price € 822
+                            - generic [ref=e2269]: Includes taxes and fees
+                        - cell "Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e2270]:
+                          - generic [ref=e2271]:
+                            - list [ref=e2272]:
+                              - listitem [ref=e2273]:
+                                - img [ref=e2274]
+                                - generic [ref=e2277]:
+                                  - generic [ref=e2278]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e2279]:
+                                - generic [ref=e2280]:
+                                  - img [ref=e2282]
+                                  - strong [ref=e2289]: Non-refundable
+                              - listitem [ref=e2290]:
+                                - generic [ref=e2291]:
+                                  - generic [ref=e2293]: •
+                                  - generic [ref=e2296]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e2298] [cursor=pointer]:
+                              - img [ref=e2300]
+                        - cell "Select Rooms 0" [ref=e2302]:
+                          - generic [ref=e2303]:
+                            - generic [ref=e2304]: Select Rooms
+                            - combobox "Select Rooms" [ref=e2305]:
+                              - option "0" [selected]
+                              - option "1 (€ 822)"
+                              - option "2 (€ 1,645)"
+                              - option "3 (€ 2,467)"
+                              - option "4 (€ 3,289)"
+                              - option "5 (€ 4,111)"
+                              - option "6 (€ 4,934)"
+                              - option "7 (€ 5,756)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 887 Includes taxes and fees Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2306]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e2307]':
+                          - generic [ref=e2309]:
+                            - generic [ref=e2311]: "1"
+                            - generic [ref=e2312]: "Max. people: 1"
+                          - generic [ref=e2315]: Only for 1 guest
+                        - cell "Price € 887 Includes taxes and fees" [ref=e2316]:
+                          - generic [ref=e2318]:
+                            - generic [ref=e2320]:
+                              - generic [ref=e2321]: € 887
+                              - generic [ref=e2322]: Price € 887
+                            - generic [ref=e2323]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e2324]:
+                          - generic [ref=e2325]:
+                            - list [ref=e2326]:
+                              - listitem [ref=e2327]:
+                                - img [ref=e2328]
+                                - generic [ref=e2331]: Breakfast & dinner included
+                              - listitem [ref=e2332]:
+                                - generic [ref=e2333]:
+                                  - img [ref=e2335]
+                                  - strong [ref=e2342]: Non-refundable
+                              - listitem [ref=e2343]:
+                                - generic [ref=e2344]:
+                                  - generic [ref=e2346]: •
+                                  - generic [ref=e2349]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e2351] [cursor=pointer]:
+                              - img [ref=e2353]
+                        - cell "Select Rooms 0" [ref=e2355]:
+                          - generic [ref=e2356]:
+                            - generic [ref=e2357]: Select Rooms
+                            - combobox "Select Rooms" [ref=e2358]:
+                              - option "0" [selected]
+                              - option "1 (€ 887)"
+                              - option "2 (€ 1,774)"
+                              - option "3 (€ 2,660)"
+                              - option "4 (€ 3,547)"
+                              - option "5 (€ 4,434)"
+                              - option "6 (€ 5,321)"
+                              - option "7 (€ 6,208)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 941 Includes taxes and fees All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2359]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e2360]':
+                          - generic [ref=e2362]:
+                            - generic [ref=e2364]: "1"
+                            - generic [ref=e2365]: "Max. people: 1"
+                          - generic [ref=e2368]: Only for 1 guest
+                        - cell "Price € 941 Includes taxes and fees" [ref=e2369]:
+                          - generic [ref=e2371]:
+                            - generic [ref=e2373]:
+                              - generic [ref=e2374]: € 941
+                              - generic [ref=e2375]: Price € 941
+                            - generic [ref=e2376]: Includes taxes and fees
+                        - cell "All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e2377]:
+                          - generic [ref=e2378]:
+                            - list [ref=e2379]:
+                              - listitem [ref=e2380]:
+                                - img [ref=e2381]
+                                - generic [ref=e2384]: All-Inclusive
+                              - listitem [ref=e2385]:
+                                - generic [ref=e2386]:
+                                  - img [ref=e2388]
+                                  - strong [ref=e2395]: Non-refundable
+                              - listitem [ref=e2396]:
+                                - generic [ref=e2397]:
+                                  - generic [ref=e2399]: •
+                                  - generic [ref=e2402]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e2404] [cursor=pointer]:
+                              - img [ref=e2406]
+                        - cell "Select Rooms 0" [ref=e2408]:
+                          - generic [ref=e2409]:
+                            - generic [ref=e2410]: Select Rooms
+                            - combobox "Select Rooms" [ref=e2411]:
+                              - option "0" [selected]
+                              - option "1 (€ 941)"
+                              - option "2 (€ 1,882)"
+                              - option "3 (€ 2,824)"
+                              - option "4 (€ 3,765)"
+                              - option "5 (€ 4,706)"
+                              - option "6 (€ 5,647)"
+                              - option "7 (€ 6,588)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 956 Includes taxes and fees Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2412]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e2413]':
+                          - generic [ref=e2415]:
+                            - generic [ref=e2417]: "1"
+                            - generic [ref=e2418]: "Max. people: 1"
+                          - generic [ref=e2421]: Only for 1 guest
+                        - cell "Price € 956 Includes taxes and fees" [ref=e2422]:
+                          - generic [ref=e2424]:
+                            - generic [ref=e2426]:
+                              - generic [ref=e2427]: € 956
+                              - generic [ref=e2428]: Price € 956
+                            - generic [ref=e2429]: Includes taxes and fees
+                        - cell "Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e2430]:
+                          - generic [ref=e2431]:
+                            - list [ref=e2432]:
+                              - listitem [ref=e2433]:
+                                - img [ref=e2434]
+                                - generic [ref=e2437]:
+                                  - generic [ref=e2438]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e2439]:
+                                - generic [ref=e2440]:
+                                  - img [ref=e2442]
+                                  - generic [ref=e2447]:
+                                    - strong [ref=e2448]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e2449]:
+                                - generic [ref=e2450]:
+                                  - img [ref=e2452]
+                                  - generic [ref=e2457]:
+                                    - strong [ref=e2458]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e2460] [cursor=pointer]:
+                              - img [ref=e2462]
+                        - cell "Select Rooms 0" [ref=e2464]:
+                          - generic [ref=e2465]:
+                            - generic [ref=e2466]: Select Rooms
+                            - combobox "Select Rooms" [ref=e2467]:
+                              - option "0" [selected]
+                              - option "1 (€ 956)"
+                              - option "2 (€ 1,913)"
+                              - option "3 (€ 2,869)"
+                              - option "4 (€ 3,826)"
+                              - option "5 (€ 4,782)"
+                              - option "6 (€ 5,739)"
+                              - option "7 (€ 6,695)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,021 Includes taxes and fees Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2468]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e2469]':
+                          - generic [ref=e2471]:
+                            - generic [ref=e2473]: "1"
+                            - generic [ref=e2474]: "Max. people: 1"
+                          - generic [ref=e2477]: Only for 1 guest
+                        - cell "Price € 1,021 Includes taxes and fees" [ref=e2478]:
+                          - generic [ref=e2480]:
+                            - generic [ref=e2482]:
+                              - generic [ref=e2483]: € 1,021
+                              - generic [ref=e2484]: Price € 1,021
+                            - generic [ref=e2485]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e2486]:
+                          - generic [ref=e2487]:
+                            - list [ref=e2488]:
+                              - listitem [ref=e2489]:
+                                - img [ref=e2490]
+                                - generic [ref=e2493]: Breakfast & dinner included
+                              - listitem [ref=e2494]:
+                                - generic [ref=e2495]:
+                                  - img [ref=e2497]
+                                  - generic [ref=e2502]:
+                                    - strong [ref=e2503]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e2504]:
+                                - generic [ref=e2505]:
+                                  - img [ref=e2507]
+                                  - generic [ref=e2512]:
+                                    - strong [ref=e2513]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e2515] [cursor=pointer]:
+                              - img [ref=e2517]
+                        - cell "Select Rooms 0" [ref=e2519]:
+                          - generic [ref=e2520]:
+                            - generic [ref=e2521]: Select Rooms
+                            - combobox "Select Rooms" [ref=e2522]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,021)"
+                              - option "2 (€ 2,042)"
+                              - option "3 (€ 3,063)"
+                              - option "4 (€ 4,084)"
+                              - option "5 (€ 5,105)"
+                              - option "6 (€ 6,126)"
+                              - option "7 (€ 7,147)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,075 Includes taxes and fees All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2523]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e2524]':
+                          - generic [ref=e2526]:
+                            - generic [ref=e2528]: "1"
+                            - generic [ref=e2529]: "Max. people: 1"
+                          - generic [ref=e2532]: Only for 1 guest
+                        - cell "Price € 1,075 Includes taxes and fees" [ref=e2533]:
+                          - generic [ref=e2535]:
+                            - generic [ref=e2537]:
+                              - generic [ref=e2538]: € 1,075
+                              - generic [ref=e2539]: Price € 1,075
+                            - generic [ref=e2540]: Includes taxes and fees
+                        - cell "All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e2541]:
+                          - generic [ref=e2542]:
+                            - list [ref=e2543]:
+                              - listitem [ref=e2544]:
+                                - img [ref=e2545]
+                                - generic [ref=e2548]: All-Inclusive
+                              - listitem [ref=e2549]:
+                                - generic [ref=e2550]:
+                                  - img [ref=e2552]
+                                  - generic [ref=e2557]:
+                                    - strong [ref=e2558]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e2559]:
+                                - generic [ref=e2560]:
+                                  - img [ref=e2562]
+                                  - generic [ref=e2567]:
+                                    - strong [ref=e2568]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e2570] [cursor=pointer]:
+                              - img [ref=e2572]
+                        - cell "Select Rooms 0" [ref=e2574]:
+                          - generic [ref=e2575]:
+                            - generic [ref=e2576]: Select Rooms
+                            - combobox "Select Rooms" [ref=e2577]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,075)"
+                              - option "2 (€ 2,151)"
+                              - option "3 (€ 3,226)"
+                              - option "4 (€ 4,301)"
+                              - option "5 (€ 5,377)"
+                              - option "6 (€ 6,452)"
+                              - option "7 (€ 7,527)"
+                      - 'row "Superior Double Room with Garden View (Beach Wing) We have 7 left 1 king bed Featuring free toiletries and bathrobes, this triple room includes a private bathroom with a bath, a shower and a hairdryer. The spacious triple room features air conditioning, soundproof walls, a mini-bar, a tea and coffee maker and a flat-screen TV with satellite channels. The unit has 1 bed. 1 room 32 m² View Air conditioning Private bathroom Flat-screen TV Soundproof Minibar Show more amenities Max. people: 2 Price € 951 Includes taxes and fees Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2578]':
+                        - rowheader "Superior Double Room with Garden View (Beach Wing) We have 7 left 1 king bed Featuring free toiletries and bathrobes, this triple room includes a private bathroom with a bath, a shower and a hairdryer. The spacious triple room features air conditioning, soundproof walls, a mini-bar, a tea and coffee maker and a flat-screen TV with satellite channels. The unit has 1 bed. 1 room 32 m² View Air conditioning Private bathroom Flat-screen TV Soundproof Minibar Show more amenities" [ref=e2579]:
+                          - generic [ref=e2580]:
+                            - link "Superior Double Room with Garden View (Beach Wing)" [ref=e2582] [cursor=pointer]:
+                              - /url: "#RD1609611"
+                            - generic [ref=e2585]:
+                              - img [ref=e2586]
+                              - generic [ref=e2591]: We have 7 left
+                            - list [ref=e2594]:
+                              - listitem [ref=e2595]:
+                                - generic [ref=e2596]:
+                                  - text: 1 king bed
+                                  - generic [ref=e2597]: 녌
+                            - paragraph [ref=e2598]: Featuring free toiletries and bathrobes, this triple room includes a private bathroom with a bath, a shower and a hairdryer. The spacious triple room features air conditioning, soundproof walls, a mini-bar, a tea and coffee maker and a flat-screen TV with satellite channels. The unit has 1 bed.
+                            - generic [ref=e2600]:
+                              - list [ref=e2601]:
+                                - listitem [ref=e2602]:
+                                  - generic [ref=e2603]:
+                                    - img [ref=e2604]
+                                    - text: 1 room
+                                - listitem [ref=e2606]:
+                                  - generic [ref=e2607]:
+                                    - img [ref=e2608]
+                                    - text: 32 m²
+                                - listitem [ref=e2610]:
+                                  - generic [ref=e2611]:
+                                    - img [ref=e2612]
+                                    - text: View
+                                - listitem [ref=e2614]:
+                                  - generic [ref=e2615]:
+                                    - img [ref=e2616]
+                                    - text: Air conditioning
+                                - listitem [ref=e2618]:
+                                  - generic [ref=e2619]:
+                                    - img [ref=e2620]
+                                    - text: Private bathroom
+                                - listitem [ref=e2622]:
+                                  - generic [ref=e2623]:
+                                    - img [ref=e2624]
+                                    - text: Flat-screen TV
+                                - listitem [ref=e2626]:
+                                  - generic [ref=e2627]:
+                                    - img [ref=e2628]
+                                    - text: Soundproof
+                                - listitem [ref=e2630]:
+                                  - generic [ref=e2631]:
+                                    - img [ref=e2632]
+                                    - text: Minibar
+                              - button "Show more amenities" [ref=e2634] [cursor=pointer]: More
+                        - 'cell "Max. people: 2" [ref=e2635]':
+                          - generic [ref=e2637]:
+                            - generic [ref=e2638]:
+                              - generic [ref=e2639]: "1"
+                              - generic [ref=e2640]: "1"
+                            - generic [ref=e2641]: "Max. people: 2"
+                        - cell "Price € 951 Includes taxes and fees" [ref=e2642]:
+                          - generic [ref=e2644]:
+                            - generic [ref=e2646]:
+                              - generic [ref=e2647]: € 951
+                              - generic [ref=e2648]: Price € 951
+                            - generic [ref=e2649]: Includes taxes and fees
+                        - cell "Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e2650]:
+                          - generic [ref=e2651]:
+                            - list [ref=e2652]:
+                              - listitem [ref=e2653]:
+                                - img [ref=e2654]
+                                - generic [ref=e2657]:
+                                  - generic [ref=e2658]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e2659]:
+                                - generic [ref=e2660]:
+                                  - img [ref=e2662]
+                                  - strong [ref=e2669]: Non-refundable
+                              - listitem [ref=e2670]:
+                                - generic [ref=e2671]:
+                                  - generic [ref=e2673]: •
+                                  - generic [ref=e2676]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e2678] [cursor=pointer]:
+                              - img [ref=e2680]
+                        - cell "Select Rooms 0" [ref=e2682]:
+                          - generic [ref=e2683]:
+                            - generic [ref=e2684]: Select Rooms
+                            - combobox "Select Rooms" [ref=e2685]:
+                              - option "0" [selected]
+                              - option "1 (€ 951)"
+                              - option "2 (€ 1,901)"
+                              - option "3 (€ 2,852)"
+                              - option "4 (€ 3,802)"
+                              - option "5 (€ 4,753)"
+                              - option "6 (€ 5,704)"
+                              - option "7 (€ 6,654)"
+                      - 'row "Max. people: 2 Price € 1,080 Includes taxes and fees Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2686]':
+                        - 'cell "Max. people: 2" [ref=e2687]':
+                          - generic [ref=e2689]:
+                            - generic [ref=e2690]:
+                              - generic [ref=e2691]: "1"
+                              - generic [ref=e2692]: "1"
+                            - generic [ref=e2693]: "Max. people: 2"
+                        - cell "Price € 1,080 Includes taxes and fees" [ref=e2694]:
+                          - generic [ref=e2696]:
+                            - generic [ref=e2698]:
+                              - generic [ref=e2699]: € 1,080
+                              - generic [ref=e2700]: Price € 1,080
+                            - generic [ref=e2701]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e2702]:
+                          - generic [ref=e2703]:
+                            - list [ref=e2704]:
+                              - listitem [ref=e2705]:
+                                - img [ref=e2706]
+                                - generic [ref=e2709]: Breakfast & dinner included
+                              - listitem [ref=e2710]:
+                                - generic [ref=e2711]:
+                                  - img [ref=e2713]
+                                  - strong [ref=e2720]: Non-refundable
+                              - listitem [ref=e2721]:
+                                - generic [ref=e2722]:
+                                  - generic [ref=e2724]: •
+                                  - generic [ref=e2727]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e2729] [cursor=pointer]:
+                              - img [ref=e2731]
+                        - cell "Select Rooms 0" [ref=e2733]:
+                          - generic [ref=e2734]:
+                            - generic [ref=e2735]: Select Rooms
+                            - combobox "Select Rooms" [ref=e2736]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,080)"
+                              - option "2 (€ 2,159)"
+                              - option "3 (€ 3,239)"
+                              - option "4 (€ 4,319)"
+                              - option "5 (€ 5,398)"
+                              - option "6 (€ 6,478)"
+                              - option "7 (€ 7,558)"
+                      - 'row "Max. people: 2 Price € 1,096 Includes taxes and fees Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2737]':
+                        - 'cell "Max. people: 2" [ref=e2738]':
+                          - generic [ref=e2740]:
+                            - generic [ref=e2741]:
+                              - generic [ref=e2742]: "1"
+                              - generic [ref=e2743]: "1"
+                            - generic [ref=e2744]: "Max. people: 2"
+                        - cell "Price € 1,096 Includes taxes and fees" [ref=e2745]:
+                          - generic [ref=e2747]:
+                            - generic [ref=e2749]:
+                              - generic [ref=e2750]: € 1,096
+                              - generic [ref=e2751]: Price € 1,096
+                            - generic [ref=e2752]: Includes taxes and fees
+                        - cell "Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e2753]:
+                          - generic [ref=e2754]:
+                            - list [ref=e2755]:
+                              - listitem [ref=e2756]:
+                                - img [ref=e2757]
+                                - generic [ref=e2760]:
+                                  - generic [ref=e2761]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e2762]:
+                                - generic [ref=e2763]:
+                                  - img [ref=e2765]
+                                  - generic [ref=e2770]:
+                                    - strong [ref=e2771]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e2772]:
+                                - generic [ref=e2773]:
+                                  - img [ref=e2775]
+                                  - generic [ref=e2780]:
+                                    - strong [ref=e2781]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e2783] [cursor=pointer]:
+                              - img [ref=e2785]
+                        - cell "Select Rooms 0" [ref=e2787]:
+                          - generic [ref=e2788]:
+                            - generic [ref=e2789]: Select Rooms
+                            - combobox "Select Rooms" [ref=e2790]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,096)"
+                              - option "2 (€ 2,193)"
+                              - option "3 (€ 3,289)"
+                              - option "4 (€ 4,386)"
+                              - option "5 (€ 5,482)"
+                              - option "6 (€ 6,578)"
+                              - option "7 (€ 7,675)"
+                      - 'row "Max. people: 2 Price € 1,188 Includes taxes and fees All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2791]':
+                        - 'cell "Max. people: 2" [ref=e2792]':
+                          - generic [ref=e2794]:
+                            - generic [ref=e2795]:
+                              - generic [ref=e2796]: "1"
+                              - generic [ref=e2797]: "1"
+                            - generic [ref=e2798]: "Max. people: 2"
+                        - cell "Price € 1,188 Includes taxes and fees" [ref=e2799]:
+                          - generic [ref=e2801]:
+                            - generic [ref=e2803]:
+                              - generic [ref=e2804]: € 1,188
+                              - generic [ref=e2805]: Price € 1,188
+                            - generic [ref=e2806]: Includes taxes and fees
+                        - cell "All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e2807]:
+                          - generic [ref=e2808]:
+                            - list [ref=e2809]:
+                              - listitem [ref=e2810]:
+                                - img [ref=e2811]
+                                - generic [ref=e2814]: All-Inclusive
+                              - listitem [ref=e2815]:
+                                - generic [ref=e2816]:
+                                  - img [ref=e2818]
+                                  - strong [ref=e2825]: Non-refundable
+                              - listitem [ref=e2826]:
+                                - generic [ref=e2827]:
+                                  - generic [ref=e2829]: •
+                                  - generic [ref=e2832]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e2834] [cursor=pointer]:
+                              - img [ref=e2836]
+                        - cell "Select Rooms 0" [ref=e2838]:
+                          - generic [ref=e2839]:
+                            - generic [ref=e2840]: Select Rooms
+                            - combobox "Select Rooms" [ref=e2841]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,188)"
+                              - option "2 (€ 2,377)"
+                              - option "3 (€ 3,565)"
+                              - option "4 (€ 4,753)"
+                              - option "5 (€ 5,942)"
+                              - option "6 (€ 7,130)"
+                              - option "7 (€ 8,319)"
+                      - 'row "Max. people: 2 Price € 1,225 Includes taxes and fees Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2842]':
+                        - 'cell "Max. people: 2" [ref=e2843]':
+                          - generic [ref=e2845]:
+                            - generic [ref=e2846]:
+                              - generic [ref=e2847]: "1"
+                              - generic [ref=e2848]: "1"
+                            - generic [ref=e2849]: "Max. people: 2"
+                        - cell "Price € 1,225 Includes taxes and fees" [ref=e2850]:
+                          - generic [ref=e2852]:
+                            - generic [ref=e2854]:
+                              - generic [ref=e2855]: € 1,225
+                              - generic [ref=e2856]: Price € 1,225
+                            - generic [ref=e2857]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e2858]:
+                          - generic [ref=e2859]:
+                            - list [ref=e2860]:
+                              - listitem [ref=e2861]:
+                                - img [ref=e2862]
+                                - generic [ref=e2865]: Breakfast & dinner included
+                              - listitem [ref=e2866]:
+                                - generic [ref=e2867]:
+                                  - img [ref=e2869]
+                                  - generic [ref=e2874]:
+                                    - strong [ref=e2875]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e2876]:
+                                - generic [ref=e2877]:
+                                  - img [ref=e2879]
+                                  - generic [ref=e2884]:
+                                    - strong [ref=e2885]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e2887] [cursor=pointer]:
+                              - img [ref=e2889]
+                        - cell "Select Rooms 0" [ref=e2891]:
+                          - generic [ref=e2892]:
+                            - generic [ref=e2893]: Select Rooms
+                            - combobox "Select Rooms" [ref=e2894]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,225)"
+                              - option "2 (€ 2,451)"
+                              - option "3 (€ 3,676)"
+                              - option "4 (€ 4,902)"
+                              - option "5 (€ 6,127)"
+                              - option "6 (€ 7,353)"
+                              - option "7 (€ 8,578)"
+                      - 'row "Max. people: 2 Price € 1,334 Includes taxes and fees All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2895]':
+                        - 'cell "Max. people: 2" [ref=e2896]':
+                          - generic [ref=e2898]:
+                            - generic [ref=e2899]:
+                              - generic [ref=e2900]: "1"
+                              - generic [ref=e2901]: "1"
+                            - generic [ref=e2902]: "Max. people: 2"
+                        - cell "Price € 1,334 Includes taxes and fees" [ref=e2903]:
+                          - generic [ref=e2905]:
+                            - generic [ref=e2907]:
+                              - generic [ref=e2908]: € 1,334
+                              - generic [ref=e2909]: Price € 1,334
+                            - generic [ref=e2910]: Includes taxes and fees
+                        - cell "All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e2911]:
+                          - generic [ref=e2912]:
+                            - list [ref=e2913]:
+                              - listitem [ref=e2914]:
+                                - img [ref=e2915]
+                                - generic [ref=e2918]: All-Inclusive
+                              - listitem [ref=e2919]:
+                                - generic [ref=e2920]:
+                                  - img [ref=e2922]
+                                  - generic [ref=e2927]:
+                                    - strong [ref=e2928]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e2929]:
+                                - generic [ref=e2930]:
+                                  - img [ref=e2932]
+                                  - generic [ref=e2937]:
+                                    - strong [ref=e2938]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e2940] [cursor=pointer]:
+                              - img [ref=e2942]
+                        - cell "Select Rooms 0" [ref=e2944]:
+                          - generic [ref=e2945]:
+                            - generic [ref=e2946]: Select Rooms
+                            - combobox "Select Rooms" [ref=e2947]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,334)"
+                              - option "2 (€ 2,668)"
+                              - option "3 (€ 4,002)"
+                              - option "4 (€ 5,337)"
+                              - option "5 (€ 6,671)"
+                              - option "6 (€ 8,005)"
+                              - option "7 (€ 9,339)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 822 Includes taxes and fees Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2948]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e2949]':
+                          - generic [ref=e2951]:
+                            - generic [ref=e2953]: "1"
+                            - generic [ref=e2954]: "Max. people: 1"
+                          - generic [ref=e2957]: Only for 1 guest
+                        - cell "Price € 822 Includes taxes and fees" [ref=e2958]:
+                          - generic [ref=e2960]:
+                            - generic [ref=e2962]:
+                              - generic [ref=e2963]: € 822
+                              - generic [ref=e2964]: Price € 822
+                            - generic [ref=e2965]: Includes taxes and fees
+                        - cell "Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e2966]:
+                          - generic [ref=e2967]:
+                            - list [ref=e2968]:
+                              - listitem [ref=e2969]:
+                                - img [ref=e2970]
+                                - generic [ref=e2973]:
+                                  - generic [ref=e2974]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e2975]:
+                                - generic [ref=e2976]:
+                                  - img [ref=e2978]
+                                  - strong [ref=e2985]: Non-refundable
+                              - listitem [ref=e2986]:
+                                - generic [ref=e2987]:
+                                  - generic [ref=e2989]: •
+                                  - generic [ref=e2992]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e2994] [cursor=pointer]:
+                              - img [ref=e2996]
+                        - cell "Select Rooms 0" [ref=e2998]:
+                          - generic [ref=e2999]:
+                            - generic [ref=e3000]: Select Rooms
+                            - combobox "Select Rooms" [ref=e3001]:
+                              - option "0" [selected]
+                              - option "1 (€ 822)"
+                              - option "2 (€ 1,645)"
+                              - option "3 (€ 2,467)"
+                              - option "4 (€ 3,289)"
+                              - option "5 (€ 4,111)"
+                              - option "6 (€ 4,934)"
+                              - option "7 (€ 5,756)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 887 Includes taxes and fees Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e3002]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e3003]':
+                          - generic [ref=e3005]:
+                            - generic [ref=e3007]: "1"
+                            - generic [ref=e3008]: "Max. people: 1"
+                          - generic [ref=e3011]: Only for 1 guest
+                        - cell "Price € 887 Includes taxes and fees" [ref=e3012]:
+                          - generic [ref=e3014]:
+                            - generic [ref=e3016]:
+                              - generic [ref=e3017]: € 887
+                              - generic [ref=e3018]: Price € 887
+                            - generic [ref=e3019]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e3020]:
+                          - generic [ref=e3021]:
+                            - list [ref=e3022]:
+                              - listitem [ref=e3023]:
+                                - img [ref=e3024]
+                                - generic [ref=e3027]: Breakfast & dinner included
+                              - listitem [ref=e3028]:
+                                - generic [ref=e3029]:
+                                  - img [ref=e3031]
+                                  - strong [ref=e3038]: Non-refundable
+                              - listitem [ref=e3039]:
+                                - generic [ref=e3040]:
+                                  - generic [ref=e3042]: •
+                                  - generic [ref=e3045]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e3047] [cursor=pointer]:
+                              - img [ref=e3049]
+                        - cell "Select Rooms 0" [ref=e3051]:
+                          - generic [ref=e3052]:
+                            - generic [ref=e3053]: Select Rooms
+                            - combobox "Select Rooms" [ref=e3054]:
+                              - option "0" [selected]
+                              - option "1 (€ 887)"
+                              - option "2 (€ 1,774)"
+                              - option "3 (€ 2,660)"
+                              - option "4 (€ 3,547)"
+                              - option "5 (€ 4,434)"
+                              - option "6 (€ 5,321)"
+                              - option "7 (€ 6,208)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 941 Includes taxes and fees All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e3055]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e3056]':
+                          - generic [ref=e3058]:
+                            - generic [ref=e3060]: "1"
+                            - generic [ref=e3061]: "Max. people: 1"
+                          - generic [ref=e3064]: Only for 1 guest
+                        - cell "Price € 941 Includes taxes and fees" [ref=e3065]:
+                          - generic [ref=e3067]:
+                            - generic [ref=e3069]:
+                              - generic [ref=e3070]: € 941
+                              - generic [ref=e3071]: Price € 941
+                            - generic [ref=e3072]: Includes taxes and fees
+                        - cell "All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e3073]:
+                          - generic [ref=e3074]:
+                            - list [ref=e3075]:
+                              - listitem [ref=e3076]:
+                                - img [ref=e3077]
+                                - generic [ref=e3080]: All-Inclusive
+                              - listitem [ref=e3081]:
+                                - generic [ref=e3082]:
+                                  - img [ref=e3084]
+                                  - strong [ref=e3091]: Non-refundable
+                              - listitem [ref=e3092]:
+                                - generic [ref=e3093]:
+                                  - generic [ref=e3095]: •
+                                  - generic [ref=e3098]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e3100] [cursor=pointer]:
+                              - img [ref=e3102]
+                        - cell "Select Rooms 0" [ref=e3104]:
+                          - generic [ref=e3105]:
+                            - generic [ref=e3106]: Select Rooms
+                            - combobox "Select Rooms" [ref=e3107]:
+                              - option "0" [selected]
+                              - option "1 (€ 941)"
+                              - option "2 (€ 1,882)"
+                              - option "3 (€ 2,824)"
+                              - option "4 (€ 3,765)"
+                              - option "5 (€ 4,706)"
+                              - option "6 (€ 5,647)"
+                              - option "7 (€ 6,588)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 956 Includes taxes and fees Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e3108]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e3109]':
+                          - generic [ref=e3111]:
+                            - generic [ref=e3113]: "1"
+                            - generic [ref=e3114]: "Max. people: 1"
+                          - generic [ref=e3117]: Only for 1 guest
+                        - cell "Price € 956 Includes taxes and fees" [ref=e3118]:
+                          - generic [ref=e3120]:
+                            - generic [ref=e3122]:
+                              - generic [ref=e3123]: € 956
+                              - generic [ref=e3124]: Price € 956
+                            - generic [ref=e3125]: Includes taxes and fees
+                        - cell "Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e3126]:
+                          - generic [ref=e3127]:
+                            - list [ref=e3128]:
+                              - listitem [ref=e3129]:
+                                - img [ref=e3130]
+                                - generic [ref=e3133]:
+                                  - generic [ref=e3134]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e3135]:
+                                - generic [ref=e3136]:
+                                  - img [ref=e3138]
+                                  - generic [ref=e3143]:
+                                    - strong [ref=e3144]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e3145]:
+                                - generic [ref=e3146]:
+                                  - img [ref=e3148]
+                                  - generic [ref=e3153]:
+                                    - strong [ref=e3154]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e3156] [cursor=pointer]:
+                              - img [ref=e3158]
+                        - cell "Select Rooms 0" [ref=e3160]:
+                          - generic [ref=e3161]:
+                            - generic [ref=e3162]: Select Rooms
+                            - combobox "Select Rooms" [ref=e3163]:
+                              - option "0" [selected]
+                              - option "1 (€ 956)"
+                              - option "2 (€ 1,913)"
+                              - option "3 (€ 2,869)"
+                              - option "4 (€ 3,826)"
+                              - option "5 (€ 4,782)"
+                              - option "6 (€ 5,739)"
+                              - option "7 (€ 6,695)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,021 Includes taxes and fees Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e3164]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e3165]':
+                          - generic [ref=e3167]:
+                            - generic [ref=e3169]: "1"
+                            - generic [ref=e3170]: "Max. people: 1"
+                          - generic [ref=e3173]: Only for 1 guest
+                        - cell "Price € 1,021 Includes taxes and fees" [ref=e3174]:
+                          - generic [ref=e3176]:
+                            - generic [ref=e3178]:
+                              - generic [ref=e3179]: € 1,021
+                              - generic [ref=e3180]: Price € 1,021
+                            - generic [ref=e3181]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e3182]:
+                          - generic [ref=e3183]:
+                            - list [ref=e3184]:
+                              - listitem [ref=e3185]:
+                                - img [ref=e3186]
+                                - generic [ref=e3189]: Breakfast & dinner included
+                              - listitem [ref=e3190]:
+                                - generic [ref=e3191]:
+                                  - img [ref=e3193]
+                                  - generic [ref=e3198]:
+                                    - strong [ref=e3199]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e3200]:
+                                - generic [ref=e3201]:
+                                  - img [ref=e3203]
+                                  - generic [ref=e3208]:
+                                    - strong [ref=e3209]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e3211] [cursor=pointer]:
+                              - img [ref=e3213]
+                        - cell "Select Rooms 0" [ref=e3215]:
+                          - generic [ref=e3216]:
+                            - generic [ref=e3217]: Select Rooms
+                            - combobox "Select Rooms" [ref=e3218]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,021)"
+                              - option "2 (€ 2,042)"
+                              - option "3 (€ 3,063)"
+                              - option "4 (€ 4,084)"
+                              - option "5 (€ 5,105)"
+                              - option "6 (€ 6,126)"
+                              - option "7 (€ 7,147)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,075 Includes taxes and fees All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e3219]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e3220]':
+                          - generic [ref=e3222]:
+                            - generic [ref=e3224]: "1"
+                            - generic [ref=e3225]: "Max. people: 1"
+                          - generic [ref=e3228]: Only for 1 guest
+                        - cell "Price € 1,075 Includes taxes and fees" [ref=e3229]:
+                          - generic [ref=e3231]:
+                            - generic [ref=e3233]:
+                              - generic [ref=e3234]: € 1,075
+                              - generic [ref=e3235]: Price € 1,075
+                            - generic [ref=e3236]: Includes taxes and fees
+                        - cell "All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e3237]:
+                          - generic [ref=e3238]:
+                            - list [ref=e3239]:
+                              - listitem [ref=e3240]:
+                                - img [ref=e3241]
+                                - generic [ref=e3244]: All-Inclusive
+                              - listitem [ref=e3245]:
+                                - generic [ref=e3246]:
+                                  - img [ref=e3248]
+                                  - generic [ref=e3253]:
+                                    - strong [ref=e3254]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e3255]:
+                                - generic [ref=e3256]:
+                                  - img [ref=e3258]
+                                  - generic [ref=e3263]:
+                                    - strong [ref=e3264]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e3266] [cursor=pointer]:
+                              - img [ref=e3268]
+                        - cell "Select Rooms 0" [ref=e3270]:
+                          - generic [ref=e3271]:
+                            - generic [ref=e3272]: Select Rooms
+                            - combobox "Select Rooms" [ref=e3273]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,075)"
+                              - option "2 (€ 2,151)"
+                              - option "3 (€ 3,226)"
+                              - option "4 (€ 4,301)"
+                              - option "5 (€ 5,377)"
+                              - option "6 (€ 6,452)"
+                              - option "7 (€ 7,527)"
+                      - 'row "Standard Room with 2 Single Beds - Pool Side (Palm wing) We have 1 left 2 twin beds This room features a balcony or terrace overlooking at the pool, located at the palm side. separated from beach by a road. It includes twin beds, central air-conditioning (individual control), shower, safe box and a flat-screen TV. 1 room 42 m² Balcony Pool view Mountain view Rooftop pool Air conditioning Private bathroom Flat-screen TV Soundproof Terrace Minibar Show more amenities Max. people: 2 Price € 951 Includes taxes and fees Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e3274]':
+                        - rowheader "Standard Room with 2 Single Beds - Pool Side (Palm wing) We have 1 left 2 twin beds This room features a balcony or terrace overlooking at the pool, located at the palm side. separated from beach by a road. It includes twin beds, central air-conditioning (individual control), shower, safe box and a flat-screen TV. 1 room 42 m² Balcony Pool view Mountain view Rooftop pool Air conditioning Private bathroom Flat-screen TV Soundproof Terrace Minibar Show more amenities" [ref=e3275]:
+                          - generic [ref=e3276]:
+                            - link "Standard Room with 2 Single Beds - Pool Side (Palm wing)" [ref=e3278] [cursor=pointer]:
+                              - /url: "#RD1609601"
+                            - generic [ref=e3281]:
+                              - img [ref=e3282]
+                              - generic [ref=e3284]: We have 1 left
+                            - list [ref=e3287]:
+                              - listitem [ref=e3288]:
+                                - generic [ref=e3289]:
+                                  - text: 2 twin beds
+                                  - generic [ref=e3290]: 녍
+                            - paragraph [ref=e3291]: This room features a balcony or terrace overlooking at the pool, located at the palm side. separated from beach by a road. It includes twin beds, central air-conditioning (individual control), shower, safe box and a flat-screen TV.
+                            - generic [ref=e3293]:
+                              - list [ref=e3294]:
+                                - listitem [ref=e3295]:
+                                  - generic [ref=e3296]:
+                                    - img [ref=e3297]
+                                    - text: 1 room
+                                - listitem [ref=e3299]:
+                                  - generic [ref=e3300]:
+                                    - img [ref=e3301]
+                                    - text: 42 m²
+                                - listitem [ref=e3303]:
+                                  - generic [ref=e3304]:
+                                    - img [ref=e3305]
+                                    - text: Balcony
+                                - listitem [ref=e3307]:
+                                  - generic [ref=e3308]:
+                                    - img [ref=e3309]
+                                    - text: Pool view
+                                - listitem [ref=e3311]:
+                                  - generic [ref=e3312]:
+                                    - img [ref=e3313]
+                                    - text: Mountain view
+                                - listitem [ref=e3315]:
+                                  - generic [ref=e3316]:
+                                    - img [ref=e3317]
+                                    - text: Rooftop pool
+                                - listitem [ref=e3319]:
+                                  - generic [ref=e3320]:
+                                    - img [ref=e3321]
+                                    - text: Air conditioning
+                                - listitem [ref=e3323]:
+                                  - generic [ref=e3324]:
+                                    - img [ref=e3325]
+                                    - text: Private bathroom
+                                - listitem [ref=e3327]:
+                                  - generic [ref=e3328]:
+                                    - img [ref=e3329]
+                                    - text: Flat-screen TV
+                                - listitem [ref=e3331]:
+                                  - generic [ref=e3332]:
+                                    - img [ref=e3333]
+                                    - text: Soundproof
+                                - listitem [ref=e3335]:
+                                  - generic [ref=e3336]:
+                                    - img [ref=e3337]
+                                    - text: Terrace
+                                - listitem [ref=e3339]:
+                                  - generic [ref=e3340]:
+                                    - img [ref=e3341]
+                                    - text: Minibar
+                              - button "Show more amenities" [ref=e3343] [cursor=pointer]: More
+                        - 'cell "Max. people: 2" [ref=e3344]':
+                          - generic [ref=e3346]:
+                            - generic [ref=e3347]:
+                              - generic [ref=e3348]: "1"
+                              - generic [ref=e3349]: "1"
+                            - generic [ref=e3350]: "Max. people: 2"
+                        - cell "Price € 951 Includes taxes and fees" [ref=e3351]:
+                          - generic [ref=e3353]:
+                            - generic [ref=e3355]:
+                              - generic [ref=e3356]: € 951
+                              - generic [ref=e3357]: Price € 951
+                            - generic [ref=e3358]: Includes taxes and fees
+                        - cell "Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e3359]:
+                          - generic [ref=e3360]:
+                            - list [ref=e3361]:
+                              - listitem [ref=e3362]:
+                                - img [ref=e3363]
+                                - generic [ref=e3366]:
+                                  - generic [ref=e3367]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e3368]:
+                                - generic [ref=e3369]:
+                                  - img [ref=e3371]
+                                  - strong [ref=e3378]: Non-refundable
+                              - listitem [ref=e3379]:
+                                - generic [ref=e3380]:
+                                  - generic [ref=e3382]: •
+                                  - generic [ref=e3385]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e3387] [cursor=pointer]:
+                              - img [ref=e3389]
+                        - cell "Select Rooms 0" [ref=e3391]:
+                          - generic [ref=e3392]:
+                            - generic [ref=e3393]: Select Rooms
+                            - combobox "Select Rooms" [ref=e3394]:
+                              - option "0" [selected]
+                              - option "1 (€ 951)"
+                      - 'row "Max. people: 2 Price € 1,080 Includes taxes and fees Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e3395]':
+                        - 'cell "Max. people: 2" [ref=e3396]':
+                          - generic [ref=e3398]:
+                            - generic [ref=e3399]:
+                              - generic [ref=e3400]: "1"
+                              - generic [ref=e3401]: "1"
+                            - generic [ref=e3402]: "Max. people: 2"
+                        - cell "Price € 1,080 Includes taxes and fees" [ref=e3403]:
+                          - generic [ref=e3405]:
+                            - generic [ref=e3407]:
+                              - generic [ref=e3408]: € 1,080
+                              - generic [ref=e3409]: Price € 1,080
+                            - generic [ref=e3410]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e3411]:
+                          - generic [ref=e3412]:
+                            - list [ref=e3413]:
+                              - listitem [ref=e3414]:
+                                - img [ref=e3415]
+                                - generic [ref=e3418]: Breakfast & dinner included
+                              - listitem [ref=e3419]:
+                                - generic [ref=e3420]:
+                                  - img [ref=e3422]
+                                  - strong [ref=e3429]: Non-refundable
+                              - listitem [ref=e3430]:
+                                - generic [ref=e3431]:
+                                  - generic [ref=e3433]: •
+                                  - generic [ref=e3436]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e3438] [cursor=pointer]:
+                              - img [ref=e3440]
+                        - cell "Select Rooms 0" [ref=e3442]:
+                          - generic [ref=e3443]:
+                            - generic [ref=e3444]: Select Rooms
+                            - combobox "Select Rooms" [ref=e3445]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,080)"
+                      - 'row "Max. people: 2 Price € 1,096 Includes taxes and fees Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e3446]':
+                        - 'cell "Max. people: 2" [ref=e3447]':
+                          - generic [ref=e3449]:
+                            - generic [ref=e3450]:
+                              - generic [ref=e3451]: "1"
+                              - generic [ref=e3452]: "1"
+                            - generic [ref=e3453]: "Max. people: 2"
+                        - cell "Price € 1,096 Includes taxes and fees" [ref=e3454]:
+                          - generic [ref=e3456]:
+                            - generic [ref=e3458]:
+                              - generic [ref=e3459]: € 1,096
+                              - generic [ref=e3460]: Price € 1,096
+                            - generic [ref=e3461]: Includes taxes and fees
+                        - cell "Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e3462]:
+                          - generic [ref=e3463]:
+                            - list [ref=e3464]:
+                              - listitem [ref=e3465]:
+                                - img [ref=e3466]
+                                - generic [ref=e3469]:
+                                  - generic [ref=e3470]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e3471]:
+                                - generic [ref=e3472]:
+                                  - img [ref=e3474]
+                                  - generic [ref=e3479]:
+                                    - strong [ref=e3480]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e3481]:
+                                - generic [ref=e3482]:
+                                  - img [ref=e3484]
+                                  - generic [ref=e3489]:
+                                    - strong [ref=e3490]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e3492] [cursor=pointer]:
+                              - img [ref=e3494]
+                        - cell "Select Rooms 0" [ref=e3496]:
+                          - generic [ref=e3497]:
+                            - generic [ref=e3498]: Select Rooms
+                            - combobox "Select Rooms" [ref=e3499]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,096)"
+                      - 'row "Max. people: 2 Price € 1,188 Includes taxes and fees All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e3500]':
+                        - 'cell "Max. people: 2" [ref=e3501]':
+                          - generic [ref=e3503]:
+                            - generic [ref=e3504]:
+                              - generic [ref=e3505]: "1"
+                              - generic [ref=e3506]: "1"
+                            - generic [ref=e3507]: "Max. people: 2"
+                        - cell "Price € 1,188 Includes taxes and fees" [ref=e3508]:
+                          - generic [ref=e3510]:
+                            - generic [ref=e3512]:
+                              - generic [ref=e3513]: € 1,188
+                              - generic [ref=e3514]: Price € 1,188
+                            - generic [ref=e3515]: Includes taxes and fees
+                        - cell "All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e3516]:
+                          - generic [ref=e3517]:
+                            - list [ref=e3518]:
+                              - listitem [ref=e3519]:
+                                - img [ref=e3520]
+                                - generic [ref=e3523]: All-Inclusive
+                              - listitem [ref=e3524]:
+                                - generic [ref=e3525]:
+                                  - img [ref=e3527]
+                                  - strong [ref=e3534]: Non-refundable
+                              - listitem [ref=e3535]:
+                                - generic [ref=e3536]:
+                                  - generic [ref=e3538]: •
+                                  - generic [ref=e3541]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e3543] [cursor=pointer]:
+                              - img [ref=e3545]
+                        - cell "Select Rooms 0" [ref=e3547]:
+                          - generic [ref=e3548]:
+                            - generic [ref=e3549]: Select Rooms
+                            - combobox "Select Rooms" [ref=e3550]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,188)"
+                      - 'row "Max. people: 2 Price € 1,225 Includes taxes and fees Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e3551]':
+                        - 'cell "Max. people: 2" [ref=e3552]':
+                          - generic [ref=e3554]:
+                            - generic [ref=e3555]:
+                              - generic [ref=e3556]: "1"
+                              - generic [ref=e3557]: "1"
+                            - generic [ref=e3558]: "Max. people: 2"
+                        - cell "Price € 1,225 Includes taxes and fees" [ref=e3559]:
+                          - generic [ref=e3561]:
+                            - generic [ref=e3563]:
+                              - generic [ref=e3564]: € 1,225
+                              - generic [ref=e3565]: Price € 1,225
+                            - generic [ref=e3566]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e3567]:
+                          - generic [ref=e3568]:
+                            - list [ref=e3569]:
+                              - listitem [ref=e3570]:
+                                - img [ref=e3571]
+                                - generic [ref=e3574]: Breakfast & dinner included
+                              - listitem [ref=e3575]:
+                                - generic [ref=e3576]:
+                                  - img [ref=e3578]
+                                  - generic [ref=e3583]:
+                                    - strong [ref=e3584]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e3585]:
+                                - generic [ref=e3586]:
+                                  - img [ref=e3588]
+                                  - generic [ref=e3593]:
+                                    - strong [ref=e3594]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e3596] [cursor=pointer]:
+                              - img [ref=e3598]
+                        - cell "Select Rooms 0" [ref=e3600]:
+                          - generic [ref=e3601]:
+                            - generic [ref=e3602]: Select Rooms
+                            - combobox "Select Rooms" [ref=e3603]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,225)"
+                      - 'row "Max. people: 2 Price € 1,334 Includes taxes and fees All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e3604]':
+                        - 'cell "Max. people: 2" [ref=e3605]':
+                          - generic [ref=e3607]:
+                            - generic [ref=e3608]:
+                              - generic [ref=e3609]: "1"
+                              - generic [ref=e3610]: "1"
+                            - generic [ref=e3611]: "Max. people: 2"
+                        - cell "Price € 1,334 Includes taxes and fees" [ref=e3612]:
+                          - generic [ref=e3614]:
+                            - generic [ref=e3616]:
+                              - generic [ref=e3617]: € 1,334
+                              - generic [ref=e3618]: Price € 1,334
+                            - generic [ref=e3619]: Includes taxes and fees
+                        - cell "All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e3620]:
+                          - generic [ref=e3621]:
+                            - list [ref=e3622]:
+                              - listitem [ref=e3623]:
+                                - img [ref=e3624]
+                                - generic [ref=e3627]: All-Inclusive
+                              - listitem [ref=e3628]:
+                                - generic [ref=e3629]:
+                                  - img [ref=e3631]
+                                  - generic [ref=e3636]:
+                                    - strong [ref=e3637]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e3638]:
+                                - generic [ref=e3639]:
+                                  - img [ref=e3641]
+                                  - generic [ref=e3646]:
+                                    - strong [ref=e3647]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e3649] [cursor=pointer]:
+                              - img [ref=e3651]
+                        - cell "Select Rooms 0" [ref=e3653]:
+                          - generic [ref=e3654]:
+                            - generic [ref=e3655]: Select Rooms
+                            - combobox "Select Rooms" [ref=e3656]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,334)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 822 Includes taxes and fees Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e3657]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e3658]':
+                          - generic [ref=e3660]:
+                            - generic [ref=e3662]: "1"
+                            - generic [ref=e3663]: "Max. people: 1"
+                          - generic [ref=e3666]: Only for 1 guest
+                        - cell "Price € 822 Includes taxes and fees" [ref=e3667]:
+                          - generic [ref=e3669]:
+                            - generic [ref=e3671]:
+                              - generic [ref=e3672]: € 822
+                              - generic [ref=e3673]: Price € 822
+                            - generic [ref=e3674]: Includes taxes and fees
+                        - cell "Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e3675]:
+                          - generic [ref=e3676]:
+                            - list [ref=e3677]:
+                              - listitem [ref=e3678]:
+                                - img [ref=e3679]
+                                - generic [ref=e3682]:
+                                  - generic [ref=e3683]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e3684]:
+                                - generic [ref=e3685]:
+                                  - img [ref=e3687]
+                                  - strong [ref=e3694]: Non-refundable
+                              - listitem [ref=e3695]:
+                                - generic [ref=e3696]:
+                                  - generic [ref=e3698]: •
+                                  - generic [ref=e3701]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e3703] [cursor=pointer]:
+                              - img [ref=e3705]
+                        - cell "Select Rooms 0" [ref=e3707]:
+                          - generic [ref=e3708]:
+                            - generic [ref=e3709]: Select Rooms
+                            - combobox "Select Rooms" [ref=e3710]:
+                              - option "0" [selected]
+                              - option "1 (€ 822)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 887 Includes taxes and fees Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e3711]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e3712]':
+                          - generic [ref=e3714]:
+                            - generic [ref=e3716]: "1"
+                            - generic [ref=e3717]: "Max. people: 1"
+                          - generic [ref=e3720]: Only for 1 guest
+                        - cell "Price € 887 Includes taxes and fees" [ref=e3721]:
+                          - generic [ref=e3723]:
+                            - generic [ref=e3725]:
+                              - generic [ref=e3726]: € 887
+                              - generic [ref=e3727]: Price € 887
+                            - generic [ref=e3728]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e3729]:
+                          - generic [ref=e3730]:
+                            - list [ref=e3731]:
+                              - listitem [ref=e3732]:
+                                - img [ref=e3733]
+                                - generic [ref=e3736]: Breakfast & dinner included
+                              - listitem [ref=e3737]:
+                                - generic [ref=e3738]:
+                                  - img [ref=e3740]
+                                  - strong [ref=e3747]: Non-refundable
+                              - listitem [ref=e3748]:
+                                - generic [ref=e3749]:
+                                  - generic [ref=e3751]: •
+                                  - generic [ref=e3754]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e3756] [cursor=pointer]:
+                              - img [ref=e3758]
+                        - cell "Select Rooms 0" [ref=e3760]:
+                          - generic [ref=e3761]:
+                            - generic [ref=e3762]: Select Rooms
+                            - combobox "Select Rooms" [ref=e3763]:
+                              - option "0" [selected]
+                              - option "1 (€ 887)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 941 Includes taxes and fees All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e3764]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e3765]':
+                          - generic [ref=e3767]:
+                            - generic [ref=e3769]: "1"
+                            - generic [ref=e3770]: "Max. people: 1"
+                          - generic [ref=e3773]: Only for 1 guest
+                        - cell "Price € 941 Includes taxes and fees" [ref=e3774]:
+                          - generic [ref=e3776]:
+                            - generic [ref=e3778]:
+                              - generic [ref=e3779]: € 941
+                              - generic [ref=e3780]: Price € 941
+                            - generic [ref=e3781]: Includes taxes and fees
+                        - cell "All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e3782]:
+                          - generic [ref=e3783]:
+                            - list [ref=e3784]:
+                              - listitem [ref=e3785]:
+                                - img [ref=e3786]
+                                - generic [ref=e3789]: All-Inclusive
+                              - listitem [ref=e3790]:
+                                - generic [ref=e3791]:
+                                  - img [ref=e3793]
+                                  - strong [ref=e3800]: Non-refundable
+                              - listitem [ref=e3801]:
+                                - generic [ref=e3802]:
+                                  - generic [ref=e3804]: •
+                                  - generic [ref=e3807]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e3809] [cursor=pointer]:
+                              - img [ref=e3811]
+                        - cell "Select Rooms 0" [ref=e3813]:
+                          - generic [ref=e3814]:
+                            - generic [ref=e3815]: Select Rooms
+                            - combobox "Select Rooms" [ref=e3816]:
+                              - option "0" [selected]
+                              - option "1 (€ 941)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 956 Includes taxes and fees Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e3817]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e3818]':
+                          - generic [ref=e3820]:
+                            - generic [ref=e3822]: "1"
+                            - generic [ref=e3823]: "Max. people: 1"
+                          - generic [ref=e3826]: Only for 1 guest
+                        - cell "Price € 956 Includes taxes and fees" [ref=e3827]:
+                          - generic [ref=e3829]:
+                            - generic [ref=e3831]:
+                              - generic [ref=e3832]: € 956
+                              - generic [ref=e3833]: Price € 956
+                            - generic [ref=e3834]: Includes taxes and fees
+                        - cell "Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e3835]:
+                          - generic [ref=e3836]:
+                            - list [ref=e3837]:
+                              - listitem [ref=e3838]:
+                                - img [ref=e3839]
+                                - generic [ref=e3842]:
+                                  - generic [ref=e3843]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e3844]:
+                                - generic [ref=e3845]:
+                                  - img [ref=e3847]
+                                  - generic [ref=e3852]:
+                                    - strong [ref=e3853]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e3854]:
+                                - generic [ref=e3855]:
+                                  - img [ref=e3857]
+                                  - generic [ref=e3862]:
+                                    - strong [ref=e3863]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e3865] [cursor=pointer]:
+                              - img [ref=e3867]
+                        - cell "Select Rooms 0" [ref=e3869]:
+                          - generic [ref=e3870]:
+                            - generic [ref=e3871]: Select Rooms
+                            - combobox "Select Rooms" [ref=e3872]:
+                              - option "0" [selected]
+                              - option "1 (€ 956)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,021 Includes taxes and fees Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e3873]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e3874]':
+                          - generic [ref=e3876]:
+                            - generic [ref=e3878]: "1"
+                            - generic [ref=e3879]: "Max. people: 1"
+                          - generic [ref=e3882]: Only for 1 guest
+                        - cell "Price € 1,021 Includes taxes and fees" [ref=e3883]:
+                          - generic [ref=e3885]:
+                            - generic [ref=e3887]:
+                              - generic [ref=e3888]: € 1,021
+                              - generic [ref=e3889]: Price € 1,021
+                            - generic [ref=e3890]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e3891]:
+                          - generic [ref=e3892]:
+                            - list [ref=e3893]:
+                              - listitem [ref=e3894]:
+                                - img [ref=e3895]
+                                - generic [ref=e3898]: Breakfast & dinner included
+                              - listitem [ref=e3899]:
+                                - generic [ref=e3900]:
+                                  - img [ref=e3902]
+                                  - generic [ref=e3907]:
+                                    - strong [ref=e3908]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e3909]:
+                                - generic [ref=e3910]:
+                                  - img [ref=e3912]
+                                  - generic [ref=e3917]:
+                                    - strong [ref=e3918]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e3920] [cursor=pointer]:
+                              - img [ref=e3922]
+                        - cell "Select Rooms 0" [ref=e3924]:
+                          - generic [ref=e3925]:
+                            - generic [ref=e3926]: Select Rooms
+                            - combobox "Select Rooms" [ref=e3927]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,021)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,075 Includes taxes and fees All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e3928]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e3929]':
+                          - generic [ref=e3931]:
+                            - generic [ref=e3933]: "1"
+                            - generic [ref=e3934]: "Max. people: 1"
+                          - generic [ref=e3937]: Only for 1 guest
+                        - cell "Price € 1,075 Includes taxes and fees" [ref=e3938]:
+                          - generic [ref=e3940]:
+                            - generic [ref=e3942]:
+                              - generic [ref=e3943]: € 1,075
+                              - generic [ref=e3944]: Price € 1,075
+                            - generic [ref=e3945]: Includes taxes and fees
+                        - cell "All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e3946]:
+                          - generic [ref=e3947]:
+                            - list [ref=e3948]:
+                              - listitem [ref=e3949]:
+                                - img [ref=e3950]
+                                - generic [ref=e3953]: All-Inclusive
+                              - listitem [ref=e3954]:
+                                - generic [ref=e3955]:
+                                  - img [ref=e3957]
+                                  - generic [ref=e3962]:
+                                    - strong [ref=e3963]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e3964]:
+                                - generic [ref=e3965]:
+                                  - img [ref=e3967]
+                                  - generic [ref=e3972]:
+                                    - strong [ref=e3973]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e3975] [cursor=pointer]:
+                              - img [ref=e3977]
+                        - cell "Select Rooms 0" [ref=e3979]:
+                          - generic [ref=e3980]:
+                            - generic [ref=e3981]: Select Rooms
+                            - combobox "Select Rooms" [ref=e3982]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,075)"
+                      - 'row "Superior Room with 2 Single Beds, Pool side(Beach Wing) We have 7 left 2 twin beds Featuring a balcony or terrace looking at a pool view, this room is located at the palm side. It includes 2 single beds, air-conditioning, shower, safe box and a flat-screen TV. 1 room 34 m² Balcony Pool view Air conditioning Private bathroom Flat-screen TV Soundproof Minibar Show more amenities Max. people: 2 Price € 1,083 Includes taxes and fees Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e3983]':
+                        - rowheader "Superior Room with 2 Single Beds, Pool side(Beach Wing) We have 7 left 2 twin beds Featuring a balcony or terrace looking at a pool view, this room is located at the palm side. It includes 2 single beds, air-conditioning, shower, safe box and a flat-screen TV. 1 room 34 m² Balcony Pool view Air conditioning Private bathroom Flat-screen TV Soundproof Minibar Show more amenities" [ref=e3984]:
+                          - generic [ref=e3985]:
+                            - link "Superior Room with 2 Single Beds, Pool side(Beach Wing)" [ref=e3987] [cursor=pointer]:
+                              - /url: "#RD1609609"
+                            - generic [ref=e3990]:
+                              - img [ref=e3991]
+                              - generic [ref=e3996]: We have 7 left
+                            - list [ref=e3999]:
+                              - listitem [ref=e4000]:
+                                - generic [ref=e4001]:
+                                  - text: 2 twin beds
+                                  - generic [ref=e4002]: 녍
+                            - paragraph [ref=e4003]: Featuring a balcony or terrace looking at a pool view, this room is located at the palm side. It includes 2 single beds, air-conditioning, shower, safe box and a flat-screen TV.
+                            - generic [ref=e4005]:
+                              - list [ref=e4006]:
+                                - listitem [ref=e4007]:
+                                  - generic [ref=e4008]:
+                                    - img [ref=e4009]
+                                    - text: 1 room
+                                - listitem [ref=e4011]:
+                                  - generic [ref=e4012]:
+                                    - img [ref=e4013]
+                                    - text: 34 m²
+                                - listitem [ref=e4015]:
+                                  - generic [ref=e4016]:
+                                    - img [ref=e4017]
+                                    - text: Balcony
+                                - listitem [ref=e4019]:
+                                  - generic [ref=e4020]:
+                                    - img [ref=e4021]
+                                    - text: Pool view
+                                - listitem [ref=e4023]:
+                                  - generic [ref=e4024]:
+                                    - img [ref=e4025]
+                                    - text: Air conditioning
+                                - listitem [ref=e4027]:
+                                  - generic [ref=e4028]:
+                                    - img [ref=e4029]
+                                    - text: Private bathroom
+                                - listitem [ref=e4031]:
+                                  - generic [ref=e4032]:
+                                    - img [ref=e4033]
+                                    - text: Flat-screen TV
+                                - listitem [ref=e4035]:
+                                  - generic [ref=e4036]:
+                                    - img [ref=e4037]
+                                    - text: Soundproof
+                                - listitem [ref=e4039]:
+                                  - generic [ref=e4040]:
+                                    - img [ref=e4041]
+                                    - text: Minibar
+                              - button "Show more amenities" [ref=e4043] [cursor=pointer]: More
+                        - 'cell "Max. people: 2" [ref=e4044]':
+                          - generic [ref=e4046]:
+                            - generic [ref=e4047]:
+                              - generic [ref=e4048]: "1"
+                              - generic [ref=e4049]: "1"
+                            - generic [ref=e4050]: "Max. people: 2"
+                        - cell "Price € 1,083 Includes taxes and fees" [ref=e4051]:
+                          - generic [ref=e4053]:
+                            - generic [ref=e4055]:
+                              - generic [ref=e4056]: € 1,083
+                              - generic [ref=e4057]: Price € 1,083
+                            - generic [ref=e4058]: Includes taxes and fees
+                        - cell "Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e4059]:
+                          - generic [ref=e4060]:
+                            - list [ref=e4061]:
+                              - listitem [ref=e4062]:
+                                - img [ref=e4063]
+                                - generic [ref=e4066]:
+                                  - generic [ref=e4067]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e4068]:
+                                - generic [ref=e4069]:
+                                  - img [ref=e4071]
+                                  - strong [ref=e4078]: Non-refundable
+                              - listitem [ref=e4079]:
+                                - generic [ref=e4080]:
+                                  - generic [ref=e4082]: •
+                                  - generic [ref=e4085]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e4087] [cursor=pointer]:
+                              - img [ref=e4089]
+                        - cell "Select Rooms 0" [ref=e4091]:
+                          - generic [ref=e4092]:
+                            - generic [ref=e4093]: Select Rooms
+                            - combobox "Select Rooms" [ref=e4094]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,083)"
+                              - option "2 (€ 2,166)"
+                              - option "3 (€ 3,248)"
+                              - option "4 (€ 4,331)"
+                              - option "5 (€ 5,414)"
+                              - option "6 (€ 6,497)"
+                              - option "7 (€ 7,579)"
+                      - 'row "Max. people: 2 Price € 1,212 Includes taxes and fees Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e4095]':
+                        - 'cell "Max. people: 2" [ref=e4096]':
+                          - generic [ref=e4098]:
+                            - generic [ref=e4099]:
+                              - generic [ref=e4100]: "1"
+                              - generic [ref=e4101]: "1"
+                            - generic [ref=e4102]: "Max. people: 2"
+                        - cell "Price € 1,212 Includes taxes and fees" [ref=e4103]:
+                          - generic [ref=e4105]:
+                            - generic [ref=e4107]:
+                              - generic [ref=e4108]: € 1,212
+                              - generic [ref=e4109]: Price € 1,212
+                            - generic [ref=e4110]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e4111]:
+                          - generic [ref=e4112]:
+                            - list [ref=e4113]:
+                              - listitem [ref=e4114]:
+                                - img [ref=e4115]
+                                - generic [ref=e4118]: Breakfast & dinner included
+                              - listitem [ref=e4119]:
+                                - generic [ref=e4120]:
+                                  - img [ref=e4122]
+                                  - strong [ref=e4129]: Non-refundable
+                              - listitem [ref=e4130]:
+                                - generic [ref=e4131]:
+                                  - generic [ref=e4133]: •
+                                  - generic [ref=e4136]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e4138] [cursor=pointer]:
+                              - img [ref=e4140]
+                        - cell "Select Rooms 0" [ref=e4142]:
+                          - generic [ref=e4143]:
+                            - generic [ref=e4144]: Select Rooms
+                            - combobox "Select Rooms" [ref=e4145]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,212)"
+                              - option "2 (€ 2,424)"
+                              - option "3 (€ 3,636)"
+                              - option "4 (€ 4,847)"
+                              - option "5 (€ 6,059)"
+                              - option "6 (€ 7,271)"
+                              - option "7 (€ 8,483)"
+                      - 'row "Max. people: 2 Price € 1,252 Includes taxes and fees Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e4146]':
+                        - 'cell "Max. people: 2" [ref=e4147]':
+                          - generic [ref=e4149]:
+                            - generic [ref=e4150]:
+                              - generic [ref=e4151]: "1"
+                              - generic [ref=e4152]: "1"
+                            - generic [ref=e4153]: "Max. people: 2"
+                        - cell "Price € 1,252 Includes taxes and fees" [ref=e4154]:
+                          - generic [ref=e4156]:
+                            - generic [ref=e4158]:
+                              - generic [ref=e4159]: € 1,252
+                              - generic [ref=e4160]: Price € 1,252
+                            - generic [ref=e4161]: Includes taxes and fees
+                        - cell "Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e4162]:
+                          - generic [ref=e4163]:
+                            - list [ref=e4164]:
+                              - listitem [ref=e4165]:
+                                - img [ref=e4166]
+                                - generic [ref=e4169]:
+                                  - generic [ref=e4170]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e4171]:
+                                - generic [ref=e4172]:
+                                  - img [ref=e4174]
+                                  - generic [ref=e4179]:
+                                    - strong [ref=e4180]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e4181]:
+                                - generic [ref=e4182]:
+                                  - img [ref=e4184]
+                                  - generic [ref=e4189]:
+                                    - strong [ref=e4190]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e4192] [cursor=pointer]:
+                              - img [ref=e4194]
+                        - cell "Select Rooms 0" [ref=e4196]:
+                          - generic [ref=e4197]:
+                            - generic [ref=e4198]: Select Rooms
+                            - combobox "Select Rooms" [ref=e4199]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,252)"
+                              - option "2 (€ 2,504)"
+                              - option "3 (€ 3,756)"
+                              - option "4 (€ 5,008)"
+                              - option "5 (€ 6,259)"
+                              - option "6 (€ 7,511)"
+                              - option "7 (€ 8,763)"
+                      - 'row "Max. people: 2 Price € 1,321 Includes taxes and fees All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e4200]':
+                        - 'cell "Max. people: 2" [ref=e4201]':
+                          - generic [ref=e4203]:
+                            - generic [ref=e4204]:
+                              - generic [ref=e4205]: "1"
+                              - generic [ref=e4206]: "1"
+                            - generic [ref=e4207]: "Max. people: 2"
+                        - cell "Price € 1,321 Includes taxes and fees" [ref=e4208]:
+                          - generic [ref=e4210]:
+                            - generic [ref=e4212]:
+                              - generic [ref=e4213]: € 1,321
+                              - generic [ref=e4214]: Price € 1,321
+                            - generic [ref=e4215]: Includes taxes and fees
+                        - cell "All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e4216]:
+                          - generic [ref=e4217]:
+                            - list [ref=e4218]:
+                              - listitem [ref=e4219]:
+                                - img [ref=e4220]
+                                - generic [ref=e4223]: All-Inclusive
+                              - listitem [ref=e4224]:
+                                - generic [ref=e4225]:
+                                  - img [ref=e4227]
+                                  - strong [ref=e4234]: Non-refundable
+                              - listitem [ref=e4235]:
+                                - generic [ref=e4236]:
+                                  - generic [ref=e4238]: •
+                                  - generic [ref=e4241]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e4243] [cursor=pointer]:
+                              - img [ref=e4245]
+                        - cell "Select Rooms 0" [ref=e4247]:
+                          - generic [ref=e4248]:
+                            - generic [ref=e4249]: Select Rooms
+                            - combobox "Select Rooms" [ref=e4250]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,321)"
+                              - option "2 (€ 2,641)"
+                              - option "3 (€ 3,962)"
+                              - option "4 (€ 5,282)"
+                              - option "5 (€ 6,603)"
+                              - option "6 (€ 7,923)"
+                              - option "7 (€ 9,244)"
+                      - 'row "Max. people: 2 Price € 1,381 Includes taxes and fees Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e4251]':
+                        - 'cell "Max. people: 2" [ref=e4252]':
+                          - generic [ref=e4254]:
+                            - generic [ref=e4255]:
+                              - generic [ref=e4256]: "1"
+                              - generic [ref=e4257]: "1"
+                            - generic [ref=e4258]: "Max. people: 2"
+                        - cell "Price € 1,381 Includes taxes and fees" [ref=e4259]:
+                          - generic [ref=e4261]:
+                            - generic [ref=e4263]:
+                              - generic [ref=e4264]: € 1,381
+                              - generic [ref=e4265]: Price € 1,381
+                            - generic [ref=e4266]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e4267]:
+                          - generic [ref=e4268]:
+                            - list [ref=e4269]:
+                              - listitem [ref=e4270]:
+                                - img [ref=e4271]
+                                - generic [ref=e4274]: Breakfast & dinner included
+                              - listitem [ref=e4275]:
+                                - generic [ref=e4276]:
+                                  - img [ref=e4278]
+                                  - generic [ref=e4283]:
+                                    - strong [ref=e4284]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e4285]:
+                                - generic [ref=e4286]:
+                                  - img [ref=e4288]
+                                  - generic [ref=e4293]:
+                                    - strong [ref=e4294]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e4296] [cursor=pointer]:
+                              - img [ref=e4298]
+                        - cell "Select Rooms 0" [ref=e4300]:
+                          - generic [ref=e4301]:
+                            - generic [ref=e4302]: Select Rooms
+                            - combobox "Select Rooms" [ref=e4303]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,381)"
+                              - option "2 (€ 2,762)"
+                              - option "3 (€ 4,143)"
+                              - option "4 (€ 5,524)"
+                              - option "5 (€ 6,905)"
+                              - option "6 (€ 8,286)"
+                              - option "7 (€ 9,667)"
+                      - 'row "Max. people: 2 Price € 1,490 Includes taxes and fees All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e4304]':
+                        - 'cell "Max. people: 2" [ref=e4305]':
+                          - generic [ref=e4307]:
+                            - generic [ref=e4308]:
+                              - generic [ref=e4309]: "1"
+                              - generic [ref=e4310]: "1"
+                            - generic [ref=e4311]: "Max. people: 2"
+                        - cell "Price € 1,490 Includes taxes and fees" [ref=e4312]:
+                          - generic [ref=e4314]:
+                            - generic [ref=e4316]:
+                              - generic [ref=e4317]: € 1,490
+                              - generic [ref=e4318]: Price € 1,490
+                            - generic [ref=e4319]: Includes taxes and fees
+                        - cell "All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e4320]:
+                          - generic [ref=e4321]:
+                            - list [ref=e4322]:
+                              - listitem [ref=e4323]:
+                                - img [ref=e4324]
+                                - generic [ref=e4327]: All-Inclusive
+                              - listitem [ref=e4328]:
+                                - generic [ref=e4329]:
+                                  - img [ref=e4331]
+                                  - generic [ref=e4336]:
+                                    - strong [ref=e4337]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e4338]:
+                                - generic [ref=e4339]:
+                                  - img [ref=e4341]
+                                  - generic [ref=e4346]:
+                                    - strong [ref=e4347]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e4349] [cursor=pointer]:
+                              - img [ref=e4351]
+                        - cell "Select Rooms 0" [ref=e4353]:
+                          - generic [ref=e4354]:
+                            - generic [ref=e4355]: Select Rooms
+                            - combobox "Select Rooms" [ref=e4356]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,490)"
+                              - option "2 (€ 2,979)"
+                              - option "3 (€ 4,469)"
+                              - option "4 (€ 5,959)"
+                              - option "5 (€ 7,448)"
+                              - option "6 (€ 8,938)"
+                              - option "7 (€ 10,428)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 954 Includes taxes and fees Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e4357]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e4358]':
+                          - generic [ref=e4360]:
+                            - generic [ref=e4362]: "1"
+                            - generic [ref=e4363]: "Max. people: 1"
+                          - generic [ref=e4366]: Only for 1 guest
+                        - cell "Price € 954 Includes taxes and fees" [ref=e4367]:
+                          - generic [ref=e4369]:
+                            - generic [ref=e4371]:
+                              - generic [ref=e4372]: € 954
+                              - generic [ref=e4373]: Price € 954
+                            - generic [ref=e4374]: Includes taxes and fees
+                        - cell "Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e4375]:
+                          - generic [ref=e4376]:
+                            - list [ref=e4377]:
+                              - listitem [ref=e4378]:
+                                - img [ref=e4379]
+                                - generic [ref=e4382]:
+                                  - generic [ref=e4383]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e4384]:
+                                - generic [ref=e4385]:
+                                  - img [ref=e4387]
+                                  - strong [ref=e4394]: Non-refundable
+                              - listitem [ref=e4395]:
+                                - generic [ref=e4396]:
+                                  - generic [ref=e4398]: •
+                                  - generic [ref=e4401]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e4403] [cursor=pointer]:
+                              - img [ref=e4405]
+                        - cell "Select Rooms 0" [ref=e4407]:
+                          - generic [ref=e4408]:
+                            - generic [ref=e4409]: Select Rooms
+                            - combobox "Select Rooms" [ref=e4410]:
+                              - option "0" [selected]
+                              - option "1 (€ 954)"
+                              - option "2 (€ 1,909)"
+                              - option "3 (€ 2,863)"
+                              - option "4 (€ 3,818)"
+                              - option "5 (€ 4,772)"
+                              - option "6 (€ 5,727)"
+                              - option "7 (€ 6,681)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,019 Includes taxes and fees Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e4411]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e4412]':
+                          - generic [ref=e4414]:
+                            - generic [ref=e4416]: "1"
+                            - generic [ref=e4417]: "Max. people: 1"
+                          - generic [ref=e4420]: Only for 1 guest
+                        - cell "Price € 1,019 Includes taxes and fees" [ref=e4421]:
+                          - generic [ref=e4423]:
+                            - generic [ref=e4425]:
+                              - generic [ref=e4426]: € 1,019
+                              - generic [ref=e4427]: Price € 1,019
+                            - generic [ref=e4428]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e4429]:
+                          - generic [ref=e4430]:
+                            - list [ref=e4431]:
+                              - listitem [ref=e4432]:
+                                - img [ref=e4433]
+                                - generic [ref=e4436]: Breakfast & dinner included
+                              - listitem [ref=e4437]:
+                                - generic [ref=e4438]:
+                                  - img [ref=e4440]
+                                  - strong [ref=e4447]: Non-refundable
+                              - listitem [ref=e4448]:
+                                - generic [ref=e4449]:
+                                  - generic [ref=e4451]: •
+                                  - generic [ref=e4454]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e4456] [cursor=pointer]:
+                              - img [ref=e4458]
+                        - cell "Select Rooms 0" [ref=e4460]:
+                          - generic [ref=e4461]:
+                            - generic [ref=e4462]: Select Rooms
+                            - combobox "Select Rooms" [ref=e4463]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,019)"
+                              - option "2 (€ 2,038)"
+                              - option "3 (€ 3,057)"
+                              - option "4 (€ 4,076)"
+                              - option "5 (€ 5,095)"
+                              - option "6 (€ 6,114)"
+                              - option "7 (€ 7,133)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,073 Includes taxes and fees All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e4464]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e4465]':
+                          - generic [ref=e4467]:
+                            - generic [ref=e4469]: "1"
+                            - generic [ref=e4470]: "Max. people: 1"
+                          - generic [ref=e4473]: Only for 1 guest
+                        - cell "Price € 1,073 Includes taxes and fees" [ref=e4474]:
+                          - generic [ref=e4476]:
+                            - generic [ref=e4478]:
+                              - generic [ref=e4479]: € 1,073
+                              - generic [ref=e4480]: Price € 1,073
+                            - generic [ref=e4481]: Includes taxes and fees
+                        - cell "All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e4482]:
+                          - generic [ref=e4483]:
+                            - list [ref=e4484]:
+                              - listitem [ref=e4485]:
+                                - img [ref=e4486]
+                                - generic [ref=e4489]: All-Inclusive
+                              - listitem [ref=e4490]:
+                                - generic [ref=e4491]:
+                                  - img [ref=e4493]
+                                  - strong [ref=e4500]: Non-refundable
+                              - listitem [ref=e4501]:
+                                - generic [ref=e4502]:
+                                  - generic [ref=e4504]: •
+                                  - generic [ref=e4507]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e4509] [cursor=pointer]:
+                              - img [ref=e4511]
+                        - cell "Select Rooms 0" [ref=e4513]:
+                          - generic [ref=e4514]:
+                            - generic [ref=e4515]: Select Rooms
+                            - combobox "Select Rooms" [ref=e4516]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,073)"
+                              - option "2 (€ 2,147)"
+                              - option "3 (€ 3,220)"
+                              - option "4 (€ 4,293)"
+                              - option "5 (€ 5,367)"
+                              - option "6 (€ 6,440)"
+                              - option "7 (€ 7,514)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,112 Includes taxes and fees Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e4517]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e4518]':
+                          - generic [ref=e4520]:
+                            - generic [ref=e4522]: "1"
+                            - generic [ref=e4523]: "Max. people: 1"
+                          - generic [ref=e4526]: Only for 1 guest
+                        - cell "Price € 1,112 Includes taxes and fees" [ref=e4527]:
+                          - generic [ref=e4529]:
+                            - generic [ref=e4531]:
+                              - generic [ref=e4532]: € 1,112
+                              - generic [ref=e4533]: Price € 1,112
+                            - generic [ref=e4534]: Includes taxes and fees
+                        - cell "Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e4535]:
+                          - generic [ref=e4536]:
+                            - list [ref=e4537]:
+                              - listitem [ref=e4538]:
+                                - img [ref=e4539]
+                                - generic [ref=e4542]:
+                                  - generic [ref=e4543]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e4544]:
+                                - generic [ref=e4545]:
+                                  - img [ref=e4547]
+                                  - generic [ref=e4552]:
+                                    - strong [ref=e4553]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e4554]:
+                                - generic [ref=e4555]:
+                                  - img [ref=e4557]
+                                  - generic [ref=e4562]:
+                                    - strong [ref=e4563]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e4565] [cursor=pointer]:
+                              - img [ref=e4567]
+                        - cell "Select Rooms 0" [ref=e4569]:
+                          - generic [ref=e4570]:
+                            - generic [ref=e4571]: Select Rooms
+                            - combobox "Select Rooms" [ref=e4572]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,112)"
+                              - option "2 (€ 2,224)"
+                              - option "3 (€ 3,336)"
+                              - option "4 (€ 4,448)"
+                              - option "5 (€ 5,560)"
+                              - option "6 (€ 6,672)"
+                              - option "7 (€ 7,784)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,176 Includes taxes and fees Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e4573]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e4574]':
+                          - generic [ref=e4576]:
+                            - generic [ref=e4578]: "1"
+                            - generic [ref=e4579]: "Max. people: 1"
+                          - generic [ref=e4582]: Only for 1 guest
+                        - cell "Price € 1,176 Includes taxes and fees" [ref=e4583]:
+                          - generic [ref=e4585]:
+                            - generic [ref=e4587]:
+                              - generic [ref=e4588]: € 1,176
+                              - generic [ref=e4589]: Price € 1,176
+                            - generic [ref=e4590]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e4591]:
+                          - generic [ref=e4592]:
+                            - list [ref=e4593]:
+                              - listitem [ref=e4594]:
+                                - img [ref=e4595]
+                                - generic [ref=e4598]: Breakfast & dinner included
+                              - listitem [ref=e4599]:
+                                - generic [ref=e4600]:
+                                  - img [ref=e4602]
+                                  - generic [ref=e4607]:
+                                    - strong [ref=e4608]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e4609]:
+                                - generic [ref=e4610]:
+                                  - img [ref=e4612]
+                                  - generic [ref=e4617]:
+                                    - strong [ref=e4618]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e4620] [cursor=pointer]:
+                              - img [ref=e4622]
+                        - cell "Select Rooms 0" [ref=e4624]:
+                          - generic [ref=e4625]:
+                            - generic [ref=e4626]: Select Rooms
+                            - combobox "Select Rooms" [ref=e4627]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,176)"
+                              - option "2 (€ 2,353)"
+                              - option "3 (€ 3,529)"
+                              - option "4 (€ 4,706)"
+                              - option "5 (€ 5,882)"
+                              - option "6 (€ 7,059)"
+                              - option "7 (€ 8,235)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,231 Includes taxes and fees All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e4628]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e4629]':
+                          - generic [ref=e4631]:
+                            - generic [ref=e4633]: "1"
+                            - generic [ref=e4634]: "Max. people: 1"
+                          - generic [ref=e4637]: Only for 1 guest
+                        - cell "Price € 1,231 Includes taxes and fees" [ref=e4638]:
+                          - generic [ref=e4640]:
+                            - generic [ref=e4642]:
+                              - generic [ref=e4643]: € 1,231
+                              - generic [ref=e4644]: Price € 1,231
+                            - generic [ref=e4645]: Includes taxes and fees
+                        - cell "All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e4646]:
+                          - generic [ref=e4647]:
+                            - list [ref=e4648]:
+                              - listitem [ref=e4649]:
+                                - img [ref=e4650]
+                                - generic [ref=e4653]: All-Inclusive
+                              - listitem [ref=e4654]:
+                                - generic [ref=e4655]:
+                                  - img [ref=e4657]
+                                  - generic [ref=e4662]:
+                                    - strong [ref=e4663]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e4664]:
+                                - generic [ref=e4665]:
+                                  - img [ref=e4667]
+                                  - generic [ref=e4672]:
+                                    - strong [ref=e4673]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e4675] [cursor=pointer]:
+                              - img [ref=e4677]
+                        - cell "Select Rooms 0" [ref=e4679]:
+                          - generic [ref=e4680]:
+                            - generic [ref=e4681]: Select Rooms
+                            - combobox "Select Rooms" [ref=e4682]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,231)"
+                              - option "2 (€ 2,462)"
+                              - option "3 (€ 3,692)"
+                              - option "4 (€ 4,923)"
+                              - option "5 (€ 6,154)"
+                              - option "6 (€ 7,385)"
+                              - option "7 (€ 8,616)"
+                      - 'row "Standard Room With 1 Double Bed, Pool Side (Palm Wing) We have 7 left 1 king bed This room features a balcony or terrace overlooking at the pool, located at the palm side. Separated from beach by a road. It includes a double bed, central air-conditioning (individual control), shower, safe box and a flat-screen TV. 1 room 42 m² Balcony Pool view Rooftop pool Air conditioning Private bathroom Flat-screen TV Soundproof Terrace Minibar Show more amenities Max. people: 2 Price € 951 Includes taxes and fees Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e4683]':
+                        - rowheader "Standard Room With 1 Double Bed, Pool Side (Palm Wing) We have 7 left 1 king bed This room features a balcony or terrace overlooking at the pool, located at the palm side. Separated from beach by a road. It includes a double bed, central air-conditioning (individual control), shower, safe box and a flat-screen TV. 1 room 42 m² Balcony Pool view Rooftop pool Air conditioning Private bathroom Flat-screen TV Soundproof Terrace Minibar Show more amenities" [ref=e4684]:
+                          - generic [ref=e4685]:
+                            - link "Standard Room With 1 Double Bed, Pool Side (Palm Wing)" [ref=e4687] [cursor=pointer]:
+                              - /url: "#RD1609604"
+                            - generic [ref=e4690]:
+                              - img [ref=e4691]
+                              - generic [ref=e4696]: We have 7 left
+                            - list [ref=e4699]:
+                              - listitem [ref=e4700]:
+                                - generic [ref=e4701]:
+                                  - text: 1 king bed
+                                  - generic [ref=e4702]: 녌
+                            - paragraph [ref=e4703]: This room features a balcony or terrace overlooking at the pool, located at the palm side. Separated from beach by a road. It includes a double bed, central air-conditioning (individual control), shower, safe box and a flat-screen TV.
+                            - generic [ref=e4705]:
+                              - list [ref=e4706]:
+                                - listitem [ref=e4707]:
+                                  - generic [ref=e4708]:
+                                    - img [ref=e4709]
+                                    - text: 1 room
+                                - listitem [ref=e4711]:
+                                  - generic [ref=e4712]:
+                                    - img [ref=e4713]
+                                    - text: 42 m²
+                                - listitem [ref=e4715]:
+                                  - generic [ref=e4716]:
+                                    - img [ref=e4717]
+                                    - text: Balcony
+                                - listitem [ref=e4719]:
+                                  - generic [ref=e4720]:
+                                    - img [ref=e4721]
+                                    - text: Pool view
+                                - listitem [ref=e4723]:
+                                  - generic [ref=e4724]:
+                                    - img [ref=e4725]
+                                    - text: Rooftop pool
+                                - listitem [ref=e4727]:
+                                  - generic [ref=e4728]:
+                                    - img [ref=e4729]
+                                    - text: Air conditioning
+                                - listitem [ref=e4731]:
+                                  - generic [ref=e4732]:
+                                    - img [ref=e4733]
+                                    - text: Private bathroom
+                                - listitem [ref=e4735]:
+                                  - generic [ref=e4736]:
+                                    - img [ref=e4737]
+                                    - text: Flat-screen TV
+                                - listitem [ref=e4739]:
+                                  - generic [ref=e4740]:
+                                    - img [ref=e4741]
+                                    - text: Soundproof
+                                - listitem [ref=e4743]:
+                                  - generic [ref=e4744]:
+                                    - img [ref=e4745]
+                                    - text: Terrace
+                                - listitem [ref=e4747]:
+                                  - generic [ref=e4748]:
+                                    - img [ref=e4749]
+                                    - text: Minibar
+                              - button "Show more amenities" [ref=e4751] [cursor=pointer]: More
+                        - 'cell "Max. people: 2" [ref=e4752]':
+                          - generic [ref=e4754]:
+                            - generic [ref=e4755]:
+                              - generic [ref=e4756]: "1"
+                              - generic [ref=e4757]: "1"
+                            - generic [ref=e4758]: "Max. people: 2"
+                        - cell "Price € 951 Includes taxes and fees" [ref=e4759]:
+                          - generic [ref=e4761]:
+                            - generic [ref=e4763]:
+                              - generic [ref=e4764]: € 951
+                              - generic [ref=e4765]: Price € 951
+                            - generic [ref=e4766]: Includes taxes and fees
+                        - cell "Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e4767]:
+                          - generic [ref=e4768]:
+                            - list [ref=e4769]:
+                              - listitem [ref=e4770]:
+                                - img [ref=e4771]
+                                - generic [ref=e4774]:
+                                  - generic [ref=e4775]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e4776]:
+                                - generic [ref=e4777]:
+                                  - img [ref=e4779]
+                                  - strong [ref=e4786]: Non-refundable
+                              - listitem [ref=e4787]:
+                                - generic [ref=e4788]:
+                                  - generic [ref=e4790]: •
+                                  - generic [ref=e4793]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e4795] [cursor=pointer]:
+                              - img [ref=e4797]
+                        - cell "Select Rooms 0" [ref=e4799]:
+                          - generic [ref=e4800]:
+                            - generic [ref=e4801]: Select Rooms
+                            - combobox "Select Rooms" [ref=e4802]:
+                              - option "0" [selected]
+                              - option "1 (€ 951)"
+                              - option "2 (€ 1,901)"
+                              - option "3 (€ 2,852)"
+                              - option "4 (€ 3,802)"
+                              - option "5 (€ 4,753)"
+                              - option "6 (€ 5,704)"
+                              - option "7 (€ 6,654)"
+                      - 'row "Max. people: 2 Price € 1,080 Includes taxes and fees Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e4803]':
+                        - 'cell "Max. people: 2" [ref=e4804]':
+                          - generic [ref=e4806]:
+                            - generic [ref=e4807]:
+                              - generic [ref=e4808]: "1"
+                              - generic [ref=e4809]: "1"
+                            - generic [ref=e4810]: "Max. people: 2"
+                        - cell "Price € 1,080 Includes taxes and fees" [ref=e4811]:
+                          - generic [ref=e4813]:
+                            - generic [ref=e4815]:
+                              - generic [ref=e4816]: € 1,080
+                              - generic [ref=e4817]: Price € 1,080
+                            - generic [ref=e4818]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e4819]:
+                          - generic [ref=e4820]:
+                            - list [ref=e4821]:
+                              - listitem [ref=e4822]:
+                                - img [ref=e4823]
+                                - generic [ref=e4826]: Breakfast & dinner included
+                              - listitem [ref=e4827]:
+                                - generic [ref=e4828]:
+                                  - img [ref=e4830]
+                                  - strong [ref=e4837]: Non-refundable
+                              - listitem [ref=e4838]:
+                                - generic [ref=e4839]:
+                                  - generic [ref=e4841]: •
+                                  - generic [ref=e4844]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e4846] [cursor=pointer]:
+                              - img [ref=e4848]
+                        - cell "Select Rooms 0" [ref=e4850]:
+                          - generic [ref=e4851]:
+                            - generic [ref=e4852]: Select Rooms
+                            - combobox "Select Rooms" [ref=e4853]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,080)"
+                              - option "2 (€ 2,159)"
+                              - option "3 (€ 3,239)"
+                              - option "4 (€ 4,319)"
+                              - option "5 (€ 5,398)"
+                              - option "6 (€ 6,478)"
+                              - option "7 (€ 7,558)"
+                      - 'row "Max. people: 2 Price € 1,096 Includes taxes and fees Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e4854]':
+                        - 'cell "Max. people: 2" [ref=e4855]':
+                          - generic [ref=e4857]:
+                            - generic [ref=e4858]:
+                              - generic [ref=e4859]: "1"
+                              - generic [ref=e4860]: "1"
+                            - generic [ref=e4861]: "Max. people: 2"
+                        - cell "Price € 1,096 Includes taxes and fees" [ref=e4862]:
+                          - generic [ref=e4864]:
+                            - generic [ref=e4866]:
+                              - generic [ref=e4867]: € 1,096
+                              - generic [ref=e4868]: Price € 1,096
+                            - generic [ref=e4869]: Includes taxes and fees
+                        - cell "Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e4870]:
+                          - generic [ref=e4871]:
+                            - list [ref=e4872]:
+                              - listitem [ref=e4873]:
+                                - img [ref=e4874]
+                                - generic [ref=e4877]:
+                                  - generic [ref=e4878]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e4879]:
+                                - generic [ref=e4880]:
+                                  - img [ref=e4882]
+                                  - generic [ref=e4887]:
+                                    - strong [ref=e4888]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e4889]:
+                                - generic [ref=e4890]:
+                                  - img [ref=e4892]
+                                  - generic [ref=e4897]:
+                                    - strong [ref=e4898]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e4900] [cursor=pointer]:
+                              - img [ref=e4902]
+                        - cell "Select Rooms 0" [ref=e4904]:
+                          - generic [ref=e4905]:
+                            - generic [ref=e4906]: Select Rooms
+                            - combobox "Select Rooms" [ref=e4907]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,096)"
+                              - option "2 (€ 2,193)"
+                              - option "3 (€ 3,289)"
+                              - option "4 (€ 4,386)"
+                              - option "5 (€ 5,482)"
+                              - option "6 (€ 6,578)"
+                              - option "7 (€ 7,675)"
+                      - 'row "Max. people: 2 Price € 1,188 Includes taxes and fees All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e4908]':
+                        - 'cell "Max. people: 2" [ref=e4909]':
+                          - generic [ref=e4911]:
+                            - generic [ref=e4912]:
+                              - generic [ref=e4913]: "1"
+                              - generic [ref=e4914]: "1"
+                            - generic [ref=e4915]: "Max. people: 2"
+                        - cell "Price € 1,188 Includes taxes and fees" [ref=e4916]:
+                          - generic [ref=e4918]:
+                            - generic [ref=e4920]:
+                              - generic [ref=e4921]: € 1,188
+                              - generic [ref=e4922]: Price € 1,188
+                            - generic [ref=e4923]: Includes taxes and fees
+                        - cell "All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e4924]:
+                          - generic [ref=e4925]:
+                            - list [ref=e4926]:
+                              - listitem [ref=e4927]:
+                                - img [ref=e4928]
+                                - generic [ref=e4931]: All-Inclusive
+                              - listitem [ref=e4932]:
+                                - generic [ref=e4933]:
+                                  - img [ref=e4935]
+                                  - strong [ref=e4942]: Non-refundable
+                              - listitem [ref=e4943]:
+                                - generic [ref=e4944]:
+                                  - generic [ref=e4946]: •
+                                  - generic [ref=e4949]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e4951] [cursor=pointer]:
+                              - img [ref=e4953]
+                        - cell "Select Rooms 0" [ref=e4955]:
+                          - generic [ref=e4956]:
+                            - generic [ref=e4957]: Select Rooms
+                            - combobox "Select Rooms" [ref=e4958]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,188)"
+                              - option "2 (€ 2,377)"
+                              - option "3 (€ 3,565)"
+                              - option "4 (€ 4,753)"
+                              - option "5 (€ 5,942)"
+                              - option "6 (€ 7,130)"
+                              - option "7 (€ 8,319)"
+                      - 'row "Max. people: 2 Price € 1,225 Includes taxes and fees Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e4959]':
+                        - 'cell "Max. people: 2" [ref=e4960]':
+                          - generic [ref=e4962]:
+                            - generic [ref=e4963]:
+                              - generic [ref=e4964]: "1"
+                              - generic [ref=e4965]: "1"
+                            - generic [ref=e4966]: "Max. people: 2"
+                        - cell "Price € 1,225 Includes taxes and fees" [ref=e4967]:
+                          - generic [ref=e4969]:
+                            - generic [ref=e4971]:
+                              - generic [ref=e4972]: € 1,225
+                              - generic [ref=e4973]: Price € 1,225
+                            - generic [ref=e4974]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e4975]:
+                          - generic [ref=e4976]:
+                            - list [ref=e4977]:
+                              - listitem [ref=e4978]:
+                                - img [ref=e4979]
+                                - generic [ref=e4982]: Breakfast & dinner included
+                              - listitem [ref=e4983]:
+                                - generic [ref=e4984]:
+                                  - img [ref=e4986]
+                                  - generic [ref=e4991]:
+                                    - strong [ref=e4992]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e4993]:
+                                - generic [ref=e4994]:
+                                  - img [ref=e4996]
+                                  - generic [ref=e5001]:
+                                    - strong [ref=e5002]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e5004] [cursor=pointer]:
+                              - img [ref=e5006]
+                        - cell "Select Rooms 0" [ref=e5008]:
+                          - generic [ref=e5009]:
+                            - generic [ref=e5010]: Select Rooms
+                            - combobox "Select Rooms" [ref=e5011]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,225)"
+                              - option "2 (€ 2,451)"
+                              - option "3 (€ 3,676)"
+                              - option "4 (€ 4,902)"
+                              - option "5 (€ 6,127)"
+                              - option "6 (€ 7,353)"
+                              - option "7 (€ 8,578)"
+                      - 'row "Max. people: 2 Price € 1,334 Includes taxes and fees All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e5012]':
+                        - 'cell "Max. people: 2" [ref=e5013]':
+                          - generic [ref=e5015]:
+                            - generic [ref=e5016]:
+                              - generic [ref=e5017]: "1"
+                              - generic [ref=e5018]: "1"
+                            - generic [ref=e5019]: "Max. people: 2"
+                        - cell "Price € 1,334 Includes taxes and fees" [ref=e5020]:
+                          - generic [ref=e5022]:
+                            - generic [ref=e5024]:
+                              - generic [ref=e5025]: € 1,334
+                              - generic [ref=e5026]: Price € 1,334
+                            - generic [ref=e5027]: Includes taxes and fees
+                        - cell "All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e5028]:
+                          - generic [ref=e5029]:
+                            - list [ref=e5030]:
+                              - listitem [ref=e5031]:
+                                - img [ref=e5032]
+                                - generic [ref=e5035]: All-Inclusive
+                              - listitem [ref=e5036]:
+                                - generic [ref=e5037]:
+                                  - img [ref=e5039]
+                                  - generic [ref=e5044]:
+                                    - strong [ref=e5045]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e5046]:
+                                - generic [ref=e5047]:
+                                  - img [ref=e5049]
+                                  - generic [ref=e5054]:
+                                    - strong [ref=e5055]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e5057] [cursor=pointer]:
+                              - img [ref=e5059]
+                        - cell "Select Rooms 0" [ref=e5061]:
+                          - generic [ref=e5062]:
+                            - generic [ref=e5063]: Select Rooms
+                            - combobox "Select Rooms" [ref=e5064]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,334)"
+                              - option "2 (€ 2,668)"
+                              - option "3 (€ 4,002)"
+                              - option "4 (€ 5,337)"
+                              - option "5 (€ 6,671)"
+                              - option "6 (€ 8,005)"
+                              - option "7 (€ 9,339)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 822 Includes taxes and fees Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e5065]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e5066]':
+                          - generic [ref=e5068]:
+                            - generic [ref=e5070]: "1"
+                            - generic [ref=e5071]: "Max. people: 1"
+                          - generic [ref=e5074]: Only for 1 guest
+                        - cell "Price € 822 Includes taxes and fees" [ref=e5075]:
+                          - generic [ref=e5077]:
+                            - generic [ref=e5079]:
+                              - generic [ref=e5080]: € 822
+                              - generic [ref=e5081]: Price € 822
+                            - generic [ref=e5082]: Includes taxes and fees
+                        - cell "Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e5083]:
+                          - generic [ref=e5084]:
+                            - list [ref=e5085]:
+                              - listitem [ref=e5086]:
+                                - img [ref=e5087]
+                                - generic [ref=e5090]:
+                                  - generic [ref=e5091]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e5092]:
+                                - generic [ref=e5093]:
+                                  - img [ref=e5095]
+                                  - strong [ref=e5102]: Non-refundable
+                              - listitem [ref=e5103]:
+                                - generic [ref=e5104]:
+                                  - generic [ref=e5106]: •
+                                  - generic [ref=e5109]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e5111] [cursor=pointer]:
+                              - img [ref=e5113]
+                        - cell "Select Rooms 0" [ref=e5115]:
+                          - generic [ref=e5116]:
+                            - generic [ref=e5117]: Select Rooms
+                            - combobox "Select Rooms" [ref=e5118]:
+                              - option "0" [selected]
+                              - option "1 (€ 822)"
+                              - option "2 (€ 1,645)"
+                              - option "3 (€ 2,467)"
+                              - option "4 (€ 3,289)"
+                              - option "5 (€ 4,111)"
+                              - option "6 (€ 4,934)"
+                              - option "7 (€ 5,756)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 887 Includes taxes and fees Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e5119]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e5120]':
+                          - generic [ref=e5122]:
+                            - generic [ref=e5124]: "1"
+                            - generic [ref=e5125]: "Max. people: 1"
+                          - generic [ref=e5128]: Only for 1 guest
+                        - cell "Price € 887 Includes taxes and fees" [ref=e5129]:
+                          - generic [ref=e5131]:
+                            - generic [ref=e5133]:
+                              - generic [ref=e5134]: € 887
+                              - generic [ref=e5135]: Price € 887
+                            - generic [ref=e5136]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e5137]:
+                          - generic [ref=e5138]:
+                            - list [ref=e5139]:
+                              - listitem [ref=e5140]:
+                                - img [ref=e5141]
+                                - generic [ref=e5144]: Breakfast & dinner included
+                              - listitem [ref=e5145]:
+                                - generic [ref=e5146]:
+                                  - img [ref=e5148]
+                                  - strong [ref=e5155]: Non-refundable
+                              - listitem [ref=e5156]:
+                                - generic [ref=e5157]:
+                                  - generic [ref=e5159]: •
+                                  - generic [ref=e5162]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e5164] [cursor=pointer]:
+                              - img [ref=e5166]
+                        - cell "Select Rooms 0" [ref=e5168]:
+                          - generic [ref=e5169]:
+                            - generic [ref=e5170]: Select Rooms
+                            - combobox "Select Rooms" [ref=e5171]:
+                              - option "0" [selected]
+                              - option "1 (€ 887)"
+                              - option "2 (€ 1,774)"
+                              - option "3 (€ 2,660)"
+                              - option "4 (€ 3,547)"
+                              - option "5 (€ 4,434)"
+                              - option "6 (€ 5,321)"
+                              - option "7 (€ 6,208)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 941 Includes taxes and fees All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e5172]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e5173]':
+                          - generic [ref=e5175]:
+                            - generic [ref=e5177]: "1"
+                            - generic [ref=e5178]: "Max. people: 1"
+                          - generic [ref=e5181]: Only for 1 guest
+                        - cell "Price € 941 Includes taxes and fees" [ref=e5182]:
+                          - generic [ref=e5184]:
+                            - generic [ref=e5186]:
+                              - generic [ref=e5187]: € 941
+                              - generic [ref=e5188]: Price € 941
+                            - generic [ref=e5189]: Includes taxes and fees
+                        - cell "All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e5190]:
+                          - generic [ref=e5191]:
+                            - list [ref=e5192]:
+                              - listitem [ref=e5193]:
+                                - img [ref=e5194]
+                                - generic [ref=e5197]: All-Inclusive
+                              - listitem [ref=e5198]:
+                                - generic [ref=e5199]:
+                                  - img [ref=e5201]
+                                  - strong [ref=e5208]: Non-refundable
+                              - listitem [ref=e5209]:
+                                - generic [ref=e5210]:
+                                  - generic [ref=e5212]: •
+                                  - generic [ref=e5215]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e5217] [cursor=pointer]:
+                              - img [ref=e5219]
+                        - cell "Select Rooms 0" [ref=e5221]:
+                          - generic [ref=e5222]:
+                            - generic [ref=e5223]: Select Rooms
+                            - combobox "Select Rooms" [ref=e5224]:
+                              - option "0" [selected]
+                              - option "1 (€ 941)"
+                              - option "2 (€ 1,882)"
+                              - option "3 (€ 2,824)"
+                              - option "4 (€ 3,765)"
+                              - option "5 (€ 4,706)"
+                              - option "6 (€ 5,647)"
+                              - option "7 (€ 6,588)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 956 Includes taxes and fees Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e5225]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e5226]':
+                          - generic [ref=e5228]:
+                            - generic [ref=e5230]: "1"
+                            - generic [ref=e5231]: "Max. people: 1"
+                          - generic [ref=e5234]: Only for 1 guest
+                        - cell "Price € 956 Includes taxes and fees" [ref=e5235]:
+                          - generic [ref=e5237]:
+                            - generic [ref=e5239]:
+                              - generic [ref=e5240]: € 956
+                              - generic [ref=e5241]: Price € 956
+                            - generic [ref=e5242]: Includes taxes and fees
+                        - cell "Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e5243]:
+                          - generic [ref=e5244]:
+                            - list [ref=e5245]:
+                              - listitem [ref=e5246]:
+                                - img [ref=e5247]
+                                - generic [ref=e5250]:
+                                  - generic [ref=e5251]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e5252]:
+                                - generic [ref=e5253]:
+                                  - img [ref=e5255]
+                                  - generic [ref=e5260]:
+                                    - strong [ref=e5261]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e5262]:
+                                - generic [ref=e5263]:
+                                  - img [ref=e5265]
+                                  - generic [ref=e5270]:
+                                    - strong [ref=e5271]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e5273] [cursor=pointer]:
+                              - img [ref=e5275]
+                        - cell "Select Rooms 0" [ref=e5277]:
+                          - generic [ref=e5278]:
+                            - generic [ref=e5279]: Select Rooms
+                            - combobox "Select Rooms" [ref=e5280]:
+                              - option "0" [selected]
+                              - option "1 (€ 956)"
+                              - option "2 (€ 1,913)"
+                              - option "3 (€ 2,869)"
+                              - option "4 (€ 3,826)"
+                              - option "5 (€ 4,782)"
+                              - option "6 (€ 5,739)"
+                              - option "7 (€ 6,695)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,021 Includes taxes and fees Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e5281]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e5282]':
+                          - generic [ref=e5284]:
+                            - generic [ref=e5286]: "1"
+                            - generic [ref=e5287]: "Max. people: 1"
+                          - generic [ref=e5290]: Only for 1 guest
+                        - cell "Price € 1,021 Includes taxes and fees" [ref=e5291]:
+                          - generic [ref=e5293]:
+                            - generic [ref=e5295]:
+                              - generic [ref=e5296]: € 1,021
+                              - generic [ref=e5297]: Price € 1,021
+                            - generic [ref=e5298]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e5299]:
+                          - generic [ref=e5300]:
+                            - list [ref=e5301]:
+                              - listitem [ref=e5302]:
+                                - img [ref=e5303]
+                                - generic [ref=e5306]: Breakfast & dinner included
+                              - listitem [ref=e5307]:
+                                - generic [ref=e5308]:
+                                  - img [ref=e5310]
+                                  - generic [ref=e5315]:
+                                    - strong [ref=e5316]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e5317]:
+                                - generic [ref=e5318]:
+                                  - img [ref=e5320]
+                                  - generic [ref=e5325]:
+                                    - strong [ref=e5326]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e5328] [cursor=pointer]:
+                              - img [ref=e5330]
+                        - cell "Select Rooms 0" [ref=e5332]:
+                          - generic [ref=e5333]:
+                            - generic [ref=e5334]: Select Rooms
+                            - combobox "Select Rooms" [ref=e5335]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,021)"
+                              - option "2 (€ 2,042)"
+                              - option "3 (€ 3,063)"
+                              - option "4 (€ 4,084)"
+                              - option "5 (€ 5,105)"
+                              - option "6 (€ 6,126)"
+                              - option "7 (€ 7,147)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,075 Includes taxes and fees All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e5336]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e5337]':
+                          - generic [ref=e5339]:
+                            - generic [ref=e5341]: "1"
+                            - generic [ref=e5342]: "Max. people: 1"
+                          - generic [ref=e5345]: Only for 1 guest
+                        - cell "Price € 1,075 Includes taxes and fees" [ref=e5346]:
+                          - generic [ref=e5348]:
+                            - generic [ref=e5350]:
+                              - generic [ref=e5351]: € 1,075
+                              - generic [ref=e5352]: Price € 1,075
+                            - generic [ref=e5353]: Includes taxes and fees
+                        - cell "All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e5354]:
+                          - generic [ref=e5355]:
+                            - list [ref=e5356]:
+                              - listitem [ref=e5357]:
+                                - img [ref=e5358]
+                                - generic [ref=e5361]: All-Inclusive
+                              - listitem [ref=e5362]:
+                                - generic [ref=e5363]:
+                                  - img [ref=e5365]
+                                  - generic [ref=e5370]:
+                                    - strong [ref=e5371]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e5372]:
+                                - generic [ref=e5373]:
+                                  - img [ref=e5375]
+                                  - generic [ref=e5380]:
+                                    - strong [ref=e5381]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e5383] [cursor=pointer]:
+                              - img [ref=e5385]
+                        - cell "Select Rooms 0" [ref=e5387]:
+                          - generic [ref=e5388]:
+                            - generic [ref=e5389]: Select Rooms
+                            - combobox "Select Rooms" [ref=e5390]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,075)"
+                              - option "2 (€ 2,151)"
+                              - option "3 (€ 3,226)"
+                              - option "4 (€ 4,301)"
+                              - option "5 (€ 5,377)"
+                              - option "6 (€ 6,452)"
+                              - option "7 (€ 7,527)"
+                      - 'row "Family Suite with a Separate Bunk Beds Kids room, Garden side (Palm Wing) We have 7 left 1 bunk bed and 1 queen bed Featuring a balcony or terrace looking at a garden view, this spacious, air-conditioned suite is located at the palm side. Separated from beach by a road. It includes a flat-screen TV, a mini-bar, a shower and bunk beds. Private suite 52 m² Balcony Garden view Air conditioning Private bathroom Flat-screen TV Soundproof Terrace Minibar Show more amenities Max. people: 2 Price € 997 Includes taxes and fees Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e5391]':
+                        - rowheader "Family Suite with a Separate Bunk Beds Kids room, Garden side (Palm Wing) We have 7 left 1 bunk bed and 1 queen bed Featuring a balcony or terrace looking at a garden view, this spacious, air-conditioned suite is located at the palm side. Separated from beach by a road. It includes a flat-screen TV, a mini-bar, a shower and bunk beds. Private suite 52 m² Balcony Garden view Air conditioning Private bathroom Flat-screen TV Soundproof Terrace Minibar Show more amenities" [ref=e5392]:
+                          - generic [ref=e5393]:
+                            - link "Family Suite with a Separate Bunk Beds Kids room, Garden side (Palm Wing)" [ref=e5395] [cursor=pointer]:
+                              - /url: "#RD1609610"
+                            - generic [ref=e5398]:
+                              - img [ref=e5399]
+                              - generic [ref=e5404]: We have 7 left
+                            - list [ref=e5407]:
+                              - listitem [ref=e5408]:
+                                - generic [ref=e5409]:
+                                  - text: 1 bunk bed
+                                  - generic [ref=e5410]: 댳
+                                - text: and
+                              - listitem [ref=e5411]:
+                                - generic [ref=e5412]:
+                                  - text: 1 queen bed
+                                  - generic [ref=e5413]: 녌
+                            - paragraph [ref=e5414]: Featuring a balcony or terrace looking at a garden view, this spacious, air-conditioned suite is located at the palm side. Separated from beach by a road. It includes a flat-screen TV, a mini-bar, a shower and bunk beds.
+                            - generic [ref=e5416]:
+                              - list [ref=e5417]:
+                                - listitem [ref=e5418]:
+                                  - generic [ref=e5419]:
+                                    - img [ref=e5420]
+                                    - text: Private suite
+                                - listitem [ref=e5422]:
+                                  - generic [ref=e5423]:
+                                    - img [ref=e5424]
+                                    - text: 52 m²
+                                - listitem [ref=e5426]:
+                                  - generic [ref=e5427]:
+                                    - img [ref=e5428]
+                                    - text: Balcony
+                                - listitem [ref=e5430]:
+                                  - generic [ref=e5431]:
+                                    - img [ref=e5432]
+                                    - text: Garden view
+                                - listitem [ref=e5434]:
+                                  - generic [ref=e5435]:
+                                    - img [ref=e5436]
+                                    - text: Air conditioning
+                                - listitem [ref=e5438]:
+                                  - generic [ref=e5439]:
+                                    - img [ref=e5440]
+                                    - text: Private bathroom
+                                - listitem [ref=e5442]:
+                                  - generic [ref=e5443]:
+                                    - img [ref=e5444]
+                                    - text: Flat-screen TV
+                                - listitem [ref=e5446]:
+                                  - generic [ref=e5447]:
+                                    - img [ref=e5448]
+                                    - text: Soundproof
+                                - listitem [ref=e5450]:
+                                  - generic [ref=e5451]:
+                                    - img [ref=e5452]
+                                    - text: Terrace
+                                - listitem [ref=e5454]:
+                                  - generic [ref=e5455]:
+                                    - img [ref=e5456]
+                                    - text: Minibar
+                              - button "Show more amenities" [ref=e5458] [cursor=pointer]: More
+                        - 'cell "Max. people: 2" [ref=e5459]':
+                          - generic [ref=e5461]:
+                            - generic [ref=e5462]:
+                              - generic [ref=e5463]: "1"
+                              - generic [ref=e5464]: "1"
+                            - generic [ref=e5465]: "Max. people: 2"
+                        - cell "Price € 997 Includes taxes and fees" [ref=e5466]:
+                          - generic [ref=e5468]:
+                            - generic [ref=e5470]:
+                              - generic [ref=e5471]: € 997
+                              - generic [ref=e5472]: Price € 997
+                            - generic [ref=e5473]: Includes taxes and fees
+                        - cell "Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e5474]:
+                          - generic [ref=e5475]:
+                            - list [ref=e5476]:
+                              - listitem [ref=e5477]:
+                                - img [ref=e5478]
+                                - generic [ref=e5481]:
+                                  - generic [ref=e5482]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e5483]:
+                                - generic [ref=e5484]:
+                                  - img [ref=e5486]
+                                  - strong [ref=e5493]: Non-refundable
+                              - listitem [ref=e5494]:
+                                - generic [ref=e5495]:
+                                  - generic [ref=e5497]: •
+                                  - generic [ref=e5500]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e5502] [cursor=pointer]:
+                              - img [ref=e5504]
+                        - cell "Select Rooms 0" [ref=e5506]:
+                          - generic [ref=e5507]:
+                            - generic [ref=e5508]: Select Rooms
+                            - combobox "Select Rooms" [ref=e5509]:
+                              - option "0" [selected]
+                              - option "1 (€ 997)"
+                              - option "2 (€ 1,994)"
+                              - option "3 (€ 2,991)"
+                              - option "4 (€ 3,987)"
+                              - option "5 (€ 4,984)"
+                              - option "6 (€ 5,981)"
+                              - option "7 (€ 6,978)"
+                      - 'row "Max. people: 2 Price € 1,126 Includes taxes and fees Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e5510]':
+                        - 'cell "Max. people: 2" [ref=e5511]':
+                          - generic [ref=e5513]:
+                            - generic [ref=e5514]:
+                              - generic [ref=e5515]: "1"
+                              - generic [ref=e5516]: "1"
+                            - generic [ref=e5517]: "Max. people: 2"
+                        - cell "Price € 1,126 Includes taxes and fees" [ref=e5518]:
+                          - generic [ref=e5520]:
+                            - generic [ref=e5522]:
+                              - generic [ref=e5523]: € 1,126
+                              - generic [ref=e5524]: Price € 1,126
+                            - generic [ref=e5525]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e5526]:
+                          - generic [ref=e5527]:
+                            - list [ref=e5528]:
+                              - listitem [ref=e5529]:
+                                - img [ref=e5530]
+                                - generic [ref=e5533]: Breakfast & dinner included
+                              - listitem [ref=e5534]:
+                                - generic [ref=e5535]:
+                                  - img [ref=e5537]
+                                  - strong [ref=e5544]: Non-refundable
+                              - listitem [ref=e5545]:
+                                - generic [ref=e5546]:
+                                  - generic [ref=e5548]: •
+                                  - generic [ref=e5551]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e5553] [cursor=pointer]:
+                              - img [ref=e5555]
+                        - cell "Select Rooms 0" [ref=e5557]:
+                          - generic [ref=e5558]:
+                            - generic [ref=e5559]: Select Rooms
+                            - combobox "Select Rooms" [ref=e5560]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,126)"
+                              - option "2 (€ 2,252)"
+                              - option "3 (€ 3,378)"
+                              - option "4 (€ 4,504)"
+                              - option "5 (€ 5,630)"
+                              - option "6 (€ 6,756)"
+                              - option "7 (€ 7,882)"
+                      - 'row "Max. people: 2 Price € 1,151 Includes taxes and fees Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e5561]':
+                        - 'cell "Max. people: 2" [ref=e5562]':
+                          - generic [ref=e5564]:
+                            - generic [ref=e5565]:
+                              - generic [ref=e5566]: "1"
+                              - generic [ref=e5567]: "1"
+                            - generic [ref=e5568]: "Max. people: 2"
+                        - cell "Price € 1,151 Includes taxes and fees" [ref=e5569]:
+                          - generic [ref=e5571]:
+                            - generic [ref=e5573]:
+                              - generic [ref=e5574]: € 1,151
+                              - generic [ref=e5575]: Price € 1,151
+                            - generic [ref=e5576]: Includes taxes and fees
+                        - cell "Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e5577]:
+                          - generic [ref=e5578]:
+                            - list [ref=e5579]:
+                              - listitem [ref=e5580]:
+                                - img [ref=e5581]
+                                - generic [ref=e5584]:
+                                  - generic [ref=e5585]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e5586]:
+                                - generic [ref=e5587]:
+                                  - img [ref=e5589]
+                                  - generic [ref=e5594]:
+                                    - strong [ref=e5595]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e5596]:
+                                - generic [ref=e5597]:
+                                  - img [ref=e5599]
+                                  - generic [ref=e5604]:
+                                    - strong [ref=e5605]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e5607] [cursor=pointer]:
+                              - img [ref=e5609]
+                        - cell "Select Rooms 0" [ref=e5611]:
+                          - generic [ref=e5612]:
+                            - generic [ref=e5613]: Select Rooms
+                            - combobox "Select Rooms" [ref=e5614]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,151)"
+                              - option "2 (€ 2,302)"
+                              - option "3 (€ 3,452)"
+                              - option "4 (€ 4,603)"
+                              - option "5 (€ 5,754)"
+                              - option "6 (€ 6,905)"
+                              - option "7 (€ 8,056)"
+                      - 'row "Max. people: 2 Price € 1,235 Includes taxes and fees All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e5615]':
+                        - 'cell "Max. people: 2" [ref=e5616]':
+                          - generic [ref=e5618]:
+                            - generic [ref=e5619]:
+                              - generic [ref=e5620]: "1"
+                              - generic [ref=e5621]: "1"
+                            - generic [ref=e5622]: "Max. people: 2"
+                        - cell "Price € 1,235 Includes taxes and fees" [ref=e5623]:
+                          - generic [ref=e5625]:
+                            - generic [ref=e5627]:
+                              - generic [ref=e5628]: € 1,235
+                              - generic [ref=e5629]: Price € 1,235
+                            - generic [ref=e5630]: Includes taxes and fees
+                        - cell "All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e5631]:
+                          - generic [ref=e5632]:
+                            - list [ref=e5633]:
+                              - listitem [ref=e5634]:
+                                - img [ref=e5635]
+                                - generic [ref=e5638]: All-Inclusive
+                              - listitem [ref=e5639]:
+                                - generic [ref=e5640]:
+                                  - img [ref=e5642]
+                                  - strong [ref=e5649]: Non-refundable
+                              - listitem [ref=e5650]:
+                                - generic [ref=e5651]:
+                                  - generic [ref=e5653]: •
+                                  - generic [ref=e5656]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e5658] [cursor=pointer]:
+                              - img [ref=e5660]
+                        - cell "Select Rooms 0" [ref=e5662]:
+                          - generic [ref=e5663]:
+                            - generic [ref=e5664]: Select Rooms
+                            - combobox "Select Rooms" [ref=e5665]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,235)"
+                              - option "2 (€ 2,469)"
+                              - option "3 (€ 3,704)"
+                              - option "4 (€ 4,939)"
+                              - option "5 (€ 6,173)"
+                              - option "6 (€ 7,408)"
+                              - option "7 (€ 8,642)"
+                      - 'row "Max. people: 2 Price € 1,280 Includes taxes and fees Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e5666]':
+                        - 'cell "Max. people: 2" [ref=e5667]':
+                          - generic [ref=e5669]:
+                            - generic [ref=e5670]:
+                              - generic [ref=e5671]: "1"
+                              - generic [ref=e5672]: "1"
+                            - generic [ref=e5673]: "Max. people: 2"
+                        - cell "Price € 1,280 Includes taxes and fees" [ref=e5674]:
+                          - generic [ref=e5676]:
+                            - generic [ref=e5678]:
+                              - generic [ref=e5679]: € 1,280
+                              - generic [ref=e5680]: Price € 1,280
+                            - generic [ref=e5681]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e5682]:
+                          - generic [ref=e5683]:
+                            - list [ref=e5684]:
+                              - listitem [ref=e5685]:
+                                - img [ref=e5686]
+                                - generic [ref=e5689]: Breakfast & dinner included
+                              - listitem [ref=e5690]:
+                                - generic [ref=e5691]:
+                                  - img [ref=e5693]
+                                  - generic [ref=e5698]:
+                                    - strong [ref=e5699]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e5700]:
+                                - generic [ref=e5701]:
+                                  - img [ref=e5703]
+                                  - generic [ref=e5708]:
+                                    - strong [ref=e5709]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e5711] [cursor=pointer]:
+                              - img [ref=e5713]
+                        - cell "Select Rooms 0" [ref=e5715]:
+                          - generic [ref=e5716]:
+                            - generic [ref=e5717]: Select Rooms
+                            - combobox "Select Rooms" [ref=e5718]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,280)"
+                              - option "2 (€ 2,560)"
+                              - option "3 (€ 3,840)"
+                              - option "4 (€ 5,120)"
+                              - option "5 (€ 6,399)"
+                              - option "6 (€ 7,679)"
+                              - option "7 (€ 8,959)"
+                      - 'row "Max. people: 2 Price € 1,389 Includes taxes and fees All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e5719]':
+                        - 'cell "Max. people: 2" [ref=e5720]':
+                          - generic [ref=e5722]:
+                            - generic [ref=e5723]:
+                              - generic [ref=e5724]: "1"
+                              - generic [ref=e5725]: "1"
+                            - generic [ref=e5726]: "Max. people: 2"
+                        - cell "Price € 1,389 Includes taxes and fees" [ref=e5727]:
+                          - generic [ref=e5729]:
+                            - generic [ref=e5731]:
+                              - generic [ref=e5732]: € 1,389
+                              - generic [ref=e5733]: Price € 1,389
+                            - generic [ref=e5734]: Includes taxes and fees
+                        - cell "All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e5735]:
+                          - generic [ref=e5736]:
+                            - list [ref=e5737]:
+                              - listitem [ref=e5738]:
+                                - img [ref=e5739]
+                                - generic [ref=e5742]: All-Inclusive
+                              - listitem [ref=e5743]:
+                                - generic [ref=e5744]:
+                                  - img [ref=e5746]
+                                  - generic [ref=e5751]:
+                                    - strong [ref=e5752]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e5753]:
+                                - generic [ref=e5754]:
+                                  - img [ref=e5756]
+                                  - generic [ref=e5761]:
+                                    - strong [ref=e5762]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e5764] [cursor=pointer]:
+                              - img [ref=e5766]
+                        - cell "Select Rooms 0" [ref=e5768]:
+                          - generic [ref=e5769]:
+                            - generic [ref=e5770]: Select Rooms
+                            - combobox "Select Rooms" [ref=e5771]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,389)"
+                              - option "2 (€ 2,777)"
+                              - option "3 (€ 4,166)"
+                              - option "4 (€ 5,554)"
+                              - option "5 (€ 6,943)"
+                              - option "6 (€ 8,332)"
+                              - option "7 (€ 9,720)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 869 Includes taxes and fees Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e5772]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e5773]':
+                          - generic [ref=e5775]:
+                            - generic [ref=e5777]: "1"
+                            - generic [ref=e5778]: "Max. people: 1"
+                          - generic [ref=e5781]: Only for 1 guest
+                        - cell "Price € 869 Includes taxes and fees" [ref=e5782]:
+                          - generic [ref=e5784]:
+                            - generic [ref=e5786]:
+                              - generic [ref=e5787]: € 869
+                              - generic [ref=e5788]: Price € 869
+                            - generic [ref=e5789]: Includes taxes and fees
+                        - cell "Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e5790]:
+                          - generic [ref=e5791]:
+                            - list [ref=e5792]:
+                              - listitem [ref=e5793]:
+                                - img [ref=e5794]
+                                - generic [ref=e5797]:
+                                  - generic [ref=e5798]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e5799]:
+                                - generic [ref=e5800]:
+                                  - img [ref=e5802]
+                                  - strong [ref=e5809]: Non-refundable
+                              - listitem [ref=e5810]:
+                                - generic [ref=e5811]:
+                                  - generic [ref=e5813]: •
+                                  - generic [ref=e5816]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e5818] [cursor=pointer]:
+                              - img [ref=e5820]
+                        - cell "Select Rooms 0" [ref=e5822]:
+                          - generic [ref=e5823]:
+                            - generic [ref=e5824]: Select Rooms
+                            - combobox "Select Rooms" [ref=e5825]:
+                              - option "0" [selected]
+                              - option "1 (€ 869)"
+                              - option "2 (€ 1,737)"
+                              - option "3 (€ 2,606)"
+                              - option "4 (€ 3,474)"
+                              - option "5 (€ 4,343)"
+                              - option "6 (€ 5,211)"
+                              - option "7 (€ 6,080)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 933 Includes taxes and fees Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e5826]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e5827]':
+                          - generic [ref=e5829]:
+                            - generic [ref=e5831]: "1"
+                            - generic [ref=e5832]: "Max. people: 1"
+                          - generic [ref=e5835]: Only for 1 guest
+                        - cell "Price € 933 Includes taxes and fees" [ref=e5836]:
+                          - generic [ref=e5838]:
+                            - generic [ref=e5840]:
+                              - generic [ref=e5841]: € 933
+                              - generic [ref=e5842]: Price € 933
+                            - generic [ref=e5843]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e5844]:
+                          - generic [ref=e5845]:
+                            - list [ref=e5846]:
+                              - listitem [ref=e5847]:
+                                - img [ref=e5848]
+                                - generic [ref=e5851]: Breakfast & dinner included
+                              - listitem [ref=e5852]:
+                                - generic [ref=e5853]:
+                                  - img [ref=e5855]
+                                  - strong [ref=e5862]: Non-refundable
+                              - listitem [ref=e5863]:
+                                - generic [ref=e5864]:
+                                  - generic [ref=e5866]: •
+                                  - generic [ref=e5869]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e5871] [cursor=pointer]:
+                              - img [ref=e5873]
+                        - cell "Select Rooms 0" [ref=e5875]:
+                          - generic [ref=e5876]:
+                            - generic [ref=e5877]: Select Rooms
+                            - combobox "Select Rooms" [ref=e5878]:
+                              - option "0" [selected]
+                              - option "1 (€ 933)"
+                              - option "2 (€ 1,866)"
+                              - option "3 (€ 2,799)"
+                              - option "4 (€ 3,732)"
+                              - option "5 (€ 4,665)"
+                              - option "6 (€ 5,599)"
+                              - option "7 (€ 6,532)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 987 Includes taxes and fees All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e5879]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e5880]':
+                          - generic [ref=e5882]:
+                            - generic [ref=e5884]: "1"
+                            - generic [ref=e5885]: "Max. people: 1"
+                          - generic [ref=e5888]: Only for 1 guest
+                        - cell "Price € 987 Includes taxes and fees" [ref=e5889]:
+                          - generic [ref=e5891]:
+                            - generic [ref=e5893]:
+                              - generic [ref=e5894]: € 987
+                              - generic [ref=e5895]: Price € 987
+                            - generic [ref=e5896]: Includes taxes and fees
+                        - cell "All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e5897]:
+                          - generic [ref=e5898]:
+                            - list [ref=e5899]:
+                              - listitem [ref=e5900]:
+                                - img [ref=e5901]
+                                - generic [ref=e5904]: All-Inclusive
+                              - listitem [ref=e5905]:
+                                - generic [ref=e5906]:
+                                  - img [ref=e5908]
+                                  - strong [ref=e5915]: Non-refundable
+                              - listitem [ref=e5916]:
+                                - generic [ref=e5917]:
+                                  - generic [ref=e5919]: •
+                                  - generic [ref=e5922]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e5924] [cursor=pointer]:
+                              - img [ref=e5926]
+                        - cell "Select Rooms 0" [ref=e5928]:
+                          - generic [ref=e5929]:
+                            - generic [ref=e5930]: Select Rooms
+                            - combobox "Select Rooms" [ref=e5931]:
+                              - option "0" [selected]
+                              - option "1 (€ 987)"
+                              - option "2 (€ 1,975)"
+                              - option "3 (€ 2,962)"
+                              - option "4 (€ 3,950)"
+                              - option "5 (€ 4,937)"
+                              - option "6 (€ 5,925)"
+                              - option "7 (€ 6,912)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,011 Includes taxes and fees Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e5932]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e5933]':
+                          - generic [ref=e5935]:
+                            - generic [ref=e5937]: "1"
+                            - generic [ref=e5938]: "Max. people: 1"
+                          - generic [ref=e5941]: Only for 1 guest
+                        - cell "Price € 1,011 Includes taxes and fees" [ref=e5942]:
+                          - generic [ref=e5944]:
+                            - generic [ref=e5946]:
+                              - generic [ref=e5947]: € 1,011
+                              - generic [ref=e5948]: Price € 1,011
+                            - generic [ref=e5949]: Includes taxes and fees
+                        - cell "Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e5950]:
+                          - generic [ref=e5951]:
+                            - list [ref=e5952]:
+                              - listitem [ref=e5953]:
+                                - img [ref=e5954]
+                                - generic [ref=e5957]:
+                                  - generic [ref=e5958]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e5959]:
+                                - generic [ref=e5960]:
+                                  - img [ref=e5962]
+                                  - generic [ref=e5967]:
+                                    - strong [ref=e5968]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e5969]:
+                                - generic [ref=e5970]:
+                                  - img [ref=e5972]
+                                  - generic [ref=e5977]:
+                                    - strong [ref=e5978]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e5980] [cursor=pointer]:
+                              - img [ref=e5982]
+                        - cell "Select Rooms 0" [ref=e5984]:
+                          - generic [ref=e5985]:
+                            - generic [ref=e5986]: Select Rooms
+                            - combobox "Select Rooms" [ref=e5987]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,011)"
+                              - option "2 (€ 2,022)"
+                              - option "3 (€ 3,033)"
+                              - option "4 (€ 4,043)"
+                              - option "5 (€ 5,054)"
+                              - option "6 (€ 6,065)"
+                              - option "7 (€ 7,076)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,075 Includes taxes and fees Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e5988]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e5989]':
+                          - generic [ref=e5991]:
+                            - generic [ref=e5993]: "1"
+                            - generic [ref=e5994]: "Max. people: 1"
+                          - generic [ref=e5997]: Only for 1 guest
+                        - cell "Price € 1,075 Includes taxes and fees" [ref=e5998]:
+                          - generic [ref=e6000]:
+                            - generic [ref=e6002]:
+                              - generic [ref=e6003]: € 1,075
+                              - generic [ref=e6004]: Price € 1,075
+                            - generic [ref=e6005]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e6006]:
+                          - generic [ref=e6007]:
+                            - list [ref=e6008]:
+                              - listitem [ref=e6009]:
+                                - img [ref=e6010]
+                                - generic [ref=e6013]: Breakfast & dinner included
+                              - listitem [ref=e6014]:
+                                - generic [ref=e6015]:
+                                  - img [ref=e6017]
+                                  - generic [ref=e6022]:
+                                    - strong [ref=e6023]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e6024]:
+                                - generic [ref=e6025]:
+                                  - img [ref=e6027]
+                                  - generic [ref=e6032]:
+                                    - strong [ref=e6033]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e6035] [cursor=pointer]:
+                              - img [ref=e6037]
+                        - cell "Select Rooms 0" [ref=e6039]:
+                          - generic [ref=e6040]:
+                            - generic [ref=e6041]: Select Rooms
+                            - combobox "Select Rooms" [ref=e6042]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,075)"
+                              - option "2 (€ 2,151)"
+                              - option "3 (€ 3,226)"
+                              - option "4 (€ 4,302)"
+                              - option "5 (€ 5,377)"
+                              - option "6 (€ 6,452)"
+                              - option "7 (€ 7,528)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,130 Includes taxes and fees All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e6043]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e6044]':
+                          - generic [ref=e6046]:
+                            - generic [ref=e6048]: "1"
+                            - generic [ref=e6049]: "Max. people: 1"
+                          - generic [ref=e6052]: Only for 1 guest
+                        - cell "Price € 1,130 Includes taxes and fees" [ref=e6053]:
+                          - generic [ref=e6055]:
+                            - generic [ref=e6057]:
+                              - generic [ref=e6058]: € 1,130
+                              - generic [ref=e6059]: Price € 1,130
+                            - generic [ref=e6060]: Includes taxes and fees
+                        - cell "All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e6061]:
+                          - generic [ref=e6062]:
+                            - list [ref=e6063]:
+                              - listitem [ref=e6064]:
+                                - img [ref=e6065]
+                                - generic [ref=e6068]: All-Inclusive
+                              - listitem [ref=e6069]:
+                                - generic [ref=e6070]:
+                                  - img [ref=e6072]
+                                  - generic [ref=e6077]:
+                                    - strong [ref=e6078]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e6079]:
+                                - generic [ref=e6080]:
+                                  - img [ref=e6082]
+                                  - generic [ref=e6087]:
+                                    - strong [ref=e6088]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e6090] [cursor=pointer]:
+                              - img [ref=e6092]
+                        - cell "Select Rooms 0" [ref=e6094]:
+                          - generic [ref=e6095]:
+                            - generic [ref=e6096]: Select Rooms
+                            - combobox "Select Rooms" [ref=e6097]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,130)"
+                              - option "2 (€ 2,259)"
+                              - option "3 (€ 3,389)"
+                              - option "4 (€ 4,519)"
+                              - option "5 (€ 5,649)"
+                              - option "6 (€ 6,778)"
+                              - option "7 (€ 7,908)"
+                      - 'row "Junior Suite We have 7 left 1 king bed The suite features a coffee machine. The unit has 1 bed. Private suite 45 m² View Coffee machine Show more amenities Max. people: 2 Price € 1,347 Includes taxes and fees Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e6098]':
+                        - rowheader "Junior Suite We have 7 left 1 king bed The suite features a coffee machine. The unit has 1 bed. Private suite 45 m² View Coffee machine Show more amenities" [ref=e6099]:
+                          - generic [ref=e6100]:
+                            - link "Junior Suite" [ref=e6102] [cursor=pointer]:
+                              - /url: "#RD1609612"
+                            - generic [ref=e6105]:
+                              - img [ref=e6106]
+                              - generic [ref=e6111]: We have 7 left
+                            - list [ref=e6114]:
+                              - listitem [ref=e6115]:
+                                - generic [ref=e6116]:
+                                  - text: 1 king bed
+                                  - generic [ref=e6117]: 녌
+                            - paragraph [ref=e6118]: The suite features a coffee machine. The unit has 1 bed.
+                            - generic [ref=e6120]:
+                              - list [ref=e6121]:
+                                - listitem [ref=e6122]:
+                                  - generic [ref=e6123]:
+                                    - img [ref=e6124]
+                                    - text: Private suite
+                                - listitem [ref=e6126]:
+                                  - generic [ref=e6127]:
+                                    - img [ref=e6128]
+                                    - text: 45 m²
+                                - listitem [ref=e6130]:
+                                  - generic [ref=e6131]:
+                                    - img [ref=e6132]
+                                    - text: View
+                                - listitem [ref=e6134]:
+                                  - generic [ref=e6135]:
+                                    - img [ref=e6136]
+                                    - text: Coffee machine
+                              - button "Show more amenities" [ref=e6138] [cursor=pointer]: More
+                        - 'cell "Max. people: 2" [ref=e6139]':
+                          - generic [ref=e6141]:
+                            - generic [ref=e6142]:
+                              - generic [ref=e6143]: "1"
+                              - generic [ref=e6144]: "1"
+                            - generic [ref=e6145]: "Max. people: 2"
+                        - cell "Price € 1,347 Includes taxes and fees" [ref=e6146]:
+                          - generic [ref=e6148]:
+                            - generic [ref=e6150]:
+                              - generic [ref=e6151]: € 1,347
+                              - generic [ref=e6152]: Price € 1,347
+                            - generic [ref=e6153]: Includes taxes and fees
+                        - cell "Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e6154]:
+                          - generic [ref=e6155]:
+                            - list [ref=e6156]:
+                              - listitem [ref=e6157]:
+                                - img [ref=e6158]
+                                - generic [ref=e6161]:
+                                  - generic [ref=e6162]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e6163]:
+                                - generic [ref=e6164]:
+                                  - img [ref=e6166]
+                                  - strong [ref=e6173]: Non-refundable
+                              - listitem [ref=e6174]:
+                                - generic [ref=e6175]:
+                                  - generic [ref=e6177]: •
+                                  - generic [ref=e6180]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e6182] [cursor=pointer]:
+                              - img [ref=e6184]
+                        - cell "Select Rooms 0" [ref=e6186]:
+                          - generic [ref=e6187]:
+                            - generic [ref=e6188]: Select Rooms
+                            - combobox "Select Rooms" [ref=e6189]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,347)"
+                              - option "2 (€ 2,694)"
+                              - option "3 (€ 4,041)"
+                              - option "4 (€ 5,389)"
+                              - option "5 (€ 6,736)"
+                              - option "6 (€ 8,083)"
+                              - option "7 (€ 9,430)"
+                      - 'row "Max. people: 2 Price € 1,476 Includes taxes and fees Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e6190]':
+                        - 'cell "Max. people: 2" [ref=e6191]':
+                          - generic [ref=e6193]:
+                            - generic [ref=e6194]:
+                              - generic [ref=e6195]: "1"
+                              - generic [ref=e6196]: "1"
+                            - generic [ref=e6197]: "Max. people: 2"
+                        - cell "Price € 1,476 Includes taxes and fees" [ref=e6198]:
+                          - generic [ref=e6200]:
+                            - generic [ref=e6202]:
+                              - generic [ref=e6203]: € 1,476
+                              - generic [ref=e6204]: Price € 1,476
+                            - generic [ref=e6205]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e6206]:
+                          - generic [ref=e6207]:
+                            - list [ref=e6208]:
+                              - listitem [ref=e6209]:
+                                - img [ref=e6210]
+                                - generic [ref=e6213]: Breakfast & dinner included
+                              - listitem [ref=e6214]:
+                                - generic [ref=e6215]:
+                                  - img [ref=e6217]
+                                  - strong [ref=e6224]: Non-refundable
+                              - listitem [ref=e6225]:
+                                - generic [ref=e6226]:
+                                  - generic [ref=e6228]: •
+                                  - generic [ref=e6231]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e6233] [cursor=pointer]:
+                              - img [ref=e6235]
+                        - cell "Select Rooms 0" [ref=e6237]:
+                          - generic [ref=e6238]:
+                            - generic [ref=e6239]: Select Rooms
+                            - combobox "Select Rooms" [ref=e6240]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,476)"
+                              - option "2 (€ 2,952)"
+                              - option "3 (€ 4,429)"
+                              - option "4 (€ 5,905)"
+                              - option "5 (€ 7,381)"
+                              - option "6 (€ 8,857)"
+                              - option "7 (€ 10,334)"
+                      - 'row "Max. people: 2 Price € 1,563 Includes taxes and fees Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e6241]':
+                        - 'cell "Max. people: 2" [ref=e6242]':
+                          - generic [ref=e6244]:
+                            - generic [ref=e6245]:
+                              - generic [ref=e6246]: "1"
+                              - generic [ref=e6247]: "1"
+                            - generic [ref=e6248]: "Max. people: 2"
+                        - cell "Price € 1,563 Includes taxes and fees" [ref=e6249]:
+                          - generic [ref=e6251]:
+                            - generic [ref=e6253]:
+                              - generic [ref=e6254]: € 1,563
+                              - generic [ref=e6255]: Price € 1,563
+                            - generic [ref=e6256]: Includes taxes and fees
+                        - cell "Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e6257]:
+                          - generic [ref=e6258]:
+                            - list [ref=e6259]:
+                              - listitem [ref=e6260]:
+                                - img [ref=e6261]
+                                - generic [ref=e6264]:
+                                  - generic [ref=e6265]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e6266]:
+                                - generic [ref=e6267]:
+                                  - img [ref=e6269]
+                                  - generic [ref=e6274]:
+                                    - strong [ref=e6275]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e6276]:
+                                - generic [ref=e6277]:
+                                  - img [ref=e6279]
+                                  - generic [ref=e6284]:
+                                    - strong [ref=e6285]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e6287] [cursor=pointer]:
+                              - img [ref=e6289]
+                        - cell "Select Rooms 0" [ref=e6291]:
+                          - generic [ref=e6292]:
+                            - generic [ref=e6293]: Select Rooms
+                            - combobox "Select Rooms" [ref=e6294]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,563)"
+                              - option "2 (€ 3,126)"
+                              - option "3 (€ 4,689)"
+                              - option "4 (€ 6,252)"
+                              - option "5 (€ 7,815)"
+                              - option "6 (€ 9,378)"
+                              - option "7 (€ 10,941)"
+                      - 'row "Max. people: 2 Price € 1,585 Includes taxes and fees All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e6295]':
+                        - 'cell "Max. people: 2" [ref=e6296]':
+                          - generic [ref=e6298]:
+                            - generic [ref=e6299]:
+                              - generic [ref=e6300]: "1"
+                              - generic [ref=e6301]: "1"
+                            - generic [ref=e6302]: "Max. people: 2"
+                        - cell "Price € 1,585 Includes taxes and fees" [ref=e6303]:
+                          - generic [ref=e6305]:
+                            - generic [ref=e6307]:
+                              - generic [ref=e6308]: € 1,585
+                              - generic [ref=e6309]: Price € 1,585
+                            - generic [ref=e6310]: Includes taxes and fees
+                        - cell "All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e6311]:
+                          - generic [ref=e6312]:
+                            - list [ref=e6313]:
+                              - listitem [ref=e6314]:
+                                - img [ref=e6315]
+                                - generic [ref=e6318]: All-Inclusive
+                              - listitem [ref=e6319]:
+                                - generic [ref=e6320]:
+                                  - img [ref=e6322]
+                                  - strong [ref=e6329]: Non-refundable
+                              - listitem [ref=e6330]:
+                                - generic [ref=e6331]:
+                                  - generic [ref=e6333]: •
+                                  - generic [ref=e6336]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e6338] [cursor=pointer]:
+                              - img [ref=e6340]
+                        - cell "Select Rooms 0" [ref=e6342]:
+                          - generic [ref=e6343]:
+                            - generic [ref=e6344]: Select Rooms
+                            - combobox "Select Rooms" [ref=e6345]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,585)"
+                              - option "2 (€ 3,170)"
+                              - option "3 (€ 4,755)"
+                              - option "4 (€ 6,340)"
+                              - option "5 (€ 7,925)"
+                              - option "6 (€ 9,510)"
+                              - option "7 (€ 11,095)"
+                      - 'row "Max. people: 2 Price € 1,692 Includes taxes and fees Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e6346]':
+                        - 'cell "Max. people: 2" [ref=e6347]':
+                          - generic [ref=e6349]:
+                            - generic [ref=e6350]:
+                              - generic [ref=e6351]: "1"
+                              - generic [ref=e6352]: "1"
+                            - generic [ref=e6353]: "Max. people: 2"
+                        - cell "Price € 1,692 Includes taxes and fees" [ref=e6354]:
+                          - generic [ref=e6356]:
+                            - generic [ref=e6358]:
+                              - generic [ref=e6359]: € 1,692
+                              - generic [ref=e6360]: Price € 1,692
+                            - generic [ref=e6361]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e6362]:
+                          - generic [ref=e6363]:
+                            - list [ref=e6364]:
+                              - listitem [ref=e6365]:
+                                - img [ref=e6366]
+                                - generic [ref=e6369]: Breakfast & dinner included
+                              - listitem [ref=e6370]:
+                                - generic [ref=e6371]:
+                                  - img [ref=e6373]
+                                  - generic [ref=e6378]:
+                                    - strong [ref=e6379]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e6380]:
+                                - generic [ref=e6381]:
+                                  - img [ref=e6383]
+                                  - generic [ref=e6388]:
+                                    - strong [ref=e6389]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e6391] [cursor=pointer]:
+                              - img [ref=e6393]
+                        - cell "Select Rooms 0" [ref=e6395]:
+                          - generic [ref=e6396]:
+                            - generic [ref=e6397]: Select Rooms
+                            - combobox "Select Rooms" [ref=e6398]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,692)"
+                              - option "2 (€ 3,384)"
+                              - option "3 (€ 5,076)"
+                              - option "4 (€ 6,768)"
+                              - option "5 (€ 8,460)"
+                              - option "6 (€ 10,152)"
+                              - option "7 (€ 11,844)"
+                      - 'row "Max. people: 2 Price € 1,801 Includes taxes and fees All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e6399]':
+                        - 'cell "Max. people: 2" [ref=e6400]':
+                          - generic [ref=e6402]:
+                            - generic [ref=e6403]:
+                              - generic [ref=e6404]: "1"
+                              - generic [ref=e6405]: "1"
+                            - generic [ref=e6406]: "Max. people: 2"
+                        - cell "Price € 1,801 Includes taxes and fees" [ref=e6407]:
+                          - generic [ref=e6409]:
+                            - generic [ref=e6411]:
+                              - generic [ref=e6412]: € 1,801
+                              - generic [ref=e6413]: Price € 1,801
+                            - generic [ref=e6414]: Includes taxes and fees
+                        - cell "All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e6415]:
+                          - generic [ref=e6416]:
+                            - list [ref=e6417]:
+                              - listitem [ref=e6418]:
+                                - img [ref=e6419]
+                                - generic [ref=e6422]: All-Inclusive
+                              - listitem [ref=e6423]:
+                                - generic [ref=e6424]:
+                                  - img [ref=e6426]
+                                  - generic [ref=e6431]:
+                                    - strong [ref=e6432]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e6433]:
+                                - generic [ref=e6434]:
+                                  - img [ref=e6436]
+                                  - generic [ref=e6441]:
+                                    - strong [ref=e6442]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e6444] [cursor=pointer]:
+                              - img [ref=e6446]
+                        - cell "Select Rooms 0" [ref=e6448]:
+                          - generic [ref=e6449]:
+                            - generic [ref=e6450]: Select Rooms
+                            - combobox "Select Rooms" [ref=e6451]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,801)"
+                              - option "2 (€ 3,601)"
+                              - option "3 (€ 5,402)"
+                              - option "4 (€ 7,203)"
+                              - option "5 (€ 9,004)"
+                              - option "6 (€ 10,804)"
+                              - option "7 (€ 12,605)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,219 Includes taxes and fees Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e6452]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e6453]':
+                          - generic [ref=e6455]:
+                            - generic [ref=e6457]: "1"
+                            - generic [ref=e6458]: "Max. people: 1"
+                          - generic [ref=e6461]: Only for 1 guest
+                        - cell "Price € 1,219 Includes taxes and fees" [ref=e6462]:
+                          - generic [ref=e6464]:
+                            - generic [ref=e6466]:
+                              - generic [ref=e6467]: € 1,219
+                              - generic [ref=e6468]: Price € 1,219
+                            - generic [ref=e6469]: Includes taxes and fees
+                        - cell "Good breakfast included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e6470]:
+                          - generic [ref=e6471]:
+                            - list [ref=e6472]:
+                              - listitem [ref=e6473]:
+                                - img [ref=e6474]
+                                - generic [ref=e6477]:
+                                  - generic [ref=e6478]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e6479]:
+                                - generic [ref=e6480]:
+                                  - img [ref=e6482]
+                                  - strong [ref=e6489]: Non-refundable
+                              - listitem [ref=e6490]:
+                                - generic [ref=e6491]:
+                                  - generic [ref=e6493]: •
+                                  - generic [ref=e6496]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e6498] [cursor=pointer]:
+                              - img [ref=e6500]
+                        - cell "Select Rooms 0" [ref=e6502]:
+                          - generic [ref=e6503]:
+                            - generic [ref=e6504]: Select Rooms
+                            - combobox "Select Rooms" [ref=e6505]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,219)"
+                              - option "2 (€ 2,438)"
+                              - option "3 (€ 3,657)"
+                              - option "4 (€ 4,875)"
+                              - option "5 (€ 6,094)"
+                              - option "6 (€ 7,313)"
+                              - option "7 (€ 8,532)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,283 Includes taxes and fees Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e6506]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e6507]':
+                          - generic [ref=e6509]:
+                            - generic [ref=e6511]: "1"
+                            - generic [ref=e6512]: "Max. people: 1"
+                          - generic [ref=e6515]: Only for 1 guest
+                        - cell "Price € 1,283 Includes taxes and fees" [ref=e6516]:
+                          - generic [ref=e6518]:
+                            - generic [ref=e6520]:
+                              - generic [ref=e6521]: € 1,283
+                              - generic [ref=e6522]: Price € 1,283
+                            - generic [ref=e6523]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e6524]:
+                          - generic [ref=e6525]:
+                            - list [ref=e6526]:
+                              - listitem [ref=e6527]:
+                                - img [ref=e6528]
+                                - generic [ref=e6531]: Breakfast & dinner included
+                              - listitem [ref=e6532]:
+                                - generic [ref=e6533]:
+                                  - img [ref=e6535]
+                                  - strong [ref=e6542]: Non-refundable
+                              - listitem [ref=e6543]:
+                                - generic [ref=e6544]:
+                                  - generic [ref=e6546]: •
+                                  - generic [ref=e6549]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e6551] [cursor=pointer]:
+                              - img [ref=e6553]
+                        - cell "Select Rooms 0" [ref=e6555]:
+                          - generic [ref=e6556]:
+                            - generic [ref=e6557]: Select Rooms
+                            - combobox "Select Rooms" [ref=e6558]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,283)"
+                              - option "2 (€ 2,567)"
+                              - option "3 (€ 3,850)"
+                              - option "4 (€ 5,134)"
+                              - option "5 (€ 6,417)"
+                              - option "6 (€ 7,700)"
+                              - option "7 (€ 8,984)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,338 Includes taxes and fees All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e6559]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e6560]':
+                          - generic [ref=e6562]:
+                            - generic [ref=e6564]: "1"
+                            - generic [ref=e6565]: "Max. people: 1"
+                          - generic [ref=e6568]: Only for 1 guest
+                        - cell "Price € 1,338 Includes taxes and fees" [ref=e6569]:
+                          - generic [ref=e6571]:
+                            - generic [ref=e6573]:
+                              - generic [ref=e6574]: € 1,338
+                              - generic [ref=e6575]: Price € 1,338
+                            - generic [ref=e6576]: Includes taxes and fees
+                        - cell "All-Inclusive Non-refundable Pay online More details on meals, cancellation, and prepayment policies" [ref=e6577]:
+                          - generic [ref=e6578]:
+                            - list [ref=e6579]:
+                              - listitem [ref=e6580]:
+                                - img [ref=e6581]
+                                - generic [ref=e6584]: All-Inclusive
+                              - listitem [ref=e6585]:
+                                - generic [ref=e6586]:
+                                  - img [ref=e6588]
+                                  - strong [ref=e6595]: Non-refundable
+                              - listitem [ref=e6596]:
+                                - generic [ref=e6597]:
+                                  - generic [ref=e6599]: •
+                                  - generic [ref=e6602]: Pay online
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e6604] [cursor=pointer]:
+                              - img [ref=e6606]
+                        - cell "Select Rooms 0" [ref=e6608]:
+                          - generic [ref=e6609]:
+                            - generic [ref=e6610]: Select Rooms
+                            - combobox "Select Rooms" [ref=e6611]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,338)"
+                              - option "2 (€ 2,675)"
+                              - option "3 (€ 4,013)"
+                              - option "4 (€ 5,351)"
+                              - option "5 (€ 6,689)"
+                              - option "6 (€ 8,026)"
+                              - option "7 (€ 9,364)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,423 Includes taxes and fees Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e6612]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e6613]':
+                          - generic [ref=e6615]:
+                            - generic [ref=e6617]: "1"
+                            - generic [ref=e6618]: "Max. people: 1"
+                          - generic [ref=e6621]: Only for 1 guest
+                        - cell "Price € 1,423 Includes taxes and fees" [ref=e6622]:
+                          - generic [ref=e6624]:
+                            - generic [ref=e6626]:
+                              - generic [ref=e6627]: € 1,423
+                              - generic [ref=e6628]: Price € 1,423
+                            - generic [ref=e6629]: Includes taxes and fees
+                        - cell "Good breakfast included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e6630]:
+                          - generic [ref=e6631]:
+                            - list [ref=e6632]:
+                              - listitem [ref=e6633]:
+                                - img [ref=e6634]
+                                - generic [ref=e6637]:
+                                  - generic [ref=e6638]: Good breakfast
+                                  - text: included
+                              - listitem [ref=e6639]:
+                                - generic [ref=e6640]:
+                                  - img [ref=e6642]
+                                  - generic [ref=e6647]:
+                                    - strong [ref=e6648]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e6649]:
+                                - generic [ref=e6650]:
+                                  - img [ref=e6652]
+                                  - generic [ref=e6657]:
+                                    - strong [ref=e6658]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e6660] [cursor=pointer]:
+                              - img [ref=e6662]
+                        - cell "Select Rooms 0" [ref=e6664]:
+                          - generic [ref=e6665]:
+                            - generic [ref=e6666]: Select Rooms
+                            - combobox "Select Rooms" [ref=e6667]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,423)"
+                              - option "2 (€ 2,846)"
+                              - option "3 (€ 4,269)"
+                              - option "4 (€ 5,692)"
+                              - option "5 (€ 7,115)"
+                              - option "6 (€ 8,538)"
+                              - option "7 (€ 9,961)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,488 Includes taxes and fees Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e6668]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e6669]':
+                          - generic [ref=e6671]:
+                            - generic [ref=e6673]: "1"
+                            - generic [ref=e6674]: "Max. people: 1"
+                          - generic [ref=e6677]: Only for 1 guest
+                        - cell "Price € 1,488 Includes taxes and fees" [ref=e6678]:
+                          - generic [ref=e6680]:
+                            - generic [ref=e6682]:
+                              - generic [ref=e6683]: € 1,488
+                              - generic [ref=e6684]: Price € 1,488
+                            - generic [ref=e6685]: Includes taxes and fees
+                        - cell "Breakfast & dinner included Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e6686]:
+                          - generic [ref=e6687]:
+                            - list [ref=e6688]:
+                              - listitem [ref=e6689]:
+                                - img [ref=e6690]
+                                - generic [ref=e6693]: Breakfast & dinner included
+                              - listitem [ref=e6694]:
+                                - generic [ref=e6695]:
+                                  - img [ref=e6697]
+                                  - generic [ref=e6702]:
+                                    - strong [ref=e6703]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e6704]:
+                                - generic [ref=e6705]:
+                                  - img [ref=e6707]
+                                  - generic [ref=e6712]:
+                                    - strong [ref=e6713]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e6715] [cursor=pointer]:
+                              - img [ref=e6717]
+                        - cell "Select Rooms 0" [ref=e6719]:
+                          - generic [ref=e6720]:
+                            - generic [ref=e6721]: Select Rooms
+                            - combobox "Select Rooms" [ref=e6722]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,488)"
+                              - option "2 (€ 2,975)"
+                              - option "3 (€ 4,463)"
+                              - option "4 (€ 5,950)"
+                              - option "5 (€ 7,438)"
+                              - option "6 (€ 8,925)"
+                              - option "7 (€ 10,413)"
+                      - 'row "Max. people: 1 Only for 1 guest Price € 1,542 Includes taxes and fees All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e6723]':
+                        - 'cell "Max. people: 1 Only for 1 guest" [ref=e6724]':
+                          - generic [ref=e6726]:
+                            - generic [ref=e6728]: "1"
+                            - generic [ref=e6729]: "Max. people: 1"
+                          - generic [ref=e6732]: Only for 1 guest
+                        - cell "Price € 1,542 Includes taxes and fees" [ref=e6733]:
+                          - generic [ref=e6735]:
+                            - generic [ref=e6737]:
+                              - generic [ref=e6738]: € 1,542
+                              - generic [ref=e6739]: Price € 1,542
+                            - generic [ref=e6740]: Includes taxes and fees
+                        - cell "All-Inclusive Free cancellation before 6:00 PM on February 14, 2026 No prepayment needed – pay at the property More details on meals, cancellation, and prepayment policies" [ref=e6741]:
+                          - generic [ref=e6742]:
+                            - list [ref=e6743]:
+                              - listitem [ref=e6744]:
+                                - img [ref=e6745]
+                                - generic [ref=e6748]: All-Inclusive
+                              - listitem [ref=e6749]:
+                                - generic [ref=e6750]:
+                                  - img [ref=e6752]
+                                  - generic [ref=e6757]:
+                                    - strong [ref=e6758]: Free cancellation
+                                    - text: before 6:00 PM on February 14, 2026
+                              - listitem [ref=e6759]:
+                                - generic [ref=e6760]:
+                                  - img [ref=e6762]
+                                  - generic [ref=e6767]:
+                                    - strong [ref=e6768]: No prepayment needed
+                                    - text: – pay at the property
+                            - button "More details on meals, cancellation, and prepayment policies" [ref=e6770] [cursor=pointer]:
+                              - img [ref=e6772]
+                        - cell "Select Rooms 0" [ref=e6774]:
+                          - generic [ref=e6775]:
+                            - generic [ref=e6776]: Select Rooms
+                            - combobox "Select Rooms" [ref=e6777]:
+                              - option "0" [selected]
+                              - option "1 (€ 1,542)"
+                              - option "2 (€ 3,084)"
+                              - option "3 (€ 4,626)"
+                              - option "4 (€ 6,167)"
+                              - option "5 (€ 7,709)"
+                              - option "6 (€ 9,251)"
+                              - option "7 (€ 10,793)"
+                  - generic [ref=e6780]:
+                    - button "I'll reserve" [ref=e6782] [cursor=pointer]:
+                      - generic [ref=e6783]: I'll reserve
+                    - list [ref=e6785]:
+                      - listitem [ref=e6786]: It only takes 2 minutes
+                      - listitem [ref=e6787]: You won't be charged yet
+            - generic [ref=e6790]:
+              - generic [ref=e6796]:
+                - generic [ref=e6797]:
+                  - generic [ref=e6798]:
+                    - heading "Sustainability" [level=2] [ref=e6799]:
+                      - generic [ref=e6800]: Sustainability
+                    - generic [ref=e6801]:
+                      - text: This property has 1 third-party sustainability certification.
+                      - button "Learn more about certifications" [ref=e6802] [cursor=pointer]:
+                        - generic [ref=e6803]: Learn more about certifications
+                  - button "See availability" [ref=e6805] [cursor=pointer]:
+                    - generic [ref=e6806]: See availability
+                - region "Carousel" [ref=e6810]:
+                  - group [ref=e6811]:
+                    - generic [ref=e6813]:
+                      - img "Green Globe Certification" [ref=e6815]
+                      - generic "Certification name" [ref=e6817]: Green Globe Certification
+              - generic [ref=e6819]:
+                - generic [ref=e6820]:
+                  - heading "Guest reviews" [level=2] [ref=e6822]
+                  - button "See availability" [ref=e6824] [cursor=pointer]:
+                    - generic [ref=e6825]: See availability
+                - button "Scored 9.1 Rated wonderful Read all reviews" [ref=e6828] [cursor=pointer]:
+                  - generic [ref=e6829]:
+                    - generic [ref=e6830]:
+                      - generic [ref=e6831]: Scored 9.1
+                      - generic [ref=e6832]: "9.1"
+                      - generic [ref=e6833]: Rated wonderful
+                      - generic [ref=e6834]:
+                        - generic [ref=e6835]: Wonderful
+                        - generic [ref=e6836]: · 3,827 reviews
+                    - generic [ref=e6838]: Read all reviews
+                - group "Review categories" [ref=e6840]:
+                  - heading "Categories:" [level=3] [ref=e6842]
+                  - generic [ref=e6843]:
+                    - generic "Average rating out of 10" [ref=e6845]:
+                      - generic [ref=e6846]:
+                        - generic [ref=e6847]:
+                          - generic [ref=e6850]: Staff
+                          - generic [ref=e6852]: "9.2"
+                        - meter "Staff" [ref=e6853]
+                    - generic "Average rating out of 10" [ref=e6856]:
+                      - generic [ref=e6857]:
+                        - generic [ref=e6858]:
+                          - generic [ref=e6861]: Facilities
+                          - generic [ref=e6863]: "9.1"
+                        - meter "Facilities" [ref=e6864]
+                    - generic "Average rating out of 10" [ref=e6867]:
+                      - generic [ref=e6868]:
+                        - generic [ref=e6869]:
+                          - generic [ref=e6872]: Cleanliness
+                          - generic [ref=e6874]: "9.3"
+                        - meter "Cleanliness" [ref=e6875]
+                    - generic "Average rating out of 10" [ref=e6878]:
+                      - generic [ref=e6879]:
+                        - generic [ref=e6880]:
+                          - generic [ref=e6883]: Comfort
+                          - generic [ref=e6885]: "9.3"
+                        - meter "Comfort" [ref=e6886]
+                    - generic "Average rating out of 10" [ref=e6889]:
+                      - generic [ref=e6890]:
+                        - generic [ref=e6891]:
+                          - generic [ref=e6894]: Value for money
+                          - generic [ref=e6896]: "8.9"
+                        - meter "Value for money" [ref=e6897]
+                    - generic "Average rating out of 10" [ref=e6900]:
+                      - generic [ref=e6901]:
+                        - generic [ref=e6902]:
+                          - generic [ref=e6905]: Location
+                          - generic [ref=e6907]: "9.5"
+                        - meter "Location" [ref=e6908]
+                    - generic "Average rating out of 10" [ref=e6911]:
+                      - generic [ref=e6912]:
+                        - generic [ref=e6913]:
+                          - generic [ref=e6916]: Free Wifi
+                          - generic [ref=e6918]: "8.3"
+                        - meter "Free Wifi" [ref=e6919]
+                - group "Select topics to read reviews:" [ref=e6922]:
+                  - heading "Select topics to read reviews:" [level=3] [ref=e6925]
+                  - group "Select topics to read reviews:" [ref=e6927]:
+                    - button "Beach" [ref=e6928]:
+                      - checkbox "Beach" [ref=e6929]
+                      - generic [ref=e6930] [cursor=pointer]:
+                        - img [ref=e6932]
+                        - generic [ref=e6934]: Beach
+                    - button "Location" [ref=e6935]:
+                      - checkbox "Location" [ref=e6936]
+                      - generic [ref=e6937] [cursor=pointer]:
+                        - img [ref=e6939]
+                        - generic [ref=e6941]: Location
+                    - button "Room" [ref=e6942]:
+                      - checkbox "Room" [ref=e6943]
+                      - generic [ref=e6944] [cursor=pointer]:
+                        - img [ref=e6946]
+                        - generic [ref=e6948]: Room
+                    - button "Breakfast" [ref=e6949]:
+                      - checkbox "Breakfast" [ref=e6950]
+                      - generic [ref=e6951] [cursor=pointer]:
+                        - img [ref=e6953]
+                        - generic [ref=e6955]: Breakfast
+                    - button "Dinner" [ref=e6956]:
+                      - checkbox "Dinner" [ref=e6957]
+                      - generic [ref=e6958] [cursor=pointer]:
+                        - img [ref=e6960]
+                        - generic [ref=e6962]: Dinner
+                - generic [ref=e6964]:
+                  - generic [ref=e6965]:
+                    - heading "Guests who stayed here loved" [level=3] [ref=e6966]
+                    - generic [ref=e6967]:
+                      - region "Guests who stayed here loved" [ref=e6968]:
+                        - group [ref=e6969]:
+                          - generic [ref=e6971]:
+                            - generic [ref=e6976]:
+                              - generic [ref=e6977]: Abram
+                              - generic [ref=e6978]:
+                                - img "United States" [ref=e6979]
+                                - generic [ref=e6980]: United States
+                            - generic [ref=e6983]: “It was an amazing vacation the hotel is very clean and the staff are very friendly and helpful Totally recommend the place and will be back again for sure”
+                            - button "Read more of Abram's review" [ref=e6985] [cursor=pointer]:
+                              - generic [ref=e6986]: See pros and cons
+                        - group [ref=e6987]:
+                          - generic [ref=e6989]:
+                            - generic [ref=e6994]:
+                              - generic [ref=e6995]: Ebrahim
+                              - generic [ref=e6996]:
+                                - img "Saudi Arabia" [ref=e6997]
+                                - generic [ref=e6998]: Saudi Arabia
+                            - generic [ref=e7001]: “I had breakfast it was very good it was all defrant kind of food i did enjoyed it . THANKS”
+                            - button "Read more of Ebrahim's review" [ref=e7003] [cursor=pointer]:
+                              - generic [ref=e7004]: See pros and cons
+                        - group [ref=e7005]:
+                          - generic [ref=e7007]:
+                            - generic [ref=e7009]:
+                              - generic [ref=e7011]: H
+                              - generic [ref=e7012]:
+                                - generic [ref=e7013]: Hala
+                                - generic [ref=e7014]:
+                                  - img "United Arab Emirates" [ref=e7015]
+                                  - generic [ref=e7016]: United Arab Emirates
+                            - generic [ref=e7019]: “Special thanks to Mrs Ghadeer the guest relation for professionalism and many thanks to Ali at the reception for his hospitality”
+                            - button "Read more of Hala's review" [ref=e7021] [cursor=pointer]:
+                              - generic [ref=e7022]: See pros and cons
+                        - group [ref=e7023]:
+                          - generic [ref=e7025]:
+                            - generic [ref=e7030]:
+                              - generic [ref=e7031]: Abdelhamid
+                              - generic [ref=e7032]:
+                                - img "Kuwait" [ref=e7033]
+                                - generic [ref=e7034]: Kuwait
+                            - generic [ref=e7037]: “Atmosphere, the vibes , all activities are amazing”
+                            - button "Read more of Abdelhamid's review" [ref=e7039] [cursor=pointer]:
+                              - generic [ref=e7040]: See pros and cons
+                        - group [ref=e7041]:
+                          - generic [ref=e7043]:
+                            - generic [ref=e7048]:
+                              - generic [ref=e7049]: Ahmed
+                              - generic [ref=e7050]:
+                                - img "Germany" [ref=e7051]
+                                - generic [ref=e7052]: Germany
+                            - generic [ref=e7055]: “beach was very nice in my opinion, the whole vibe was so nice, dinners and breakfast and the quality of food was definitely very good! chefs are also friendly and always try to help and accomodate any needs.”
+                            - button "Read more of Ahmed's review" [ref=e7057] [cursor=pointer]:
+                              - generic [ref=e7058]: See pros and cons
+                        - group [ref=e7059]:
+                          - generic [ref=e7061]:
+                            - generic [ref=e7063]:
+                              - generic [ref=e7065]: F
+                              - generic [ref=e7066]:
+                                - generic [ref=e7067]: Fady
+                                - generic [ref=e7068]:
+                                  - img "Egypt" [ref=e7069]
+                                  - generic [ref=e7070]: Egypt
+                            - generic [ref=e7073]: “Exceptionally friendly staff, especially Ali from reception. Nice facilities, lovely sandy beach, clean room and good location.”
+                            - button "Read more of Fady's review" [ref=e7075] [cursor=pointer]:
+                              - generic [ref=e7076]: See pros and cons
+                        - group [ref=e7077]:
+                          - generic [ref=e7079]:
+                            - generic [ref=e7084]:
+                              - generic [ref=e7085]: Ahmed
+                              - generic [ref=e7086]:
+                                - img "Egypt" [ref=e7087]
+                                - generic [ref=e7088]: Egypt
+                            - generic [ref=e7091]: “Thanks alot for the amazing stay and for ghadeer and alaa”
+                            - button "Read more of Ahmed's review" [ref=e7093] [cursor=pointer]:
+                              - generic [ref=e7094]: See pros and cons
+                        - group [ref=e7095]:
+                          - generic [ref=e7097]:
+                            - generic [ref=e7099]:
+                              - generic [ref=e7101]: H
+                              - generic [ref=e7102]:
+                                - generic [ref=e7103]: Hassan
+                                - generic [ref=e7104]:
+                                  - img "Saudi Arabia" [ref=e7105]
+                                  - generic [ref=e7106]: Saudi Arabia
+                            - generic [ref=e7109]: “It was comfortable and quite, breakfast was delicious”
+                            - button "Read more of Hassan's review" [ref=e7111] [cursor=pointer]:
+                              - generic [ref=e7112]: See pros and cons
+                        - group [ref=e7113]:
+                          - generic [ref=e7115]:
+                            - generic [ref=e7120]:
+                              - generic [ref=e7121]: Hala
+                              - generic [ref=e7122]:
+                                - img "Egypt" [ref=e7123]
+                                - generic [ref=e7124]: Egypt
+                            - generic [ref=e7127]: “Great location. The staff are very friendly and fast to help. The rooms are clean. The best sandy beach in sharm”
+                            - button "Read more of Hala's review" [ref=e7129] [cursor=pointer]:
+                              - generic [ref=e7130]: See pros and cons
+                        - group [ref=e7131]:
+                          - generic [ref=e7133]:
+                            - generic [ref=e7138]:
+                              - generic [ref=e7139]: Iman
+                              - generic [ref=e7140]:
+                                - img "Egypt" [ref=e7141]
+                                - generic [ref=e7142]: Egypt
+                            - generic [ref=e7145]: “I enjoyed too much perfect staff even with the misleading of booking .com they manage the problem and solve it , Mr Mohamed Hamdy , ms Israa thank you very much for your smart way to do your client happy”
+                            - button "Read more of Iman's review" [ref=e7147] [cursor=pointer]:
+                              - generic [ref=e7148]: See pros and cons
+                      - button [ref=e7149] [cursor=pointer]:
+                        - img [ref=e7152]
+                  - button "Read all reviews" [ref=e7154] [cursor=pointer]:
+                    - generic [ref=e7155]: Read all reviews
+              - generic [ref=e7914]:
+                - generic [ref=e7915]:
+                  - heading "Travelers are asking" [level=2] [ref=e7917]:
+                    - generic [ref=e7918]: Travelers are asking
+                  - button "See availability" [ref=e7920] [cursor=pointer]:
+                    - generic [ref=e7921]: See availability
+                - generic [ref=e7923]:
+                  - generic [ref=e7924]:
+                    - list [ref=e7926]:
+                      - listitem [ref=e7927]:
+                        - button "Do they serve breakfast?" [ref=e7928] [cursor=pointer]:
+                          - generic [ref=e7929]:
+                            - img [ref=e7932]
+                            - generic [ref=e7934]: Do they serve breakfast?
+                            - img [ref=e7937]
+                      - listitem [ref=e7939]:
+                        - button "Is the swimming pool open?" [ref=e7940] [cursor=pointer]:
+                          - generic [ref=e7941]:
+                            - img [ref=e7944]
+                            - generic [ref=e7946]: Is the swimming pool open?
+                            - img [ref=e7949]
+                      - listitem [ref=e7951]:
+                        - button "Can I park there?" [ref=e7952] [cursor=pointer]:
+                          - generic [ref=e7953]:
+                            - img [ref=e7956]
+                            - generic [ref=e7958]: Can I park there?
+                            - img [ref=e7961]
+                      - listitem [ref=e7963]:
+                        - button "Is the restaurant open?" [ref=e7964] [cursor=pointer]:
+                          - generic [ref=e7965]:
+                            - img [ref=e7968]
+                            - generic [ref=e7970]: Is the restaurant open?
+                            - img [ref=e7973]
+                      - listitem [ref=e7975]:
+                        - button "Is the spa open?" [ref=e7976] [cursor=pointer]:
+                          - generic [ref=e7977]:
+                            - img [ref=e7980]
+                            - generic [ref=e7982]: Is the spa open?
+                            - img [ref=e7985]
+                      - listitem [ref=e7987]:
+                        - button "Is there an airport shuttle service?" [ref=e7988] [cursor=pointer]:
+                          - generic [ref=e7989]:
+                            - img [ref=e7992]
+                            - generic [ref=e7994]: Is there an airport shuttle service?
+                            - img [ref=e7997]
+                      - listitem [ref=e7999]:
+                        - button "What restaurants, attractions, and public transit options are nearby?" [ref=e8000] [cursor=pointer]:
+                          - generic [ref=e8001]:
+                            - img [ref=e8004]
+                            - generic [ref=e8006]: What restaurants, attractions, and public transit options are nearby?
+                            - img [ref=e8009]
+                      - listitem [ref=e8011]:
+                        - button "What's the Wi-Fi policy?" [ref=e8012] [cursor=pointer]:
+                          - generic [ref=e8013]:
+                            - img [ref=e8016]
+                            - generic [ref=e8018]: What's the Wi-Fi policy?
+                            - img [ref=e8021]
+                      - listitem [ref=e8023]:
+                        - button "Are there rooms with a private bathroom?" [ref=e8024] [cursor=pointer]:
+                          - generic [ref=e8025]:
+                            - img [ref=e8028]
+                            - generic [ref=e8030]: Are there rooms with a private bathroom?
+                            - img [ref=e8033]
+                      - listitem [ref=e8035]:
+                        - button "Are there rooms with a balcony?" [ref=e8036] [cursor=pointer]:
+                          - generic [ref=e8037]:
+                            - img [ref=e8040]
+                            - generic [ref=e8042]: Are there rooms with a balcony?
+                            - img [ref=e8045]
+                    - generic [ref=e8048]:
+                      - heading "Still looking?" [level=3] [ref=e8049]
+                      - button "Ask a question" [ref=e8050] [cursor=pointer]:
+                        - generic [ref=e8051]: Ask a question
+                      - paragraph [ref=e8052]: We have an instant answer to most questions
+                  - button "See other questions (20)" [ref=e8055] [cursor=pointer]:
+                    - generic [ref=e8056]: See other questions (20)
+              - generic [ref=e7205]:
+                - generic [ref=e7206]:
+                  - heading "Area info" [level=2] [ref=e7208]:
+                    - generic [ref=e7209]: Area info
+                  - button "See availability" [ref=e7211] [cursor=pointer]:
+                    - generic [ref=e7212]: See availability
+                - generic [ref=e7213]:
+                  - generic [ref=e8057]:
+                    - button "Guests loved walking around the neighborhood!" [ref=e8059] [cursor=pointer]:
+                      - generic [ref=e8061]: Guests loved walking around the neighborhood!
+                    - link "Excellent location – show map" [ref=e8063] [cursor=pointer]:
+                      - /url: "#map_opened-hotel_surroundings"
+                      - generic [ref=e8064]: Excellent location – show map
+                  - generic [ref=e7214]:
+                    - generic [ref=e8065]:
+                      - generic [ref=e8066]:
+                        - generic [ref=e8067]:
+                          - img [ref=e8069]
+                          - heading "Top attractions" [level=3] [ref=e8071]:
+                            - generic [ref=e8072]: Top attractions
+                        - list [ref=e8073]:
+                          - listitem [ref=e8074]:
+                            - generic [ref=e8077]:
+                              - generic [ref=e8078]: Al Fanar Light House
+                              - generic [ref=e8080]: 11 km
+                      - generic [ref=e8081]:
+                        - generic [ref=e8082]:
+                          - img [ref=e8084]
+                          - heading "Restaurants & cafes" [level=3] [ref=e8086]:
+                            - generic [ref=e8087]: Restaurants & cafes
+                        - list [ref=e8088]:
+                          - listitem [ref=e8089]:
+                            - generic [ref=e8092]:
+                              - generic [ref=e8093]: Cafe/Bar Bedu Bar
+                              - generic [ref=e8095]: 10 m
+                          - listitem [ref=e8096]:
+                            - generic [ref=e8099]:
+                              - generic [ref=e8100]: Restaurant Ghazala Beach Bar
+                              - generic [ref=e8102]: 250 m
+                          - listitem [ref=e8103]:
+                            - generic [ref=e8106]:
+                              - generic [ref=e8107]: Cafe/Bar The Nook Cafe
+                              - generic [ref=e8109]: 350 m
+                      - generic [ref=e8110]:
+                        - generic [ref=e8111]:
+                          - img [ref=e8113]
+                          - heading "Beaches in the Neighborhood" [level=3] [ref=e8115]:
+                            - generic [ref=e8116]: Beaches in the Neighborhood
+                        - list [ref=e8117]:
+                          - listitem [ref=e8118]:
+                            - generic [ref=e8121]:
+                              - generic [ref=e8122]: Naama Bay Beach
+                              - generic [ref=e8124]: 100 m
+                          - listitem [ref=e8125]:
+                            - generic [ref=e8128]:
+                              - generic [ref=e8129]: Gardens Bay Beach
+                              - generic [ref=e8131]: 1.7 km
+                          - listitem [ref=e8132]:
+                            - generic [ref=e8135]:
+                              - generic [ref=e8136]: Domina Coral Bay Beach
+                              - generic [ref=e8138]: 5 km
+                          - listitem [ref=e8139]:
+                            - generic [ref=e8142]:
+                              - generic [ref=e8143]: Sharks Bay Beach
+                              - generic [ref=e8145]: 8 km
+                          - listitem [ref=e8146]:
+                            - generic [ref=e8149]:
+                              - generic [ref=e8150]: Reef Beach
+                              - generic [ref=e8152]: 8 km
+                      - generic [ref=e8153]:
+                        - generic [ref=e8154]:
+                          - img [ref=e8156]
+                          - heading "Closest Airports" [level=3] [ref=e8158]:
+                            - generic [ref=e8159]: Closest Airports
+                        - list [ref=e8160]:
+                          - listitem [ref=e8161]:
+                            - generic [ref=e8164]:
+                              - generic [ref=e8165]: Sharm el-Sheikh International Airport
+                              - generic [ref=e8167]: 7 km
+                    - generic [ref=e8168]: Shortest estimated walking or driving distances displayed. Actual distances may vary.
+                  - group [ref=e8171]:
+                    - generic [ref=e8173]: Missing some information?
+                    - generic [ref=e8175]:
+                      - button "Yes" [ref=e8177] [cursor=pointer]:
+                        - generic [ref=e8178]: "Yes"
+                      - generic [ref=e8179]:
+                        - text: /
+                        - button "No" [ref=e8180] [cursor=pointer]:
+                          - generic [ref=e8181]: "No"
+              - generic [ref=e7236]:
+                - generic [ref=e7237]:
+                  - generic [ref=e7238]:
+                    - heading "Food and Drink" [level=2] [ref=e7239]:
+                      - generic [ref=e7240]: Food and Drink
+                    - generic [ref=e8182]: Breakfast on site, restaurants on site, plus facilities and nearby options
+                  - button "See availability" [ref=e7242] [cursor=pointer]:
+                    - generic [ref=e7243]: See availability
+                - generic [ref=e7245]:
+                  - generic [ref=e7248]:
+                    - generic [ref=e7250]:
+                      - button "a restaurant with tables and chairs and a buffet at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh" [ref=e7252] [cursor=pointer]:
+                        - img "a restaurant with tables and chairs and a buffet at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh" [ref=e7254]
+                      - button "a restaurant with tables and chairs and a buffet at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh" [ref=e7256] [cursor=pointer]:
+                        - img "a restaurant with tables and chairs and a buffet at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh" [ref=e7258]
+                      - button "a woman sitting in a bed with a plate of food at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh" [ref=e7260] [cursor=pointer]:
+                        - img "a woman sitting in a bed with a plate of food at Hotel Novotel Sharm El-Sheikh in Sharm El Sheikh" [ref=e7262]
+                    - generic [ref=e7263]:
+                      - heading "Breakfast" [level=3] [ref=e7265]:
+                        - generic [ref=e7266]: Breakfast
+                      - list [ref=e7268]:
+                        - listitem [ref=e7269]:
+                          - generic [ref=e7270]: Good breakfast included with select options or available at the property for € 8.62 per person.
+                        - listitem [ref=e7271]:
+                          - generic [ref=e7272]:
+                            - generic [ref=e7273]: Served daily
+                            - generic [ref=e7274]: 06:30 to 10:30
+                        - listitem [ref=e7275]:
+                          - generic [ref=e7276]:
+                            - generic [ref=e7277]: Menu style
+                            - generic [ref=e7278]: Buffet
+                  - generic [ref=e7281]:
+                    - img [ref=e7288]
+                    - generic [ref=e7290]:
+                      - generic [ref=e7293]: AL DENTE
+                      - list [ref=e7295]:
+                        - listitem [ref=e7296]:
+                          - generic [ref=e7297]:
+                            - generic [ref=e7298]: Cuisine
+                            - generic [ref=e7299]: Italian • Mediterranean
+                        - listitem [ref=e7300]:
+                          - generic [ref=e7301]:
+                            - generic [ref=e7302]: Ambience
+                            - generic [ref=e7303]: Modern
+                        - listitem [ref=e7304]:
+                          - generic [ref=e7305]:
+                            - generic [ref=e7306]: Menu
+                            - generic [ref=e7307]: À la carte
+                  - generic [ref=e7310]:
+                    - img "More food and drink" [ref=e7312]
+                    - generic [ref=e7313]:
+                      - generic [ref=e7315]: More food and drink
+                      - generic [ref=e7316]: Meals • Restaurants • Facilities • Nearby options
+                    - button "View all food & drink details" [ref=e7317] [cursor=pointer]:
+                      - generic [ref=e7318]: View all food & drink details
+              - region "Survey with 2 questions" [ref=e7320]:
+                - generic [ref=e7324]:
+                  - button "Close survey" [ref=e7326] [cursor=pointer]:
+                    - img [ref=e7329]
+                  - heading "How are we doing?" [level=3] [ref=e7331]:
+                    - generic [ref=e7332]: How are we doing?
+                  - generic [ref=e7333]:
+                    - img [ref=e7335]
+                    - generic [ref=e7336]:
+                      - generic [ref=e7337]:
+                        - generic "Question 1 of 2" [ref=e7338]: 1 of 2
+                        - generic [ref=e7339]: Booking.com is easy to use
+                      - group "Rate how much you agree with the following statement. This is a 5-point scale, with 1 being strongly agree and 5 strongly disagree." [ref=e7341]:
+                        - generic [ref=e7342]:
+                          - radio "Strongly agree" [ref=e7343]
+                          - generic [ref=e7347] [cursor=pointer]: Strongly agree
+                        - generic [ref=e7348]:
+                          - radio "Agree" [ref=e7349]
+                          - generic [ref=e7353] [cursor=pointer]: Agree
+                        - generic [ref=e7354]:
+                          - radio "Neutral" [ref=e7355]
+                          - generic [ref=e7359] [cursor=pointer]: Neutral
+                        - generic [ref=e7360]:
+                          - radio "Disagree" [ref=e7361]
+                          - generic [ref=e7365] [cursor=pointer]: Disagree
+                        - generic [ref=e7366]:
+                          - radio "Strongly disagree" [ref=e7367]
+                          - generic [ref=e7371] [cursor=pointer]: Strongly disagree
+              - generic [ref=e7375]:
+                - generic [ref=e7376]:
+                  - generic [ref=e7377]:
+                    - heading "House rules" [level=2] [ref=e7378]:
+                      - generic [ref=e7379]: House rules
+                    - generic [ref=e7380]: Hotel Novotel Sharm El-Sheikh takes special requests – add in the next step!
+                  - button "See availability" [ref=e7382] [cursor=pointer]:
+                    - generic [ref=e7383]: See availability
+                - generic [ref=e7385]:
+                  - generic [ref=e7386]:
+                    - generic [ref=e7388]:
+                      - img [ref=e7390]
+                      - generic [ref=e7392]: Check-in
+                    - generic [ref=e7393]:
+                      - generic [ref=e7394]: From 3:00 PM
+                      - generic [ref=e7395]: Guests are required to show a photo ID and credit card at check-in.
+                      - generic [ref=e7396]: You need to let the property know what time you'll be arriving in advance.
+                  - separator [ref=e7397]
+                  - generic [ref=e7398]:
+                    - generic [ref=e7400]:
+                      - img [ref=e7402]
+                      - generic [ref=e7404]: Check-out
+                    - generic [ref=e7406]: Until 12:00 PM
+                  - separator [ref=e7407]
+                  - generic [ref=e7408]:
+                    - generic [ref=e7410]:
+                      - img [ref=e7412]
+                      - generic [ref=e7414]: Cancellation/ prepayment
+                    - generic [ref=e7416]:
+                      - text: Cancellation and prepayment policies vary according to accommodation type. Check what
+                      - link "conditions" [ref=e7417] [cursor=pointer]:
+                        - /url: "#availability_target"
+                      - text: apply to each option when making your selection.
+                  - separator [ref=e7418]
+                  - generic [ref=e7419]:
+                    - generic [ref=e7421]:
+                      - img [ref=e7423]
+                      - generic [ref=e7425]: Children & Beds
+                    - generic [ref=e7427]:
+                      - generic [ref=e7428]:
+                        - heading "Child policies" [level=3] [ref=e7429]
+                        - paragraph [ref=e7430]: Children of all ages are welcome.
+                        - paragraph [ref=e7431]: Children 12 and above will be charged as adults at this property.
+                        - paragraph [ref=e7432]: To see correct prices and occupancy info, add the number and ages of children in your group to your search.
+                      - heading "Crib and extra bed policies" [level=3] [ref=e7433]
+                      - generic [ref=e7434]:
+                        - paragraph [ref=e7435]: The number of cribs allowed depends on the option you choose. Check your selected option for more info.
+                        - paragraph [ref=e7436]: There are no extra beds available at this property.
+                        - paragraph [ref=e7437]: All cribs are subject to availability.
+                  - separator [ref=e7438]
+                  - generic [ref=e7439]:
+                    - generic [ref=e7441]:
+                      - img [ref=e7443]
+                      - generic [ref=e7445]: No age restriction
+                    - generic [ref=e7447]: There's no age requirement for check-in
+                  - separator [ref=e7448]
+                  - generic [ref=e7449]:
+                    - generic [ref=e7451]:
+                      - img [ref=e7453]
+                      - generic [ref=e7455]: Pets
+                    - generic [ref=e7457]:
+                      - generic [ref=e7459]: Free!
+                      - text: Pets are allowed on request. No extra charges.
+                  - separator [ref=e7460]
+                  - generic [ref=e7461]:
+                    - generic [ref=e7463]:
+                      - img [ref=e7465]
+                      - generic [ref=e7467]: Groups
+                    - generic [ref=e7469]: When booking more than 7 rooms, different policies and additional fees may apply.
+                  - separator [ref=e7470]
+                  - generic [ref=e7471]:
+                    - generic [ref=e7473]:
+                      - img [ref=e7475]
+                      - generic [ref=e7477]: Cards accepted at this property
+                    - generic [ref=e7479]:
+                      - img "Visa" [ref=e7481]
+                      - img "Mastercard" [ref=e7483]
+                      - generic [ref=e7485]: Cash is not accepted
+              - generic [ref=e7489]:
+                - generic [ref=e7490]:
+                  - generic [ref=e7491]:
+                    - heading "The fine print" [level=2] [ref=e7492]:
+                      - generic [ref=e7493]: The fine print
+                    - generic [ref=e7494]: Must-know information for guests at this property
+                  - button "See availability" [ref=e7496] [cursor=pointer]:
+                    - generic [ref=e7497]: See availability
+                - generic [ref=e7500]:
+                  - paragraph [ref=e7501]: Please note that there is an extra charge for late check-out until 17:00 hours.
+                  - paragraph [ref=e7502]: Only pets under 3kg are allowed in.
+                  - paragraph [ref=e7503]: Dear Valued Guests, We are thrilled to announce the successful completion of the renovation process at Novotel Sharm El Sheikh! We are delighted to welcome you to our new and renovated space, where your comfort and satisfaction remain our top priorities.
+                  - paragraph [ref=e7504]: Guests are required to show a photo ID and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.
+                  - paragraph [ref=e7505]: Please inform Hotel Novotel Sharm El-Sheikh of your expected arrival time in advance. You can use the Special Requests box when booking, or contact the property directly using the contact details in your confirmation.
+                  - paragraph [ref=e7506]: Guests under the age of 18 can only check in with a parent or official guardian.
+              - generic [ref=e7508]:
+                - heading "Legal information" [level=2] [ref=e7509]
+                - generic [ref=e7510]:
+                  - text: "This property is managed, licensed, or represented by a business. This label has no relevance in terms of tax, including VAT and other \"indirect taxes,\" but is required under applicable consumer laws. Find more info about the business here:"
+                  - button "See business details" [ref=e7511] [cursor=pointer]:
+                    - generic [ref=e7512]: See business details
+                  - text: .
+            - generic [ref=e7515]:
+              - heading "FAQs about Hotel Novotel Sharm El-Sheikh" [level=2] [ref=e7517]
+              - generic [ref=e7518]:
+                - generic [ref=e7520]:
+                  - button "What kind of breakfast is served at Hotel Novotel Sharm El-Sheikh?" [ref=e7523] [cursor=pointer]:
+                    - heading "What kind of breakfast is served at Hotel Novotel Sharm El-Sheikh?" [level=3] [ref=e7525]
+                    - img [ref=e7527]
+                  - separator [ref=e7529]
+                  - button "Does Hotel Novotel Sharm El-Sheikh have a pool?" [ref=e7532] [cursor=pointer]:
+                    - heading "Does Hotel Novotel Sharm El-Sheikh have a pool?" [level=3] [ref=e7534]
+                    - img [ref=e7536]
+                  - separator [ref=e7538]
+                  - button "What type of room can I book at Hotel Novotel Sharm El-Sheikh?" [ref=e7541] [cursor=pointer]:
+                    - heading "What type of room can I book at Hotel Novotel Sharm El-Sheikh?" [level=3] [ref=e7543]
+                    - img [ref=e7545]
+                  - separator [ref=e7547]
+                  - button "What are the check-in and check-out times at Hotel Novotel Sharm El-Sheikh?" [ref=e7550] [cursor=pointer]:
+                    - heading "What are the check-in and check-out times at Hotel Novotel Sharm El-Sheikh?" [level=3] [ref=e7552]
+                    - img [ref=e7554]
+                  - separator [ref=e7556]
+                  - button "How much does it cost to stay at Hotel Novotel Sharm El-Sheikh?" [ref=e7559] [cursor=pointer]:
+                    - heading "How much does it cost to stay at Hotel Novotel Sharm El-Sheikh?" [level=3] [ref=e7561]
+                    - img [ref=e7563]
+                - generic [ref=e7566]:
+                  - button "Does Hotel Novotel Sharm El-Sheikh have a restaurant on site?" [ref=e7569] [cursor=pointer]:
+                    - heading "Does Hotel Novotel Sharm El-Sheikh have a restaurant on site?" [level=3] [ref=e7571]
+                    - img [ref=e7573]
+                  - separator [ref=e7575]
+                  - button "What is there to do at Hotel Novotel Sharm El-Sheikh?" [ref=e7578] [cursor=pointer]:
+                    - heading "What is there to do at Hotel Novotel Sharm El-Sheikh?" [level=3] [ref=e7580]
+                    - img [ref=e7582]
+                  - separator [ref=e7584]
+                  - button "How far is Hotel Novotel Sharm El-Sheikh from the center of Sharm El Sheikh?" [ref=e7587] [cursor=pointer]:
+                    - heading "How far is Hotel Novotel Sharm El-Sheikh from the center of Sharm El Sheikh?" [level=3] [ref=e7589]
+                    - img [ref=e7591]
+                  - separator [ref=e7593]
+                  - button "How close to the beach is Hotel Novotel Sharm El-Sheikh?" [ref=e7596] [cursor=pointer]:
+                    - heading "How close to the beach is Hotel Novotel Sharm El-Sheikh?" [level=3] [ref=e7598]
+                    - img [ref=e7600]
+      - button "The Best of Sharm El Sheikh Click here to see more hotels and accommodations near popular landmarks in Sharm El Sheikh" [ref=e7605] [cursor=pointer]:
+        - generic [ref=e7607]:
+          - generic [ref=e7609]: The Best of Sharm El Sheikh
+          - generic [ref=e7610]: Click here to see more hotels and accommodations near popular landmarks in Sharm El Sheikh
+        - img [ref=e7612]
+  - contentinfo [ref=e7614]:
+    - contentinfo [ref=e7618]:
+      - navigation "Quick Links" [ref=e7621]:
+        - list [ref=e7622]:
+          - listitem [ref=e7623]:
+            - link "Countries" [ref=e7624] [cursor=pointer]:
+              - /url: https://www.booking.com/country.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e7626]: Countries
+            - text: .
+          - listitem [ref=e7627]:
+            - link "Regions" [ref=e7628] [cursor=pointer]:
+              - /url: https://www.booking.com/region.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e7630]: Regions
+            - text: .
+          - listitem [ref=e7631]:
+            - link "Cities" [ref=e7632] [cursor=pointer]:
+              - /url: https://www.booking.com/city.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e7634]: Cities
+            - text: .
+          - listitem [ref=e7635]:
+            - link "Districts" [ref=e7636] [cursor=pointer]:
+              - /url: https://www.booking.com/district.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e7638]: Districts
+            - text: .
+          - listitem [ref=e7639]:
+            - link "Airports" [ref=e7640] [cursor=pointer]:
+              - /url: https://www.booking.com/airport.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e7642]: Airports
+            - text: .
+          - listitem [ref=e7643]:
+            - link "Hotels" [ref=e7644] [cursor=pointer]:
+              - /url: https://www.booking.com/hotel/index.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e7646]: Hotels
+            - text: .
+          - listitem [ref=e7647]:
+            - link "Places of interest" [ref=e7648] [cursor=pointer]:
+              - /url: https://www.booking.com/landmark.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e7650]: Places of interest
+            - text: .
+          - listitem [ref=e7651]:
+            - link "Vacation Homes" [ref=e7652] [cursor=pointer]:
+              - /url: https://www.booking.com/booking-home/index.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e7654]: Vacation Homes
+            - text: .
+          - listitem [ref=e7655]:
+            - link "Apartments" [ref=e7656] [cursor=pointer]:
+              - /url: https://www.booking.com/apartments/index.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e7658]: Apartments
+            - text: .
+          - listitem [ref=e7659]:
+            - link "Resorts" [ref=e7660] [cursor=pointer]:
+              - /url: https://www.booking.com/resorts/index.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e7662]: Resorts
+            - text: .
+          - listitem [ref=e7663]:
+            - link "Villas" [ref=e7664] [cursor=pointer]:
+              - /url: https://www.booking.com/villas/index.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e7666]: Villas
+            - text: .
+          - listitem [ref=e7667]:
+            - link "Hostels" [ref=e7668] [cursor=pointer]:
+              - /url: https://www.booking.com/hostels/index.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e7670]: Hostels
+            - text: .
+          - listitem [ref=e7671]:
+            - link "B&Bs" [ref=e7672] [cursor=pointer]:
+              - /url: https://www.booking.com/bed-and-breakfast/index.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e7674]: B&Bs
+            - text: .
+          - listitem [ref=e7675]:
+            - link "Guest Houses" [ref=e7676] [cursor=pointer]:
+              - /url: https://www.booking.com/guest-house/index.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e7678]: Guest Houses
+            - text: .
+          - listitem [ref=e7679]:
+            - link "Unique places to stay" [ref=e7680] [cursor=pointer]:
+              - /url: https://www.booking.com/accommodations.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e7682]: Unique places to stay
+            - text: .
+          - listitem [ref=e7683]:
+            - link "Discover monthly stays" [ref=e7684] [cursor=pointer]:
+              - /url: https://www.booking.com/extended-stays/index.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e7686]: Discover monthly stays
+      - generic [ref=e7688]:
+        - generic [ref=e7689]:
+          - heading "Support" [level=3] [ref=e7691]
+          - list [ref=e7692]:
+            - listitem [ref=e7693]:
+              - link "Manage your trips" [ref=e7695] [cursor=pointer]:
+                - /url: https://secure.booking.com/mytrips.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e7696]: Manage your trips
+            - listitem [ref=e7697]:
+              - link "Contact Customer Service" [ref=e7699] [cursor=pointer]:
+                - /url: https://secure.booking.com/help.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e7700]: Contact Customer Service
+            - listitem [ref=e7701]:
+              - link "Safety Resource Center" [ref=e7703] [cursor=pointer]:
+                - /url: https://www.booking.com/trust_and_safety.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e7704]: Safety Resource Center
+        - generic [ref=e7705]:
+          - heading "Discover" [level=3] [ref=e7707]
+          - list [ref=e7708]:
+            - listitem [ref=e7709]:
+              - link "Genius loyalty program" [ref=e7711] [cursor=pointer]:
+                - /url: https://www.booking.com/genius.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e7712]: Genius loyalty program
+            - listitem [ref=e7713]:
+              - link "Seasonal and holiday deals" [ref=e7715] [cursor=pointer]:
+                - /url: https://www.booking.com/deals/index.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e7716]: Seasonal and holiday deals
+            - listitem [ref=e7717]:
+              - link "Travel articles" [ref=e7719] [cursor=pointer]:
+                - /url: https://www.booking.com/articles.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e7720]: Travel articles
+            - listitem [ref=e7721]:
+              - link "Booking.com for Business" [ref=e7723] [cursor=pointer]:
+                - /url: https://business.booking.com/?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e7724]: Booking.com for Business
+            - listitem [ref=e7725]:
+              - link "Traveller Review Awards" [ref=e7727] [cursor=pointer]:
+                - /url: https://www.booking.com/traveller-awards/index.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e7728]: Traveller Review Awards
+            - listitem [ref=e7729]:
+              - link "Car rental" [ref=e7731] [cursor=pointer]:
+                - /url: https://www.booking.com/cars/index.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e7732]: Car rental
+            - listitem [ref=e7733]:
+              - link "Flight finder" [ref=e7735] [cursor=pointer]:
+                - /url: https://booking.com/pxgo?label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&token=UmFuZG9tSVYkc2RlIyh9YXYkRVs_GG8E7j4ArIeJPd_njBrBqXYthmqQ3YlH482JDog4ji7hrTt1NxiSv6NlzR1pnFy7Dw17Kls4SOejOsEvtTLVtxJIpLhm7_wayo6YxsW_VPAI9P9pwtovphIjxr6X-pumrGsnnKP2B0hCWT8YwUjoaL52vPNvJrCt5MEHCD3HC8vv5cfRvNVkIiIJnc3p89G-7i6x53BZQRR22dusBmCRZGCS9_MNxIHIxcRDxyUUKLUDze1a6mq3SPTsX0qtMr2q0zCYp4uhKNAHZuodyVo2DjwoBIQOdT2VQyMggUHgbnxmTi_oV_Sg4G6FLCCzEYTQJTcbGk1WUpPudLaoLHX0V1uGa3xHwPswL5xIKKIML_owxyBxC8WCbjxiPdTlKkxdJDAQIi6Px6eaTp2BF8x89bwDJoy1olsSkFcNIYfZigjpcHLEmhOBMINWfEFhb2YDDqPgUUwM80xN-ld2Iv-v4pYXi_XzdmEC-A8WsUk2OEpsloMU-2tDg146iHaBISR7TpDOrgvlsEACTs6rzQz070IdgbRtduI3qZKi&aid=304142&url=https%3A%2F%2Fbooking.kayak.com%2Fin%3Fsid%3D62602bd6875882c94a550124b54b5306%26mc%3DEUR%26bdclc%3Den-us%26p%3Dfooter_link%26a%3Dbdc%252Ffooter_link&lang=en-us
+                - generic [ref=e7736]: Flight finder
+            - listitem [ref=e7737]:
+              - link "Restaurant reservations" [ref=e7739] [cursor=pointer]:
+                - /url: https://www.opentable.com/?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&ref=16087
+                - generic [ref=e7740]: Restaurant reservations
+            - listitem [ref=e7741]:
+              - link "Booking.com for Travel Agents" [ref=e7743] [cursor=pointer]:
+                - /url: https://www.booking.com/affiliate-program/v2/index.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306&utm_campaign=booking-footer&utm_content=travel-agents-link&utm_medium=referral&utm_source=booking.com
+                - generic [ref=e7744]: Booking.com for Travel Agents
+        - generic [ref=e7745]:
+          - heading "Terms and settings" [level=3] [ref=e7747]
+          - list [ref=e7748]:
+            - listitem [ref=e7749]:
+              - link "Manage cookie settings" [ref=e7751] [cursor=pointer]:
+                - /url: https://www.booking.com/content/privacy.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e7752]: Manage cookie settings
+            - listitem [ref=e7753]:
+              - link "Privacy Notice" [ref=e7755] [cursor=pointer]:
+                - /url: https://www.booking.com/content/privacy.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e7756]: Privacy Notice
+            - listitem [ref=e7757]:
+              - link "Terms of Service" [ref=e7759] [cursor=pointer]:
+                - /url: https://www.booking.com/content/terms.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e7760]: Terms of Service
+            - listitem [ref=e7761]:
+              - link "Accessibility Statement" [ref=e7763] [cursor=pointer]:
+                - /url: https://www.booking.com/content/accessibility_statement.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e7764]: Accessibility Statement
+            - listitem [ref=e7765]:
+              - link "Dispute resolution" [ref=e7767] [cursor=pointer]:
+                - /url: https://secure.booking.com/content/complaints.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e7768]: Dispute resolution
+            - listitem [ref=e7769]:
+              - link "Modern Slavery Statement" [ref=e7771] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/modern-slavery-statement/?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB
+                - generic [ref=e7772]: Modern Slavery Statement
+            - listitem [ref=e7773]:
+              - link "Human Rights Statement" [ref=e7775] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/about/compliance-and-ethics/human-rights/?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB
+                - generic [ref=e7776]: Human Rights Statement
+            - listitem [ref=e7777]:
+              - link "Manage personalized recommendations" [ref=e7779] [cursor=pointer]:
+                - /url: https://account.booking.com/mysettings/preferences?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB
+                - generic [ref=e7780]: Manage personalized recommendations
+        - generic [ref=e7781]:
+          - heading "Partners" [level=3] [ref=e7783]
+          - list [ref=e7784]:
+            - listitem [ref=e7785]:
+              - link "Extranet login" [ref=e7787] [cursor=pointer]:
+                - /url: https://admin.booking.com/?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306&utm_campaign=login_footer_v0&utm_medium=frontend&utm_source=extranet_login_footer
+                - generic [ref=e7788]: Extranet login
+            - listitem [ref=e7789]:
+              - link "Partner help" [ref=e7791] [cursor=pointer]:
+                - /url: https://partner.booking.com/en-us?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306&utm_campaign=footer_list&utm_medium=frontend_footer&utm_source=booking.com
+                - generic [ref=e7792]: Partner help
+            - listitem [ref=e7793]:
+              - link "List your property" [ref=e7795] [cursor=pointer]:
+                - /url: https://join.booking.com/?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&lang=en-us&sid=62602bd6875882c94a550124b54b5306&utm_medium=frontend&utm_source=footer_menu
+                - generic [ref=e7796]: List your property
+            - listitem [ref=e7797]:
+              - link "Become an affiliate" [ref=e7799] [cursor=pointer]:
+                - /url: https://www.booking.com/affiliate-program/v2/index.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306&utm_campaign=booking-footer&utm_content=become-an-affiliate-link&utm_medium=referral&utm_source=booking.com
+                - generic [ref=e7800]: Become an affiliate
+        - generic [ref=e7801]:
+          - heading "About" [level=3] [ref=e7803]
+          - list [ref=e7804]:
+            - listitem [ref=e7805]:
+              - link "About Booking.com" [ref=e7807] [cursor=pointer]:
+                - /url: https://www.booking.com/content/about.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e7808]: About Booking.com
+            - listitem [ref=e7809]:
+              - link "How We Work" [ref=e7811] [cursor=pointer]:
+                - /url: https://www.booking.com/content/how_we_work.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e7812]: How We Work
+            - listitem [ref=e7813]:
+              - link "Sustainability" [ref=e7815] [cursor=pointer]:
+                - /url: https://www.sustainability.booking.com/?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB
+                - generic [ref=e7816]: Sustainability
+            - listitem [ref=e7817]:
+              - link "Press center" [ref=e7819] [cursor=pointer]:
+                - /url: https://globalnews.booking.com/?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&lang=en
+                - generic [ref=e7820]: Press center
+            - listitem [ref=e7821]:
+              - link "Careers" [ref=e7823] [cursor=pointer]:
+                - /url: https://careers.booking.com/?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB
+                - generic [ref=e7824]: Careers
+            - listitem [ref=e7825]:
+              - link "Investor relations" [ref=e7827] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB
+                - generic [ref=e7828]: Investor relations
+            - listitem [ref=e7829]:
+              - link "Corporate contact" [ref=e7831] [cursor=pointer]:
+                - /url: https://www.booking.com/content/contact-us.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e7832]: Corporate contact
+            - listitem [ref=e7833]:
+              - link "Content guidelines and reporting" [ref=e7835] [cursor=pointer]:
+                - /url: https://www.booking.com/content-moderation-policy/overview-page.html?aid=304142&label=gen173nr-10CAsoQ0IXbm92b3RlbC1zaGFybS1lbC1zaGVpa2hIM1gEaEKIAQGYATO4ARnIAQzYAQPoAQH4AQGIAgGoAgG4Atm9r8sGwAIB0gIkMTc3ZWFhOTEtODE4Ni00ZDU5LWFkNmYtODgxY2MxY2NjYWI32AIB4AIB&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e7836]: Content guidelines and reporting
+      - generic [ref=e7838]:
+        - generic [ref=e7839]:
+          - 'button "Language: English (US)" [ref=e7841] [cursor=pointer]'
+          - button "Prices in Euro" [ref=e7846] [cursor=pointer]:
+            - generic [ref=e7847]: EUR
+        - separator [ref=e7848]
+        - generic [ref=e7849]:
+          - generic [ref=e7851]: Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.
+          - generic [ref=e7852]: Copyright © 1996–2026 Booking.com™. All rights reserved.
+        - generic [ref=e7853]:
+          - img "Booking.com" [ref=e7854]:
+            - img [ref=e7855]
+          - img "Priceline.com" [ref=e7857]:
+            - img [ref=e7858]
+          - img "Kayak" [ref=e7861]:
+            - img [ref=e7862]
+          - img "Agoda" [ref=e7876]:
+            - img [ref=e7877]
+          - img "OpenTable" [ref=e7885]:
+            - img [ref=e7886]
+  - text: 끖 낝 끲 낝 넌
+```

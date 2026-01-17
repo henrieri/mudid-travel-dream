@@ -1,0 +1,3124 @@
+### Page state
+- Page URL: https://www.booking.com/hotel/eg/savoy-sharm-el-sheikh.html?checkin=2026-02-15&checkout=2026-02-22&group_adults=2&no_rooms=2
+- Page Title: Savoy Sharm El Sheikh, Sharm El Sheikh (updated prices 2026)
+- Page Snapshot:
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e3] [cursor=pointer]:
+    - /url: "#basiclayout"
+    - generic [ref=e5]: Skip to main content
+  - banner [ref=e9]:
+    - generic [ref=e10]:
+      - navigation [ref=e11]:
+        - link "Booking.com" [ref=e15] [cursor=pointer]:
+          - /url: https://www.booking.com/index.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+          - img [ref=e16]
+        - generic [ref=e18]:
+          - button "Prices in Euro" [ref=e20] [cursor=pointer]:
+            - generic [ref=e21]: EUR
+          - 'button "Language: English (US)" [ref=e23] [cursor=pointer]'
+          - link "Customer support" [ref=e28] [cursor=pointer]:
+            - /url: https://secure.booking.com/help.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306&source=header&src=profile_contact_cs
+            - img [ref=e31]
+          - link "List your property" [ref=e33] [cursor=pointer]:
+            - /url: https://join.booking.com/?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&lang=en-us&sid=62602bd6875882c94a550124b54b5306&utm_medium=frontend&utm_source=topbar
+            - generic [ref=e34]: List your property
+          - button "Your account menu Henri Erilaid Genius Level 2" [ref=e37] [cursor=pointer]:
+            - generic "Your account menu Henri Erilaid Genius Level 2" [ref=e39]:
+              - generic [ref=e42]:
+                - generic [ref=e43]: Henri Erilaid
+                - generic [ref=e46]: Genius Level 2
+      - navigation "What are you looking for?" [ref=e47]:
+        - menubar [ref=e49]:
+          - menuitem "Stays" [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]:
+              - img [ref=e53]
+              - generic [ref=e55]: Stays
+          - menuitem "Flights" [ref=e56] [cursor=pointer]:
+            - generic [ref=e57]:
+              - img [ref=e59]
+              - generic [ref=e61]: Flights
+          - menuitem "Flight + Hotel" [ref=e62] [cursor=pointer]:
+            - generic [ref=e63]:
+              - img [ref=e65]
+              - generic [ref=e67]: Flight + Hotel
+          - menuitem "Car rental" [ref=e68] [cursor=pointer]:
+            - generic [ref=e69]:
+              - img [ref=e71]
+              - generic [ref=e73]: Car rental
+          - menuitem "Attractions" [ref=e74] [cursor=pointer]:
+            - generic [ref=e75]:
+              - img [ref=e77]
+              - generic [ref=e79]: Attractions
+          - menuitem "Airport taxis" [ref=e80] [cursor=pointer]:
+            - generic [ref=e81]:
+              - img [ref=e83]
+              - generic [ref=e85]: Airport taxis
+  - region "Search properties" [ref=e91]:
+    - generic [ref=e92]:
+      - generic [ref=e98]:
+        - img [ref=e101]
+        - combobox "Where are you going?" [ref=e103]: Sharm El Sheikh
+        - button "Clear" [ref=e106] [cursor=pointer]:
+          - img "Clear" [ref=e107]:
+            - img [ref=e108]
+      - button "Sun, Feb 15 — Sun, Feb 22" [ref=e112] [cursor=pointer]:
+        - generic [ref=e113]:
+          - img [ref=e115]
+          - generic [ref=e117]: Sun, Feb 15
+          - generic [ref=e118]: —
+          - generic [ref=e119]: Sun, Feb 22
+      - 'button "Number of travelers and rooms. Currently selected: 2 adults · 0 children · 2 rooms" [ref=e122] [cursor=pointer]':
+        - generic [ref=e123]:
+          - img [ref=e125]
+          - text: 2 adults · 0 children · 2 rooms
+        - img [ref=e128]
+      - button "Search" [ref=e131] [cursor=pointer]:
+        - generic [ref=e132]: Search
+    - group
+  - generic [ref=e134]:
+    - navigation "Breadcrumbs" [ref=e138]:
+      - list [ref=e139]:
+        - listitem [ref=e140]:
+          - link "Home" [ref=e141] [cursor=pointer]:
+            - /url: https://www.booking.com/index.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ
+            - generic [ref=e142]: Home
+          - img [ref=e144]
+        - listitem [ref=e146]:
+          - link "Hotels" [ref=e147] [cursor=pointer]:
+            - /url: https://www.booking.com/hotel/index.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ
+            - generic [ref=e148]: Hotels
+          - img [ref=e150]
+        - listitem [ref=e152]:
+          - link "All resorts" [ref=e153] [cursor=pointer]:
+            - /url: https://www.booking.com/resorts/index.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ
+            - generic [ref=e154]: All resorts
+          - img [ref=e156]
+        - listitem [ref=e158]:
+          - link "Egypt" [ref=e159] [cursor=pointer]:
+            - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&dest_id=63&dest_type=country&nflt=sth%3D12
+            - generic [ref=e160]: Egypt
+          - img [ref=e162]
+        - listitem [ref=e164]:
+          - link "South Sinai" [ref=e165] [cursor=pointer]:
+            - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&dest_id=3151&dest_type=region&nflt=sth%3D12
+            - generic [ref=e166]: South Sinai
+          - img [ref=e168]
+        - listitem [ref=e170]:
+          - link "Sharm El Sheikh" [ref=e171] [cursor=pointer]:
+            - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&dest_id=-302053&dest_type=city&nflt=sth%3D12
+            - generic [ref=e172]: Sharm El Sheikh
+          - img [ref=e174]
+        - listitem [ref=e176]:
+          - heading "Savoy Sharm El Sheikh (Resort) (Egypt) Deals" [level=1] [ref=e178]:
+            - generic [ref=e179]: Savoy Sharm El Sheikh (Resort) (Egypt) Deals
+    - generic [ref=e180]:
+      - main [ref=e181]:
+        - generic [ref=e182]:
+          - generic [ref=e184]:
+            - navigation "Internal page link" [ref=e188]:
+              - list [ref=e190]:
+                - listitem [ref=e191]:
+                  - link "Overview" [ref=e192] [cursor=pointer]:
+                    - /url: "#hotelTmpl"
+                    - generic [ref=e194]: Overview
+                - listitem [ref=e195]:
+                  - link "Info & prices" [ref=e196] [cursor=pointer]:
+                    - /url: "#availability"
+                    - generic [ref=e198]: Info & prices
+                - listitem [ref=e199]:
+                  - link "Facilities" [ref=e200] [cursor=pointer]:
+                    - /url: "#hp_facilities_box"
+                    - generic [ref=e202]: Facilities
+                - listitem [ref=e203]:
+                  - link "House rules" [ref=e204] [cursor=pointer]:
+                    - /url: "#policies"
+                    - generic [ref=e206]: House rules
+                - listitem [ref=e207]:
+                  - link "Important and legal info" [ref=e208] [cursor=pointer]:
+                    - /url: "#important_info"
+                    - generic [ref=e210]: Important and legal info
+                - listitem [ref=e211]:
+                  - link "Guest reviews (2,103)" [ref=e212] [cursor=pointer]:
+                    - /url: "#blockdisplay4"
+                    - generic [ref=e214]: Guest reviews (2,103)
+            - generic [ref=e216]:
+              - generic [ref=e217]:
+                - button "Save this item to a trip list" [ref=e225] [cursor=pointer]:
+                  - img [ref=e3991]
+                - button "Share this property" [ref=e235] [cursor=pointer]:
+                  - img [ref=e238]
+                - button "Reserve" [ref=e240] [cursor=pointer]:
+                  - generic [ref=e241]: Reserve
+                - button "We Price Match" [ref=e245] [cursor=pointer]:
+                  - img [ref=e248]
+                  - generic [ref=e250]: We Price Match
+              - generic [ref=e252]:
+                - generic [ref=e255]:
+                  - button "5 out of 5 stars" [ref=e257] [cursor=pointer]:
+                    - img "5 out of 5 stars" [ref=e258]:
+                      - generic [ref=e259]:
+                        - img [ref=e261]
+                        - img [ref=e264]
+                      - generic [ref=e266]:
+                        - img [ref=e268]
+                        - img [ref=e271]
+                      - generic [ref=e273]:
+                        - img [ref=e275]
+                        - img [ref=e278]
+                      - generic [ref=e280]:
+                        - img [ref=e282]
+                        - img [ref=e285]
+                      - generic [ref=e287]:
+                        - img [ref=e289]
+                        - img [ref=e292]
+                  - button [ref=e295] [cursor=pointer]:
+                    - img [ref=e297]
+                  - button "Beachfront · Private Beach" [ref=e300] [cursor=pointer]:
+                    - generic [ref=e303]:
+                      - img [ref=e305]
+                      - generic [ref=e307]: Beachfront · Private Beach
+                  - generic [ref=e309]:
+                    - img [ref=e312]
+                    - button "Free taxi available" [ref=e316] [cursor=pointer]:
+                      - generic [ref=e317]: Free taxi available
+                - heading "Savoy Sharm El Sheikh" [level=2] [ref=e319]
+              - generic [ref=e324]:
+                - link "Savoy Sharm El Sheikh, Sharm El Sheikh - Check location" [ref=e325] [cursor=pointer]:
+                  - /url: "#map_opened-map_trigger_header_pin"
+                  - img [ref=e328]
+                - generic [ref=e330]:
+                  - button "Soho Square, Sharm El Sheikh, Egypt" [ref=e332] [cursor=pointer]:
+                    - generic [ref=e333]:
+                      - text: Soho Square, Sharm El Sheikh, Egypt
+                      - generic [ref=e334]:
+                        - generic [ref=e335]:
+                          - text: Excellent location – rated 9.4/10!
+                          - generic [ref=e336]: (score from 2071 reviews)
+                        - generic [ref=e337]: Real guests • Real stays • Real opinions
+                  - text: –
+                  - link "Excellent location – show map" [ref=e338] [cursor=pointer]:
+                    - /url: "#map_opened-map_trigger_header"
+                    - generic [ref=e339]: Excellent location – show map
+            - generic "Photo Gallery of Savoy Sharm El Sheikh" [ref=e343]:
+              - region "Photo gallery for Savoy Sharm El Sheikh" [ref=e345]:
+                - generic [ref=e348]:
+                  - generic [ref=e349]:
+                    - button "a large swimming pool in front of a resort at Savoy Sharm El Sheikh in Sharm El Sheikh" [ref=e351] [cursor=pointer]:
+                      - img "a large swimming pool in front of a resort at Savoy Sharm El Sheikh in Sharm El Sheikh" [ref=e353]
+                    - generic [ref=e354]:
+                      - button "a large swimming pool in front of a large building at Savoy Sharm El Sheikh in Sharm El Sheikh" [ref=e356] [cursor=pointer]:
+                        - img "a large swimming pool in front of a large building at Savoy Sharm El Sheikh in Sharm El Sheikh" [ref=e358]
+                      - button "an aerial view of the resort and the ocean at Savoy Sharm El Sheikh in Sharm El Sheikh" [ref=e360] [cursor=pointer]:
+                        - img "an aerial view of the resort and the ocean at Savoy Sharm El Sheikh in Sharm El Sheikh" [ref=e362]
+                  - generic [ref=e363]:
+                    - button "a large swimming pool in a resort with palm trees at Savoy Sharm El Sheikh in Sharm El Sheikh" [ref=e365] [cursor=pointer]:
+                      - img "a large swimming pool in a resort with palm trees at Savoy Sharm El Sheikh in Sharm El Sheikh" [ref=e367]
+                    - button "an aerial view of a resort with a swimming pool at Savoy Sharm El Sheikh in Sharm El Sheikh" [ref=e369] [cursor=pointer]:
+                      - img "an aerial view of a resort with a swimming pool at Savoy Sharm El Sheikh in Sharm El Sheikh" [ref=e371]
+                    - button "a bridge over a pool at a resort at Savoy Sharm El Sheikh in Sharm El Sheikh" [ref=e373] [cursor=pointer]:
+                      - img "a bridge over a pool at a resort at Savoy Sharm El Sheikh in Sharm El Sheikh" [ref=e375]
+                    - button "an aerial view of a resort with a pool and palm trees at Savoy Sharm El Sheikh in Sharm El Sheikh" [ref=e377] [cursor=pointer]:
+                      - img "an aerial view of a resort with a pool and palm trees at Savoy Sharm El Sheikh in Sharm El Sheikh" [ref=e379]
+                    - generic [ref=e380]:
+                      - button "a resort with a amphitheater and stairs and palm trees at Savoy Sharm El Sheikh in Sharm El Sheikh +45 photos" [ref=e381] [cursor=pointer]:
+                        - img "a resort with a amphitheater and stairs and palm trees at Savoy Sharm El Sheikh in Sharm El Sheikh +45 photos" [ref=e383]
+                      - generic: +45 photos
+            - generic [ref=e385]:
+              - generic [ref=e388]:
+                - link "Scored 8.8 Rated excellent" [ref=e390] [cursor=pointer]:
+                  - /url: "#blockdisplay4"
+                  - generic [ref=e393]:
+                    - generic [ref=e394]: Scored 8.8
+                    - generic [ref=e395]: "8.8"
+                    - generic [ref=e396]: Rated excellent
+                    - generic [ref=e397]:
+                      - generic [ref=e398]: Excellent
+                      - generic [ref=e399]: 2,103 reviews
+                - separator [ref=e400]
+                - generic [ref=e402]:
+                  - heading "Guests who stayed here loved" [level=3] [ref=e403]
+                  - generic [ref=e404]:
+                    - region "Guests who stayed here loved" [ref=e405]:
+                      - group [ref=e406]:
+                        - generic [ref=e408]:
+                          - generic [ref=e411]: “The location close to the airport and walking to soho square , swimming pools, Beach, the size of the room and balcony. when you stay in savoy you...”
+                          - generic [ref=e417]:
+                            - text: Hani
+                            - img "Saudi Arabia" [ref=e418]
+                            - generic [ref=e419]: Saudi Arabia
+                      - group [ref=e420]:
+                        - generic [ref=e422]:
+                          - generic [ref=e425]: “Everything was good! We had only B&B and the breakfast buffet was full of options! All the team was great specially Yohana from front desk ! He...”
+                          - generic [ref=e431]:
+                            - text: Sayed
+                            - img "Turkey" [ref=e432]
+                            - generic [ref=e433]: Turkey
+                      - group [ref=e434]:
+                        - generic [ref=e436]:
+                          - generic [ref=e439]: “An Unforgettable Stay at Savoy – Exceptional Service!”
+                          - generic [ref=e445]:
+                            - text: Amro
+                            - img "Kuwait" [ref=e446]
+                            - generic [ref=e447]: Kuwait
+                      - group [ref=e448]:
+                        - generic [ref=e450]:
+                          - generic [ref=e453]: “The hotel is very nice and comfortable. The staff are extremely helpful and friendly — especially Mr. Kareem at the restaurant and Mr. Mohamed at...”
+                          - generic [ref=e459]:
+                            - text: Jana
+                            - img "Saudi Arabia" [ref=e460]
+                            - generic [ref=e461]: Saudi Arabia
+                      - group [ref=e462]:
+                        - generic [ref=e464]:
+                          - generic [ref=e467]: “The total experience with Savoy Resort is excellent, staff were very helpful and friendly, food was amazing, room was amazin. There is always an...”
+                          - generic [ref=e473]:
+                            - text: Mohamed
+                            - img "United States" [ref=e474]
+                            - generic [ref=e475]: United States
+                      - group [ref=e476]:
+                        - generic [ref=e478]:
+                          - generic [ref=e481]: “The only hotel that i book once i visited Sharm. Clean tidy comfortable and staff were so help-full ad usual.”
+                          - generic [ref=e487]:
+                            - text: Shabayta
+                            - img "Saudi Arabia" [ref=e488]
+                            - generic [ref=e489]: Saudi Arabia
+                      - group [ref=e490]:
+                        - generic [ref=e492]:
+                          - generic [ref=e495]: “The staff were so friendly, everything there was so clean, and the food is really tasty. And of course the best thing was the location of the...”
+                          - generic [ref=e501]:
+                            - text: Isaac
+                            - img "United States" [ref=e502]
+                            - generic [ref=e503]: United States
+                      - group [ref=e504]:
+                        - generic [ref=e506]:
+                          - generic [ref=e509]: “We truly enjoyed the property and the location. They had several pools and the beach was great but you have to get chairs early at either the beach...”
+                          - generic [ref=e515]:
+                            - text: Michelle
+                            - img "United States" [ref=e516]
+                            - generic [ref=e517]: United States
+                      - group [ref=e518]:
+                        - generic [ref=e520]:
+                          - generic [ref=e523]: “Unbelievable, great hospitality, everything was great as we expected!”
+                          - generic [ref=e529]:
+                            - text: Rashid
+                            - img "United States" [ref=e530]
+                            - generic [ref=e531]: United States
+                      - group [ref=e532]:
+                        - generic [ref=e534]:
+                          - generic [ref=e537]: “Facility is really amazing. Location is very good, Staff is adorable specially Ahmed Ismail from Reception team, was very helpful.”
+                          - generic [ref=e543]:
+                            - text: Zeyad
+                            - img "Egypt" [ref=e544]
+                            - generic [ref=e545]: Egypt
+                    - button [ref=e546] [cursor=pointer]:
+                      - img [ref=e549]
+                - separator [ref=e551]
+                - generic [ref=e554]:
+                  - generic [ref=e555]: "8.8"
+                  - generic [ref=e556]: "8.8"
+                  - generic [ref=e557]: Top-rated beach nearby
+                  - generic [ref=e559]: Top-rated beach nearby
+              - generic [ref=e3995] [cursor=pointer]:
+                - generic [ref=e3996]:
+                  - generic:
+                    - generic:
+                      - img
+                    - img [ref=e3997]
+                - button "Show on map" [ref=e3999]:
+                  - generic [ref=e4000]: Show on map
+          - generic [ref=e569]:
+            - heading "Recommended for 2 adults" [level=3] [ref=e570]
+            - table [ref=e571]:
+              - rowgroup [ref=e572]:
+                - 'row "2 × Standard Twin Room with Garden View Price for: Max. people: 1 , Max. people: 1 Each unit has: Beds: 2 twin beds Free cancellation before February 12, 2026 More details on meals, cancellation, and prepayment policies No prepayment needed – pay at the property Breakfast included 1 week, 2 adults Includes taxes and fees Reserve your selections You won''t be charged yet" [ref=e573]':
+                  - 'cell "2 × Standard Twin Room with Garden View Price for: Max. people: 1 , Max. people: 1 Each unit has: Beds: 2 twin beds Free cancellation before February 12, 2026 More details on meals, cancellation, and prepayment policies No prepayment needed – pay at the property Breakfast included" [ref=e574]':
+                    - generic [ref=e575]:
+                      - table [ref=e576]:
+                        - rowgroup [ref=e577]:
+                          - row "2 × Standard Twin Room with Garden View" [ref=e578]:
+                            - cell "2 × Standard Twin Room with Garden View" [ref=e579]:
+                              - generic [ref=e580]:
+                                - text: 2 ×
+                                - link "Standard Twin Room with Garden View" [ref=e581] [cursor=pointer]:
+                                  - /url: "#RD25515620"
+                      - generic [ref=e583]:
+                        - text: "Price for:"
+                        - generic [ref=e584]:
+                          - generic [ref=e586]: "1"
+                          - generic [ref=e587]: "Max. people: 1"
+                        - text: ","
+                        - generic [ref=e588]:
+                          - generic [ref=e590]: "1"
+                          - generic [ref=e591]: "Max. people: 1"
+                      - text: "Each unit has:"
+                      - generic [ref=e592]:
+                        - text: "Beds:"
+                        - generic [ref=e594]:
+                          - text: 2 twin beds
+                          - generic [ref=e595]:
+                            - img [ref=e596]
+                            - img [ref=e600]
+                      - generic [ref=e604]:
+                        - generic [ref=e606]:
+                          - img [ref=e608]
+                          - generic [ref=e613]:
+                            - strong [ref=e614]: Free cancellation
+                            - text: before February 12, 2026
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e617] [cursor=pointer]:
+                            - img [ref=e619]
+                        - generic [ref=e622]:
+                          - img [ref=e624]
+                          - generic [ref=e629]:
+                            - strong [ref=e630]: No prepayment needed
+                            - text: – pay at the property
+                        - generic [ref=e632]:
+                          - img [ref=e635]
+                          - generic [ref=e641]: Breakfast included
+                  - cell "1 week, 2 adults Includes taxes and fees Reserve your selections You won't be charged yet" [ref=e642]:
+                    - table [ref=e643]:
+                      - rowgroup [ref=e644]:
+                        - row "1 week, 2 adults Includes taxes and fees" [ref=e645]:
+                          - cell "1 week, 2 adults Includes taxes and fees" [ref=e646]:
+                            - generic [ref=e647]:
+                              - generic [ref=e648]: 1 week, 2 adults
+                              - generic [ref=e649]:
+                                - generic [ref=e650]: € 1,565
+                                - generic [ref=e651]: Price € 1,565
+                              - generic [ref=e652]: Includes taxes and fees
+                        - row "Reserve your selections You won't be charged yet" [ref=e653]:
+                          - cell "Reserve your selections You won't be charged yet" [ref=e654]:
+                            - link "Reserve your selections" [ref=e655] [cursor=pointer]:
+                              - /url: https://secure.booking.com/book.html?aid=304142&amp;label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&amp;sid=61912eeb05fe7e44d4f8c11049b02a8b&amp;aid=304142&amp;checkin=2026-02-15&amp;hostname=https%3A%2F%2Fsecure.booking.com&amp;hotel_id=255156&amp;interval=7&amp;is_alt_group_recommendation=0&amp;is_group_recommendation=1&amp;lang=en-us&amp;room1=A&amp;room2=A&amp;selected_currency=EUR&amp;stage=1&amp;;nr_rooms_25515620_397859031_1_41_0=2;grp_srls_25515620_397859031_1_41_0=A,A&amp;bedPreference_25515620=-1
+                              - generic [ref=e656]: Reserve your selections
+                            - generic [ref=e657]: You won't be charged yet
+          - generic [ref=e659]:
+            - generic [ref=e660]:
+              - generic [ref=e663]:
+                - heading "Experience World-class Service at Savoy Sharm El Sheikh" [level=3] [ref=e664]
+                - paragraph [ref=e665]: Located directly on the beach and in the center of SOHO Square, this 5-star resort offers lush tropical surroundings and luxurious rooms with satellite TVs. Facilities include 5 swimming pools and water sports activities that include diving and snorkeling. Tennis and squash courts are also available. The bright rooms of Savoy Sharm El Sheikh Hotel enjoy a modern and stylish interior. All rooms have a private balcony or terrace featuring panoramic views of the landscaped gardens, the pools, or the Red Sea. Savoy Sharm El Sheikh Hotel’s 6 restaurants serve dishes from all over the world, including Asian, Italian, and Mediterranean cuisine. Guests can enjoy a wide variety of drinks, live music, and water pipes at any of the 5 bars. SOHO Square Sharm El Sheikh provides entertainment for all tastes with a variety of restaurants, cafes and bars. The Aqua Spa & Wellness Center offers a range of health and beauty treatments, including Ayurvedic massages and body exfoliations. There is also a kids' club, games room with table football, and darts. Sharm El Sheikh International Airport is 5 mi away. Pick up service available by hotel bus for an additional charge and must be arranged minimum 48 hours in advance by providing flight details to a property.
+                - paragraph [ref=e666]: Groups in particular like the location – they rated it 9.5 for stays with multiple people.
+                - paragraph [ref=e667]: Distance in property description is calculated using © OpenStreetMap
+              - generic [ref=e671]:
+                - heading "Most popular facilities" [level=3] [ref=e672]:
+                  - generic [ref=e673]: Most popular facilities
+                - list [ref=e674]:
+                  - listitem [ref=e675]:
+                    - generic [ref=e676]:
+                      - img [ref=e678]
+                      - generic [ref=e683]: 4 swimming pools
+                  - listitem [ref=e684]:
+                    - generic [ref=e685]:
+                      - img [ref=e687]
+                      - generic [ref=e692]: Airport shuttle
+                  - listitem [ref=e693]:
+                    - generic [ref=e694]:
+                      - img [ref=e696]
+                      - generic [ref=e701]: Spa
+                  - listitem [ref=e702]:
+                    - generic [ref=e703]:
+                      - img [ref=e705]
+                      - generic [ref=e710]: Fitness center
+                  - listitem [ref=e711]:
+                    - generic [ref=e712]:
+                      - img [ref=e714]
+                      - generic [ref=e719]: Non-smoking rooms
+                  - listitem [ref=e720]:
+                    - generic [ref=e721]:
+                      - img [ref=e723]
+                      - generic [ref=e728]: 6 restaurants
+                  - listitem [ref=e729]:
+                    - generic [ref=e730]:
+                      - img [ref=e732]
+                      - generic [ref=e737]: Bar
+                  - listitem [ref=e738]:
+                    - generic [ref=e739]:
+                      - img [ref=e741]
+                      - generic [ref=e746]: Beachfront
+                  - listitem [ref=e747]:
+                    - generic [ref=e748]:
+                      - img [ref=e750]
+                      - generic [ref=e755]: Private beach area
+                  - listitem [ref=e756]:
+                    - generic [ref=e757]:
+                      - img [ref=e759]
+                      - button "Wonderful Breakfast" [ref=e764] [cursor=pointer]:
+                        - generic [ref=e766]: Wonderful Breakfast
+            - generic [ref=e770]:
+              - heading "Property highlights" [level=3] [ref=e771]
+              - generic [ref=e772]:
+                - generic [ref=e773]:
+                  - heading "Perfect for a 1-week stay!" [level=4] [ref=e774]
+                  - paragraph [ref=e775]:
+                    - img [ref=e777]
+                    - generic [ref=e779]: "Top Location: Highly rated by recent guests (9.4)"
+                - generic [ref=e780]:
+                  - heading "Breakfast Info" [level=4] [ref=e781]
+                  - paragraph [ref=e782]:
+                    - generic [ref=e783]: Continental, Italian, Full English/Irish, Vegetarian, Vegan, Halal, Gluten-free, Asian, American, Buffet
+                - generic [ref=e784]:
+                  - heading "Options with:" [level=4] [ref=e785]
+                  - list [ref=e786]:
+                    - listitem [ref=e787]:
+                      - paragraph [ref=e788]:
+                        - img [ref=e790]
+                        - generic [ref=e792]: Pool view
+                    - listitem [ref=e793]:
+                      - paragraph [ref=e794]:
+                        - img [ref=e796]
+                        - generic [ref=e798]: Sea view
+                - paragraph [ref=e800]:
+                  - img [ref=e802]
+                  - generic [ref=e804]: Private Parking Available On Site
+                - generic [ref=e805]:
+                  - heading "Activities:" [level=4] [ref=e806]
+                  - list [ref=e807]:
+                    - listitem [ref=e808]:
+                      - paragraph [ref=e809]:
+                        - generic [ref=e810]: Tennis court
+                    - listitem [ref=e811]:
+                      - paragraph [ref=e812]:
+                        - generic [ref=e813]: Fitness center
+                    - listitem [ref=e814]:
+                      - paragraph [ref=e815]:
+                        - generic [ref=e816]: Skiing
+                - generic [ref=e817]:
+                  - heading "Loyal Customers" [level=4] [ref=e818]
+                  - paragraph [ref=e819]:
+                    - generic [ref=e821]: There are more repeat guests here than most other properties.
+              - generic [ref=e822]:
+                - button "Reserve" [ref=e823] [cursor=pointer]:
+                  - generic [ref=e824]: Reserve
+                - generic [ref=e826]:
+                  - button "Save the property" [ref=e4001] [cursor=pointer]:
+                    - img [ref=e4004]
+                    - generic [ref=e4006]: Save the property
+                  - paragraph
+          - separator [ref=e838]
+          - generic [ref=e848]:
+            - generic [ref=e850]:
+              - heading "Book a stay and get a free private taxi from the airport" [level=3] [ref=e851]
+              - generic [ref=e853]:
+                - text: Spend over ‎€ 58‏ at this property and enjoy a free transfer provided by Booking.com.
+                - button "Learn more" [ref=e855] [cursor=pointer]
+            - img "Book a stay and get a free private taxi from the airport" [ref=e859]
+          - generic [ref=e861]:
+            - generic [ref=e862]:
+              - heading "Availability" [level=2] [ref=e863]
+              - button "We Price Match" [ref=e867] [cursor=pointer]:
+                - img [ref=e870]
+                - generic [ref=e872]: We Price Match
+            - generic [ref=e875]:
+              - generic [ref=e876]: Prices converted to EUR
+              - button [ref=e878] [cursor=pointer]:
+                - img [ref=e881]
+            - region "Search properties" [ref=e885]:
+              - generic [ref=e886]:
+                - generic [ref=e888]:
+                  - img [ref=e890] [cursor=pointer]
+                  - button "Sun, Feb 15" [ref=e892] [cursor=pointer]:
+                    - generic [ref=e893]: Sun, Feb 15
+                  - generic [ref=e894] [cursor=pointer]: —
+                  - button "Sun, Feb 22" [ref=e895] [cursor=pointer]:
+                    - generic [ref=e896]: Sun, Feb 22
+                - 'button "Number of travelers and rooms. Currently selected: 2 adults · 0 children · 2 rooms" [ref=e899] [cursor=pointer]':
+                  - generic [ref=e900]:
+                    - img [ref=e902]
+                    - text: 2 adults · 0 children · 2 rooms
+                  - img [ref=e905]
+                - button "Change search" [ref=e908] [cursor=pointer]:
+                  - generic [ref=e909]: Change search
+              - group
+            - generic [ref=e914]:
+              - heading "All available options" [level=3] [ref=e916]
+              - generic [ref=e918]:
+                - table "Select a room type and the number of rooms you want to reserve." [ref=e920]:
+                  - caption [ref=e921]: Select a room type and the number of rooms you want to reserve.
+                  - rowgroup [ref=e922]:
+                    - row "Room type Number of guests Price for 1 week Your choices Select amount" [ref=e923]:
+                      - columnheader "Room type" [ref=e924]
+                      - columnheader "Number of guests" [ref=e925]
+                      - columnheader "Price for 1 week" [ref=e926]: Price for 1 week
+                      - columnheader "Your choices" [ref=e929]
+                      - columnheader "Select amount" [ref=e930]
+                  - rowgroup [ref=e931]:
+                    - 'row "Standard Twin Room with Garden View 2 twin beds This twin room features a balcony, mini-bar and electric kettle. Balcony Air conditioning Private bathroom Minibar Included facilities Max. people: 2 Price € 918 Includes taxes and fees Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e932]':
+                      - rowheader "Standard Twin Room with Garden View 2 twin beds This twin room features a balcony, mini-bar and electric kettle. Balcony Air conditioning Private bathroom Minibar Included facilities" [ref=e933]:
+                        - generic [ref=e934]:
+                          - link "Standard Twin Room with Garden View" [ref=e936] [cursor=pointer]:
+                            - /url: "#RD25515620"
+                          - list [ref=e939]:
+                            - listitem [ref=e940]:
+                              - generic [ref=e941]:
+                                - text: 2 twin beds
+                                - generic [ref=e942]: 녍
+                          - paragraph [ref=e943]: This twin room features a balcony, mini-bar and electric kettle.
+                          - generic [ref=e945]:
+                            - list [ref=e946]:
+                              - listitem [ref=e947]:
+                                - generic [ref=e948]:
+                                  - img [ref=e949]
+                                  - text: Balcony
+                              - listitem [ref=e951]:
+                                - generic [ref=e952]:
+                                  - img [ref=e953]
+                                  - text: Air conditioning
+                              - listitem [ref=e955]:
+                                - generic [ref=e956]:
+                                  - img [ref=e957]
+                                  - text: Private bathroom
+                              - listitem [ref=e959]:
+                                - generic [ref=e960]:
+                                  - img [ref=e961]
+                                  - text: Minibar
+                            - separator [ref=e963]
+                            - list "Included facilities" [ref=e964]:
+                              - listitem [ref=e965]:
+                                - generic [ref=e967]:
+                                  - img [ref=e968]
+                                  - text: Free toiletries
+                              - listitem [ref=e970]:
+                                - generic [ref=e972]:
+                                  - img [ref=e973]
+                                  - text: Bathrobe
+                              - listitem [ref=e975]:
+                                - generic [ref=e977]:
+                                  - img [ref=e978]
+                                  - text: Safe
+                              - listitem [ref=e980]:
+                                - generic [ref=e982]:
+                                  - img [ref=e983]
+                                  - text: Bathtub or shower
+                              - listitem [ref=e985]:
+                                - generic [ref=e987]:
+                                  - img [ref=e988]
+                                  - text: Towels
+                              - listitem [ref=e990]:
+                                - generic [ref=e992]:
+                                  - img [ref=e993]
+                                  - text: Linens
+                              - listitem [ref=e995]:
+                                - generic [ref=e997]:
+                                  - img [ref=e998]
+                                  - text: TV
+                              - listitem [ref=e1000]:
+                                - generic [ref=e1002]:
+                                  - img [ref=e1003]
+                                  - text: Slippers
+                              - listitem [ref=e1005]:
+                                - generic [ref=e1007]:
+                                  - img [ref=e1008]
+                                  - text: Refrigerator
+                              - listitem [ref=e1010]:
+                                - generic [ref=e1012]:
+                                  - img [ref=e1013]
+                                  - text: Telephone
+                              - listitem [ref=e1015]:
+                                - generic [ref=e1017]:
+                                  - img [ref=e1018]
+                                  - text: Satellite channels
+                              - listitem [ref=e1020]:
+                                - generic [ref=e1022]:
+                                  - img [ref=e1023]
+                                  - text: Radio
+                              - listitem [ref=e1025]:
+                                - generic [ref=e1027]:
+                                  - img [ref=e1028]
+                                  - text: Hairdryer
+                              - listitem [ref=e1030]:
+                                - generic [ref=e1032]:
+                                  - img [ref=e1033]
+                                  - text: Guest bathroom
+                              - listitem [ref=e1035]:
+                                - generic [ref=e1037]:
+                                  - img [ref=e1038]
+                                  - text: Electric kettle
+                              - listitem [ref=e1040]:
+                                - generic [ref=e1042]:
+                                  - img [ref=e1043]
+                                  - text: Wake-up service
+                              - listitem [ref=e1045]:
+                                - generic [ref=e1047]:
+                                  - img [ref=e1048]
+                                  - text: Toilet paper
+                      - 'cell "Max. people: 2" [ref=e1050]':
+                        - generic [ref=e1052]:
+                          - generic [ref=e1053]:
+                            - generic [ref=e1054]: "1"
+                            - generic [ref=e1055]: "1"
+                          - generic [ref=e1056]: "Max. people: 2"
+                      - cell "Price € 918 Includes taxes and fees" [ref=e1057]:
+                        - generic [ref=e1059]:
+                          - generic [ref=e1061]:
+                            - generic [ref=e1062]: € 918
+                            - generic [ref=e1063]: Price € 918
+                          - generic [ref=e1064]: Includes taxes and fees
+                      - cell "Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1065]:
+                        - generic [ref=e1066]:
+                          - list [ref=e1067]:
+                            - listitem [ref=e1068]:
+                              - img [ref=e1069]
+                              - generic [ref=e1072]:
+                                - generic [ref=e1073]: Wonderful breakfast
+                                - text: included
+                            - listitem [ref=e1074]:
+                              - generic [ref=e1075]:
+                                - img [ref=e1077]
+                                - generic [ref=e1082]:
+                                  - strong [ref=e1083]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e1084]:
+                              - generic [ref=e1085]:
+                                - img [ref=e1087]
+                                - generic [ref=e1092]:
+                                  - strong [ref=e1093]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e1094]:
+                              - img [ref=e1095]
+                              - generic [ref=e1098]:
+                                - generic [ref=e1099]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e1100] [cursor=pointer]:
+                                  - img [ref=e1101]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e1104] [cursor=pointer]:
+                            - img [ref=e1106]
+                      - cell "Select Rooms 0" [ref=e1108]:
+                        - generic [ref=e1109]:
+                          - generic [ref=e1110]: Select Rooms
+                          - combobox "Select Rooms" [ref=e1111]:
+                            - option "0" [selected]
+                            - option "1 (€ 918)"
+                            - option "2 (€ 1,835)"
+                            - option "3 (€ 2,753)"
+                            - option "4 (€ 3,671)"
+                            - option "5 (€ 4,588)"
+                            - option "6 (€ 5,506)"
+                            - option "7 (€ 6,424)"
+                            - option "8 (€ 7,341)"
+                            - option "9 (€ 8,259)"
+                            - option "10 (€ 9,177)"
+                    - 'row "Max. people: 2 Price € 1,594 Includes taxes and fees All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1112]':
+                      - 'cell "Max. people: 2" [ref=e1113]':
+                        - generic [ref=e1115]:
+                          - generic [ref=e1116]:
+                            - generic [ref=e1117]: "1"
+                            - generic [ref=e1118]: "1"
+                          - generic [ref=e1119]: "Max. people: 2"
+                      - cell "Price € 1,594 Includes taxes and fees" [ref=e1120]:
+                        - generic [ref=e1122]:
+                          - generic [ref=e1124]:
+                            - generic [ref=e1125]: € 1,594
+                            - generic [ref=e1126]: Price € 1,594
+                          - generic [ref=e1127]: Includes taxes and fees
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1128]:
+                        - generic [ref=e1129]:
+                          - list [ref=e1130]:
+                            - listitem [ref=e1131]:
+                              - img [ref=e1132]
+                              - generic [ref=e1135]: All-Inclusive
+                            - listitem [ref=e1136]:
+                              - generic [ref=e1137]:
+                                - img [ref=e1139]
+                                - generic [ref=e1144]:
+                                  - strong [ref=e1145]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e1146]:
+                              - generic [ref=e1147]:
+                                - img [ref=e1149]
+                                - generic [ref=e1154]:
+                                  - strong [ref=e1155]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e1156]:
+                              - img [ref=e1157]
+                              - generic [ref=e1160]:
+                                - generic [ref=e1161]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e1162] [cursor=pointer]:
+                                  - img [ref=e1163]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e1166] [cursor=pointer]:
+                            - img [ref=e1168]
+                      - cell "Select Rooms 0" [ref=e1170]:
+                        - generic [ref=e1171]:
+                          - generic [ref=e1172]: Select Rooms
+                          - combobox "Select Rooms" [ref=e1173]:
+                            - option "0" [selected]
+                            - option "1 (€ 1,594)"
+                            - option "2 (€ 3,188)"
+                            - option "3 (€ 4,781)"
+                            - option "4 (€ 6,375)"
+                            - option "5 (€ 7,969)"
+                            - option "6 (€ 9,563)"
+                            - option "7 (€ 11,157)"
+                            - option "8 (€ 12,750)"
+                            - option "9 (€ 14,344)"
+                            - option "10 (€ 15,938)"
+                    - 'row "Max. people: 1 Only for 1 guest Price € 782 Includes taxes and fees Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1174]':
+                      - 'cell "Max. people: 1 Only for 1 guest" [ref=e1175]':
+                        - generic [ref=e1177]:
+                          - generic [ref=e1179]: "1"
+                          - generic [ref=e1180]: "Max. people: 1"
+                        - generic [ref=e1183]: Only for 1 guest
+                      - cell "Price € 782 Includes taxes and fees" [ref=e1184]:
+                        - generic [ref=e1186]:
+                          - generic [ref=e1188]:
+                            - generic [ref=e1189]: € 782
+                            - generic [ref=e1190]: Price € 782
+                          - generic [ref=e1191]: Includes taxes and fees
+                      - cell "Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1192]:
+                        - generic [ref=e1193]:
+                          - list [ref=e1194]:
+                            - listitem [ref=e1195]:
+                              - img [ref=e1196]
+                              - generic [ref=e1199]:
+                                - generic [ref=e1200]: Wonderful breakfast
+                                - text: included
+                            - listitem [ref=e1201]:
+                              - generic [ref=e1202]:
+                                - img [ref=e1204]
+                                - generic [ref=e1209]:
+                                  - strong [ref=e1210]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e1211]:
+                              - generic [ref=e1212]:
+                                - img [ref=e1214]
+                                - generic [ref=e1219]:
+                                  - strong [ref=e1220]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e1221]:
+                              - img [ref=e1222]
+                              - generic [ref=e1225]:
+                                - generic [ref=e1226]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e1227] [cursor=pointer]:
+                                  - img [ref=e1228]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e1231] [cursor=pointer]:
+                            - img [ref=e1233]
+                      - cell "Select Rooms 0" [ref=e1235]:
+                        - generic [ref=e1236]:
+                          - generic [ref=e1237]: Select Rooms
+                          - combobox "Select Rooms" [ref=e1238]:
+                            - option "0" [selected]
+                            - option "1 (€ 782)"
+                            - option "2 (€ 1,565)"
+                            - option "3 (€ 2,347)"
+                            - option "4 (€ 3,130)"
+                            - option "5 (€ 3,912)"
+                            - option "6 (€ 4,695)"
+                            - option "7 (€ 5,477)"
+                            - option "8 (€ 6,259)"
+                            - option "9 (€ 7,042)"
+                            - option "10 (€ 7,824)"
+                    - 'row "Max. people: 1 Only for 1 guest Price € 1,120 Includes taxes and fees All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1239]':
+                      - 'cell "Max. people: 1 Only for 1 guest" [ref=e1240]':
+                        - generic [ref=e1242]:
+                          - generic [ref=e1244]: "1"
+                          - generic [ref=e1245]: "Max. people: 1"
+                        - generic [ref=e1248]: Only for 1 guest
+                      - cell "Price € 1,120 Includes taxes and fees" [ref=e1249]:
+                        - generic [ref=e1251]:
+                          - generic [ref=e1253]:
+                            - generic [ref=e1254]: € 1,120
+                            - generic [ref=e1255]: Price € 1,120
+                          - generic [ref=e1256]: Includes taxes and fees
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1257]:
+                        - generic [ref=e1258]:
+                          - list [ref=e1259]:
+                            - listitem [ref=e1260]:
+                              - img [ref=e1261]
+                              - generic [ref=e1264]: All-Inclusive
+                            - listitem [ref=e1265]:
+                              - generic [ref=e1266]:
+                                - img [ref=e1268]
+                                - generic [ref=e1273]:
+                                  - strong [ref=e1274]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e1275]:
+                              - generic [ref=e1276]:
+                                - img [ref=e1278]
+                                - generic [ref=e1283]:
+                                  - strong [ref=e1284]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e1285]:
+                              - img [ref=e1286]
+                              - generic [ref=e1289]:
+                                - generic [ref=e1290]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e1291] [cursor=pointer]:
+                                  - img [ref=e1292]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e1295] [cursor=pointer]:
+                            - img [ref=e1297]
+                      - cell "Select Rooms 0" [ref=e1299]:
+                        - generic [ref=e1300]:
+                          - generic [ref=e1301]: Select Rooms
+                          - combobox "Select Rooms" [ref=e1302]:
+                            - option "0" [selected]
+                            - option "1 (€ 1,120)"
+                            - option "2 (€ 2,241)"
+                            - option "3 (€ 3,361)"
+                            - option "4 (€ 4,482)"
+                            - option "5 (€ 5,602)"
+                            - option "6 (€ 6,723)"
+                            - option "7 (€ 7,843)"
+                            - option "8 (€ 8,964)"
+                            - option "9 (€ 10,084)"
+                            - option "10 (€ 11,205)"
+                    - 'row "Standard Twin Room with Sea View 2 twin beds This twin room features a balcony, bathrobe and seating area. Balcony Sea view Air conditioning Private bathroom Minibar Show more amenities Max. people: 2 Price € 1,087 Includes taxes and fees Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1303]':
+                      - rowheader "Standard Twin Room with Sea View 2 twin beds This twin room features a balcony, bathrobe and seating area. Balcony Sea view Air conditioning Private bathroom Minibar Show more amenities" [ref=e1304]:
+                        - generic [ref=e1305]:
+                          - link "Standard Twin Room with Sea View" [ref=e1307] [cursor=pointer]:
+                            - /url: "#RD25515622"
+                          - list [ref=e1310]:
+                            - listitem [ref=e1311]:
+                              - generic [ref=e1312]:
+                                - text: 2 twin beds
+                                - generic [ref=e1313]: 녍
+                          - paragraph [ref=e1314]: This twin room features a balcony, bathrobe and seating area.
+                          - generic [ref=e1316]:
+                            - list [ref=e1317]:
+                              - listitem [ref=e1318]:
+                                - generic [ref=e1319]:
+                                  - img [ref=e1320]
+                                  - text: Balcony
+                              - listitem [ref=e1322]:
+                                - generic [ref=e1323]:
+                                  - img [ref=e1324]
+                                  - text: Sea view
+                              - listitem [ref=e1326]:
+                                - generic [ref=e1327]:
+                                  - img [ref=e1328]
+                                  - text: Air conditioning
+                              - listitem [ref=e1330]:
+                                - generic [ref=e1331]:
+                                  - img [ref=e1332]
+                                  - text: Private bathroom
+                              - listitem [ref=e1334]:
+                                - generic [ref=e1335]:
+                                  - img [ref=e1336]
+                                  - text: Minibar
+                            - button "Show more amenities" [ref=e1338] [cursor=pointer]: More
+                      - 'cell "Max. people: 2" [ref=e1339]':
+                        - generic [ref=e1341]:
+                          - generic [ref=e1342]:
+                            - generic [ref=e1343]: "1"
+                            - generic [ref=e1344]: "1"
+                          - generic [ref=e1345]: "Max. people: 2"
+                      - cell "Price € 1,087 Includes taxes and fees" [ref=e1346]:
+                        - generic [ref=e1348]:
+                          - generic [ref=e1350]:
+                            - generic [ref=e1351]: € 1,087
+                            - generic [ref=e1352]: Price € 1,087
+                          - generic [ref=e1353]: Includes taxes and fees
+                      - cell "Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1354]:
+                        - generic [ref=e1355]:
+                          - list [ref=e1356]:
+                            - listitem [ref=e1357]:
+                              - img [ref=e1358]
+                              - generic [ref=e1361]:
+                                - generic [ref=e1362]: Wonderful breakfast
+                                - text: included
+                            - listitem [ref=e1363]:
+                              - generic [ref=e1364]:
+                                - img [ref=e1366]
+                                - generic [ref=e1371]:
+                                  - strong [ref=e1372]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e1373]:
+                              - generic [ref=e1374]:
+                                - img [ref=e1376]
+                                - generic [ref=e1381]:
+                                  - strong [ref=e1382]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e1383]:
+                              - img [ref=e1384]
+                              - generic [ref=e1387]:
+                                - generic [ref=e1388]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e1389] [cursor=pointer]:
+                                  - img [ref=e1390]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e1393] [cursor=pointer]:
+                            - img [ref=e1395]
+                      - cell "Select Rooms 0" [ref=e1397]:
+                        - generic [ref=e1398]:
+                          - generic [ref=e1399]: Select Rooms
+                          - combobox "Select Rooms" [ref=e1400]:
+                            - option "0" [selected]
+                            - option "1 (€ 1,087)"
+                            - option "2 (€ 2,173)"
+                            - option "3 (€ 3,260)"
+                            - option "4 (€ 4,347)"
+                            - option "5 (€ 5,433)"
+                            - option "6 (€ 6,520)"
+                            - option "7 (€ 7,607)"
+                            - option "8 (€ 8,693)"
+                            - option "9 (€ 9,780)"
+                            - option "10 (€ 10,867)"
+                    - 'row "Max. people: 2 Price € 1,763 Includes taxes and fees All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1401]':
+                      - 'cell "Max. people: 2" [ref=e1402]':
+                        - generic [ref=e1404]:
+                          - generic [ref=e1405]:
+                            - generic [ref=e1406]: "1"
+                            - generic [ref=e1407]: "1"
+                          - generic [ref=e1408]: "Max. people: 2"
+                      - cell "Price € 1,763 Includes taxes and fees" [ref=e1409]:
+                        - generic [ref=e1411]:
+                          - generic [ref=e1413]:
+                            - generic [ref=e1414]: € 1,763
+                            - generic [ref=e1415]: Price € 1,763
+                          - generic [ref=e1416]: Includes taxes and fees
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1417]:
+                        - generic [ref=e1418]:
+                          - list [ref=e1419]:
+                            - listitem [ref=e1420]:
+                              - img [ref=e1421]
+                              - generic [ref=e1424]: All-Inclusive
+                            - listitem [ref=e1425]:
+                              - generic [ref=e1426]:
+                                - img [ref=e1428]
+                                - generic [ref=e1433]:
+                                  - strong [ref=e1434]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e1435]:
+                              - generic [ref=e1436]:
+                                - img [ref=e1438]
+                                - generic [ref=e1443]:
+                                  - strong [ref=e1444]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e1445]:
+                              - img [ref=e1446]
+                              - generic [ref=e1449]:
+                                - generic [ref=e1450]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e1451] [cursor=pointer]:
+                                  - img [ref=e1452]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e1455] [cursor=pointer]:
+                            - img [ref=e1457]
+                      - cell "Select Rooms 0" [ref=e1459]:
+                        - generic [ref=e1460]:
+                          - generic [ref=e1461]: Select Rooms
+                          - combobox "Select Rooms" [ref=e1462]:
+                            - option "0" [selected]
+                            - option "1 (€ 1,763)"
+                            - option "2 (€ 3,526)"
+                            - option "3 (€ 5,289)"
+                            - option "4 (€ 7,051)"
+                            - option "5 (€ 8,814)"
+                            - option "6 (€ 10,577)"
+                            - option "7 (€ 12,340)"
+                            - option "8 (€ 14,103)"
+                            - option "9 (€ 15,866)"
+                            - option "10 (€ 17,629)"
+                    - 'row "Max. people: 1 Only for 1 guest Price € 951 Includes taxes and fees Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1463]':
+                      - 'cell "Max. people: 1 Only for 1 guest" [ref=e1464]':
+                        - generic [ref=e1466]:
+                          - generic [ref=e1468]: "1"
+                          - generic [ref=e1469]: "Max. people: 1"
+                        - generic [ref=e1472]: Only for 1 guest
+                      - cell "Price € 951 Includes taxes and fees" [ref=e1473]:
+                        - generic [ref=e1475]:
+                          - generic [ref=e1477]:
+                            - generic [ref=e1478]: € 951
+                            - generic [ref=e1479]: Price € 951
+                          - generic [ref=e1480]: Includes taxes and fees
+                      - cell "Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1481]:
+                        - generic [ref=e1482]:
+                          - list [ref=e1483]:
+                            - listitem [ref=e1484]:
+                              - img [ref=e1485]
+                              - generic [ref=e1488]:
+                                - generic [ref=e1489]: Wonderful breakfast
+                                - text: included
+                            - listitem [ref=e1490]:
+                              - generic [ref=e1491]:
+                                - img [ref=e1493]
+                                - generic [ref=e1498]:
+                                  - strong [ref=e1499]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e1500]:
+                              - generic [ref=e1501]:
+                                - img [ref=e1503]
+                                - generic [ref=e1508]:
+                                  - strong [ref=e1509]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e1510]:
+                              - img [ref=e1511]
+                              - generic [ref=e1514]:
+                                - generic [ref=e1515]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e1516] [cursor=pointer]:
+                                  - img [ref=e1517]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e1520] [cursor=pointer]:
+                            - img [ref=e1522]
+                      - cell "Select Rooms 0" [ref=e1524]:
+                        - generic [ref=e1525]:
+                          - generic [ref=e1526]: Select Rooms
+                          - combobox "Select Rooms" [ref=e1527]:
+                            - option "0" [selected]
+                            - option "1 (€ 951)"
+                            - option "2 (€ 1,903)"
+                            - option "3 (€ 2,854)"
+                            - option "4 (€ 3,806)"
+                            - option "5 (€ 4,757)"
+                            - option "6 (€ 5,709)"
+                            - option "7 (€ 6,660)"
+                            - option "8 (€ 7,612)"
+                            - option "9 (€ 8,563)"
+                            - option "10 (€ 9,514)"
+                    - 'row "Standard Twin Room with Pool View 2 twin beds This twin room has a balcony, tile/marble floor and electric kettle. Balcony Pool view Air conditioning Private bathroom Minibar Show more amenities Max. people: 2 Price € 1,038 Includes taxes and fees Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1528]':
+                      - rowheader "Standard Twin Room with Pool View 2 twin beds This twin room has a balcony, tile/marble floor and electric kettle. Balcony Pool view Air conditioning Private bathroom Minibar Show more amenities" [ref=e1529]:
+                        - generic [ref=e1530]:
+                          - link "Standard Twin Room with Pool View" [ref=e1532] [cursor=pointer]:
+                            - /url: "#RD25515621"
+                          - list [ref=e1535]:
+                            - listitem [ref=e1536]:
+                              - generic [ref=e1537]:
+                                - text: 2 twin beds
+                                - generic [ref=e1538]: 녍
+                          - paragraph [ref=e1539]: This twin room has a balcony, tile/marble floor and electric kettle.
+                          - generic [ref=e1541]:
+                            - list [ref=e1542]:
+                              - listitem [ref=e1543]:
+                                - generic [ref=e1544]:
+                                  - img [ref=e1545]
+                                  - text: Balcony
+                              - listitem [ref=e1547]:
+                                - generic [ref=e1548]:
+                                  - img [ref=e1549]
+                                  - text: Pool view
+                              - listitem [ref=e1551]:
+                                - generic [ref=e1552]:
+                                  - img [ref=e1553]
+                                  - text: Air conditioning
+                              - listitem [ref=e1555]:
+                                - generic [ref=e1556]:
+                                  - img [ref=e1557]
+                                  - text: Private bathroom
+                              - listitem [ref=e1559]:
+                                - generic [ref=e1560]:
+                                  - img [ref=e1561]
+                                  - text: Minibar
+                            - button "Show more amenities" [ref=e1563] [cursor=pointer]: More
+                      - 'cell "Max. people: 2" [ref=e1564]':
+                        - generic [ref=e1566]:
+                          - generic [ref=e1567]:
+                            - generic [ref=e1568]: "1"
+                            - generic [ref=e1569]: "1"
+                          - generic [ref=e1570]: "Max. people: 2"
+                      - cell "Price € 1,038 Includes taxes and fees" [ref=e1571]:
+                        - generic [ref=e1573]:
+                          - generic [ref=e1575]:
+                            - generic [ref=e1576]: € 1,038
+                            - generic [ref=e1577]: Price € 1,038
+                          - generic [ref=e1578]: Includes taxes and fees
+                      - cell "Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1579]:
+                        - generic [ref=e1580]:
+                          - list [ref=e1581]:
+                            - listitem [ref=e1582]:
+                              - img [ref=e1583]
+                              - generic [ref=e1586]:
+                                - generic [ref=e1587]: Wonderful breakfast
+                                - text: included
+                            - listitem [ref=e1588]:
+                              - generic [ref=e1589]:
+                                - img [ref=e1591]
+                                - generic [ref=e1596]:
+                                  - strong [ref=e1597]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e1598]:
+                              - generic [ref=e1599]:
+                                - img [ref=e1601]
+                                - generic [ref=e1606]:
+                                  - strong [ref=e1607]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e1608]:
+                              - img [ref=e1609]
+                              - generic [ref=e1612]:
+                                - generic [ref=e1613]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e1614] [cursor=pointer]:
+                                  - img [ref=e1615]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e1618] [cursor=pointer]:
+                            - img [ref=e1620]
+                      - cell "Select Rooms 0" [ref=e1622]:
+                        - generic [ref=e1623]:
+                          - generic [ref=e1624]: Select Rooms
+                          - combobox "Select Rooms" [ref=e1625]:
+                            - option "0" [selected]
+                            - option "1 (€ 1,038)"
+                            - option "2 (€ 2,077)"
+                            - option "3 (€ 3,115)"
+                            - option "4 (€ 4,154)"
+                            - option "5 (€ 5,192)"
+                            - option "6 (€ 6,230)"
+                            - option "7 (€ 7,269)"
+                            - option "8 (€ 8,307)"
+                            - option "9 (€ 9,346)"
+                            - option "10 (€ 10,384)"
+                    - 'row "Max. people: 2 Price € 1,715 Includes taxes and fees All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1626]':
+                      - 'cell "Max. people: 2" [ref=e1627]':
+                        - generic [ref=e1629]:
+                          - generic [ref=e1630]:
+                            - generic [ref=e1631]: "1"
+                            - generic [ref=e1632]: "1"
+                          - generic [ref=e1633]: "Max. people: 2"
+                      - cell "Price € 1,715 Includes taxes and fees" [ref=e1634]:
+                        - generic [ref=e1636]:
+                          - generic [ref=e1638]:
+                            - generic [ref=e1639]: € 1,715
+                            - generic [ref=e1640]: Price € 1,715
+                          - generic [ref=e1641]: Includes taxes and fees
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1642]:
+                        - generic [ref=e1643]:
+                          - list [ref=e1644]:
+                            - listitem [ref=e1645]:
+                              - img [ref=e1646]
+                              - generic [ref=e1649]: All-Inclusive
+                            - listitem [ref=e1650]:
+                              - generic [ref=e1651]:
+                                - img [ref=e1653]
+                                - generic [ref=e1658]:
+                                  - strong [ref=e1659]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e1660]:
+                              - generic [ref=e1661]:
+                                - img [ref=e1663]
+                                - generic [ref=e1668]:
+                                  - strong [ref=e1669]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e1670]:
+                              - img [ref=e1671]
+                              - generic [ref=e1674]:
+                                - generic [ref=e1675]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e1676] [cursor=pointer]:
+                                  - img [ref=e1677]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e1680] [cursor=pointer]:
+                            - img [ref=e1682]
+                      - cell "Select Rooms 0" [ref=e1684]:
+                        - generic [ref=e1685]:
+                          - generic [ref=e1686]: Select Rooms
+                          - combobox "Select Rooms" [ref=e1687]:
+                            - option "0" [selected]
+                            - option "1 (€ 1,715)"
+                            - option "2 (€ 3,429)"
+                            - option "3 (€ 5,144)"
+                            - option "4 (€ 6,858)"
+                            - option "5 (€ 8,573)"
+                            - option "6 (€ 10,287)"
+                            - option "7 (€ 12,002)"
+                            - option "8 (€ 13,716)"
+                            - option "9 (€ 15,431)"
+                            - option "10 (€ 17,145)"
+                    - 'row "Max. people: 1 Only for 1 guest Price € 903 Includes taxes and fees Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1688]':
+                      - 'cell "Max. people: 1 Only for 1 guest" [ref=e1689]':
+                        - generic [ref=e1691]:
+                          - generic [ref=e1693]: "1"
+                          - generic [ref=e1694]: "Max. people: 1"
+                        - generic [ref=e1697]: Only for 1 guest
+                      - cell "Price € 903 Includes taxes and fees" [ref=e1698]:
+                        - generic [ref=e1700]:
+                          - generic [ref=e1702]:
+                            - generic [ref=e1703]: € 903
+                            - generic [ref=e1704]: Price € 903
+                          - generic [ref=e1705]: Includes taxes and fees
+                      - cell "Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1706]:
+                        - generic [ref=e1707]:
+                          - list [ref=e1708]:
+                            - listitem [ref=e1709]:
+                              - img [ref=e1710]
+                              - generic [ref=e1713]:
+                                - generic [ref=e1714]: Wonderful breakfast
+                                - text: included
+                            - listitem [ref=e1715]:
+                              - generic [ref=e1716]:
+                                - img [ref=e1718]
+                                - generic [ref=e1723]:
+                                  - strong [ref=e1724]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e1725]:
+                              - generic [ref=e1726]:
+                                - img [ref=e1728]
+                                - generic [ref=e1733]:
+                                  - strong [ref=e1734]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e1735]:
+                              - img [ref=e1736]
+                              - generic [ref=e1739]:
+                                - generic [ref=e1740]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e1741] [cursor=pointer]:
+                                  - img [ref=e1742]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e1745] [cursor=pointer]:
+                            - img [ref=e1747]
+                      - cell "Select Rooms 0" [ref=e1749]:
+                        - generic [ref=e1750]:
+                          - generic [ref=e1751]: Select Rooms
+                          - combobox "Select Rooms" [ref=e1752]:
+                            - option "0" [selected]
+                            - option "1 (€ 903)"
+                            - option "2 (€ 1,806)"
+                            - option "3 (€ 2,709)"
+                            - option "4 (€ 3,613)"
+                            - option "5 (€ 4,516)"
+                            - option "6 (€ 5,419)"
+                            - option "7 (€ 6,322)"
+                            - option "8 (€ 7,225)"
+                            - option "9 (€ 8,128)"
+                            - option "10 (€ 9,032)"
+                    - 'row "Standard King Room with Sea View We have 4 left 1 king bed Offering a view of the Red Sea, this air-conditioned room comes with a seating area including a TV. Balcony Sea view Air conditioning Private bathroom Minibar Show more amenities Max. people: 2 Price € 1,087 Includes taxes and fees Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1753]':
+                      - rowheader "Standard King Room with Sea View We have 4 left 1 king bed Offering a view of the Red Sea, this air-conditioned room comes with a seating area including a TV. Balcony Sea view Air conditioning Private bathroom Minibar Show more amenities" [ref=e1754]:
+                        - generic [ref=e1755]:
+                          - link "Standard King Room with Sea View" [ref=e1757] [cursor=pointer]:
+                            - /url: "#RD25515614"
+                          - generic [ref=e1760]:
+                            - img [ref=e1761]
+                            - generic [ref=e1766]: We have 4 left
+                          - list [ref=e1769]:
+                            - listitem [ref=e1770]:
+                              - generic [ref=e1771]:
+                                - text: 1 king bed
+                                - generic [ref=e1772]: 녌
+                          - paragraph [ref=e1773]: Offering a view of the Red Sea, this air-conditioned room comes with a seating area including a TV.
+                          - generic [ref=e1775]:
+                            - list [ref=e1776]:
+                              - listitem [ref=e1777]:
+                                - generic [ref=e1778]:
+                                  - img [ref=e1779]
+                                  - text: Balcony
+                              - listitem [ref=e1781]:
+                                - generic [ref=e1782]:
+                                  - img [ref=e1783]
+                                  - text: Sea view
+                              - listitem [ref=e1785]:
+                                - generic [ref=e1786]:
+                                  - img [ref=e1787]
+                                  - text: Air conditioning
+                              - listitem [ref=e1789]:
+                                - generic [ref=e1790]:
+                                  - img [ref=e1791]
+                                  - text: Private bathroom
+                              - listitem [ref=e1793]:
+                                - generic [ref=e1794]:
+                                  - img [ref=e1795]
+                                  - text: Minibar
+                            - button "Show more amenities" [ref=e1797] [cursor=pointer]: More
+                      - 'cell "Max. people: 2" [ref=e1798]':
+                        - generic [ref=e1800]:
+                          - generic [ref=e1801]:
+                            - generic [ref=e1802]: "1"
+                            - generic [ref=e1803]: "1"
+                          - generic [ref=e1804]: "Max. people: 2"
+                      - cell "Price € 1,087 Includes taxes and fees" [ref=e1805]:
+                        - generic [ref=e1807]:
+                          - generic [ref=e1809]:
+                            - generic [ref=e1810]: € 1,087
+                            - generic [ref=e1811]: Price € 1,087
+                          - generic [ref=e1812]: Includes taxes and fees
+                      - cell "Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1813]:
+                        - generic [ref=e1814]:
+                          - list [ref=e1815]:
+                            - listitem [ref=e1816]:
+                              - img [ref=e1817]
+                              - generic [ref=e1820]:
+                                - generic [ref=e1821]: Wonderful breakfast
+                                - text: included
+                            - listitem [ref=e1822]:
+                              - generic [ref=e1823]:
+                                - img [ref=e1825]
+                                - generic [ref=e1830]:
+                                  - strong [ref=e1831]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e1832]:
+                              - generic [ref=e1833]:
+                                - img [ref=e1835]
+                                - generic [ref=e1840]:
+                                  - strong [ref=e1841]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e1842]:
+                              - img [ref=e1843]
+                              - generic [ref=e1846]:
+                                - generic [ref=e1847]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e1848] [cursor=pointer]:
+                                  - img [ref=e1849]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e1852] [cursor=pointer]:
+                            - img [ref=e1854]
+                      - cell "Select Rooms 0" [ref=e1856]:
+                        - generic [ref=e1857]:
+                          - generic [ref=e1858]: Select Rooms
+                          - combobox "Select Rooms" [ref=e1859]:
+                            - option "0" [selected]
+                            - option "1 (€ 1,087)"
+                            - option "2 (€ 2,173)"
+                            - option "3 (€ 3,260)"
+                            - option "4 (€ 4,347)"
+                    - 'row "Max. people: 2 Price € 1,763 Includes taxes and fees All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1860]':
+                      - 'cell "Max. people: 2" [ref=e1861]':
+                        - generic [ref=e1863]:
+                          - generic [ref=e1864]:
+                            - generic [ref=e1865]: "1"
+                            - generic [ref=e1866]: "1"
+                          - generic [ref=e1867]: "Max. people: 2"
+                      - cell "Price € 1,763 Includes taxes and fees" [ref=e1868]:
+                        - generic [ref=e1870]:
+                          - generic [ref=e1872]:
+                            - generic [ref=e1873]: € 1,763
+                            - generic [ref=e1874]: Price € 1,763
+                          - generic [ref=e1875]: Includes taxes and fees
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1876]:
+                        - generic [ref=e1877]:
+                          - list [ref=e1878]:
+                            - listitem [ref=e1879]:
+                              - img [ref=e1880]
+                              - generic [ref=e1883]: All-Inclusive
+                            - listitem [ref=e1884]:
+                              - generic [ref=e1885]:
+                                - img [ref=e1887]
+                                - generic [ref=e1892]:
+                                  - strong [ref=e1893]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e1894]:
+                              - generic [ref=e1895]:
+                                - img [ref=e1897]
+                                - generic [ref=e1902]:
+                                  - strong [ref=e1903]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e1904]:
+                              - img [ref=e1905]
+                              - generic [ref=e1908]:
+                                - generic [ref=e1909]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e1910] [cursor=pointer]:
+                                  - img [ref=e1911]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e1914] [cursor=pointer]:
+                            - img [ref=e1916]
+                      - cell "Select Rooms 0" [ref=e1918]:
+                        - generic [ref=e1919]:
+                          - generic [ref=e1920]: Select Rooms
+                          - combobox "Select Rooms" [ref=e1921]:
+                            - option "0" [selected]
+                            - option "1 (€ 1,763)"
+                            - option "2 (€ 3,526)"
+                            - option "3 (€ 5,289)"
+                            - option "4 (€ 7,051)"
+                    - 'row "Max. people: 1 Only for 1 guest Price € 951 Includes taxes and fees Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1922]':
+                      - 'cell "Max. people: 1 Only for 1 guest" [ref=e1923]':
+                        - generic [ref=e1925]:
+                          - generic [ref=e1927]: "1"
+                          - generic [ref=e1928]: "Max. people: 1"
+                        - generic [ref=e1931]: Only for 1 guest
+                      - cell "Price € 951 Includes taxes and fees" [ref=e1932]:
+                        - generic [ref=e1934]:
+                          - generic [ref=e1936]:
+                            - generic [ref=e1937]: € 951
+                            - generic [ref=e1938]: Price € 951
+                          - generic [ref=e1939]: Includes taxes and fees
+                      - cell "Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1940]:
+                        - generic [ref=e1941]:
+                          - list [ref=e1942]:
+                            - listitem [ref=e1943]:
+                              - img [ref=e1944]
+                              - generic [ref=e1947]:
+                                - generic [ref=e1948]: Wonderful breakfast
+                                - text: included
+                            - listitem [ref=e1949]:
+                              - generic [ref=e1950]:
+                                - img [ref=e1952]
+                                - generic [ref=e1957]:
+                                  - strong [ref=e1958]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e1959]:
+                              - generic [ref=e1960]:
+                                - img [ref=e1962]
+                                - generic [ref=e1967]:
+                                  - strong [ref=e1968]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e1969]:
+                              - img [ref=e1970]
+                              - generic [ref=e1973]:
+                                - generic [ref=e1974]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e1975] [cursor=pointer]:
+                                  - img [ref=e1976]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e1979] [cursor=pointer]:
+                            - img [ref=e1981]
+                      - cell "Select Rooms 0" [ref=e1983]:
+                        - generic [ref=e1984]:
+                          - generic [ref=e1985]: Select Rooms
+                          - combobox "Select Rooms" [ref=e1986]:
+                            - option "0" [selected]
+                            - option "1 (€ 951)"
+                            - option "2 (€ 1,903)"
+                            - option "3 (€ 2,854)"
+                            - option "4 (€ 3,806)"
+                    - 'row "Triple Room with Garden View 3 twin beds Offering a view of the garden, this air conditioned room comes with 3 single beds, walk in shower, siting area and LED TV Balcony Air conditioning Private bathroom Minibar Show more amenities Max. people: 2 Price € 1,333 Includes taxes and fees Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1987]':
+                      - rowheader "Triple Room with Garden View 3 twin beds Offering a view of the garden, this air conditioned room comes with 3 single beds, walk in shower, siting area and LED TV Balcony Air conditioning Private bathroom Minibar Show more amenities" [ref=e1988]:
+                        - generic [ref=e1989]:
+                          - link "Triple Room with Garden View" [ref=e1991] [cursor=pointer]:
+                            - /url: "#RD25515603"
+                          - list [ref=e1994]:
+                            - listitem [ref=e1995]:
+                              - generic [ref=e1996]:
+                                - text: 3 twin beds
+                                - generic [ref=e1997]: 녍
+                          - paragraph [ref=e1998]: Offering a view of the garden, this air conditioned room comes with 3 single beds, walk in shower, siting area and LED TV
+                          - generic [ref=e2000]:
+                            - list [ref=e2001]:
+                              - listitem [ref=e2002]:
+                                - generic [ref=e2003]:
+                                  - img [ref=e2004]
+                                  - text: Balcony
+                              - listitem [ref=e2006]:
+                                - generic [ref=e2007]:
+                                  - img [ref=e2008]
+                                  - text: Air conditioning
+                              - listitem [ref=e2010]:
+                                - generic [ref=e2011]:
+                                  - img [ref=e2012]
+                                  - text: Private bathroom
+                              - listitem [ref=e2014]:
+                                - generic [ref=e2015]:
+                                  - img [ref=e2016]
+                                  - text: Minibar
+                            - button "Show more amenities" [ref=e2018] [cursor=pointer]: More
+                      - 'cell "Max. people: 2" [ref=e2019]':
+                        - generic [ref=e2021]:
+                          - generic [ref=e2022]:
+                            - generic [ref=e2023]: "1"
+                            - generic [ref=e2024]: "1"
+                          - generic [ref=e2025]: "Max. people: 2"
+                      - cell "Price € 1,333 Includes taxes and fees" [ref=e2026]:
+                        - generic [ref=e2028]:
+                          - generic [ref=e2030]:
+                            - generic [ref=e2031]: € 1,333
+                            - generic [ref=e2032]: Price € 1,333
+                          - generic [ref=e2033]: Includes taxes and fees
+                      - cell "Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e2034]:
+                        - generic [ref=e2035]:
+                          - list [ref=e2036]:
+                            - listitem [ref=e2037]:
+                              - img [ref=e2038]
+                              - generic [ref=e2041]:
+                                - generic [ref=e2042]: Wonderful breakfast
+                                - text: included
+                            - listitem [ref=e2043]:
+                              - generic [ref=e2044]:
+                                - img [ref=e2046]
+                                - generic [ref=e2051]:
+                                  - strong [ref=e2052]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e2053]:
+                              - generic [ref=e2054]:
+                                - img [ref=e2056]
+                                - generic [ref=e2061]:
+                                  - strong [ref=e2062]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e2063]:
+                              - img [ref=e2064]
+                              - generic [ref=e2067]:
+                                - generic [ref=e2068]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e2069] [cursor=pointer]:
+                                  - img [ref=e2070]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e2073] [cursor=pointer]:
+                            - img [ref=e2075]
+                      - cell "Select Rooms 0" [ref=e2077]:
+                        - generic [ref=e2078]:
+                          - generic [ref=e2079]: Select Rooms
+                          - combobox "Select Rooms" [ref=e2080]:
+                            - option "0" [selected]
+                            - option "1 (€ 1,333)"
+                            - option "2 (€ 2,666)"
+                            - option "3 (€ 3,999)"
+                            - option "4 (€ 5,332)"
+                            - option "5 (€ 6,665)"
+                            - option "6 (€ 7,998)"
+                            - option "7 (€ 9,331)"
+                            - option "8 (€ 10,664)"
+                            - option "9 (€ 11,997)"
+                            - option "10 (€ 13,330)"
+                    - 'row "Max. people: 2 Price € 2,347 Includes taxes and fees All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2081]':
+                      - 'cell "Max. people: 2" [ref=e2082]':
+                        - generic [ref=e2084]:
+                          - generic [ref=e2085]:
+                            - generic [ref=e2086]: "1"
+                            - generic [ref=e2087]: "1"
+                          - generic [ref=e2088]: "Max. people: 2"
+                      - cell "Price € 2,347 Includes taxes and fees" [ref=e2089]:
+                        - generic [ref=e2091]:
+                          - generic [ref=e2093]:
+                            - generic [ref=e2094]: € 2,347
+                            - generic [ref=e2095]: Price € 2,347
+                          - generic [ref=e2096]: Includes taxes and fees
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e2097]:
+                        - generic [ref=e2098]:
+                          - list [ref=e2099]:
+                            - listitem [ref=e2100]:
+                              - img [ref=e2101]
+                              - generic [ref=e2104]: All-Inclusive
+                            - listitem [ref=e2105]:
+                              - generic [ref=e2106]:
+                                - img [ref=e2108]
+                                - generic [ref=e2113]:
+                                  - strong [ref=e2114]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e2115]:
+                              - generic [ref=e2116]:
+                                - img [ref=e2118]
+                                - generic [ref=e2123]:
+                                  - strong [ref=e2124]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e2125]:
+                              - img [ref=e2126]
+                              - generic [ref=e2129]:
+                                - generic [ref=e2130]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e2131] [cursor=pointer]:
+                                  - img [ref=e2132]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e2135] [cursor=pointer]:
+                            - img [ref=e2137]
+                      - cell "Select Rooms 0" [ref=e2139]:
+                        - generic [ref=e2140]:
+                          - generic [ref=e2141]: Select Rooms
+                          - combobox "Select Rooms" [ref=e2142]:
+                            - option "0" [selected]
+                            - option "1 (€ 2,347)"
+                            - option "2 (€ 4,694)"
+                            - option "3 (€ 7,042)"
+                            - option "4 (€ 9,389)"
+                            - option "5 (€ 11,736)"
+                            - option "6 (€ 14,083)"
+                            - option "7 (€ 16,431)"
+                            - option "8 (€ 18,778)"
+                            - option "9 (€ 21,125)"
+                            - option "10 (€ 23,472)"
+                    - 'row "Diplomatic Suite with Garden View We have 3 left 1 king bed Featuring a garden view from a double-sized balcony, this air-conditioned suite offers a master bedroom with a king-sized bed. It also includes a separate living area with a sofa and 2 bathrooms fitted with a shower. Balcony Air conditioning Private bathroom Minibar Show more amenities Max. people: 2 Price € 1,642 Includes taxes and fees Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2143]':
+                      - rowheader "Diplomatic Suite with Garden View We have 3 left 1 king bed Featuring a garden view from a double-sized balcony, this air-conditioned suite offers a master bedroom with a king-sized bed. It also includes a separate living area with a sofa and 2 bathrooms fitted with a shower. Balcony Air conditioning Private bathroom Minibar Show more amenities" [ref=e2144]:
+                        - generic [ref=e2145]:
+                          - link "Diplomatic Suite with Garden View" [ref=e2147] [cursor=pointer]:
+                            - /url: "#RD25515608"
+                          - generic [ref=e2150]:
+                            - img [ref=e2151]
+                            - generic [ref=e2156]: We have 3 left
+                          - list [ref=e2159]:
+                            - listitem [ref=e2160]:
+                              - generic [ref=e2161]:
+                                - text: 1 king bed
+                                - generic [ref=e2162]: 녌
+                          - paragraph [ref=e2163]: Featuring a garden view from a double-sized balcony, this air-conditioned suite offers a master bedroom with a king-sized bed. It also includes a separate living area with a sofa and 2 bathrooms fitted with a shower.
+                          - generic [ref=e2165]:
+                            - list [ref=e2166]:
+                              - listitem [ref=e2167]:
+                                - generic [ref=e2168]:
+                                  - img [ref=e2169]
+                                  - text: Balcony
+                              - listitem [ref=e2171]:
+                                - generic [ref=e2172]:
+                                  - img [ref=e2173]
+                                  - text: Air conditioning
+                              - listitem [ref=e2175]:
+                                - generic [ref=e2176]:
+                                  - img [ref=e2177]
+                                  - text: Private bathroom
+                              - listitem [ref=e2179]:
+                                - generic [ref=e2180]:
+                                  - img [ref=e2181]
+                                  - text: Minibar
+                            - button "Show more amenities" [ref=e2183] [cursor=pointer]: More
+                      - 'cell "Max. people: 2" [ref=e2184]':
+                        - generic [ref=e2186]:
+                          - generic [ref=e2187]:
+                            - generic [ref=e2188]: "1"
+                            - generic [ref=e2189]: "1"
+                          - generic [ref=e2190]: "Max. people: 2"
+                      - cell "Price € 1,642 Includes taxes and fees" [ref=e2191]:
+                        - generic [ref=e2193]:
+                          - generic [ref=e2195]:
+                            - generic [ref=e2196]: € 1,642
+                            - generic [ref=e2197]: Price € 1,642
+                          - generic [ref=e2198]: Includes taxes and fees
+                      - cell "Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e2199]:
+                        - generic [ref=e2200]:
+                          - list [ref=e2201]:
+                            - listitem [ref=e2202]:
+                              - img [ref=e2203]
+                              - generic [ref=e2206]:
+                                - generic [ref=e2207]: Wonderful breakfast
+                                - text: included
+                            - listitem [ref=e2208]:
+                              - generic [ref=e2209]:
+                                - img [ref=e2211]
+                                - generic [ref=e2216]:
+                                  - strong [ref=e2217]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e2218]:
+                              - generic [ref=e2219]:
+                                - img [ref=e2221]
+                                - generic [ref=e2226]:
+                                  - strong [ref=e2227]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e2228]:
+                              - img [ref=e2229]
+                              - generic [ref=e2232]:
+                                - generic [ref=e2233]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e2234] [cursor=pointer]:
+                                  - img [ref=e2235]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e2238] [cursor=pointer]:
+                            - img [ref=e2240]
+                      - cell "Select Rooms 0" [ref=e2242]:
+                        - generic [ref=e2243]:
+                          - generic [ref=e2244]: Select Rooms
+                          - combobox "Select Rooms" [ref=e2245]:
+                            - option "0" [selected]
+                            - option "1 (€ 1,642)"
+                            - option "2 (€ 3,284)"
+                            - option "3 (€ 4,926)"
+                    - 'row "Max. people: 2 Price € 2,318 Includes taxes and fees All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2246]':
+                      - 'cell "Max. people: 2" [ref=e2247]':
+                        - generic [ref=e2249]:
+                          - generic [ref=e2250]:
+                            - generic [ref=e2251]: "1"
+                            - generic [ref=e2252]: "1"
+                          - generic [ref=e2253]: "Max. people: 2"
+                      - cell "Price € 2,318 Includes taxes and fees" [ref=e2254]:
+                        - generic [ref=e2256]:
+                          - generic [ref=e2258]:
+                            - generic [ref=e2259]: € 2,318
+                            - generic [ref=e2260]: Price € 2,318
+                          - generic [ref=e2261]: Includes taxes and fees
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e2262]:
+                        - generic [ref=e2263]:
+                          - list [ref=e2264]:
+                            - listitem [ref=e2265]:
+                              - img [ref=e2266]
+                              - generic [ref=e2269]: All-Inclusive
+                            - listitem [ref=e2270]:
+                              - generic [ref=e2271]:
+                                - img [ref=e2273]
+                                - generic [ref=e2278]:
+                                  - strong [ref=e2279]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e2280]:
+                              - generic [ref=e2281]:
+                                - img [ref=e2283]
+                                - generic [ref=e2288]:
+                                  - strong [ref=e2289]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e2290]:
+                              - img [ref=e2291]
+                              - generic [ref=e2294]:
+                                - generic [ref=e2295]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e2296] [cursor=pointer]:
+                                  - img [ref=e2297]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e2300] [cursor=pointer]:
+                            - img [ref=e2302]
+                      - cell "Select Rooms 0" [ref=e2304]:
+                        - generic [ref=e2305]:
+                          - generic [ref=e2306]: Select Rooms
+                          - combobox "Select Rooms" [ref=e2307]:
+                            - option "0" [selected]
+                            - option "1 (€ 2,318)"
+                            - option "2 (€ 4,636)"
+                            - option "3 (€ 6,955)"
+                    - 'row "Max. people: 1 Only for 1 guest Price € 1,980 Includes taxes and fees All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2308]':
+                      - 'cell "Max. people: 1 Only for 1 guest" [ref=e2309]':
+                        - generic [ref=e2311]:
+                          - generic [ref=e2313]: "1"
+                          - generic [ref=e2314]: "Max. people: 1"
+                        - generic [ref=e2317]: Only for 1 guest
+                      - cell "Price € 1,980 Includes taxes and fees" [ref=e2318]:
+                        - generic [ref=e2320]:
+                          - generic [ref=e2322]:
+                            - generic [ref=e2323]: € 1,980
+                            - generic [ref=e2324]: Price € 1,980
+                          - generic [ref=e2325]: Includes taxes and fees
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e2326]:
+                        - generic [ref=e2327]:
+                          - list [ref=e2328]:
+                            - listitem [ref=e2329]:
+                              - img [ref=e2330]
+                              - generic [ref=e2333]: All-Inclusive
+                            - listitem [ref=e2334]:
+                              - generic [ref=e2335]:
+                                - img [ref=e2337]
+                                - generic [ref=e2342]:
+                                  - strong [ref=e2343]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e2344]:
+                              - generic [ref=e2345]:
+                                - img [ref=e2347]
+                                - generic [ref=e2352]:
+                                  - strong [ref=e2353]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e2354]:
+                              - img [ref=e2355]
+                              - generic [ref=e2358]:
+                                - generic [ref=e2359]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e2360] [cursor=pointer]:
+                                  - img [ref=e2361]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e2364] [cursor=pointer]:
+                            - img [ref=e2366]
+                      - cell "Select Rooms 0" [ref=e2368]:
+                        - generic [ref=e2369]:
+                          - generic [ref=e2370]: Select Rooms
+                          - combobox "Select Rooms" [ref=e2371]:
+                            - option "0" [selected]
+                            - option "1 (€ 1,980)"
+                            - option "2 (€ 3,960)"
+                            - option "3 (€ 5,940)"
+                    - 'row "Diplomatic Suite with Pool View We have 1 left 1 king bed Featuring a pool view from a double-sized balcony, this air-conditioned suite offers a master bedroom with a king-sized bed. It also includes a separate living area with a sofa and 2 bathrooms fitted with a shower. Balcony Pool view Air conditioning Private bathroom Minibar Show more amenities Max. people: 2 Price € 1,787 Includes taxes and fees Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2372]':
+                      - rowheader "Diplomatic Suite with Pool View We have 1 left 1 king bed Featuring a pool view from a double-sized balcony, this air-conditioned suite offers a master bedroom with a king-sized bed. It also includes a separate living area with a sofa and 2 bathrooms fitted with a shower. Balcony Pool view Air conditioning Private bathroom Minibar Show more amenities" [ref=e2373]:
+                        - generic [ref=e2374]:
+                          - link "Diplomatic Suite with Pool View" [ref=e2376] [cursor=pointer]:
+                            - /url: "#RD25515609"
+                          - generic [ref=e2379]:
+                            - img [ref=e2380]
+                            - generic [ref=e2382]: We have 1 left
+                          - list [ref=e2385]:
+                            - listitem [ref=e2386]:
+                              - generic [ref=e2387]:
+                                - text: 1 king bed
+                                - generic [ref=e2388]: 녌
+                          - paragraph [ref=e2389]: Featuring a pool view from a double-sized balcony, this air-conditioned suite offers a master bedroom with a king-sized bed. It also includes a separate living area with a sofa and 2 bathrooms fitted with a shower.
+                          - generic [ref=e2391]:
+                            - list [ref=e2392]:
+                              - listitem [ref=e2393]:
+                                - generic [ref=e2394]:
+                                  - img [ref=e2395]
+                                  - text: Balcony
+                              - listitem [ref=e2397]:
+                                - generic [ref=e2398]:
+                                  - img [ref=e2399]
+                                  - text: Pool view
+                              - listitem [ref=e2401]:
+                                - generic [ref=e2402]:
+                                  - img [ref=e2403]
+                                  - text: Air conditioning
+                              - listitem [ref=e2405]:
+                                - generic [ref=e2406]:
+                                  - img [ref=e2407]
+                                  - text: Private bathroom
+                              - listitem [ref=e2409]:
+                                - generic [ref=e2410]:
+                                  - img [ref=e2411]
+                                  - text: Minibar
+                            - button "Show more amenities" [ref=e2413] [cursor=pointer]: More
+                      - 'cell "Max. people: 2" [ref=e2414]':
+                        - generic [ref=e2416]:
+                          - generic [ref=e2417]:
+                            - generic [ref=e2418]: "1"
+                            - generic [ref=e2419]: "1"
+                          - generic [ref=e2420]: "Max. people: 2"
+                      - cell "Price € 1,787 Includes taxes and fees" [ref=e2421]:
+                        - generic [ref=e2423]:
+                          - generic [ref=e2425]:
+                            - generic [ref=e2426]: € 1,787
+                            - generic [ref=e2427]: Price € 1,787
+                          - generic [ref=e2428]: Includes taxes and fees
+                      - cell "Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e2429]:
+                        - generic [ref=e2430]:
+                          - list [ref=e2431]:
+                            - listitem [ref=e2432]:
+                              - img [ref=e2433]
+                              - generic [ref=e2436]:
+                                - generic [ref=e2437]: Wonderful breakfast
+                                - text: included
+                            - listitem [ref=e2438]:
+                              - generic [ref=e2439]:
+                                - img [ref=e2441]
+                                - generic [ref=e2446]:
+                                  - strong [ref=e2447]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e2448]:
+                              - generic [ref=e2449]:
+                                - img [ref=e2451]
+                                - generic [ref=e2456]:
+                                  - strong [ref=e2457]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e2458]:
+                              - img [ref=e2459]
+                              - generic [ref=e2462]:
+                                - generic [ref=e2463]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e2464] [cursor=pointer]:
+                                  - img [ref=e2465]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e2468] [cursor=pointer]:
+                            - img [ref=e2470]
+                      - cell "Select Rooms 0" [ref=e2472]:
+                        - generic [ref=e2473]:
+                          - generic [ref=e2474]: Select Rooms
+                          - combobox "Select Rooms" [ref=e2475]:
+                            - option "0" [selected]
+                            - option "1 (€ 1,787)"
+                    - 'row "Max. people: 2 Price € 2,463 Includes taxes and fees All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2476]':
+                      - 'cell "Max. people: 2" [ref=e2477]':
+                        - generic [ref=e2479]:
+                          - generic [ref=e2480]:
+                            - generic [ref=e2481]: "1"
+                            - generic [ref=e2482]: "1"
+                          - generic [ref=e2483]: "Max. people: 2"
+                      - cell "Price € 2,463 Includes taxes and fees" [ref=e2484]:
+                        - generic [ref=e2486]:
+                          - generic [ref=e2488]:
+                            - generic [ref=e2489]: € 2,463
+                            - generic [ref=e2490]: Price € 2,463
+                          - generic [ref=e2491]: Includes taxes and fees
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e2492]:
+                        - generic [ref=e2493]:
+                          - list [ref=e2494]:
+                            - listitem [ref=e2495]:
+                              - img [ref=e2496]
+                              - generic [ref=e2499]: All-Inclusive
+                            - listitem [ref=e2500]:
+                              - generic [ref=e2501]:
+                                - img [ref=e2503]
+                                - generic [ref=e2508]:
+                                  - strong [ref=e2509]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e2510]:
+                              - generic [ref=e2511]:
+                                - img [ref=e2513]
+                                - generic [ref=e2518]:
+                                  - strong [ref=e2519]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e2520]:
+                              - img [ref=e2521]
+                              - generic [ref=e2524]:
+                                - generic [ref=e2525]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e2526] [cursor=pointer]:
+                                  - img [ref=e2527]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e2530] [cursor=pointer]:
+                            - img [ref=e2532]
+                      - cell "Select Rooms 0" [ref=e2534]:
+                        - generic [ref=e2535]:
+                          - generic [ref=e2536]: Select Rooms
+                          - combobox "Select Rooms" [ref=e2537]:
+                            - option "0" [selected]
+                            - option "1 (€ 2,463)"
+                    - 'row "Max. people: 1 Only for 1 guest Price € 2,125 Includes taxes and fees All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2538]':
+                      - 'cell "Max. people: 1 Only for 1 guest" [ref=e2539]':
+                        - generic [ref=e2541]:
+                          - generic [ref=e2543]: "1"
+                          - generic [ref=e2544]: "Max. people: 1"
+                        - generic [ref=e2547]: Only for 1 guest
+                      - cell "Price € 2,125 Includes taxes and fees" [ref=e2548]:
+                        - generic [ref=e2550]:
+                          - generic [ref=e2552]:
+                            - generic [ref=e2553]: € 2,125
+                            - generic [ref=e2554]: Price € 2,125
+                          - generic [ref=e2555]: Includes taxes and fees
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e2556]:
+                        - generic [ref=e2557]:
+                          - list [ref=e2558]:
+                            - listitem [ref=e2559]:
+                              - img [ref=e2560]
+                              - generic [ref=e2563]: All-Inclusive
+                            - listitem [ref=e2564]:
+                              - generic [ref=e2565]:
+                                - img [ref=e2567]
+                                - generic [ref=e2572]:
+                                  - strong [ref=e2573]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e2574]:
+                              - generic [ref=e2575]:
+                                - img [ref=e2577]
+                                - generic [ref=e2582]:
+                                  - strong [ref=e2583]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e2584]:
+                              - img [ref=e2585]
+                              - generic [ref=e2588]:
+                                - generic [ref=e2589]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e2590] [cursor=pointer]:
+                                  - img [ref=e2591]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e2594] [cursor=pointer]:
+                            - img [ref=e2596]
+                      - cell "Select Rooms 0" [ref=e2598]:
+                        - generic [ref=e2599]:
+                          - generic [ref=e2600]: Select Rooms
+                          - combobox "Select Rooms" [ref=e2601]:
+                            - option "0" [selected]
+                            - option "1 (€ 2,125)"
+                    - 'row "Diplomatic Suite with Sea View We have 1 left 1 king bed Featuring a view from a double-sized balcony, this air-conditioned suite includes a living room, a satellite TV and 2 bathrooms. Balcony Sea view Air conditioning Private bathroom Minibar Show more amenities Max. people: 2 Price € 1,932 Includes taxes and fees Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2602]':
+                      - rowheader "Diplomatic Suite with Sea View We have 1 left 1 king bed Featuring a view from a double-sized balcony, this air-conditioned suite includes a living room, a satellite TV and 2 bathrooms. Balcony Sea view Air conditioning Private bathroom Minibar Show more amenities" [ref=e2603]:
+                        - generic [ref=e2604]:
+                          - link "Diplomatic Suite with Sea View" [ref=e2606] [cursor=pointer]:
+                            - /url: "#RD25515617"
+                          - generic [ref=e2609]:
+                            - img [ref=e2610]
+                            - generic [ref=e2612]: We have 1 left
+                          - list [ref=e2615]:
+                            - listitem [ref=e2616]:
+                              - generic [ref=e2617]:
+                                - text: 1 king bed
+                                - generic [ref=e2618]: 녌
+                          - paragraph [ref=e2619]: Featuring a view from a double-sized balcony, this air-conditioned suite includes a living room, a satellite TV and 2 bathrooms.
+                          - generic [ref=e2621]:
+                            - list [ref=e2622]:
+                              - listitem [ref=e2623]:
+                                - generic [ref=e2624]:
+                                  - img [ref=e2625]
+                                  - text: Balcony
+                              - listitem [ref=e2627]:
+                                - generic [ref=e2628]:
+                                  - img [ref=e2629]
+                                  - text: Sea view
+                              - listitem [ref=e2631]:
+                                - generic [ref=e2632]:
+                                  - img [ref=e2633]
+                                  - text: Air conditioning
+                              - listitem [ref=e2635]:
+                                - generic [ref=e2636]:
+                                  - img [ref=e2637]
+                                  - text: Private bathroom
+                              - listitem [ref=e2639]:
+                                - generic [ref=e2640]:
+                                  - img [ref=e2641]
+                                  - text: Minibar
+                            - button "Show more amenities" [ref=e2643] [cursor=pointer]: More
+                      - 'cell "Max. people: 2" [ref=e2644]':
+                        - generic [ref=e2646]:
+                          - generic [ref=e2647]:
+                            - generic [ref=e2648]: "1"
+                            - generic [ref=e2649]: "1"
+                          - generic [ref=e2650]: "Max. people: 2"
+                      - cell "Price € 1,932 Includes taxes and fees" [ref=e2651]:
+                        - generic [ref=e2653]:
+                          - generic [ref=e2655]:
+                            - generic [ref=e2656]: € 1,932
+                            - generic [ref=e2657]: Price € 1,932
+                          - generic [ref=e2658]: Includes taxes and fees
+                      - cell "Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e2659]:
+                        - generic [ref=e2660]:
+                          - list [ref=e2661]:
+                            - listitem [ref=e2662]:
+                              - img [ref=e2663]
+                              - generic [ref=e2666]:
+                                - generic [ref=e2667]: Wonderful breakfast
+                                - text: included
+                            - listitem [ref=e2668]:
+                              - generic [ref=e2669]:
+                                - img [ref=e2671]
+                                - generic [ref=e2676]:
+                                  - strong [ref=e2677]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e2678]:
+                              - generic [ref=e2679]:
+                                - img [ref=e2681]
+                                - generic [ref=e2686]:
+                                  - strong [ref=e2687]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e2688]:
+                              - img [ref=e2689]
+                              - generic [ref=e2692]:
+                                - generic [ref=e2693]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e2694] [cursor=pointer]:
+                                  - img [ref=e2695]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e2698] [cursor=pointer]:
+                            - img [ref=e2700]
+                      - cell "Select Rooms 0" [ref=e2702]:
+                        - generic [ref=e2703]:
+                          - generic [ref=e2704]: Select Rooms
+                          - combobox "Select Rooms" [ref=e2705]:
+                            - option "0" [selected]
+                            - option "1 (€ 1,932)"
+                    - 'row "Max. people: 2 Price € 2,608 Includes taxes and fees All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2706]':
+                      - 'cell "Max. people: 2" [ref=e2707]':
+                        - generic [ref=e2709]:
+                          - generic [ref=e2710]:
+                            - generic [ref=e2711]: "1"
+                            - generic [ref=e2712]: "1"
+                          - generic [ref=e2713]: "Max. people: 2"
+                      - cell "Price € 2,608 Includes taxes and fees" [ref=e2714]:
+                        - generic [ref=e2716]:
+                          - generic [ref=e2718]:
+                            - generic [ref=e2719]: € 2,608
+                            - generic [ref=e2720]: Price € 2,608
+                          - generic [ref=e2721]: Includes taxes and fees
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e2722]:
+                        - generic [ref=e2723]:
+                          - list [ref=e2724]:
+                            - listitem [ref=e2725]:
+                              - img [ref=e2726]
+                              - generic [ref=e2729]: All-Inclusive
+                            - listitem [ref=e2730]:
+                              - generic [ref=e2731]:
+                                - img [ref=e2733]
+                                - generic [ref=e2738]:
+                                  - strong [ref=e2739]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e2740]:
+                              - generic [ref=e2741]:
+                                - img [ref=e2743]
+                                - generic [ref=e2748]:
+                                  - strong [ref=e2749]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e2750]:
+                              - img [ref=e2751]
+                              - generic [ref=e2754]:
+                                - generic [ref=e2755]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e2756] [cursor=pointer]:
+                                  - img [ref=e2757]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e2760] [cursor=pointer]:
+                            - img [ref=e2762]
+                      - cell "Select Rooms 0" [ref=e2764]:
+                        - generic [ref=e2765]:
+                          - generic [ref=e2766]: Select Rooms
+                          - combobox "Select Rooms" [ref=e2767]:
+                            - option "0" [selected]
+                            - option "1 (€ 2,608)"
+                    - 'row "Max. people: 1 Only for 1 guest Price € 2,270 Includes taxes and fees All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2768]':
+                      - 'cell "Max. people: 1 Only for 1 guest" [ref=e2769]':
+                        - generic [ref=e2771]:
+                          - generic [ref=e2773]: "1"
+                          - generic [ref=e2774]: "Max. people: 1"
+                        - generic [ref=e2777]: Only for 1 guest
+                      - cell "Price € 2,270 Includes taxes and fees" [ref=e2778]:
+                        - generic [ref=e2780]:
+                          - generic [ref=e2782]:
+                            - generic [ref=e2783]: € 2,270
+                            - generic [ref=e2784]: Price € 2,270
+                          - generic [ref=e2785]: Includes taxes and fees
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e2786]:
+                        - generic [ref=e2787]:
+                          - list [ref=e2788]:
+                            - listitem [ref=e2789]:
+                              - img [ref=e2790]
+                              - generic [ref=e2793]: All-Inclusive
+                            - listitem [ref=e2794]:
+                              - generic [ref=e2795]:
+                                - img [ref=e2797]
+                                - generic [ref=e2802]:
+                                  - strong [ref=e2803]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e2804]:
+                              - generic [ref=e2805]:
+                                - img [ref=e2807]
+                                - generic [ref=e2812]:
+                                  - strong [ref=e2813]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e2814]:
+                              - img [ref=e2815]
+                              - generic [ref=e2818]:
+                                - generic [ref=e2819]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e2820] [cursor=pointer]:
+                                  - img [ref=e2821]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e2824] [cursor=pointer]:
+                            - img [ref=e2826]
+                      - cell "Select Rooms 0" [ref=e2828]:
+                        - generic [ref=e2829]:
+                          - generic [ref=e2830]: Select Rooms
+                          - combobox "Select Rooms" [ref=e2831]:
+                            - option "0" [selected]
+                            - option "1 (€ 2,270)"
+                    - 'row "Presidential Suite We have 1 left 1 king bed Offering a view the Red Sea, this air-conditioned suite is connected to a Double Room. It has a seating area with a TV. It can accommodate 2 adults and 1 child. Private kitchenette Private bathroom Balcony Sea view Pool view Air conditioning Minibar Show more amenities Max. people: 2 Price € 6,279 Includes taxes and fees Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2832]':
+                      - rowheader "Presidential Suite We have 1 left 1 king bed Offering a view the Red Sea, this air-conditioned suite is connected to a Double Room. It has a seating area with a TV. It can accommodate 2 adults and 1 child. Private kitchenette Private bathroom Balcony Sea view Pool view Air conditioning Minibar Show more amenities" [ref=e2833]:
+                        - generic [ref=e2834]:
+                          - link "Presidential Suite" [ref=e2836] [cursor=pointer]:
+                            - /url: "#RD25515611"
+                          - generic [ref=e2839]:
+                            - img [ref=e2840]
+                            - generic [ref=e2842]: We have 1 left
+                          - list [ref=e2845]:
+                            - listitem [ref=e2846]:
+                              - generic [ref=e2847]:
+                                - text: 1 king bed
+                                - generic [ref=e2848]: 녌
+                          - paragraph [ref=e2849]: Offering a view the Red Sea, this air-conditioned suite is connected to a Double Room. It has a seating area with a TV. It can accommodate 2 adults and 1 child.
+                          - generic [ref=e2851]:
+                            - list [ref=e2852]:
+                              - listitem [ref=e2853]:
+                                - generic [ref=e2854]:
+                                  - img [ref=e2855]
+                                  - text: Private kitchenette
+                              - listitem [ref=e2857]:
+                                - generic [ref=e2858]:
+                                  - img [ref=e2859]
+                                  - text: Private bathroom
+                              - listitem [ref=e2861]:
+                                - generic [ref=e2862]:
+                                  - img [ref=e2863]
+                                  - text: Balcony
+                              - listitem [ref=e2865]:
+                                - generic [ref=e2866]:
+                                  - img [ref=e2867]
+                                  - text: Sea view
+                              - listitem [ref=e2869]:
+                                - generic [ref=e2870]:
+                                  - img [ref=e2871]
+                                  - text: Pool view
+                              - listitem [ref=e2873]:
+                                - generic [ref=e2874]:
+                                  - img [ref=e2875]
+                                  - text: Air conditioning
+                              - listitem [ref=e2877]:
+                                - generic [ref=e2878]:
+                                  - img [ref=e2879]
+                                  - text: Minibar
+                            - button "Show more amenities" [ref=e2881] [cursor=pointer]: More
+                      - 'cell "Max. people: 2" [ref=e2882]':
+                        - generic [ref=e2884]:
+                          - generic [ref=e2885]:
+                            - generic [ref=e2886]: "1"
+                            - generic [ref=e2887]: "1"
+                          - generic [ref=e2888]: "Max. people: 2"
+                      - cell "Price € 6,279 Includes taxes and fees" [ref=e2889]:
+                        - generic [ref=e2891]:
+                          - generic [ref=e2893]:
+                            - generic [ref=e2894]: € 6,279
+                            - generic [ref=e2895]: Price € 6,279
+                          - generic [ref=e2896]: Includes taxes and fees
+                      - cell "Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e2897]:
+                        - generic [ref=e2898]:
+                          - list [ref=e2899]:
+                            - listitem [ref=e2900]:
+                              - img [ref=e2901]
+                              - generic [ref=e2904]:
+                                - generic [ref=e2905]: Wonderful breakfast
+                                - text: included
+                            - listitem [ref=e2906]:
+                              - generic [ref=e2907]:
+                                - img [ref=e2909]
+                                - generic [ref=e2914]:
+                                  - strong [ref=e2915]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e2916]:
+                              - generic [ref=e2917]:
+                                - img [ref=e2919]
+                                - generic [ref=e2924]:
+                                  - strong [ref=e2925]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e2926]:
+                              - img [ref=e2927]
+                              - generic [ref=e2930]:
+                                - generic [ref=e2931]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e2932] [cursor=pointer]:
+                                  - img [ref=e2933]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e2936] [cursor=pointer]:
+                            - img [ref=e2938]
+                      - cell "Select Rooms 0" [ref=e2940]:
+                        - generic [ref=e2941]:
+                          - generic [ref=e2942]: Select Rooms
+                          - combobox "Select Rooms" [ref=e2943]:
+                            - option "0" [selected]
+                            - option "1 (€ 6,279)"
+                    - 'row "Max. people: 2 Price € 6,955 Includes taxes and fees All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e2944]':
+                      - 'cell "Max. people: 2" [ref=e2945]':
+                        - generic [ref=e2947]:
+                          - generic [ref=e2948]:
+                            - generic [ref=e2949]: "1"
+                            - generic [ref=e2950]: "1"
+                          - generic [ref=e2951]: "Max. people: 2"
+                      - cell "Price € 6,955 Includes taxes and fees" [ref=e2952]:
+                        - generic [ref=e2954]:
+                          - generic [ref=e2956]:
+                            - generic [ref=e2957]: € 6,955
+                            - generic [ref=e2958]: Price € 6,955
+                          - generic [ref=e2959]: Includes taxes and fees
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e2960]:
+                        - generic [ref=e2961]:
+                          - list [ref=e2962]:
+                            - listitem [ref=e2963]:
+                              - img [ref=e2964]
+                              - generic [ref=e2967]: All-Inclusive
+                            - listitem [ref=e2968]:
+                              - generic [ref=e2969]:
+                                - img [ref=e2971]
+                                - generic [ref=e2976]:
+                                  - strong [ref=e2977]: Free cancellation
+                                  - text: before February 12, 2026
+                            - listitem [ref=e2978]:
+                              - generic [ref=e2979]:
+                                - img [ref=e2981]
+                                - generic [ref=e2986]:
+                                  - strong [ref=e2987]: No prepayment needed
+                                  - text: – pay at the property
+                            - listitem [ref=e2988]:
+                              - img [ref=e2989]
+                              - generic [ref=e2992]:
+                                - generic [ref=e2993]: Free
+                                - text: private taxi from the airport to this property
+                                - tooltip [ref=e2994] [cursor=pointer]:
+                                  - img [ref=e2995]
+                          - button "More details on meals, cancellation, and prepayment policies" [ref=e2998] [cursor=pointer]:
+                            - img [ref=e3000]
+                      - cell "Select Rooms 0" [ref=e3002]:
+                        - generic [ref=e3003]:
+                          - generic [ref=e3004]: Select Rooms
+                          - combobox "Select Rooms" [ref=e3005]:
+                            - option "0" [selected]
+                            - option "1 (€ 6,955)"
+                - generic [ref=e3008]:
+                  - button "I'll reserve" [ref=e3010] [cursor=pointer]:
+                    - generic [ref=e3011]: I'll reserve
+                  - list [ref=e3013]:
+                    - listitem [ref=e3014]: It only takes 2 minutes
+                    - listitem [ref=e3015]: You won't be charged yet
+          - generic [ref=e3039]:
+            - generic [ref=e3041]:
+              - generic [ref=e3042]:
+                - heading "Guest reviews" [level=2] [ref=e3044]
+                - button "See availability" [ref=e3046] [cursor=pointer]:
+                  - generic [ref=e3047]: See availability
+              - button "Scored 8.8 Rated excellent Read all reviews" [ref=e3050] [cursor=pointer]:
+                - generic [ref=e3051]:
+                  - generic [ref=e3052]:
+                    - generic [ref=e3053]: Scored 8.8
+                    - generic [ref=e3054]: "8.8"
+                    - generic [ref=e3055]: Rated excellent
+                    - generic [ref=e3056]:
+                      - generic [ref=e3057]: Excellent
+                      - generic [ref=e3058]: · 2,103 reviews
+                  - generic [ref=e3060]: Read all reviews
+              - group "Review categories" [ref=e3062]:
+                - heading "Categories:" [level=3] [ref=e3064]
+                - generic [ref=e3065]:
+                  - generic "Average rating out of 10" [ref=e3067]:
+                    - generic [ref=e3068]:
+                      - generic [ref=e3069]:
+                        - generic [ref=e3072]: Staff
+                        - generic [ref=e3074]: "9.1"
+                      - meter "Staff" [ref=e3075]
+                  - generic "Average rating out of 10" [ref=e3078]:
+                    - generic [ref=e3079]:
+                      - generic [ref=e3080]:
+                        - generic [ref=e3083]: Facilities
+                        - generic [ref=e3085]: "9.0"
+                      - meter "Facilities" [ref=e3086]
+                  - generic "Average rating out of 10" [ref=e3089]:
+                    - generic [ref=e3090]:
+                      - generic [ref=e3091]:
+                        - generic [ref=e3094]: Cleanliness
+                        - generic [ref=e3096]: "9.1"
+                      - meter "Cleanliness" [ref=e3097]
+                  - generic "Average rating out of 10" [ref=e3100]:
+                    - generic [ref=e3101]:
+                      - generic [ref=e3102]:
+                        - generic [ref=e3105]: Comfort
+                        - generic [ref=e3107]: "9.1"
+                      - meter "Comfort" [ref=e3108]
+                  - generic "Average rating out of 10" [ref=e3111]:
+                    - generic [ref=e3112]:
+                      - generic [ref=e3113]:
+                        - generic [ref=e3116]: Value for money
+                        - generic [ref=e3118]: "8.5"
+                      - meter "Value for money" [ref=e3119]
+                  - generic "Average rating out of 10" [ref=e3122]:
+                    - generic [ref=e3123]:
+                      - generic [ref=e3124]:
+                        - generic [ref=e3127]: Location
+                        - generic [ref=e3129]: "9.4"
+                      - meter "Location" [ref=e3130]
+              - group "Select topics to read reviews:" [ref=e3133]:
+                - heading "Select topics to read reviews:" [level=3] [ref=e3136]
+                - group "Select topics to read reviews:" [ref=e3138]:
+                  - button "Beach" [ref=e3139]:
+                    - checkbox "Beach" [ref=e3140]
+                    - generic [ref=e3141] [cursor=pointer]:
+                      - img [ref=e3143]
+                      - generic [ref=e3145]: Beach
+                  - button "Breakfast" [ref=e3146]:
+                    - checkbox "Breakfast" [ref=e3147]
+                    - generic [ref=e3148] [cursor=pointer]:
+                      - img [ref=e3150]
+                      - generic [ref=e3152]: Breakfast
+                  - button "Location" [ref=e3153]:
+                    - checkbox "Location" [ref=e3154]
+                    - generic [ref=e3155] [cursor=pointer]:
+                      - img [ref=e3157]
+                      - generic [ref=e3159]: Location
+                  - button "Dinner" [ref=e3160]:
+                    - checkbox "Dinner" [ref=e3161]
+                    - generic [ref=e3162] [cursor=pointer]:
+                      - img [ref=e3164]
+                      - generic [ref=e3166]: Dinner
+                  - button "Swimming pool" [ref=e3167]:
+                    - checkbox "Swimming pool" [ref=e3168]
+                    - generic [ref=e3169] [cursor=pointer]:
+                      - img [ref=e3171]
+                      - generic [ref=e3173]: Swimming pool
+              - generic [ref=e3175]:
+                - generic [ref=e3176]:
+                  - heading "Guests who stayed here loved" [level=3] [ref=e3177]
+                  - generic [ref=e3178]:
+                    - region "Guests who stayed here loved" [ref=e3179]:
+                      - group [ref=e3180]:
+                        - generic [ref=e3182]:
+                          - generic [ref=e3184]:
+                            - generic [ref=e3186]: H
+                            - generic [ref=e3187]:
+                              - generic [ref=e3188]: Hani
+                              - generic [ref=e3189]:
+                                - img "Saudi Arabia" [ref=e3190]
+                                - generic [ref=e3191]: Saudi Arabia
+                          - generic [ref=e3194]: “The location close to the airport and walking to soho square , swimming pools, Beach, the size of the room and balcony. when you stay in savoy you get 25% discount in all restaurants in soho square.”
+                          - button "Read more of Hani's review" [ref=e3196] [cursor=pointer]:
+                            - generic [ref=e3197]: See pros and cons
+                      - group [ref=e3198]:
+                        - generic [ref=e3200]:
+                          - generic [ref=e3202]:
+                            - generic [ref=e3204]: S
+                            - generic [ref=e3205]:
+                              - generic [ref=e3206]: Sayed
+                              - generic [ref=e3207]:
+                                - img "Turkey" [ref=e3208]
+                                - generic [ref=e3209]: Turkey
+                          - generic [ref=e3212]: “Everything was good! We had only B&B and the breakfast buffet was full of options! All the team was great specially Yohana from front desk ! He was very helpful from time we arrived till we checked out ! A recommended hotel !”
+                          - button "Read more of Sayed's review" [ref=e3214] [cursor=pointer]:
+                            - generic [ref=e3215]: See pros and cons
+                      - group [ref=e3216]:
+                        - generic [ref=e3218]:
+                          - generic [ref=e3220]:
+                            - generic [ref=e3222]: A
+                            - generic [ref=e3223]:
+                              - generic [ref=e3224]: Amro
+                              - generic [ref=e3225]:
+                                - img "Kuwait" [ref=e3226]
+                                - generic [ref=e3227]: Kuwait
+                          - generic [ref=e3230]: “An Unforgettable Stay at Savoy – Exceptional Service!”
+                          - button "Read more of Amro's review" [ref=e3232] [cursor=pointer]:
+                            - generic [ref=e3233]: See pros and cons
+                      - group [ref=e3234]:
+                        - generic [ref=e3236]:
+                          - generic [ref=e3241]:
+                            - generic [ref=e3242]: Jana
+                            - generic [ref=e3243]:
+                              - img "Saudi Arabia" [ref=e3244]
+                              - generic [ref=e3245]: Saudi Arabia
+                          - generic [ref=e3248]: “The hotel is very nice and comfortable. The staff are extremely helpful and friendly — especially Mr. Kareem at the restaurant and Mr. Mohamed at the reception. The sea is great for swimming, but there is no sandy beach, only about 10 meters. The...”
+                          - button "Read more of Jana's review" [ref=e3250] [cursor=pointer]:
+                            - generic [ref=e3251]: See pros and cons
+                      - group [ref=e3252]:
+                        - generic [ref=e3254]:
+                          - generic [ref=e3259]:
+                            - generic [ref=e3260]: Mohamed
+                            - generic [ref=e3261]:
+                              - img "United States" [ref=e3262]
+                              - generic [ref=e3263]: United States
+                          - generic [ref=e3266]: “The total experience with Savoy Resort is excellent, staff were very helpful and friendly, food was amazing, room was amazin. There is always an activity to make you enjoy the stay like parties and physical events by the pool.”
+                          - button "Read more of Mohamed's review" [ref=e3268] [cursor=pointer]:
+                            - generic [ref=e3269]: See pros and cons
+                      - group [ref=e3270]:
+                        - generic [ref=e3272]:
+                          - generic [ref=e3277]:
+                            - generic [ref=e3278]: Shabayta
+                            - generic [ref=e3279]:
+                              - img "Saudi Arabia" [ref=e3280]
+                              - generic [ref=e3281]: Saudi Arabia
+                          - generic [ref=e3284]: “The only hotel that i book once i visited Sharm. Clean tidy comfortable and staff were so help-full ad usual.”
+                          - button "Read more of Shabayta's review" [ref=e3286] [cursor=pointer]:
+                            - generic [ref=e3287]: See pros and cons
+                      - group [ref=e3288]:
+                        - generic [ref=e3290]:
+                          - generic [ref=e3295]:
+                            - generic [ref=e3296]: Isaac
+                            - generic [ref=e3297]:
+                              - img "United States" [ref=e3298]
+                              - generic [ref=e3299]: United States
+                          - generic [ref=e3302]: “The staff were so friendly, everything there was so clean, and the food is really tasty. And of course the best thing was the location of the property because soho square is inside the hotel so you literally don’t need to go anywhere else”
+                          - button "Read more of Isaac's review" [ref=e3304] [cursor=pointer]:
+                            - generic [ref=e3305]: See pros and cons
+                      - group [ref=e3306]:
+                        - generic [ref=e3308]:
+                          - generic [ref=e3310]:
+                            - generic [ref=e3312]: M
+                            - generic [ref=e3313]:
+                              - generic [ref=e3314]: Michelle
+                              - generic [ref=e3315]:
+                                - img "United States" [ref=e3316]
+                                - generic [ref=e3317]: United States
+                          - generic [ref=e3320]: “We truly enjoyed the property and the location. They had several pools and the beach was great but you have to get chairs early at either the beach or pool area. The restaurants food was good and lots of choices. The spa was very nice and relaxing.”
+                          - button "Read more of Michelle's review" [ref=e3322] [cursor=pointer]:
+                            - generic [ref=e3323]: See pros and cons
+                      - group [ref=e3324]:
+                        - generic [ref=e3326]:
+                          - generic [ref=e3331]:
+                            - generic [ref=e3332]: Rashid
+                            - generic [ref=e3333]:
+                              - img "United States" [ref=e3334]
+                              - generic [ref=e3335]: United States
+                          - generic [ref=e3338]: “Unbelievable, great hospitality, everything was great as we expected!”
+                          - button "Read more of Rashid's review" [ref=e3340] [cursor=pointer]:
+                            - generic [ref=e3341]: See pros and cons
+                      - group [ref=e3342]:
+                        - generic [ref=e3344]:
+                          - generic [ref=e3346]:
+                            - generic [ref=e3348]: Z
+                            - generic [ref=e3349]:
+                              - generic [ref=e3350]: Zeyad
+                              - generic [ref=e3351]:
+                                - img "Egypt" [ref=e3352]
+                                - generic [ref=e3353]: Egypt
+                          - generic [ref=e3356]: “Facility is really amazing. Location is very good, Staff is adorable specially Ahmed Ismail from Reception team, was very helpful.”
+                          - button "Read more of Zeyad's review" [ref=e3358] [cursor=pointer]:
+                            - generic [ref=e3359]: See pros and cons
+                    - button [ref=e3360] [cursor=pointer]:
+                      - img [ref=e3363]
+                - button "Read all reviews" [ref=e3365] [cursor=pointer]:
+                  - generic [ref=e3366]: Read all reviews
+            - generic [ref=e4011]:
+              - generic [ref=e4012]:
+                - heading "Travelers are asking" [level=2] [ref=e4014]:
+                  - generic [ref=e4015]: Travelers are asking
+                - button "See availability" [ref=e4017] [cursor=pointer]:
+                  - generic [ref=e4018]: See availability
+              - generic [ref=e4020]:
+                - generic [ref=e4021]:
+                  - list [ref=e4023]:
+                    - listitem [ref=e4024]:
+                      - button "Do they serve breakfast?" [ref=e4025] [cursor=pointer]:
+                        - generic [ref=e4026]:
+                          - img [ref=e4029]
+                          - generic [ref=e4031]: Do they serve breakfast?
+                          - img [ref=e4034]
+                    - listitem [ref=e4036]:
+                      - button "Is the swimming pool open?" [ref=e4037] [cursor=pointer]:
+                        - generic [ref=e4038]:
+                          - img [ref=e4041]
+                          - generic [ref=e4043]: Is the swimming pool open?
+                          - img [ref=e4046]
+                    - listitem [ref=e4048]:
+                      - button "Can I park there?" [ref=e4049] [cursor=pointer]:
+                        - generic [ref=e4050]:
+                          - img [ref=e4053]
+                          - generic [ref=e4055]: Can I park there?
+                          - img [ref=e4058]
+                    - listitem [ref=e4060]:
+                      - button "Is the restaurant open?" [ref=e4061] [cursor=pointer]:
+                        - generic [ref=e4062]:
+                          - img [ref=e4065]
+                          - generic [ref=e4067]: Is the restaurant open?
+                          - img [ref=e4070]
+                    - listitem [ref=e4072]:
+                      - button "Is the spa open?" [ref=e4073] [cursor=pointer]:
+                        - generic [ref=e4074]:
+                          - img [ref=e4077]
+                          - generic [ref=e4079]: Is the spa open?
+                          - img [ref=e4082]
+                    - listitem [ref=e4084]:
+                      - button "Is there an airport shuttle service?" [ref=e4085] [cursor=pointer]:
+                        - generic [ref=e4086]:
+                          - img [ref=e4089]
+                          - generic [ref=e4091]: Is there an airport shuttle service?
+                          - img [ref=e4094]
+                    - listitem [ref=e4096]:
+                      - button "What restaurants, attractions, and public transit options are nearby?" [ref=e4097] [cursor=pointer]:
+                        - generic [ref=e4098]:
+                          - img [ref=e4101]
+                          - generic [ref=e4103]: What restaurants, attractions, and public transit options are nearby?
+                          - img [ref=e4106]
+                    - listitem [ref=e4108]:
+                      - button "What's the Wi-Fi policy?" [ref=e4109] [cursor=pointer]:
+                        - generic [ref=e4110]:
+                          - img [ref=e4113]
+                          - generic [ref=e4115]: What's the Wi-Fi policy?
+                          - img [ref=e4118]
+                    - listitem [ref=e4120]:
+                      - button "Are there rooms with a private bathroom?" [ref=e4121] [cursor=pointer]:
+                        - generic [ref=e4122]:
+                          - img [ref=e4125]
+                          - generic [ref=e4127]: Are there rooms with a private bathroom?
+                          - img [ref=e4130]
+                    - listitem [ref=e4132]:
+                      - button "Are there rooms with a balcony?" [ref=e4133] [cursor=pointer]:
+                        - generic [ref=e4134]:
+                          - img [ref=e4137]
+                          - generic [ref=e4139]: Are there rooms with a balcony?
+                          - img [ref=e4142]
+                  - generic [ref=e4145]:
+                    - heading "Still looking?" [level=3] [ref=e4146]
+                    - button "Ask a question" [ref=e4147] [cursor=pointer]:
+                      - generic [ref=e4148]: Ask a question
+                    - paragraph [ref=e4149]: We have an instant answer to most questions
+                - button "See other questions (20)" [ref=e4152] [cursor=pointer]:
+                  - generic [ref=e4153]: See other questions (20)
+            - generic [ref=e3416]:
+              - generic [ref=e3417]:
+                - heading "Area info" [level=2] [ref=e3419]:
+                  - generic [ref=e3420]: Area info
+                - button "See availability" [ref=e3422] [cursor=pointer]:
+                  - generic [ref=e3423]: See availability
+              - generic [ref=e3424]:
+                - generic [ref=e4154]:
+                  - button "Guests loved walking around the neighborhood!" [ref=e4156] [cursor=pointer]:
+                    - generic [ref=e4158]: Guests loved walking around the neighborhood!
+                  - link "Excellent location – show map" [ref=e4160] [cursor=pointer]:
+                    - /url: "#map_opened-hotel_surroundings"
+                    - generic [ref=e4161]: Excellent location – show map
+                - generic [ref=e3425]:
+                  - generic [ref=e4162]:
+                    - generic [ref=e4163]:
+                      - generic [ref=e4164]:
+                        - img [ref=e4166]
+                        - heading "Restaurants & cafes" [level=3] [ref=e4168]:
+                          - generic [ref=e4169]: Restaurants & cafes
+                      - list [ref=e4170]:
+                        - listitem [ref=e4171]:
+                          - generic [ref=e4174]:
+                            - generic [ref=e4175]: Cafe/Bar Ice Bar Sharm El-Sheikh
+                            - generic [ref=e4177]: 100 m
+                        - listitem [ref=e4178]:
+                          - generic [ref=e4181]:
+                            - generic [ref=e4182]: Cafe/Bar Mandarin Bar And Cocktail Lounge Sharm El-Sheikh
+                            - generic [ref=e4184]: 150 m
+                        - listitem [ref=e4185]:
+                          - generic [ref=e4188]:
+                            - generic [ref=e4189]: Restaurant Soho House
+                            - generic [ref=e4191]: 150 m
+                    - generic [ref=e4192]:
+                      - generic [ref=e4193]:
+                        - img [ref=e4195]
+                        - heading "Beaches in the Neighborhood" [level=3] [ref=e4197]:
+                          - generic [ref=e4198]: Beaches in the Neighborhood
+                      - list [ref=e4199]:
+                        - listitem [ref=e4200]:
+                          - generic [ref=e4203]:
+                            - generic [ref=e4204]: White Knight Bay Beach
+                            - generic [ref=e4206]: 600 m
+                        - listitem [ref=e4207]:
+                          - generic [ref=e4210]:
+                            - generic [ref=e4211]: Sharks Bay Beach
+                            - generic [ref=e4213]: 1.3 km
+                        - listitem [ref=e4214]:
+                          - generic [ref=e4217]:
+                            - generic [ref=e4218]: Ras Nasrani Beach
+                            - generic [ref=e4220]: 2.6 km
+                        - listitem [ref=e4221]:
+                          - generic [ref=e4224]:
+                            - generic [ref=e4225]: Adrenaline Beach
+                            - generic [ref=e4227]: 4.6 km
+                        - listitem [ref=e4228]:
+                          - generic [ref=e4231]:
+                            - generic [ref=e4232]: Domina Coral Bay Beach
+                            - generic [ref=e4234]: 7 km
+                    - generic [ref=e4235]:
+                      - generic [ref=e4236]:
+                        - img [ref=e4238]
+                        - heading "Closest Airports" [level=3] [ref=e4240]:
+                          - generic [ref=e4241]: Closest Airports
+                      - list [ref=e4242]:
+                        - listitem [ref=e4243]:
+                          - generic [ref=e4246]:
+                            - generic [ref=e4247]: Sharm el-Sheikh International Airport
+                            - generic [ref=e4249]: 1.6 km
+                  - generic [ref=e4250]: Shortest estimated walking or driving distances displayed. Actual distances may vary.
+                - group [ref=e4253]:
+                  - generic [ref=e4255]: Missing some information?
+                  - generic [ref=e4257]:
+                    - button "Yes" [ref=e4259] [cursor=pointer]:
+                      - generic [ref=e4260]: "Yes"
+                    - generic [ref=e4261]:
+                      - text: /
+                      - button "No" [ref=e4262] [cursor=pointer]:
+                        - generic [ref=e4263]: "No"
+            - generic [ref=e3447]:
+              - generic [ref=e3448]:
+                - generic [ref=e3449]:
+                  - heading "Food and Drink" [level=2] [ref=e3450]:
+                    - generic [ref=e3451]: Food and Drink
+                  - generic [ref=e4264]: Breakfast on site, restaurants on site, plus facilities and nearby options
+                - button "See availability" [ref=e3453] [cursor=pointer]:
+                  - generic [ref=e3454]: See availability
+              - generic [ref=e3456]:
+                - generic [ref=e3459]:
+                  - generic [ref=e3461]:
+                    - button "a restaurant with tables and chairs and a ceiling fan at Savoy Sharm El Sheikh in Sharm El Sheikh" [ref=e3463] [cursor=pointer]:
+                      - img "a restaurant with tables and chairs and a ceiling fan at Savoy Sharm El Sheikh in Sharm El Sheikh" [ref=e3465]
+                    - button "a restaurant with tables and chairs and windows at Savoy Sharm El Sheikh in Sharm El Sheikh" [ref=e3467] [cursor=pointer]:
+                      - img "a restaurant with tables and chairs and windows at Savoy Sharm El Sheikh in Sharm El Sheikh" [ref=e3469]
+                    - button "a lobby of a resort with a buffet line at Savoy Sharm El Sheikh in Sharm El Sheikh" [ref=e3471] [cursor=pointer]:
+                      - img "a lobby of a resort with a buffet line at Savoy Sharm El Sheikh in Sharm El Sheikh" [ref=e3473]
+                  - generic [ref=e3474]:
+                    - heading "Breakfast" [level=3] [ref=e3476]:
+                      - generic [ref=e3477]: Breakfast
+                    - list [ref=e3479]:
+                      - listitem [ref=e3480]:
+                        - generic [ref=e3481]: Wonderful breakfast included with select options or available at the property for € 8.62 per person.
+                      - listitem [ref=e3482]:
+                        - generic [ref=e3483]:
+                          - generic [ref=e3484]: Food
+                          - generic [ref=e3485]: Bread • Pastries • Pancakes • Butter • Cheese • Cold meat • Eggs • Yogurt • Fruit • Local specialities • Cooked/warm meals • Jam • Cereal
+                      - listitem [ref=e3486]:
+                        - generic [ref=e3487]:
+                          - generic [ref=e3488]: Drinks
+                          - generic [ref=e3489]: Coffee • Tea • Hot chocolate • Champagne • Fruit juice
+                - generic [ref=e3492]:
+                  - img [ref=e3499]
+                  - generic [ref=e3501]:
+                    - generic [ref=e3504]: Tirana Restaurant
+                    - list [ref=e3506]:
+                      - listitem [ref=e3507]:
+                        - generic [ref=e3508]:
+                          - generic [ref=e3509]: Cuisine
+                          - generic [ref=e3510]: International
+                      - listitem [ref=e3511]:
+                        - generic [ref=e3512]:
+                          - generic [ref=e3513]: Service
+                          - generic [ref=e3514]: Breakfast • Lunch • Dinner
+                      - listitem [ref=e3515]:
+                        - generic [ref=e3516]:
+                          - generic [ref=e3517]: Dietary options
+                          - generic [ref=e3518]: Halal • Vegetarian • Vegan
+                - generic [ref=e3521]:
+                  - img "More food and drink" [ref=e3523]
+                  - generic [ref=e3524]:
+                    - generic [ref=e3526]: More food and drink
+                    - generic [ref=e3527]: Meals • Restaurants • Facilities • Nearby options
+                  - button "View all food & drink details" [ref=e3528] [cursor=pointer]:
+                    - generic [ref=e3529]: View all food & drink details
+            - region "Survey with 2 questions" [ref=e4266]:
+              - generic [ref=e4270]:
+                - button "Close survey" [ref=e4272] [cursor=pointer]:
+                  - img [ref=e4275]
+                - heading "How are we doing?" [level=3] [ref=e4277]:
+                  - generic [ref=e4278]: How are we doing?
+                - generic [ref=e4279]:
+                  - img [ref=e4281]
+                  - generic [ref=e4282]:
+                    - generic [ref=e4283]:
+                      - generic "Question 1 of 2" [ref=e4284]: 1 of 2
+                      - generic [ref=e4285]: Booking.com is easy to use
+                    - group "Rate how much you agree with the following statement. This is a 5-point scale, with 1 being strongly agree and 5 strongly disagree." [ref=e4287]:
+                      - generic [ref=e4288]:
+                        - radio "Strongly agree" [ref=e4289]
+                        - generic [ref=e4293] [cursor=pointer]: Strongly agree
+                      - generic [ref=e4294]:
+                        - radio "Agree" [ref=e4295]
+                        - generic [ref=e4299] [cursor=pointer]: Agree
+                      - generic [ref=e4300]:
+                        - radio "Neutral" [ref=e4301]
+                        - generic [ref=e4305] [cursor=pointer]: Neutral
+                      - generic [ref=e4306]:
+                        - radio "Disagree" [ref=e4307]
+                        - generic [ref=e4311] [cursor=pointer]: Disagree
+                      - generic [ref=e4312]:
+                        - radio "Strongly disagree" [ref=e4313]
+                        - generic [ref=e4317] [cursor=pointer]: Strongly disagree
+            - generic [ref=e3533]:
+              - generic [ref=e3534]:
+                - generic [ref=e3535]:
+                  - heading "House rules" [level=2] [ref=e3536]:
+                    - generic [ref=e3537]: House rules
+                  - generic [ref=e3538]: Savoy Sharm El Sheikh takes special requests – add in the next step!
+                - button "See availability" [ref=e3540] [cursor=pointer]:
+                  - generic [ref=e3541]: See availability
+              - generic [ref=e3543]:
+                - generic [ref=e3544]:
+                  - generic [ref=e3546]:
+                    - img [ref=e3548]
+                    - generic [ref=e3550]: Check-in
+                  - generic [ref=e3551]:
+                    - generic [ref=e3552]: From 2:00 PM to 7:30 PM
+                    - generic [ref=e3553]: Guests are required to show a photo ID and credit card at check-in.
+                - separator [ref=e3554]
+                - generic [ref=e3555]:
+                  - generic [ref=e3557]:
+                    - img [ref=e3559]
+                    - generic [ref=e3561]: Check-out
+                  - generic [ref=e3563]: From 7:00 AM to 12:00 PM
+                - separator [ref=e3564]
+                - generic [ref=e3565]:
+                  - generic [ref=e3567]:
+                    - img [ref=e3569]
+                    - generic [ref=e3571]: Cancellation/ prepayment
+                  - generic [ref=e3573]:
+                    - text: Cancellation and prepayment policies vary according to accommodation type. Check what
+                    - link "conditions" [ref=e3574] [cursor=pointer]:
+                      - /url: "#availability_target"
+                    - text: apply to each option when making your selection.
+                - separator [ref=e3575]
+                - generic [ref=e3576]:
+                  - generic [ref=e3578]:
+                    - img [ref=e3580]
+                    - generic [ref=e3582]: Children & Beds
+                  - generic [ref=e3584]:
+                    - generic [ref=e3585]:
+                      - heading "Child policies" [level=3] [ref=e3586]
+                      - paragraph [ref=e3587]: Children of all ages are welcome.
+                      - paragraph [ref=e3588]: Children 12 and above will be charged as adults at this property.
+                      - paragraph [ref=e3589]: To see correct prices and occupancy info, add the number and ages of children in your group to your search.
+                    - heading "Crib and extra bed policies" [level=3] [ref=e3590]
+                    - generic [ref=e3591]:
+                      - generic [ref=e3592]: 0 - 2 years
+                      - generic [ref=e3593]:
+                        - generic [ref=e3594]:
+                          - img [ref=e3596]
+                          - text: Extra bed upon request
+                        - generic [ref=e3599]: Free
+                      - generic [ref=e3600]:
+                        - generic [ref=e3601]:
+                          - img [ref=e3603]
+                          - text: Crib upon request
+                        - generic [ref=e3606]: Free
+                    - generic [ref=e3607]:
+                      - generic [ref=e3608]: 3 - 5 years
+                      - generic [ref=e3609]:
+                        - generic [ref=e3610]:
+                          - img [ref=e3612]
+                          - text: Extra bed upon request
+                        - generic [ref=e3615]: Free
+                    - generic [ref=e3616]:
+                      - paragraph [ref=e3617]: The number of extra beds and cribs allowed depends on the option you choose. Check your selected option for more info.
+                      - paragraph [ref=e3618]: All cribs and extra beds are subject to availability.
+                - separator [ref=e3619]
+                - generic [ref=e3620]:
+                  - generic [ref=e3622]:
+                    - img [ref=e3624]
+                    - generic [ref=e3626]: No age restriction
+                  - generic [ref=e3628]: There's no age requirement for check-in
+                - separator [ref=e3629]
+                - generic [ref=e3630]:
+                  - generic [ref=e3632]:
+                    - img [ref=e3634]
+                    - generic [ref=e3636]: Pets
+                  - generic [ref=e3638]: Pets are not allowed.
+                - separator [ref=e3639]
+                - generic [ref=e3640]:
+                  - generic [ref=e3642]:
+                    - img [ref=e3644]
+                    - generic [ref=e3646]: Groups
+                  - generic [ref=e3648]: When booking more than 5 rooms, different policies and additional fees may apply.
+                - separator [ref=e3649]
+                - generic [ref=e3650]:
+                  - generic [ref=e3652]:
+                    - img [ref=e3654]
+                    - generic [ref=e3656]: Accepted payment methods
+                  - generic [ref=e3658]:
+                    - img "American Express" [ref=e3660]
+                    - img "Visa" [ref=e3662]
+                    - img "Mastercard" [ref=e3664]
+                    - img "Diners Club" [ref=e3666]
+                    - generic [ref=e3668]: Cash
+            - generic [ref=e3672]:
+              - generic [ref=e3673]:
+                - generic [ref=e3674]:
+                  - heading "The fine print" [level=2] [ref=e3675]:
+                    - generic [ref=e3676]: The fine print
+                  - generic [ref=e3677]: Must-know information for guests at this property
+                - button "See availability" [ref=e3679] [cursor=pointer]:
+                  - generic [ref=e3680]: See availability
+              - generic [ref=e3683]:
+                - paragraph [ref=e3684]: Please note that the rate for the ‘Special Offer - Egyptian and Residents Only’ room is exclusive for Egyptians and residents only. Additional charges are applicable if a valid Egyptian ID, Egyptian passport or Egyptian residency is not presented upon check-in.
+                - paragraph [ref=e3685]: Kindly note that Half Board and Full Board include meals only. All drinks are available at an additional charge.
+                - paragraph [ref=e3686]: Please note that half board rate includes breakfast and dinner buffet at Tirana main restaurant.
+                - paragraph [ref=e3687]: Evening Garment & Tuxedo is Mandatory at New Year Gala Dinner only.
+                - paragraph [ref=e3688]: Please contact Limousine Partner Agent Office at the property at least 48 hours prior to check-in to arrange airport pickup/dropoff (With additional charge). Guests must contact between 10:00 until 16:00
+                - paragraph [ref=e3689]: Guests are required to show a photo ID and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.
+                - paragraph [ref=e3690]: In response to the coronavirus (COVID-19), additional safety and sanitation measures are in effect at this property.
+                - paragraph [ref=e3691]: Food and beverage services at this property may be limited or unavailable due to the coronavirus (COVID-19).
+                - paragraph [ref=e3692]: Due to the coronavirus (COVID-19), this property is taking steps to protect the safety of guests and staff. Certain services and amenities may be reduced or unavailable as a result.
+            - generic [ref=e3694]:
+              - heading "Legal information" [level=2] [ref=e3695]
+              - generic [ref=e3696]:
+                - text: "This property is managed, licensed, or represented by a business. This label has no relevance in terms of tax, including VAT and other \"indirect taxes,\" but is required under applicable consumer laws. Find more info about the business here:"
+                - button "See business details" [ref=e3697] [cursor=pointer]:
+                  - generic [ref=e3698]: See business details
+                - text: .
+          - generic [ref=e4320]:
+            - heading "FAQs about Savoy Sharm El Sheikh" [level=2] [ref=e4322]
+            - generic [ref=e4323]:
+              - generic [ref=e4325]:
+                - button "What kind of breakfast is served at Savoy Sharm El Sheikh?" [ref=e4328] [cursor=pointer]:
+                  - heading "What kind of breakfast is served at Savoy Sharm El Sheikh?" [level=3] [ref=e4330]
+                  - img [ref=e4332]
+                - separator [ref=e4334]
+                - button "Does Savoy Sharm El Sheikh have a pool?" [ref=e4337] [cursor=pointer]:
+                  - heading "Does Savoy Sharm El Sheikh have a pool?" [level=3] [ref=e4339]
+                  - img [ref=e4341]
+                - separator [ref=e4343]
+                - button "What type of room can I book at Savoy Sharm El Sheikh?" [ref=e4346] [cursor=pointer]:
+                  - heading "What type of room can I book at Savoy Sharm El Sheikh?" [level=3] [ref=e4348]
+                  - img [ref=e4350]
+                - separator [ref=e4352]
+                - button "What are the check-in and check-out times at Savoy Sharm El Sheikh?" [ref=e4355] [cursor=pointer]:
+                  - heading "What are the check-in and check-out times at Savoy Sharm El Sheikh?" [level=3] [ref=e4357]
+                  - img [ref=e4359]
+                - separator [ref=e4361]
+                - button "How much does it cost to stay at Savoy Sharm El Sheikh?" [ref=e4364] [cursor=pointer]:
+                  - heading "How much does it cost to stay at Savoy Sharm El Sheikh?" [level=3] [ref=e4366]
+                  - img [ref=e4368]
+                - separator [ref=e4370]
+                - button "Does Savoy Sharm El Sheikh have a restaurant on site?" [ref=e4373] [cursor=pointer]:
+                  - heading "Does Savoy Sharm El Sheikh have a restaurant on site?" [level=3] [ref=e4375]
+                  - img [ref=e4377]
+              - generic [ref=e4380]:
+                - button "What is there to do at Savoy Sharm El Sheikh?" [ref=e4383] [cursor=pointer]:
+                  - heading "What is there to do at Savoy Sharm El Sheikh?" [level=3] [ref=e4385]
+                  - img [ref=e4387]
+                - separator [ref=e4389]
+                - button "How far is Savoy Sharm El Sheikh from the center of Sharm El Sheikh?" [ref=e4392] [cursor=pointer]:
+                  - heading "How far is Savoy Sharm El Sheikh from the center of Sharm El Sheikh?" [level=3] [ref=e4394]
+                  - img [ref=e4396]
+                - separator [ref=e4398]
+                - button "How close to the beach is Savoy Sharm El Sheikh?" [ref=e4401] [cursor=pointer]:
+                  - heading "How close to the beach is Savoy Sharm El Sheikh?" [level=3] [ref=e4403]
+                  - img [ref=e4405]
+                - separator [ref=e4407]
+                - button "Does Savoy Sharm El Sheikh have a hot tub for its guests?" [ref=e4410] [cursor=pointer]:
+                  - heading "Does Savoy Sharm El Sheikh have a hot tub for its guests?" [level=3] [ref=e4412]
+                  - img [ref=e4414]
+                - separator [ref=e4416]
+                - button "Is Savoy Sharm El Sheikh popular with families?" [ref=e4419] [cursor=pointer]:
+                  - heading "Is Savoy Sharm El Sheikh popular with families?" [level=3] [ref=e4421]
+                  - img [ref=e4423]
+      - button "The Best of Sharm El Sheikh Click here to see more hotels and accommodations near popular landmarks in Sharm El Sheikh" [ref=e3702] [cursor=pointer]:
+        - generic [ref=e3704]:
+          - generic [ref=e3706]: The Best of Sharm El Sheikh
+          - generic [ref=e3707]: Click here to see more hotels and accommodations near popular landmarks in Sharm El Sheikh
+        - img [ref=e3709]
+  - contentinfo [ref=e3711]:
+    - contentinfo [ref=e3715]:
+      - navigation "Quick Links" [ref=e3718]:
+        - list [ref=e3719]:
+          - listitem [ref=e3720]:
+            - link "Countries" [ref=e3721] [cursor=pointer]:
+              - /url: https://www.booking.com/country.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3723]: Countries
+            - text: .
+          - listitem [ref=e3724]:
+            - link "Regions" [ref=e3725] [cursor=pointer]:
+              - /url: https://www.booking.com/region.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3727]: Regions
+            - text: .
+          - listitem [ref=e3728]:
+            - link "Cities" [ref=e3729] [cursor=pointer]:
+              - /url: https://www.booking.com/city.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3731]: Cities
+            - text: .
+          - listitem [ref=e3732]:
+            - link "Districts" [ref=e3733] [cursor=pointer]:
+              - /url: https://www.booking.com/district.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3735]: Districts
+            - text: .
+          - listitem [ref=e3736]:
+            - link "Airports" [ref=e3737] [cursor=pointer]:
+              - /url: https://www.booking.com/airport.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3739]: Airports
+            - text: .
+          - listitem [ref=e3740]:
+            - link "Hotels" [ref=e3741] [cursor=pointer]:
+              - /url: https://www.booking.com/hotel/index.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3743]: Hotels
+            - text: .
+          - listitem [ref=e3744]:
+            - link "Places of interest" [ref=e3745] [cursor=pointer]:
+              - /url: https://www.booking.com/landmark.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3747]: Places of interest
+            - text: .
+          - listitem [ref=e3748]:
+            - link "Vacation Homes" [ref=e3749] [cursor=pointer]:
+              - /url: https://www.booking.com/booking-home/index.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3751]: Vacation Homes
+            - text: .
+          - listitem [ref=e3752]:
+            - link "Apartments" [ref=e3753] [cursor=pointer]:
+              - /url: https://www.booking.com/apartments/index.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3755]: Apartments
+            - text: .
+          - listitem [ref=e3756]:
+            - link "Resorts" [ref=e3757] [cursor=pointer]:
+              - /url: https://www.booking.com/resorts/index.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3759]: Resorts
+            - text: .
+          - listitem [ref=e3760]:
+            - link "Villas" [ref=e3761] [cursor=pointer]:
+              - /url: https://www.booking.com/villas/index.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3763]: Villas
+            - text: .
+          - listitem [ref=e3764]:
+            - link "Hostels" [ref=e3765] [cursor=pointer]:
+              - /url: https://www.booking.com/hostels/index.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3767]: Hostels
+            - text: .
+          - listitem [ref=e3768]:
+            - link "B&Bs" [ref=e3769] [cursor=pointer]:
+              - /url: https://www.booking.com/bed-and-breakfast/index.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3771]: B&Bs
+            - text: .
+          - listitem [ref=e3772]:
+            - link "Guest Houses" [ref=e3773] [cursor=pointer]:
+              - /url: https://www.booking.com/guest-house/index.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3775]: Guest Houses
+            - text: .
+          - listitem [ref=e3776]:
+            - link "Unique places to stay" [ref=e3777] [cursor=pointer]:
+              - /url: https://www.booking.com/accommodations.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3779]: Unique places to stay
+            - text: .
+          - listitem [ref=e3780]:
+            - link "Discover monthly stays" [ref=e3781] [cursor=pointer]:
+              - /url: https://www.booking.com/extended-stays/index.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+              - generic [ref=e3783]: Discover monthly stays
+      - generic [ref=e3785]:
+        - generic [ref=e3786]:
+          - heading "Support" [level=3] [ref=e3788]
+          - list [ref=e3789]:
+            - listitem [ref=e3790]:
+              - link "Manage your trips" [ref=e3792] [cursor=pointer]:
+                - /url: https://secure.booking.com/mytrips.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3793]: Manage your trips
+            - listitem [ref=e3794]:
+              - link "Contact Customer Service" [ref=e3796] [cursor=pointer]:
+                - /url: https://secure.booking.com/help.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3797]: Contact Customer Service
+            - listitem [ref=e3798]:
+              - link "Safety Resource Center" [ref=e3800] [cursor=pointer]:
+                - /url: https://www.booking.com/trust_and_safety.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3801]: Safety Resource Center
+        - generic [ref=e3802]:
+          - heading "Discover" [level=3] [ref=e3804]
+          - list [ref=e3805]:
+            - listitem [ref=e3806]:
+              - link "Genius loyalty program" [ref=e3808] [cursor=pointer]:
+                - /url: https://www.booking.com/genius.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3809]: Genius loyalty program
+            - listitem [ref=e3810]:
+              - link "Seasonal and holiday deals" [ref=e3812] [cursor=pointer]:
+                - /url: https://www.booking.com/deals/index.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3813]: Seasonal and holiday deals
+            - listitem [ref=e3814]:
+              - link "Travel articles" [ref=e3816] [cursor=pointer]:
+                - /url: https://www.booking.com/articles.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3817]: Travel articles
+            - listitem [ref=e3818]:
+              - link "Booking.com for Business" [ref=e3820] [cursor=pointer]:
+                - /url: https://business.booking.com/?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3821]: Booking.com for Business
+            - listitem [ref=e3822]:
+              - link "Traveller Review Awards" [ref=e3824] [cursor=pointer]:
+                - /url: https://www.booking.com/traveller-awards/index.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3825]: Traveller Review Awards
+            - listitem [ref=e3826]:
+              - link "Car rental" [ref=e3828] [cursor=pointer]:
+                - /url: https://www.booking.com/cars/index.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3829]: Car rental
+            - listitem [ref=e3830]:
+              - link "Flight finder" [ref=e3832] [cursor=pointer]:
+                - /url: https://booking.com/pxgo?url=https%3A%2F%2Fbooking.kayak.com%2Fin%3Fsid%3D62602bd6875882c94a550124b54b5306%26mc%3DEUR%26bdclc%3Den-us%26p%3Dfooter_link%26a%3Dbdc%252Ffooter_link&aid=304142&lang=en-us&token=UmFuZG9tSVYkc2RlIyh9YQCDNEDqnGbduUlpDLFWQrLZsVEg9QvCV1FGXEjMgu9Ues5VyWXIwCD7f-gmqgjjrF9wY7yvNFxrXc-gC28DxTQac1o9SccjuFDMFDgop6FTHVVN1RG9PNcMVlmeb8DNU4x3RWWaseu9CVF2g8l0lm5x2ZCG_zQezKUZm6HjFYvL9uQ4kEEVO8TPfnSOHWls5INk-0qIqKPwJlxiWYNHEAMipiD9_1KQhLWZfKjKOoUCzs5hUsLp_ioxw_ipzpdF4hl4IrL0fG2jT9xscjlY-_jfIA-p_hvGly8e3GQqqCTKfW3gnya0PPypQxtheIsVoipPdXY0FlbCLL0YdvFXsP9RWG37UVtu0GFxyfECB75ZrAjqQ_StSqe0deGqUIJmVErnnPI0ZyL-lW_Jd7WSonreeqL_D2_FeQ6_8ML9yhRSiTZzlZfG_ukQNe17YVfSCBIXMgzhbyoOWblgocG46vFVq19l51-gYEnLZuP8_OCgxlZp9EoFg_JGeLpK7VStmlOrftQ-rnO_GgWZ2PJBDOuKJ_NaOrmxZWpqEoe12ksC&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ
+                - generic [ref=e3833]: Flight finder
+            - listitem [ref=e3834]:
+              - link "Restaurant reservations" [ref=e3836] [cursor=pointer]:
+                - /url: https://www.opentable.com/?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&ref=16087
+                - generic [ref=e3837]: Restaurant reservations
+            - listitem [ref=e3838]:
+              - link "Booking.com for Travel Agents" [ref=e3840] [cursor=pointer]:
+                - /url: https://www.booking.com/affiliate-program/v2/index.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306&utm_campaign=booking-footer&utm_content=travel-agents-link&utm_medium=referral&utm_source=booking.com
+                - generic [ref=e3841]: Booking.com for Travel Agents
+        - generic [ref=e3842]:
+          - heading "Terms and settings" [level=3] [ref=e3844]
+          - list [ref=e3845]:
+            - listitem [ref=e3846]:
+              - link "Manage cookie settings" [ref=e3848] [cursor=pointer]:
+                - /url: https://www.booking.com/content/privacy.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3849]: Manage cookie settings
+            - listitem [ref=e3850]:
+              - link "Privacy Notice" [ref=e3852] [cursor=pointer]:
+                - /url: https://www.booking.com/content/privacy.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3853]: Privacy Notice
+            - listitem [ref=e3854]:
+              - link "Terms of Service" [ref=e3856] [cursor=pointer]:
+                - /url: https://www.booking.com/content/terms.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3857]: Terms of Service
+            - listitem [ref=e3858]:
+              - link "Accessibility Statement" [ref=e3860] [cursor=pointer]:
+                - /url: https://www.booking.com/content/accessibility_statement.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3861]: Accessibility Statement
+            - listitem [ref=e3862]:
+              - link "Dispute resolution" [ref=e3864] [cursor=pointer]:
+                - /url: https://secure.booking.com/content/complaints.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3865]: Dispute resolution
+            - listitem [ref=e3866]:
+              - link "Modern Slavery Statement" [ref=e3868] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/modern-slavery-statement/?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ
+                - generic [ref=e3869]: Modern Slavery Statement
+            - listitem [ref=e3870]:
+              - link "Human Rights Statement" [ref=e3872] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/about/compliance-and-ethics/human-rights/?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ
+                - generic [ref=e3873]: Human Rights Statement
+            - listitem [ref=e3874]:
+              - link "Manage personalized recommendations" [ref=e3876] [cursor=pointer]:
+                - /url: https://account.booking.com/mysettings/preferences?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ
+                - generic [ref=e3877]: Manage personalized recommendations
+        - generic [ref=e3878]:
+          - heading "Partners" [level=3] [ref=e3880]
+          - list [ref=e3881]:
+            - listitem [ref=e3882]:
+              - link "Extranet login" [ref=e3884] [cursor=pointer]:
+                - /url: https://admin.booking.com/?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306&utm_campaign=login_footer_v0&utm_medium=frontend&utm_source=extranet_login_footer
+                - generic [ref=e3885]: Extranet login
+            - listitem [ref=e3886]:
+              - link "Partner help" [ref=e3888] [cursor=pointer]:
+                - /url: https://partner.booking.com/en-us?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306&utm_campaign=footer_list&utm_medium=frontend_footer&utm_source=booking.com
+                - generic [ref=e3889]: Partner help
+            - listitem [ref=e3890]:
+              - link "List your property" [ref=e3892] [cursor=pointer]:
+                - /url: https://join.booking.com/?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&lang=en-us&sid=62602bd6875882c94a550124b54b5306&utm_medium=frontend&utm_source=footer_menu
+                - generic [ref=e3893]: List your property
+            - listitem [ref=e3894]:
+              - link "Become an affiliate" [ref=e3896] [cursor=pointer]:
+                - /url: https://www.booking.com/affiliate-program/v2/index.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306&utm_campaign=booking-footer&utm_content=become-an-affiliate-link&utm_medium=referral&utm_source=booking.com
+                - generic [ref=e3897]: Become an affiliate
+        - generic [ref=e3898]:
+          - heading "About" [level=3] [ref=e3900]
+          - list [ref=e3901]:
+            - listitem [ref=e3902]:
+              - link "About Booking.com" [ref=e3904] [cursor=pointer]:
+                - /url: https://www.booking.com/content/about.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3905]: About Booking.com
+            - listitem [ref=e3906]:
+              - link "How We Work" [ref=e3908] [cursor=pointer]:
+                - /url: https://www.booking.com/content/how_we_work.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3909]: How We Work
+            - listitem [ref=e3910]:
+              - link "Sustainability" [ref=e3912] [cursor=pointer]:
+                - /url: https://www.sustainability.booking.com/?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ
+                - generic [ref=e3913]: Sustainability
+            - listitem [ref=e3914]:
+              - link "Press center" [ref=e3916] [cursor=pointer]:
+                - /url: https://globalnews.booking.com/?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&lang=en
+                - generic [ref=e3917]: Press center
+            - listitem [ref=e3918]:
+              - link "Careers" [ref=e3920] [cursor=pointer]:
+                - /url: https://careers.booking.com/?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ
+                - generic [ref=e3921]: Careers
+            - listitem [ref=e3922]:
+              - link "Investor relations" [ref=e3924] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ
+                - generic [ref=e3925]: Investor relations
+            - listitem [ref=e3926]:
+              - link "Corporate contact" [ref=e3928] [cursor=pointer]:
+                - /url: https://www.booking.com/content/contact-us.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3929]: Corporate contact
+            - listitem [ref=e3930]:
+              - link "Content guidelines and reporting" [ref=e3932] [cursor=pointer]:
+                - /url: https://www.booking.com/content-moderation-policy/overview-page.html?aid=304142&label=gen173nr-10CAsoQ0IVc2F2b3ktc2hhcm0tZWwtc2hlaWtoSDNYBGhCiAEBmAEzuAEZyAEM2AED6AEB-AEBiAIBqAIBuAK4va_LBsACAdICJGI4MGY4ODY0LTNiNDktNDI4NC1hNDg4LTNmMTBjNmNhYWU0ZNgCAeACAQ&sid=62602bd6875882c94a550124b54b5306
+                - generic [ref=e3933]: Content guidelines and reporting
+      - generic [ref=e3935]:
+        - generic [ref=e3936]:
+          - 'button "Language: English (US)" [ref=e3938] [cursor=pointer]'
+          - button "Prices in Euro" [ref=e3943] [cursor=pointer]:
+            - generic [ref=e3944]: EUR
+        - separator [ref=e3945]
+        - generic [ref=e3946]:
+          - generic [ref=e3948]: Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.
+          - generic [ref=e3949]: Copyright © 1996–2026 Booking.com™. All rights reserved.
+        - generic [ref=e3950]:
+          - img "Booking.com" [ref=e3951]:
+            - img [ref=e3952]
+          - img "Priceline.com" [ref=e3954]:
+            - img [ref=e3955]
+          - img "Kayak" [ref=e3958]:
+            - img [ref=e3959]
+          - img "Agoda" [ref=e3973]:
+            - img [ref=e3974]
+          - img "OpenTable" [ref=e3982]:
+            - img [ref=e3983]
+  - text: 끖 낝 끲 낝 넌
+```

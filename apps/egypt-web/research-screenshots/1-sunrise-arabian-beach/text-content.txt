@@ -1,0 +1,100 @@
+                            - generic [ref=e507]: “Food, Location and Amenities are excellent for a Family vacation. Well received and looked after throughout the stay,”
+                                - generic [ref=e751]: € 2,134
+                                  - text: € 1,921
+                                - generic [ref=e757]: Original price € 2,134 Current price € 1,921
+                - text: Spend over ‎€ 58‏ at this property and enjoy a free transfer provided by Booking.com.
+                    - checkbox "Suites"
+                    - generic [ref=e1020] [cursor=pointer]: Suites
+                    - checkbox "Villas"
+                    - generic [ref=e1023] [cursor=pointer]: Villas
+                      - rowheader "Superior Room Select your bed (if available) 1 king bed 2 queen beds Deluxe bedroom with a king size bed or 2 double beds with air-conditioning, balcony or terrace overlooking the garden or view at one of ours pools. The room features as well a small seating area with LCD SAT-TV, direct-dial telephone, mini bar with free mineral water as well as coffee and tea making facilities, large wardrobe with free safe box. The private bathroom has a shower, hairdryer, make-up / shaving mirror and free toiletries. 43 m² Balcony Garden view Pool view Air conditioning Flat-screen TV Terrace Minibar Free Wifi Included facilities" [ref=e1040]:
+                              - generic [ref=e1270]: € 1,365
+                                  - text: € 1,228
+                                - generic [ref=e1277]: Original price € 1,365 Current price € 1,228
+                      - cell "Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1297]:
+                                - generic [ref=e1305]: Wonderful breakfast
+                            - option "1 (€ 1,228)"
+                            - option "2 (€ 2,457)"
+                            - option "3 (€ 3,685)"
+                            - option "4 (€ 4,914)"
+                            - option "5 (€ 6,142)"
+                            - option "6 (€ 7,370)"
+                            - option "7 (€ 8,599)"
+                            - option "8 (€ 9,827)"
+                            - option "9 (€ 11,055)"
+                            - option "10 (€ 12,284)"
+                    - 'row "Max. people: 2 Includes taxes and fees 10% off. You’re getting a reduced rate because this property is offering a discount.. Genius rewards All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1349]':
+                              - generic [ref=e1362]: € 1,539
+                                  - text: € 1,385
+                                - generic [ref=e1369]: Original price € 1,539 Current price € 1,385
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1389]:
+                              - generic [ref=e1396]: All-Inclusive
+                            - option "1 (€ 1,385)"
+                            - option "2 (€ 2,770)"
+                            - option "3 (€ 4,155)"
+                            - option "4 (€ 5,540)"
+                            - option "5 (€ 6,924)"
+                            - option "6 (€ 8,309)"
+                            - option "7 (€ 9,694)"
+                            - option "8 (€ 11,079)"
+                            - option "9 (€ 12,464)"
+                            - option "10 (€ 13,849)"
+                    - 'row "Max. people: 1 Only for 1 guest Includes taxes and fees 10% off. You’re getting a reduced rate because this property is offering a discount.. Genius rewards Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1440]':
+                              - generic [ref=e1455]: € 1,067
+                                  - text: € 960
+                                - generic [ref=e1462]: Original price € 1,067 Current price € 960
+                      - cell "Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1482]:
+                                - generic [ref=e1490]: Wonderful breakfast
+                            - option "1 (€ 960)"
+                            - option "2 (€ 1,921)"
+                            - option "3 (€ 2,881)"
+                            - option "4 (€ 3,842)"
+                            - option "5 (€ 4,802)"
+                            - option "6 (€ 5,763)"
+                            - option "7 (€ 6,723)"
+                            - option "8 (€ 7,683)"
+                            - option "9 (€ 8,644)"
+                            - option "10 (€ 9,604)"
+                    - 'row "Max. people: 1 Only for 1 guest Includes taxes and fees 10% off. You’re getting a reduced rate because this property is offering a discount.. Genius rewards All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1534]':
+                              - generic [ref=e1549]: € 1,154
+                                  - text: € 1,039
+                                - generic [ref=e1556]: Original price € 1,154 Current price € 1,039
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1576]:
+                              - generic [ref=e1583]: All-Inclusive
+                            - option "1 (€ 1,039)"
+                            - option "2 (€ 2,077)"
+                            - option "3 (€ 3,116)"
+                            - option "4 (€ 4,155)"
+                            - option "5 (€ 5,193)"
+                            - option "6 (€ 6,232)"
+                            - option "7 (€ 7,270)"
+                            - option "8 (€ 8,309)"
+                            - option "9 (€ 9,348)"
+                            - option "10 (€ 10,386)"
+                      - rowheader "Deluxe Room with partial sea view Select your bed (if available) 2 twin beds 1 queen bed Deluxe spacious bedroom with a king size bed or 2 double beds, with air-conditioning, balcony or terrace with partial sea view. The room features as well a small seating area with LCD SAT-TV, direct-dial telephone as well as mini bar with free mineral water as well as coffee and tea making facilities, large wardrobe with free safe box. The private bathroom has a shower, hairdryer, make-up / shaving mirror and free toiletries. 51 m² Balcony Sea view Air conditioning Flat-screen TV Terrace Minibar Free Wifi Show more amenities" [ref=e1628]:
+                              - generic [ref=e1698]: € 1,565
+                                  - text: € 1,408
+                                - generic [ref=e1705]: Original price € 1,565 Current price € 1,408
+                      - cell "Wonderful breakfast included Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1725]:
+                                - generic [ref=e1733]: Wonderful breakfast
+                            - option "1 (€ 1,408)"
+                            - option "2 (€ 2,817)"
+                            - option "3 (€ 4,225)"
+                            - option "4 (€ 5,633)"
+                            - option "5 (€ 7,042)"
+                            - option "6 (€ 8,450)"
+                            - option "7 (€ 9,858)"
+                            - option "8 (€ 11,267)"
+                            - option "9 (€ 12,675)"
+                            - option "10 (€ 14,083)"
+                    - 'row "Max. people: 2 Includes taxes and fees 10% off. You’re getting a reduced rate because this property is offering a discount.. Genius rewards All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1777]':
+                              - generic [ref=e1790]: € 1,739
+                                  - text: € 1,565
+                                - generic [ref=e1797]: Original price € 1,739 Current price € 1,565
+                      - cell "All-Inclusive Free cancellation before February 12, 2026 No prepayment needed – pay at the property 10% Genius discount applied to the price before taxes and charges Free private taxi from the airport to this property More details on meals, cancellation, and prepayment policies" [ref=e1817]:
+                              - generic [ref=e1824]: All-Inclusive
+                            - option "1 (€ 1,565)"
+                            - option "2 (€ 3,130)"
+                            - option "3 (€ 4,694)"
+                            - option "4 (€ 6,259)"
+                            - option "5 (€ 7,824)"
