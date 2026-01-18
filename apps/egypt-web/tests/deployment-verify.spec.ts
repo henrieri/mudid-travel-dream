@@ -46,7 +46,7 @@ test.describe('Deployment Verification', () => {
 
     // Check for key UI elements
     await expect(page.getByText('101 Properties')).toBeVisible({ timeout: 10000 })
-    await expect(page.getByText('Sharm el Sheikh')).toBeVisible()
+    await expect(page.getByRole('heading', { name: 'Sharm el Sheikh Trip' })).toBeVisible()
   })
 
   test('Rankings page loads with property data', async ({ page }) => {
@@ -73,8 +73,8 @@ test.describe('Deployment Verification', () => {
   test('Activities page loads with data', async ({ page }) => {
     await page.goto(`${BASE_URL}/activities`)
 
-    await expect(page.getByText('Top Activities in Sharm el Sheikh')).toBeVisible({ timeout: 10000 })
-    await expect(page.getByText('Ras Mohammed')).toBeVisible()
+    await expect(page.getByRole('heading', { name: 'Top Activities in Sharm el Sheikh' })).toBeVisible({ timeout: 10000 })
+    await expect(page.getByRole('heading', { name: 'Ras Mohammed National Park' })).toBeVisible()
   })
 
   test('Budget calculator page is functional', async ({ page }) => {
