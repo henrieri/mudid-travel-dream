@@ -78,16 +78,24 @@ function QuickFact({
 function TipsPage() {
   return (
     <div className="mx-auto max-w-4xl space-y-8">
-      {/* Header */}
-      <div className="text-center">
-        <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-amber-500/30 bg-amber-500/10 px-4 py-2 text-sm text-amber-200">
-          <Lightbulb className="h-4 w-4" />
-          Personalized for Henri & Evelina
+      {/* Hero Image */}
+      <div className="relative -mx-6 -mt-6 overflow-hidden rounded-b-3xl">
+        <img
+          src="/tips-images/hero-panorama.jpg"
+          alt="Panoramic view of Sharm el Sheikh coastline"
+          className="h-64 w-full object-cover sm:h-80"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 p-6 text-center">
+          <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-amber-500/30 bg-slate-950/80 backdrop-blur px-4 py-2 text-sm text-amber-200">
+            <Lightbulb className="h-4 w-4" />
+            Personalized for Henri & Evelina
+          </div>
+          <h1 className="text-3xl font-bold text-white drop-shadow-lg">Your Egypt Travel Guide</h1>
+          <p className="mt-2 text-slate-300">
+            Feb 15-22, 2026 | Sharm el Sheikh | 7 nights
+          </p>
         </div>
-        <h1 className="text-3xl font-bold text-white">Your Egypt Travel Guide</h1>
-        <p className="mt-2 text-slate-400">
-          Feb 15-22, 2026 | Sharm el Sheikh | 7 nights
-        </p>
       </div>
 
       {/* Quick Facts */}
@@ -181,6 +189,13 @@ function TipsPage() {
 
       {/* Money */}
       <TipSection icon={<Wallet className="h-5 w-5" />} title="Money & Tipping">
+        <div className="mb-4 overflow-hidden rounded-xl">
+          <img
+            src="/tips-images/egyptian-money.jpg"
+            alt="Egyptian pound banknotes and coins"
+            className="h-32 w-full object-cover"
+          />
+        </div>
         <p>
           <strong className="text-white">Always pay in Egyptian Pounds (EGP)</strong>{' '}
           for better rates. €1 = approximately 50 EGP. ATMs are widely
@@ -229,6 +244,13 @@ function TipsPage() {
 
       {/* Weather & Packing */}
       <TipSection icon={<Sun className="h-5 w-5" />} title="February Weather & Packing">
+        <div className="mb-4 overflow-hidden rounded-xl">
+          <img
+            src="/tips-images/packing-essentials.jpg"
+            alt="Beach vacation packing essentials"
+            className="h-40 w-full object-cover"
+          />
+        </div>
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
           <div className="rounded-lg bg-white/5 p-3 text-center">
             <p className="text-2xl font-bold text-amber-400">21-23°C</p>
@@ -378,6 +400,13 @@ function TipsPage() {
 
       {/* Dining */}
       <TipSection icon={<Utensils className="h-5 w-5" />} title="Where to Eat">
+        <div className="mb-4 overflow-hidden rounded-xl">
+          <img
+            src="/tips-images/egyptian-food.jpg"
+            alt="Traditional Egyptian cuisine spread with falafel, hummus, and grilled meats"
+            className="h-40 w-full object-cover"
+          />
+        </div>
         <div className="grid gap-4 md:grid-cols-2">
           <div>
             <p className="text-amber-200 font-medium mb-2">
@@ -465,6 +494,13 @@ function TipsPage() {
 
       {/* Airport */}
       <TipSection icon={<Plane className="h-5 w-5" />} title="Airport & Transfers">
+        <div className="mb-4 overflow-hidden rounded-xl">
+          <img
+            src="/tips-images/airport-transfer.jpg"
+            alt="Airport arrival hall with luggage and transfer services"
+            className="h-32 w-full object-cover"
+          />
+        </div>
         <p>
           Sharm Airport (SSH) is just 15-20 minutes to most hotel areas.
         </p>
