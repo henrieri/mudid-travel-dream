@@ -28,6 +28,7 @@ interface Activity {
   bookingTip: string
   recommended: boolean
   source: string
+  image?: string
 }
 
 export const Route = createFileRoute('/activities')({
@@ -75,12 +76,25 @@ function ActivityCard({ activity }: { activity: Activity }) {
 
   return (
     <div
-      className={`rounded-2xl border p-5 transition-all hover:scale-[1.02] ${
+      className={`rounded-2xl border overflow-hidden transition-all hover:scale-[1.02] ${
         activity.recommended
           ? `border-${color}-500/30 bg-gradient-to-br from-${color}-500/10 via-${color}-500/5 to-transparent`
           : 'border-white/10 bg-white/5'
       }`}
     >
+      {/* Image */}
+      {activity.image && (
+        <div className="relative h-40 overflow-hidden">
+          <img
+            src={activity.image}
+            alt={activity.name}
+            className="h-full w-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent" />
+        </div>
+      )}
+
+      <div className="p-5">
       {/* Header */}
       <div className="flex items-start justify-between gap-3">
         <div className="flex-1">
@@ -151,6 +165,7 @@ function ActivityCard({ activity }: { activity: Activity }) {
 
       {/* Source */}
       <p className="mt-3 text-xs text-slate-500">Source: {activity.source}</p>
+      </div>
     </div>
   )
 }

@@ -11,7 +11,8 @@
     "highlights": ["Shark Reef", "Yolanda Reef", "Magic Lake", "200+ coral species"],
     "bookingTip": "Full Egyptian visa may be required (outside free tourist zone)",
     "recommended": true,
-    "source": "TripAdvisor #1"
+    "source": "TripAdvisor #1",
+    "image": "/activity-images/ras-mohammed-snorkeling.jpg"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
     "highlights": ["Jackson Reef", "Gordon Reef", "Thomas Reef", "Woodhouse Reef"],
     "bookingTip": "Book with hotel for best prices - often includes pickup",
     "recommended": true,
-    "source": "TripAdvisor"
+    "source": "TripAdvisor",
+    "image": "/activity-images/tiran-island.jpg"
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
     "highlights": ["White Island sandbar", "Swimming in turquoise lagoon", "Snorkeling stops", "Lunch on boat"],
     "bookingTip": "Great for Instagram photos - bring waterproof camera",
     "recommended": true,
-    "source": "TripAdvisor Top Tour"
+    "source": "TripAdvisor Top Tour",
+    "image": "/activity-images/white-island.jpg"
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
     "highlights": ["Quad biking", "Camel ride", "Bedouin dinner", "Stargazing"],
     "bookingTip": "Book sunset tour for best experience",
     "recommended": true,
-    "source": "TripAdvisor"
+    "source": "TripAdvisor",
+    "image": "/activity-images/desert-safari.jpg"
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@
     "highlights": ["Blue Hole snorkeling", "Colored Canyon", "Dahab town", "Lunch included"],
     "bookingTip": "Leave early - it's a 1.5 hour drive each way",
     "recommended": false,
-    "source": "TripAdvisor"
+    "source": "TripAdvisor",
+    "image": "/activity-images/blue-hole-dahab.jpg"
   },
   {
     "id": 6,
@@ -81,7 +86,8 @@
     "highlights": ["Sunrise from summit", "St. Catherine's Monastery", "Historical significance", "Camel option available"],
     "bookingTip": "Bring warm layers - very cold at summit. Starts at night.",
     "recommended": false,
-    "source": "TripAdvisor"
+    "source": "TripAdvisor",
+    "image": "/activity-images/mount-sinai-sunrise.jpg"
   },
   {
     "id": 7,
@@ -95,7 +101,8 @@
     "highlights": ["Beach access", "Shopping", "Restaurants", "Nightlife"],
     "bookingTip": "Visit in evening for cooler temps and atmosphere",
     "recommended": true,
-    "source": "TripAdvisor #4"
+    "source": "TripAdvisor #4",
+    "image": "/activity-images/naama-bay.jpg"
   },
   {
     "id": 8,
@@ -109,7 +116,8 @@
     "highlights": ["Spices", "Handcrafts", "Souvenirs", "Authentic atmosphere"],
     "bookingTip": "Bargain hard - start at 50% of asking price",
     "recommended": true,
-    "source": "TripAdvisor #6"
+    "source": "TripAdvisor #6",
+    "image": "/activity-images/old-market.jpg"
   },
   {
     "id": 9,
@@ -123,7 +131,8 @@
     "highlights": ["No swimming required", "Great for kids", "Reef viewing", "Photo opportunities"],
     "bookingTip": "Perfect for families with young children",
     "recommended": false,
-    "source": "Jakada Tours"
+    "source": "Jakada Tours",
+    "image": "/activity-images/glass-bottom-boat.jpg"
   },
   {
     "id": 10,
@@ -137,7 +146,8 @@
     "highlights": ["House reef snorkeling", "Beach club amenities", "Italian restaurant", "Lighthouse views"],
     "bookingTip": "Best snorkeling directly from shore in SSH",
     "recommended": true,
-    "source": "TripAdvisor #5"
+    "source": "TripAdvisor #5",
+    "image": "/activity-images/el-fanar-beach.jpg"
   },
   {
     "id": 11,
@@ -151,7 +161,8 @@
     "highlights": ["Sunset views", "Shisha", "Unique seating", "Red Sea panorama"],
     "bookingTip": "Arrive 30 min before sunset for best seats",
     "recommended": true,
-    "source": "Hidden Gem"
+    "source": "Hidden Gem",
+    "image": "/activity-images/farsha-cafe.jpg"
   },
   {
     "id": 12,
@@ -165,6 +176,7 @@
     "highlights": ["Calm waters", "Jetty snorkeling", "Hotel beach clubs", "Family friendly"],
     "bookingTip": "Walk the jetty at sunrise for best fish viewing",
     "recommended": true,
-    "source": "TripAdvisor #3"
+    "source": "TripAdvisor #3",
+    "image": "/activity-images/sharks-bay.jpg"
   }
 ]

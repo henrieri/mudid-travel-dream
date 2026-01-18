@@ -99,7 +99,7 @@ function BudgetSection({
 
 function BudgetPage() {
   const [accommodation, setAccommodation] = useState(2385) // White Hills Family Suite
-  const [flightPerPerson, setFlightPerPerson] = useState(350)
+  const [flightPerPerson, setFlightPerPerson] = useState(750) // Momondo charter 5h10m TLL→SSH
   const [collapsed, setCollapsed] = useState<Record<string, boolean>>({})
 
   // Activity costs based on activities.json research
@@ -128,7 +128,7 @@ function BudgetPage() {
   const nights = 7
 
   const flightItems: BudgetItem[] = [
-    { label: 'Round trip flight', amount: flightPerPerson, perPerson: true, note: 'TLL→SSH' },
+    { label: 'Round trip charter flight', amount: flightPerPerson, perPerson: true, note: '5h10m direct TLL→SSH' },
   ]
 
   const accommodationItems: BudgetItem[] = [
@@ -241,7 +241,7 @@ function BudgetPage() {
             />
             <p className="mt-2 text-xs text-slate-500">
               <Info className="inline h-3 w-3 mr-1" />
-              Check Skyscanner, Google Flights, or Kiwi.com for best deals
+              €750/pp based on Momondo charter (5h10m direct). Check Momondo, Skyscanner, Kiwi.com for deals
             </p>
           </div>
         )}

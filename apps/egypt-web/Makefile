@@ -13,7 +13,7 @@ KUBECONFIG := /home/henri/.kube/mudid-k3s.yaml
 NAMESPACE := travel-dream
 HOST := egypt.local
 
-.PHONY: build push apply restart rollout health deploy quick version verify deploy-verify dev build-local logs status describe
+.PHONY: build push apply restart rollout health deploy quick version verify deploy-verify dev build-local logs status describe image-gen image-gen-batch
 
 # Generate version.json before build
 version:
@@ -129,6 +129,51 @@ clean:
 	rm -rf .output dist node_modules/.vite
 	@echo "Cleaned build artifacts"
 
+# =============================================================================
+# AI Image Generation (y.local)
+# =============================================================================
+
+# Generate a single AI image
+# Usage: make image-gen PROMPT="your prompt here" OUTPUT="path/to/output.jpg"
+image-gen:
+ifndef PROMPT
+	$(error PROMPT is required. Usage: make image-gen PROMPT="your prompt" OUTPUT="output.jpg")
+endif
+ifndef OUTPUT
+	$(error OUTPUT is required. Usage: make image-gen PROMPT="your prompt" OUTPUT="output.jpg")
+endif
+	@echo "Generating image: $(OUTPUT)"
+	@curl -s -X POST http://y.local/ -H "Content-Type: application/json" \
+		-d '{"operationName":"image.generate","input":{"prompt":"$(PROMPT)","size":"1024x1024"}}' \
+		| jq -r '.data.image' | base64 -d > $(OUTPUT)
+	@echo "Saved to $(OUTPUT)"
+	@ls -lh $(OUTPUT)
+
+# Generate multiple images from a JSON spec file
+# Usage: make image-gen-batch SPEC="images.json" DIR="public/images"
+# Spec format: [{"prompt": "...", "filename": "image.jpg"}, ...]
+image-gen-batch:
+ifndef SPEC
+	$(error SPEC is required. Usage: make image-gen-batch SPEC="spec.json" DIR="public/dir")
+endif
+ifndef DIR
+	$(error DIR is required. Usage: make image-gen-batch SPEC="spec.json" DIR="public/dir")
+endif
+	@mkdir -p $(DIR)
+	@echo "Generating images from $(SPEC) to $(DIR)..."
+	@jq -c '.[]' $(SPEC) | while read item; do \
+		prompt=$$(echo $$item | jq -r '.prompt'); \
+		filename=$$(echo $$item | jq -r '.filename'); \
+		echo "Generating: $$filename"; \
+		curl -s -X POST http://y.local/ -H "Content-Type: application/json" \
+			-d "{\"operationName\":\"image.generate\",\"input\":{\"prompt\":\"$$prompt\",\"size\":\"1024x1024\"}}" \
+			| jq -r '.data.image' | base64 -d > $(DIR)/$$filename; \
+		sleep 1; \
+	done
+	@echo "Done! Generated $$(jq length $(SPEC)) images to $(DIR)"
+
+# =============================================================================
+
 # Help
 help:
 	@echo "Egypt Web Deployment Commands"
@@ -155,3 +200,7 @@ help:
 	@echo "  make logs           - View pod logs"
 	@echo "  make status         - Get pod status"
 	@echo "  make describe       - Describe deployment"
+	@echo ""
+	@echo "AI Image Generation (y.local):"
+	@echo "  make image-gen PROMPT=\"...\" OUTPUT=\"path.jpg\"  - Generate single image"
+	@echo "  make image-gen-batch SPEC=\"spec.json\" DIR=\"dir\" - Batch generate from JSON spec"
