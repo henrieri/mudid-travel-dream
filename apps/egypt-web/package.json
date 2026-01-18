@@ -4,10 +4,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev --port 7201",
+    "prebuild": "tsx scripts/generate-version.ts",
     "build": "vite build",
     "start": "node .output/server/index.mjs",
     "preview": "vite preview",
-    "test": "vitest run"
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "test:verify": "playwright test tests/deployment-verify.spec.ts",
+    "version:generate": "tsx scripts/generate-version.ts",
+    "version:check": "curl -sf http://egypt.local/version.json | jq ."
   },
   "dependencies": {
     "@mudid/scoring": "workspace:*",
