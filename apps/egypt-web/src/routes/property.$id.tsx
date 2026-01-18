@@ -19,6 +19,7 @@ import {
   TrendingUp,
   Home,
 } from 'lucide-react'
+import VettingReport, { type VettingData } from '../components/VettingReport'
 
 interface Property {
   id: number
@@ -50,6 +51,7 @@ interface Property {
   thumbnail_url: string | null
   status: string | null
   is_favorite: boolean | null
+  vetting?: VettingData
 }
 
 export const Route = createFileRoute('/property/$id')({
@@ -442,6 +444,9 @@ function PropertyDetailPage() {
               )}
             </div>
           </div>
+
+          {/* Vetting Report */}
+          <VettingReport vetting={property.vetting} />
 
           {/* Back link */}
           <Link

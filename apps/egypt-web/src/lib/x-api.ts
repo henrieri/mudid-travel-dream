@@ -1,7 +1,7 @@
 import { createServerFn } from '@tanstack/react-start'
 
-const X_API_URL = process.env.X_API_URL ?? 'http://x.mudid'
-const X_API_HOST = process.env.X_API_HOST ?? 'x.mudid'
+const X_API_URL = process.env.X_API_URL ?? 'http://x.local'
+const X_API_HOST = process.env.X_API_HOST ?? 'x.local'
 
 export type OperationInfo = {
   name: string
@@ -59,7 +59,7 @@ export const listOperations = createServerFn({ method: 'POST' })
     })
 
     if (!response.ok) {
-      throw new Error(`x.mudid error ${response.status}`)
+      throw new Error(`x.local error ${response.status}`)
     }
 
     const payload = (await response.json()) as { operations: OperationListItem[] }
@@ -93,7 +93,7 @@ export const getOperationInfo = createServerFn({ method: 'POST' })
     })
 
     if (!response.ok) {
-      throw new Error(`x.mudid error ${response.status}`)
+      throw new Error(`x.local error ${response.status}`)
     }
 
     const payload = (await response.json()) as OperationInfo

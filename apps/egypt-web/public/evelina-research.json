@@ -1,0 +1,97 @@
+{
+  "researcher": "Evelina",
+  "researchDate": "January 2026",
+  "tripDates": "Feb 15-22, 2026",
+  "accommodations": [
+    {
+      "id": 1,
+      "name": "Sunrise Arabian Beach Resort",
+      "price": 1379,
+      "dates": "15-22.02",
+      "bookingUrl": "https://www.booking.com/hotel/eg/sunrise-arabian-beach-resort.en-gb.html",
+      "rating": 9.4,
+      "pros": [
+        "Lots of good reviews",
+        "Stunning resort, classy decor",
+        "Sound-proof rooms, no all-night parties",
+        "Snorkel from jetty is super fun and easy",
+        "Rules for pools and coral protection"
+      ],
+      "cons": [
+        "Main restaurant area is open and smoky",
+        "Noise between rooms was an issue",
+        "Loud neighbors interrupted sleep on several nights"
+      ],
+      "evelinaComment": "Palju häid reitinguid (Lots of good reviews)",
+      "verdict": "consider"
+    },
+    {
+      "id": 2,
+      "name": "White Hills Resort",
+      "price": 2138,
+      "dates": "15-22.02",
+      "bookingUrl": "https://www.booking.com/hotel/eg/white-hills-resort.en-gb.html",
+      "rating": 9.3,
+      "pros": [
+        "Beautiful hotel design",
+        "Has 2-bedroom family suite option"
+      ],
+      "cons": [
+        "Clear emphasis on party atmosphere",
+        "Permanent speakers at lobby and main pool",
+        "Open air nightclub outside hotel",
+        "Music can be heard from almost everywhere",
+        "Vibe Club keeps guests up until 3:30am",
+        "Loud party until 11pm (note for families with kids)"
+      ],
+      "evelinaComment": "MEGAILUS HOTELL (GORGEOUS HOTEL) - but major noise concerns",
+      "verdict": "caution"
+    },
+    {
+      "id": 3,
+      "name": "Sharm Hills Luxury Pool View",
+      "price": 1043,
+      "dates": "15-22.02",
+      "bookingUrl": "https://www.booking.com/hotel/eg/sharm-hills-luxury-pool-view.en-gb.html",
+      "rating": 10,
+      "pros": [
+        "True 2 bedrooms (separate sleeping)",
+        "Smaller, quieter feel",
+        "Good gym",
+        "125m² apartment",
+        "Wonderful responsive host",
+        "Shops and pharmacies nearby",
+        "Quiet location - important for us",
+        "Stable internet"
+      ],
+      "cons": [
+        "No food service (not all-inclusive)",
+        "Nearest beach (Adrenaline Beach) is hard to reach",
+        "Very far from main road, difficult without car"
+      ],
+      "evelinaComment": "Tundub päris hea variant, kaaluks tugevalt (Seems like a good option, would strongly consider)",
+      "verdict": "favorite"
+    }
+  ],
+  "flights": {
+    "option": "Momondo Charter",
+    "price": 865,
+    "pricePerPerson": 750,
+    "dates": "15-22.02",
+    "duration": "5h 10min direct",
+    "url": "https://www.momondo.ee/flight-search/TLL-SSH/2026-02-15/2026-02-22",
+    "notes": "Charter flight - best value direct option"
+  },
+  "rejected": [
+    {
+      "name": "Baron Palms Resort",
+      "bookingUrl": "https://www.booking.com/hotel/eg/baron-palms-resort-sharm-el-sheikh.en-gb.html",
+      "reason": "Mingi kahtlane hais on hotellis (Suspicious smell in the hotel)"
+    },
+    {
+      "name": "Royal Grand Sharm",
+      "bookingUrl": "https://www.booking.com/hotel/eg/royal-grand-sharm.en-gb.html",
+      "reason": "Inimesed lasevad bassu ääres mussi, overall kõva muusika, pole otseteed randa (People kissing by the bass, overall loud music, no direct path to beach)"
+    }
+  ]
+}

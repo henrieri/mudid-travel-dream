@@ -35,8 +35,8 @@ env:
   REGISTRY: 192.168.1.158:5000
   IMAGE_NAME: tanstack-observatory
   SLACK_CHANNEL: cicd-notifications
-  X_API_URL: http://x.mudid.svc.cluster.local
-  X_API_HOST: x.mudid
+  X_API_URL: http://x.local.svc.cluster.local
+  X_API_HOST: x.local
 
 jobs:
   # ===========================================================================
@@ -141,7 +141,7 @@ jobs:
       image: bitnami/kubectl:latest
     environment:
       name: preview-pr-${{ github.event.number }}
-      url: http://pr-${{ github.event.number }}.dev.tanstack-observatory.mudid
+      url: http://pr-${{ github.event.number }}.dev.tanstack-observatory.local
     steps:
       - uses: actions/checkout@v4
 
@@ -150,7 +150,7 @@ jobs:
           NAMESPACE: pr-${{ github.event.number }}
           PR_NUMBER: ${{ github.event.number }}
           IMAGE_TAG: ${{ needs.build.outputs.image_tag }}
-          PREVIEW_HOST: pr-${{ github.event.number }}.dev.tanstack-observatory.mudid
+          PREVIEW_HOST: pr-${{ github.event.number }}.dev.tanstack-observatory.local
           REGISTRY: ${{ env.REGISTRY }}
           IMAGE_NAME: ${{ env.IMAGE_NAME }}
         run: |
@@ -166,7 +166,7 @@ jobs:
         run: |
           echo "## Preview Deployment" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "🚀 **URL:** http://pr-${{ github.event.number }}.dev.tanstack-observatory.mudid" >> $GITHUB_STEP_SUMMARY
+          echo "🚀 **URL:** http://pr-${{ github.event.number }}.dev.tanstack-observatory.local" >> $GITHUB_STEP_SUMMARY
           echo "📦 **Image:** ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ needs.build.outputs.image_tag }}" >> $GITHUB_STEP_SUMMARY
           echo "🏷️ **Namespace:** pr-${{ github.event.number }}" >> $GITHUB_STEP_SUMMARY
 
@@ -179,7 +179,7 @@ jobs:
               "operationName": "slack.send-message",
               "input": {
                 "channel": "${{ env.SLACK_CHANNEL }}",
-                "text": "🚀 *Preview Ready* | <https://github.com/${{ github.repository }}/pull/${{ github.event.number }}|PR #${{ github.event.number }}>\n🌐 http://pr-${{ github.event.number }}.dev.tanstack-observatory.mudid\n📦 `${{ github.repository }}`"
+                "text": "🚀 *Preview Ready* | <https://github.com/${{ github.repository }}/pull/${{ github.event.number }}|PR #${{ github.event.number }}>\n🌐 http://pr-${{ github.event.number }}.dev.tanstack-observatory.local\n📦 `${{ github.repository }}`"
               }
             }'
 
@@ -226,7 +226,7 @@ jobs:
       image: bitnami/kubectl:latest
     environment:
       name: production
-      url: http://tanstack-observatory.mudid
+      url: http://tanstack-observatory.local
     steps:
       - uses: actions/checkout@v4
 
@@ -242,7 +242,7 @@ jobs:
         run: |
           echo "## Production Deployment" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "🚀 **URL:** http://tanstack-observatory.mudid" >> $GITHUB_STEP_SUMMARY
+          echo "🚀 **URL:** http://tanstack-observatory.local" >> $GITHUB_STEP_SUMMARY
           echo "📦 **Image:** ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ needs.build.outputs.image_tag }}" >> $GITHUB_STEP_SUMMARY
           echo "🏷️ **Commit:** ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
 
@@ -255,7 +255,7 @@ jobs:
               "operationName": "slack.send-message",
               "input": {
                 "channel": "${{ env.SLACK_CHANNEL }}",
-                "text": "🎉 *Deployed to Production* | `${{ github.repository }}`\n🌐 http://tanstack-observatory.mudid\n🔗 <https://github.com/${{ github.repository }}/commit/${{ github.sha }}|${{ github.sha }}>"
+                "text": "🎉 *Deployed to Production* | `${{ github.repository }}`\n🌐 http://tanstack-observatory.local\n🔗 <https://github.com/${{ github.repository }}/commit/${{ github.sha }}|${{ github.sha }}>"
               }
             }'
 

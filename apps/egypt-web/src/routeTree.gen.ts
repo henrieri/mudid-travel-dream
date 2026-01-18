@@ -17,6 +17,7 @@ import { Route as PropertiesRouteImport } from './routes/properties'
 import { Route as MapRouteImport } from './routes/map'
 import { Route as FindingsRouteImport } from './routes/findings'
 import { Route as FavoritesRouteImport } from './routes/favorites'
+import { Route as EvelinaRouteImport } from './routes/evelina'
 import { Route as CompareRouteImport } from './routes/compare'
 import { Route as CommunityRouteImport } from './routes/community'
 import { Route as BudgetRouteImport } from './routes/budget'
@@ -64,6 +65,11 @@ const FavoritesRoute = FavoritesRouteImport.update({
   path: '/favorites',
   getParentRoute: () => rootRouteImport,
 } as any)
+const EvelinaRoute = EvelinaRouteImport.update({
+  id: '/evelina',
+  path: '/evelina',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const CompareRoute = CompareRouteImport.update({
   id: '/compare',
   path: '/compare',
@@ -101,6 +107,7 @@ export interface FileRoutesByFullPath {
   '/budget': typeof BudgetRoute
   '/community': typeof CommunityRoute
   '/compare': typeof CompareRoute
+  '/evelina': typeof EvelinaRoute
   '/favorites': typeof FavoritesRoute
   '/findings': typeof FindingsRoute
   '/map': typeof MapRoute
@@ -117,6 +124,7 @@ export interface FileRoutesByTo {
   '/budget': typeof BudgetRoute
   '/community': typeof CommunityRoute
   '/compare': typeof CompareRoute
+  '/evelina': typeof EvelinaRoute
   '/favorites': typeof FavoritesRoute
   '/findings': typeof FindingsRoute
   '/map': typeof MapRoute
@@ -134,6 +142,7 @@ export interface FileRoutesById {
   '/budget': typeof BudgetRoute
   '/community': typeof CommunityRoute
   '/compare': typeof CompareRoute
+  '/evelina': typeof EvelinaRoute
   '/favorites': typeof FavoritesRoute
   '/findings': typeof FindingsRoute
   '/map': typeof MapRoute
@@ -152,6 +161,7 @@ export interface FileRouteTypes {
     | '/budget'
     | '/community'
     | '/compare'
+    | '/evelina'
     | '/favorites'
     | '/findings'
     | '/map'
@@ -168,6 +178,7 @@ export interface FileRouteTypes {
     | '/budget'
     | '/community'
     | '/compare'
+    | '/evelina'
     | '/favorites'
     | '/findings'
     | '/map'
@@ -184,6 +195,7 @@ export interface FileRouteTypes {
     | '/budget'
     | '/community'
     | '/compare'
+    | '/evelina'
     | '/favorites'
     | '/findings'
     | '/map'
@@ -201,6 +213,7 @@ export interface RootRouteChildren {
   BudgetRoute: typeof BudgetRoute
   CommunityRoute: typeof CommunityRoute
   CompareRoute: typeof CompareRoute
+  EvelinaRoute: typeof EvelinaRoute
   FavoritesRoute: typeof FavoritesRoute
   FindingsRoute: typeof FindingsRoute
   MapRoute: typeof MapRoute
@@ -270,6 +283,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof FavoritesRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/evelina': {
+      id: '/evelina'
+      path: '/evelina'
+      fullPath: '/evelina'
+      preLoaderRoute: typeof EvelinaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/compare': {
       id: '/compare'
       path: '/compare'
@@ -321,6 +341,7 @@ const rootRouteChildren: RootRouteChildren = {
   BudgetRoute: BudgetRoute,
   CommunityRoute: CommunityRoute,
   CompareRoute: CompareRoute,
+  EvelinaRoute: EvelinaRoute,
   FavoritesRoute: FavoritesRoute,
   FindingsRoute: FindingsRoute,
   MapRoute: MapRoute,

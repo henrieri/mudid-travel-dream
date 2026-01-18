@@ -17,6 +17,7 @@ import {
   FileSearch,
   Compass,
   Users,
+  HeartHandshake,
 } from 'lucide-react'
 
 // Egyptian-themed icons using Unicode/emoji
@@ -29,6 +30,7 @@ const PyramidIcon = () => (
 
 const NAV_ITEMS = [
   { to: '/', label: 'Dashboard', icon: Home, exact: true },
+  { to: '/evelina', label: "Evelina's Picks", icon: HeartHandshake },
   { to: '/rankings', label: 'Rankings', icon: Trophy },
   { to: '/findings', label: '2BR Findings', icon: FileSearch },
   { to: '/tips', label: 'Travel Tips', icon: Lightbulb },
@@ -86,6 +88,7 @@ export default function EgyptLayout() {
 
   const pageTitle = (() => {
     if (pathname === '/') return 'Dashboard'
+    if (pathname.startsWith('/evelina')) return "Evelina's Research"
     if (pathname.startsWith('/rankings')) return 'Property Rankings'
     if (pathname.startsWith('/findings')) return '2BR Verification Report'
     if (pathname.startsWith('/tips')) return 'Travel Tips'

@@ -18,8 +18,8 @@ type SnapshotGet = {
   json?: unknown
 }
 
-const X_API_URL = process.env.X_API_URL ?? 'http://x.mudid'
-const X_API_HOST = process.env.X_API_HOST ?? 'x.mudid'
+const X_API_URL = process.env.X_API_URL ?? 'http://x.local'
+const X_API_HOST = process.env.X_API_HOST ?? 'x.local'
 
 async function callX<T>(operationName: string, input: unknown): Promise<T> {
   const response = await fetch(X_API_URL, {
@@ -33,7 +33,7 @@ async function callX<T>(operationName: string, input: unknown): Promise<T> {
 
   if (!response.ok) {
     const body = await response.text()
-    throw new Error(`x.mudid error ${response.status}: ${body}`)
+    throw new Error(`x.local error ${response.status}: ${body}`)
   }
 
   const payload = (await response.json()) as {
@@ -43,7 +43,7 @@ async function callX<T>(operationName: string, input: unknown): Promise<T> {
   }
 
   if (payload?.success === false) {
-    throw new Error(payload.error ?? 'x.mudid error')
+    throw new Error(payload.error ?? 'x.local error')
   }
 
   return (payload?.data ?? payload) as T

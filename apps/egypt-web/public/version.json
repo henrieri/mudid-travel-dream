@@ -1,9 +1,9 @@
 {
-  "version": "161cbec-dirty",
-  "commit": "161cbeccbbcc6c5de5a14307c540164b20c93871",
+  "version": "c5614bc-dirty",
+  "commit": "c5614bcb32cf58fdbdae9909a061410ca2416319",
   "branch": "main",
   "dirty": true,
-  "message": "feat: add activities route, hotel images, and tips page enhancements",
-  "buildTime": "2026-01-18T09:57:03.708Z",
-  "buildTimestamp": 1768730223708
+  "message": "feat: add activity images and y.local make commands",
+  "buildTime": "2026-01-18T10:25:01.777Z",
+  "buildTimestamp": 1768731901778
 }
