@@ -18,6 +18,7 @@ import { Route as MapRouteImport } from './routes/map'
 import { Route as FindingsRouteImport } from './routes/findings'
 import { Route as FavoritesRouteImport } from './routes/favorites'
 import { Route as CompareRouteImport } from './routes/compare'
+import { Route as CommunityRouteImport } from './routes/community'
 import { Route as BudgetRouteImport } from './routes/budget'
 import { Route as ActivitiesRouteImport } from './routes/activities'
 import { Route as IndexRouteImport } from './routes/index'
@@ -68,6 +69,11 @@ const CompareRoute = CompareRouteImport.update({
   path: '/compare',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CommunityRoute = CommunityRouteImport.update({
+  id: '/community',
+  path: '/community',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BudgetRoute = BudgetRouteImport.update({
   id: '/budget',
   path: '/budget',
@@ -93,6 +99,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/activities': typeof ActivitiesRoute
   '/budget': typeof BudgetRoute
+  '/community': typeof CommunityRoute
   '/compare': typeof CompareRoute
   '/favorites': typeof FavoritesRoute
   '/findings': typeof FindingsRoute
@@ -108,6 +115,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/activities': typeof ActivitiesRoute
   '/budget': typeof BudgetRoute
+  '/community': typeof CommunityRoute
   '/compare': typeof CompareRoute
   '/favorites': typeof FavoritesRoute
   '/findings': typeof FindingsRoute
@@ -124,6 +132,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/activities': typeof ActivitiesRoute
   '/budget': typeof BudgetRoute
+  '/community': typeof CommunityRoute
   '/compare': typeof CompareRoute
   '/favorites': typeof FavoritesRoute
   '/findings': typeof FindingsRoute
@@ -141,6 +150,7 @@ export interface FileRouteTypes {
     | '/'
     | '/activities'
     | '/budget'
+    | '/community'
     | '/compare'
     | '/favorites'
     | '/findings'
@@ -156,6 +166,7 @@ export interface FileRouteTypes {
     | '/'
     | '/activities'
     | '/budget'
+    | '/community'
     | '/compare'
     | '/favorites'
     | '/findings'
@@ -171,6 +182,7 @@ export interface FileRouteTypes {
     | '/'
     | '/activities'
     | '/budget'
+    | '/community'
     | '/compare'
     | '/favorites'
     | '/findings'
@@ -187,6 +199,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   ActivitiesRoute: typeof ActivitiesRoute
   BudgetRoute: typeof BudgetRoute
+  CommunityRoute: typeof CommunityRoute
   CompareRoute: typeof CompareRoute
   FavoritesRoute: typeof FavoritesRoute
   FindingsRoute: typeof FindingsRoute
@@ -264,6 +277,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CompareRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/community': {
+      id: '/community'
+      path: '/community'
+      fullPath: '/community'
+      preLoaderRoute: typeof CommunityRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/budget': {
       id: '/budget'
       path: '/budget'
@@ -299,6 +319,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   ActivitiesRoute: ActivitiesRoute,
   BudgetRoute: BudgetRoute,
+  CommunityRoute: CommunityRoute,
   CompareRoute: CompareRoute,
   FavoritesRoute: FavoritesRoute,
   FindingsRoute: FindingsRoute,

@@ -61,3 +61,29 @@ cat /tmp/preview.txt
 - `quietness`: 1=noisy/nightclub, 5=very quiet
 - `foodConvenience`: 1=must cook, 5=all-inclusive
 - `amenities`: 1=basic, 5=pool/spa/beach/gym
+
+## y.local - AI Image Generation
+
+Use `http://y.local/` for AI image generation (Gemini-powered).
+
+### List available operations
+```bash
+curl -s -X POST http://y.local/ -H "Content-Type: application/json" \
+  -d '{"operationName":"list"}'
+```
+
+### Generate an image
+```bash
+curl -s -X POST http://y.local/ -H "Content-Type: application/json" \
+  -d '{"operationName":"image.generate","input":{"prompt":"YOUR PROMPT HERE","size":"1024x1024"}}' \
+  | jq -r '.data.image' | base64 -d > output.jpg
+```
+
+### Example: Generate a beach sunset image
+```bash
+curl -s -X POST http://y.local/ -H "Content-Type: application/json" \
+  -d '{"operationName":"image.generate","input":{"prompt":"Beautiful beach sunset in Sharm el Sheikh Egypt, golden hour, calm Red Sea waters, palm trees silhouette","size":"1024x1024"}}' \
+  | jq -r '.data.image' | base64 -d > beach-sunset.jpg
+```
+
+**Note:** Response contains base64-encoded image in `.data.image` field. Use `jq -r '.data.image' | base64 -d` to decode and save.

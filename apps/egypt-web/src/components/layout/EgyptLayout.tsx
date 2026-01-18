@@ -16,6 +16,7 @@ import {
   Lightbulb,
   FileSearch,
   Compass,
+  Users,
 } from 'lucide-react'
 
 // Egyptian-themed icons using Unicode/emoji
@@ -32,6 +33,7 @@ const NAV_ITEMS = [
   { to: '/findings', label: '2BR Findings', icon: FileSearch },
   { to: '/tips', label: 'Travel Tips', icon: Lightbulb },
   { to: '/activities', label: 'Activities', icon: Compass },
+  { to: '/community', label: 'Community', icon: Users },
   { to: '/favorites', label: 'Favorites', icon: Heart },
   { to: '/compare', label: 'Compare', icon: Scale },
   { to: '/budget', label: 'Budget', icon: Calculator },
@@ -88,6 +90,7 @@ export default function EgyptLayout() {
     if (pathname.startsWith('/findings')) return '2BR Verification Report'
     if (pathname.startsWith('/tips')) return 'Travel Tips'
     if (pathname.startsWith('/activities')) return 'Activities & Tours'
+    if (pathname.startsWith('/community')) return 'Community Insights'
     if (pathname.startsWith('/favorites')) return 'Your Favorites'
     if (pathname.startsWith('/compare')) return 'Compare Properties'
     if (pathname.startsWith('/budget')) return 'Budget Calculator'
