@@ -9,15 +9,32 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as TipsRouteImport } from './routes/tips'
 import { Route as ShortlistRouteImport } from './routes/shortlist'
+import { Route as SettingsRouteImport } from './routes/settings'
 import { Route as RankingsRouteImport } from './routes/rankings'
 import { Route as PropertiesRouteImport } from './routes/properties'
+import { Route as MapRouteImport } from './routes/map'
+import { Route as FindingsRouteImport } from './routes/findings'
+import { Route as FavoritesRouteImport } from './routes/favorites'
+import { Route as CompareRouteImport } from './routes/compare'
+import { Route as BudgetRouteImport } from './routes/budget'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as PropertyIdRouteImport } from './routes/property.$id'
 
+const TipsRoute = TipsRouteImport.update({
+  id: '/tips',
+  path: '/tips',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ShortlistRoute = ShortlistRouteImport.update({
   id: '/shortlist',
   path: '/shortlist',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SettingsRoute = SettingsRouteImport.update({
+  id: '/settings',
+  path: '/settings',
   getParentRoute: () => rootRouteImport,
 } as any)
 const RankingsRoute = RankingsRouteImport.update({
@@ -28,6 +45,31 @@ const RankingsRoute = RankingsRouteImport.update({
 const PropertiesRoute = PropertiesRouteImport.update({
   id: '/properties',
   path: '/properties',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MapRoute = MapRouteImport.update({
+  id: '/map',
+  path: '/map',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FindingsRoute = FindingsRouteImport.update({
+  id: '/findings',
+  path: '/findings',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FavoritesRoute = FavoritesRouteImport.update({
+  id: '/favorites',
+  path: '/favorites',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CompareRoute = CompareRouteImport.update({
+  id: '/compare',
+  path: '/compare',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BudgetRoute = BudgetRouteImport.update({
+  id: '/budget',
+  path: '/budget',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -43,55 +85,128 @@ const PropertyIdRoute = PropertyIdRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/budget': typeof BudgetRoute
+  '/compare': typeof CompareRoute
+  '/favorites': typeof FavoritesRoute
+  '/findings': typeof FindingsRoute
+  '/map': typeof MapRoute
   '/properties': typeof PropertiesRoute
   '/rankings': typeof RankingsRoute
+  '/settings': typeof SettingsRoute
   '/shortlist': typeof ShortlistRoute
+  '/tips': typeof TipsRoute
   '/property/$id': typeof PropertyIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/budget': typeof BudgetRoute
+  '/compare': typeof CompareRoute
+  '/favorites': typeof FavoritesRoute
+  '/findings': typeof FindingsRoute
+  '/map': typeof MapRoute
   '/properties': typeof PropertiesRoute
   '/rankings': typeof RankingsRoute
+  '/settings': typeof SettingsRoute
   '/shortlist': typeof ShortlistRoute
+  '/tips': typeof TipsRoute
   '/property/$id': typeof PropertyIdRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/budget': typeof BudgetRoute
+  '/compare': typeof CompareRoute
+  '/favorites': typeof FavoritesRoute
+  '/findings': typeof FindingsRoute
+  '/map': typeof MapRoute
   '/properties': typeof PropertiesRoute
   '/rankings': typeof RankingsRoute
+  '/settings': typeof SettingsRoute
   '/shortlist': typeof ShortlistRoute
+  '/tips': typeof TipsRoute
   '/property/$id': typeof PropertyIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/properties' | '/rankings' | '/shortlist' | '/property/$id'
+  fullPaths:
+    | '/'
+    | '/budget'
+    | '/compare'
+    | '/favorites'
+    | '/findings'
+    | '/map'
+    | '/properties'
+    | '/rankings'
+    | '/settings'
+    | '/shortlist'
+    | '/tips'
+    | '/property/$id'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/properties' | '/rankings' | '/shortlist' | '/property/$id'
+  to:
+    | '/'
+    | '/budget'
+    | '/compare'
+    | '/favorites'
+    | '/findings'
+    | '/map'
+    | '/properties'
+    | '/rankings'
+    | '/settings'
+    | '/shortlist'
+    | '/tips'
+    | '/property/$id'
   id:
     | '__root__'
     | '/'
+    | '/budget'
+    | '/compare'
+    | '/favorites'
+    | '/findings'
+    | '/map'
     | '/properties'
     | '/rankings'
+    | '/settings'
     | '/shortlist'
+    | '/tips'
     | '/property/$id'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  BudgetRoute: typeof BudgetRoute
+  CompareRoute: typeof CompareRoute
+  FavoritesRoute: typeof FavoritesRoute
+  FindingsRoute: typeof FindingsRoute
+  MapRoute: typeof MapRoute
   PropertiesRoute: typeof PropertiesRoute
   RankingsRoute: typeof RankingsRoute
+  SettingsRoute: typeof SettingsRoute
   ShortlistRoute: typeof ShortlistRoute
+  TipsRoute: typeof TipsRoute
   PropertyIdRoute: typeof PropertyIdRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/tips': {
+      id: '/tips'
+      path: '/tips'
+      fullPath: '/tips'
+      preLoaderRoute: typeof TipsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/shortlist': {
       id: '/shortlist'
       path: '/shortlist'
       fullPath: '/shortlist'
       preLoaderRoute: typeof ShortlistRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/settings': {
+      id: '/settings'
+      path: '/settings'
+      fullPath: '/settings'
+      preLoaderRoute: typeof SettingsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/rankings': {
@@ -106,6 +221,41 @@ declare module '@tanstack/react-router' {
       path: '/properties'
       fullPath: '/properties'
       preLoaderRoute: typeof PropertiesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/map': {
+      id: '/map'
+      path: '/map'
+      fullPath: '/map'
+      preLoaderRoute: typeof MapRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/findings': {
+      id: '/findings'
+      path: '/findings'
+      fullPath: '/findings'
+      preLoaderRoute: typeof FindingsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/favorites': {
+      id: '/favorites'
+      path: '/favorites'
+      fullPath: '/favorites'
+      preLoaderRoute: typeof FavoritesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/compare': {
+      id: '/compare'
+      path: '/compare'
+      fullPath: '/compare'
+      preLoaderRoute: typeof CompareRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/budget': {
+      id: '/budget'
+      path: '/budget'
+      fullPath: '/budget'
+      preLoaderRoute: typeof BudgetRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -127,9 +277,16 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  BudgetRoute: BudgetRoute,
+  CompareRoute: CompareRoute,
+  FavoritesRoute: FavoritesRoute,
+  FindingsRoute: FindingsRoute,
+  MapRoute: MapRoute,
   PropertiesRoute: PropertiesRoute,
   RankingsRoute: RankingsRoute,
+  SettingsRoute: SettingsRoute,
   ShortlistRoute: ShortlistRoute,
+  TipsRoute: TipsRoute,
   PropertyIdRoute: PropertyIdRoute,
 }
 export const routeTree = rootRouteImport

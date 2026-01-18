@@ -13,6 +13,8 @@ import {
   ChevronRight,
   Sparkles,
   Star,
+  Lightbulb,
+  FileSearch,
 } from 'lucide-react'
 
 // Egyptian-themed icons using Unicode/emoji
@@ -26,6 +28,8 @@ const PyramidIcon = () => (
 const NAV_ITEMS = [
   { to: '/', label: 'Dashboard', icon: Home, exact: true },
   { to: '/rankings', label: 'Rankings', icon: Trophy },
+  { to: '/findings', label: '2BR Findings', icon: FileSearch },
+  { to: '/tips', label: 'Travel Tips', icon: Lightbulb },
   { to: '/favorites', label: 'Favorites', icon: Heart },
   { to: '/compare', label: 'Compare', icon: Scale },
   { to: '/budget', label: 'Budget', icon: Calculator },
@@ -51,10 +55,10 @@ function NavLink({
   return (
     <Link
       to={to}
-      className={`group flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition-all duration-200 ${
+      className={`group flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition-all duration-200 border ${
         isActive
-          ? 'bg-gradient-to-r from-amber-500/20 via-yellow-500/15 to-amber-500/10 text-amber-200 shadow-[0_0_20px_rgba(251,191,36,0.15)] border border-amber-500/30'
-          : 'text-slate-400 hover:bg-white/5 hover:text-slate-200'
+          ? 'bg-gradient-to-r from-amber-500/20 via-yellow-500/15 to-amber-500/10 text-amber-200 shadow-[0_0_20px_rgba(251,191,36,0.15)] border-amber-500/30'
+          : 'text-slate-400 hover:bg-white/5 hover:text-slate-200 border-transparent'
       }`}
     >
       <Icon
@@ -79,6 +83,8 @@ export default function EgyptLayout() {
   const pageTitle = (() => {
     if (pathname === '/') return 'Dashboard'
     if (pathname.startsWith('/rankings')) return 'Property Rankings'
+    if (pathname.startsWith('/findings')) return '2BR Verification Report'
+    if (pathname.startsWith('/tips')) return 'Travel Tips'
     if (pathname.startsWith('/favorites')) return 'Your Favorites'
     if (pathname.startsWith('/compare')) return 'Compare Properties'
     if (pathname.startsWith('/budget')) return 'Budget Calculator'

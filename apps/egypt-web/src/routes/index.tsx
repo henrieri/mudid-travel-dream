@@ -1,4 +1,4 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, Link } from '@tanstack/react-router'
 import { useEffect, useState } from 'react'
 import {
   Trophy,
@@ -51,8 +51,10 @@ function PropertyCard({ property, rank }: { property: Property; rank: number }) 
   const tierColor = tierColors[property.henri_tier || 'Average'] || tierColors.Average
 
   return (
-    <div
-      className={`group relative overflow-hidden rounded-2xl border bg-gradient-to-br transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:shadow-amber-500/10 ${tierColor}`}
+    <Link
+      to="/property/$id"
+      params={{ id: String(property.id) }}
+      className={`group relative overflow-hidden rounded-2xl border bg-gradient-to-br transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:shadow-amber-500/10 ${tierColor} block`}
     >
       {/* Rank badge */}
       <div className="absolute left-3 top-3 z-10 flex h-8 w-8 items-center justify-center rounded-full bg-slate-900/90 text-sm font-bold text-amber-400 shadow-lg">
@@ -157,7 +159,10 @@ function PropertyCard({ property, rank }: { property: Property; rank: number }) 
 
         {/* Actions */}
         <div className="flex items-center justify-between pt-2 border-t border-white/5">
-          <button className="flex items-center gap-1 text-xs text-slate-400 hover:text-rose-400 transition-colors">
+          <button
+            onClick={(e) => e.preventDefault()}
+            className="flex items-center gap-1 text-xs text-slate-400 hover:text-rose-400 transition-colors"
+          >
             <Heart className="h-3.5 w-3.5" />
             Save
           </button>
@@ -166,6 +171,7 @@ function PropertyCard({ property, rank }: { property: Property; rank: number }) 
               href={property.source_url}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
               className="flex items-center gap-1 text-xs text-amber-400 hover:text-amber-300 transition-colors"
             >
               View
@@ -174,7 +180,7 @@ function PropertyCard({ property, rank }: { property: Property; rank: number }) 
           )}
         </div>
       </div>
-    </div>
+    </Link>
   )
 }
 
