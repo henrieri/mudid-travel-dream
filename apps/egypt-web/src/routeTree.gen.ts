@@ -11,6 +11,8 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as TipsRouteImport } from './routes/tips'
 import { Route as ShortlistRouteImport } from './routes/shortlist'
+import { Route as RecommendationV1RouteImport } from './routes/recommendation-v1'
+import { Route as RecommendationLatestRouteImport } from './routes/recommendation-latest'
 import { Route as RankingsRouteImport } from './routes/rankings'
 import { Route as PropertiesRouteImport } from './routes/properties'
 import { Route as FindingsRouteImport } from './routes/findings'
@@ -29,6 +31,16 @@ const TipsRoute = TipsRouteImport.update({
 const ShortlistRoute = ShortlistRouteImport.update({
   id: '/shortlist',
   path: '/shortlist',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RecommendationV1Route = RecommendationV1RouteImport.update({
+  id: '/recommendation-v1',
+  path: '/recommendation-v1',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RecommendationLatestRoute = RecommendationLatestRouteImport.update({
+  id: '/recommendation-latest',
+  path: '/recommendation-latest',
   getParentRoute: () => rootRouteImport,
 } as any)
 const RankingsRoute = RankingsRouteImport.update({
@@ -86,6 +98,8 @@ export interface FileRoutesByFullPath {
   '/findings': typeof FindingsRoute
   '/properties': typeof PropertiesRoute
   '/rankings': typeof RankingsRoute
+  '/recommendation-latest': typeof RecommendationLatestRoute
+  '/recommendation-v1': typeof RecommendationV1Route
   '/shortlist': typeof ShortlistRoute
   '/tips': typeof TipsRoute
   '/property/$id': typeof PropertyIdRoute
@@ -99,6 +113,8 @@ export interface FileRoutesByTo {
   '/findings': typeof FindingsRoute
   '/properties': typeof PropertiesRoute
   '/rankings': typeof RankingsRoute
+  '/recommendation-latest': typeof RecommendationLatestRoute
+  '/recommendation-v1': typeof RecommendationV1Route
   '/shortlist': typeof ShortlistRoute
   '/tips': typeof TipsRoute
   '/property/$id': typeof PropertyIdRoute
@@ -113,6 +129,8 @@ export interface FileRoutesById {
   '/findings': typeof FindingsRoute
   '/properties': typeof PropertiesRoute
   '/rankings': typeof RankingsRoute
+  '/recommendation-latest': typeof RecommendationLatestRoute
+  '/recommendation-v1': typeof RecommendationV1Route
   '/shortlist': typeof ShortlistRoute
   '/tips': typeof TipsRoute
   '/property/$id': typeof PropertyIdRoute
@@ -128,6 +146,8 @@ export interface FileRouteTypes {
     | '/findings'
     | '/properties'
     | '/rankings'
+    | '/recommendation-latest'
+    | '/recommendation-v1'
     | '/shortlist'
     | '/tips'
     | '/property/$id'
@@ -141,6 +161,8 @@ export interface FileRouteTypes {
     | '/findings'
     | '/properties'
     | '/rankings'
+    | '/recommendation-latest'
+    | '/recommendation-v1'
     | '/shortlist'
     | '/tips'
     | '/property/$id'
@@ -154,6 +176,8 @@ export interface FileRouteTypes {
     | '/findings'
     | '/properties'
     | '/rankings'
+    | '/recommendation-latest'
+    | '/recommendation-v1'
     | '/shortlist'
     | '/tips'
     | '/property/$id'
@@ -168,6 +192,8 @@ export interface RootRouteChildren {
   FindingsRoute: typeof FindingsRoute
   PropertiesRoute: typeof PropertiesRoute
   RankingsRoute: typeof RankingsRoute
+  RecommendationLatestRoute: typeof RecommendationLatestRoute
+  RecommendationV1Route: typeof RecommendationV1Route
   ShortlistRoute: typeof ShortlistRoute
   TipsRoute: typeof TipsRoute
   PropertyIdRoute: typeof PropertyIdRoute
@@ -187,6 +213,20 @@ declare module '@tanstack/react-router' {
       path: '/shortlist'
       fullPath: '/shortlist'
       preLoaderRoute: typeof ShortlistRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/recommendation-v1': {
+      id: '/recommendation-v1'
+      path: '/recommendation-v1'
+      fullPath: '/recommendation-v1'
+      preLoaderRoute: typeof RecommendationV1RouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/recommendation-latest': {
+      id: '/recommendation-latest'
+      path: '/recommendation-latest'
+      fullPath: '/recommendation-latest'
+      preLoaderRoute: typeof RecommendationLatestRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/rankings': {
@@ -264,6 +304,8 @@ const rootRouteChildren: RootRouteChildren = {
   FindingsRoute: FindingsRoute,
   PropertiesRoute: PropertiesRoute,
   RankingsRoute: RankingsRoute,
+  RecommendationLatestRoute: RecommendationLatestRoute,
+  RecommendationV1Route: RecommendationV1Route,
   ShortlistRoute: ShortlistRoute,
   TipsRoute: TipsRoute,
   PropertyIdRoute: PropertyIdRoute,

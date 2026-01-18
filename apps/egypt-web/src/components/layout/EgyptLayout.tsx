@@ -14,6 +14,8 @@ import {
   Users,
   HeartHandshake,
   MoreHorizontal,
+  Award,
+  History,
 } from 'lucide-react'
 
 // Egyptian-themed icons using Unicode/emoji
@@ -26,6 +28,7 @@ const PyramidIcon = () => (
 
 const NAV_ITEMS = [
   { to: '/', label: 'Dashboard', icon: Home, exact: true },
+  { to: '/recommendation-latest', label: 'Top 3 Picks', icon: Award },
   { to: '/evelina', label: "Evelina's Picks", icon: HeartHandshake },
   { to: '/rankings', label: 'Rankings', icon: Trophy },
   { to: '/tips', label: 'Travel Tips', icon: Lightbulb },
@@ -33,6 +36,7 @@ const NAV_ITEMS = [
   { to: '/community', label: 'Community', icon: Users },
   { to: '/budget', label: 'Budget', icon: Calculator },
   { to: '/findings', label: 'Misc', icon: MoreHorizontal },
+  { to: '/recommendation-v1', label: 'Old Picks (v1)', icon: History },
 ]
 
 function NavLink({
@@ -81,6 +85,8 @@ export default function EgyptLayout() {
 
   const pageTitle = (() => {
     if (pathname === '/') return 'Dashboard'
+    if (pathname.startsWith('/recommendation-latest')) return 'Top 3 Recommendations'
+    if (pathname.startsWith('/recommendation-v1')) return 'Old Picks (v1)'
     if (pathname.startsWith('/evelina')) return "Evelina's Research"
     if (pathname.startsWith('/rankings')) return 'Property Rankings'
     if (pathname.startsWith('/findings')) return 'Misc'
@@ -173,17 +179,9 @@ export default function EgyptLayout() {
               </p>
               <h2 className="text-xl font-semibold text-white">{pageTitle}</h2>
             </div>
-            <div className="flex items-center gap-3">
-              <div className="flex items-center gap-2 rounded-full border border-amber-500/20 bg-amber-500/10 px-3 py-1.5 text-xs text-amber-200">
-                <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-                101 Properties
-              </div>
-              <Link
-                to="/settings"
-                className="rounded-full border border-white/10 bg-white/5 p-2 text-slate-400 hover:text-white hover:border-amber-500/30 transition-colors"
-              >
-                <Settings className="h-4 w-4" />
-              </Link>
+            <div className="flex items-center gap-2 rounded-full border border-amber-500/20 bg-amber-500/10 px-3 py-1.5 text-xs text-amber-200">
+              <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
+              101 Properties
             </div>
           </div>
         </header>
