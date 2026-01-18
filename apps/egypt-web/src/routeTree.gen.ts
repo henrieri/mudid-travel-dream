@@ -11,14 +11,10 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as TipsRouteImport } from './routes/tips'
 import { Route as ShortlistRouteImport } from './routes/shortlist'
-import { Route as SettingsRouteImport } from './routes/settings'
 import { Route as RankingsRouteImport } from './routes/rankings'
 import { Route as PropertiesRouteImport } from './routes/properties'
-import { Route as MapRouteImport } from './routes/map'
 import { Route as FindingsRouteImport } from './routes/findings'
-import { Route as FavoritesRouteImport } from './routes/favorites'
 import { Route as EvelinaRouteImport } from './routes/evelina'
-import { Route as CompareRouteImport } from './routes/compare'
 import { Route as CommunityRouteImport } from './routes/community'
 import { Route as BudgetRouteImport } from './routes/budget'
 import { Route as ActivitiesRouteImport } from './routes/activities'
@@ -35,11 +31,6 @@ const ShortlistRoute = ShortlistRouteImport.update({
   path: '/shortlist',
   getParentRoute: () => rootRouteImport,
 } as any)
-const SettingsRoute = SettingsRouteImport.update({
-  id: '/settings',
-  path: '/settings',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const RankingsRoute = RankingsRouteImport.update({
   id: '/rankings',
   path: '/rankings',
@@ -50,29 +41,14 @@ const PropertiesRoute = PropertiesRouteImport.update({
   path: '/properties',
   getParentRoute: () => rootRouteImport,
 } as any)
-const MapRoute = MapRouteImport.update({
-  id: '/map',
-  path: '/map',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const FindingsRoute = FindingsRouteImport.update({
   id: '/findings',
   path: '/findings',
   getParentRoute: () => rootRouteImport,
 } as any)
-const FavoritesRoute = FavoritesRouteImport.update({
-  id: '/favorites',
-  path: '/favorites',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const EvelinaRoute = EvelinaRouteImport.update({
   id: '/evelina',
   path: '/evelina',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const CompareRoute = CompareRouteImport.update({
-  id: '/compare',
-  path: '/compare',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CommunityRoute = CommunityRouteImport.update({
@@ -106,14 +82,10 @@ export interface FileRoutesByFullPath {
   '/activities': typeof ActivitiesRoute
   '/budget': typeof BudgetRoute
   '/community': typeof CommunityRoute
-  '/compare': typeof CompareRoute
   '/evelina': typeof EvelinaRoute
-  '/favorites': typeof FavoritesRoute
   '/findings': typeof FindingsRoute
-  '/map': typeof MapRoute
   '/properties': typeof PropertiesRoute
   '/rankings': typeof RankingsRoute
-  '/settings': typeof SettingsRoute
   '/shortlist': typeof ShortlistRoute
   '/tips': typeof TipsRoute
   '/property/$id': typeof PropertyIdRoute
@@ -123,14 +95,10 @@ export interface FileRoutesByTo {
   '/activities': typeof ActivitiesRoute
   '/budget': typeof BudgetRoute
   '/community': typeof CommunityRoute
-  '/compare': typeof CompareRoute
   '/evelina': typeof EvelinaRoute
-  '/favorites': typeof FavoritesRoute
   '/findings': typeof FindingsRoute
-  '/map': typeof MapRoute
   '/properties': typeof PropertiesRoute
   '/rankings': typeof RankingsRoute
-  '/settings': typeof SettingsRoute
   '/shortlist': typeof ShortlistRoute
   '/tips': typeof TipsRoute
   '/property/$id': typeof PropertyIdRoute
@@ -141,14 +109,10 @@ export interface FileRoutesById {
   '/activities': typeof ActivitiesRoute
   '/budget': typeof BudgetRoute
   '/community': typeof CommunityRoute
-  '/compare': typeof CompareRoute
   '/evelina': typeof EvelinaRoute
-  '/favorites': typeof FavoritesRoute
   '/findings': typeof FindingsRoute
-  '/map': typeof MapRoute
   '/properties': typeof PropertiesRoute
   '/rankings': typeof RankingsRoute
-  '/settings': typeof SettingsRoute
   '/shortlist': typeof ShortlistRoute
   '/tips': typeof TipsRoute
   '/property/$id': typeof PropertyIdRoute
@@ -160,14 +124,10 @@ export interface FileRouteTypes {
     | '/activities'
     | '/budget'
     | '/community'
-    | '/compare'
     | '/evelina'
-    | '/favorites'
     | '/findings'
-    | '/map'
     | '/properties'
     | '/rankings'
-    | '/settings'
     | '/shortlist'
     | '/tips'
     | '/property/$id'
@@ -177,14 +137,10 @@ export interface FileRouteTypes {
     | '/activities'
     | '/budget'
     | '/community'
-    | '/compare'
     | '/evelina'
-    | '/favorites'
     | '/findings'
-    | '/map'
     | '/properties'
     | '/rankings'
-    | '/settings'
     | '/shortlist'
     | '/tips'
     | '/property/$id'
@@ -194,14 +150,10 @@ export interface FileRouteTypes {
     | '/activities'
     | '/budget'
     | '/community'
-    | '/compare'
     | '/evelina'
-    | '/favorites'
     | '/findings'
-    | '/map'
     | '/properties'
     | '/rankings'
-    | '/settings'
     | '/shortlist'
     | '/tips'
     | '/property/$id'
@@ -212,14 +164,10 @@ export interface RootRouteChildren {
   ActivitiesRoute: typeof ActivitiesRoute
   BudgetRoute: typeof BudgetRoute
   CommunityRoute: typeof CommunityRoute
-  CompareRoute: typeof CompareRoute
   EvelinaRoute: typeof EvelinaRoute
-  FavoritesRoute: typeof FavoritesRoute
   FindingsRoute: typeof FindingsRoute
-  MapRoute: typeof MapRoute
   PropertiesRoute: typeof PropertiesRoute
   RankingsRoute: typeof RankingsRoute
-  SettingsRoute: typeof SettingsRoute
   ShortlistRoute: typeof ShortlistRoute
   TipsRoute: typeof TipsRoute
   PropertyIdRoute: typeof PropertyIdRoute
@@ -241,13 +189,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ShortlistRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/settings': {
-      id: '/settings'
-      path: '/settings'
-      fullPath: '/settings'
-      preLoaderRoute: typeof SettingsRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/rankings': {
       id: '/rankings'
       path: '/rankings'
@@ -262,13 +203,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PropertiesRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/map': {
-      id: '/map'
-      path: '/map'
-      fullPath: '/map'
-      preLoaderRoute: typeof MapRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/findings': {
       id: '/findings'
       path: '/findings'
@@ -276,25 +210,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof FindingsRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/favorites': {
-      id: '/favorites'
-      path: '/favorites'
-      fullPath: '/favorites'
-      preLoaderRoute: typeof FavoritesRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/evelina': {
       id: '/evelina'
       path: '/evelina'
       fullPath: '/evelina'
       preLoaderRoute: typeof EvelinaRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/compare': {
-      id: '/compare'
-      path: '/compare'
-      fullPath: '/compare'
-      preLoaderRoute: typeof CompareRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/community': {
@@ -340,14 +260,10 @@ const rootRouteChildren: RootRouteChildren = {
   ActivitiesRoute: ActivitiesRoute,
   BudgetRoute: BudgetRoute,
   CommunityRoute: CommunityRoute,
-  CompareRoute: CompareRoute,
   EvelinaRoute: EvelinaRoute,
-  FavoritesRoute: FavoritesRoute,
   FindingsRoute: FindingsRoute,
-  MapRoute: MapRoute,
   PropertiesRoute: PropertiesRoute,
   RankingsRoute: RankingsRoute,
-  SettingsRoute: SettingsRoute,
   ShortlistRoute: ShortlistRoute,
   TipsRoute: TipsRoute,
   PropertyIdRoute: PropertyIdRoute,
