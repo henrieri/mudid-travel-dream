@@ -1,9 +1,9 @@
 {
-  "version": "c5614bc-dirty",
-  "commit": "c5614bcb32cf58fdbdae9909a061410ca2416319",
+  "version": "35c8385-dirty",
+  "commit": "35c838540198bc933596fd0e963a8afebe8c5030",
   "branch": "main",
   "dirty": true,
-  "message": "feat: add activity images and y.local make commands",
-  "buildTime": "2026-01-18T10:25:01.777Z",
-  "buildTimestamp": 1768731901778
+  "message": "feat: add Evelina's Research page with her hotel picks",
+  "buildTime": "2026-01-18T10:25:35.102Z",
+  "buildTimestamp": 1768731935102
 }

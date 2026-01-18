@@ -342,7 +342,7 @@ function TimelinePage() {
             {filteredEvents.length === 0 ? (
               <SnapshotEmptyState
                 title="No timeline events"
-                description="The timeline snapshot is empty or unavailable. Confirm snapshots are generated and x.mudid is online."
+                description="The timeline snapshot is empty or unavailable. Confirm snapshots are generated and x.local is online."
               />
             ) : (
               filteredEvents.map((event) => (

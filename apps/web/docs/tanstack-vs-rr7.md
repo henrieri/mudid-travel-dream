@@ -2,7 +2,7 @@
 
 ## DX observations (Jan 7, 2026)
 - File-based routing and `createFileRoute` felt straightforward; route loaders are clean and well-typed.
-- `createServerFn` is a good fit for calling x.mudid with headers while keeping fetch logic server-only.
+- `createServerFn` is a good fit for calling x.local with headers while keeping fetch logic server-only.
 - Nitro output (`.output/`) is simple to deploy; a single `node .output/server/index.mjs` is enough.
 - Tailwind v4 integration is smooth; no extra config needed beyond `@import "tailwindcss"`.
 - Router devtools integrate nicely and are stripped in build output automatically.

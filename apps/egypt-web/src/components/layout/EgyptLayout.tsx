@@ -18,6 +18,7 @@ import {
   Compass,
   Users,
   HeartHandshake,
+  MoreHorizontal,
 } from 'lucide-react'
 
 // Egyptian-themed icons using Unicode/emoji
@@ -32,7 +33,6 @@ const NAV_ITEMS = [
   { to: '/', label: 'Dashboard', icon: Home, exact: true },
   { to: '/evelina', label: "Evelina's Picks", icon: HeartHandshake },
   { to: '/rankings', label: 'Rankings', icon: Trophy },
-  { to: '/findings', label: '2BR Findings', icon: FileSearch },
   { to: '/tips', label: 'Travel Tips', icon: Lightbulb },
   { to: '/activities', label: 'Activities', icon: Compass },
   { to: '/community', label: 'Community', icon: Users },
@@ -40,6 +40,7 @@ const NAV_ITEMS = [
   { to: '/compare', label: 'Compare', icon: Scale },
   { to: '/budget', label: 'Budget', icon: Calculator },
   { to: '/map', label: 'Map', icon: MapPin },
+  { to: '/findings', label: 'Misc', icon: MoreHorizontal },
 ]
 
 function NavLink({
@@ -90,7 +91,7 @@ export default function EgyptLayout() {
     if (pathname === '/') return 'Dashboard'
     if (pathname.startsWith('/evelina')) return "Evelina's Research"
     if (pathname.startsWith('/rankings')) return 'Property Rankings'
-    if (pathname.startsWith('/findings')) return '2BR Verification Report'
+    if (pathname.startsWith('/findings')) return 'Misc'
     if (pathname.startsWith('/tips')) return 'Travel Tips'
     if (pathname.startsWith('/activities')) return 'Activities & Tours'
     if (pathname.startsWith('/community')) return 'Community Insights'

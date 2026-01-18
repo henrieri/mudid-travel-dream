@@ -28,7 +28,7 @@ spec:
             - name: X_API_URL
               value: "http://x-api.mudid.svc.cluster.local"
             - name: X_API_HOST
-              value: "x.mudid"
+              value: "x.local"
           ports:
             - name: http
               containerPort: 3000

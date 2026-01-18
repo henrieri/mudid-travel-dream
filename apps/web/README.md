@@ -13,11 +13,11 @@ The app runs on `http://localhost:3000`.
 
 ## Environment variables
 
-Create a `.env` file if you need to override the x.mudid endpoint:
+Create a `.env` file if you need to override the x.local endpoint:
 
 ```
-X_API_URL=http://x.mudid
-X_API_HOST=x.mudid
+X_API_URL=http://x.local
+X_API_HOST=x.local
 ```
 
 ## Production build
@@ -32,8 +32,8 @@ pnpm start
 - Dockerfile: `.docker/Dockerfile`
 - K8s manifests: `k8s/`
 - Preview manifests: `k8s/preview/`
-- Ingress host: `tanstack-observatory.mudid`
-- Preview host template: `pr-{n}.dev.tanstack-observatory.mudid`
+- Ingress host: `tanstack-observatory.local`
+- Preview host template: `pr-{n}.dev.tanstack-observatory.local`
 
 ## Health check
 

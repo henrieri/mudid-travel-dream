@@ -80,7 +80,7 @@ function RootError({ error, reset }: { error: Error; reset: () => void }) {
           We could not load snapshot data.
         </h1>
         <p className="text-sm text-slate-400">
-          Ensure the snapshot generator is running and x.mudid is reachable on
+          Ensure the snapshot generator is running and x.local is reachable on
           the network. Then retry to reload all view data.
         </p>
         <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-xs text-slate-400">

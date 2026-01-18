@@ -5,7 +5,7 @@ type SnapshotEmptyStateProps = {
 
 export function SnapshotEmptyState({
   title = 'Snapshot data missing',
-  description = 'Snapshots could not be loaded. Check the mudid-snapshot-reports repo and confirm x.mudid is reachable.',
+  description = 'Snapshots could not be loaded. Check the mudid-snapshot-reports repo and confirm x.local is reachable.',
 }: SnapshotEmptyStateProps) {
   return (
     <div className="rounded-3xl border border-white/10 bg-slate-950/70 p-6 text-sm text-slate-200">
